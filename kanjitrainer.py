@@ -73,6 +73,7 @@ def validate():
         img = 'static/wrong.jpg'
 
     char, choices, correct = random_choice_list()
+    pending_answers[id] = correct
 
     resp = make_response(jsonify(kanji_char=char, choices=choices, correct_value=correct,
                                  happy_img=img, score=score, total=total))
