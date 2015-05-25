@@ -65,8 +65,6 @@ def validate():
     correct = pending_answers[id]
     answer = int(request.form['answer'])
 
-    print(correct, answer)
-
     total += 1
     if answer == correct:
         img = 'static/dog.jpg'
