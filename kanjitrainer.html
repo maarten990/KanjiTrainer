@@ -7,23 +7,15 @@
   </style>
   <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
   <script>
-correct_value = {{ correct_value }};
-
 function validate(value) {
-  if (value == correct_value) {
-    correctness = 1;
-  } else {
-    correctness = 0;
-  }
-
-  $.post('/_validate', {'correct': correctness},
+  $.post('/_validate', {'answer': value},
       function(data) {
         $("#happiness")[0].src = data.happy_img;
-        correct_value = data.correct_value;
         $("#button0").html(data.choices[0]);
         $("#button1").html(data.choices[1]);
         $("#button2").html(data.choices[2]);
         $("#kanji").html(data.kanji_char);
+        $("#score").html(data.score + "/" + data.total);
       },
       'json');
 }
@@ -37,5 +29,6 @@ function validate(value) {
     <li><button id="button1" onclick="validate(1)">{{ choices[1] }}</button></li>
     <li><button id="button2" onclick="validate(2)">{{ choices[2] }}</button></li>
   </ul>
+  <div id="score"></div>
 </body>
 </html>

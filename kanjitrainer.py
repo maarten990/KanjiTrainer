@@ -1,13 +1,16 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, make_response
 from jinja2 import Template, Environment, PackageLoader
 from argparse import ArgumentParser
 import csv
 import random
+import uuid
 
 app = Flask(__name__)
 env = Environment(loader=PackageLoader('kanjitrainer', '.'))
 html_template = env.get_template('kanjitrainer.html')
 kanji = []
+
+pending_answers = {}
 
 with open('static/kanji.csv', 'r') as f:
     reader = csv.reader(f, delimiter=';')
@@ -31,21 +34,54 @@ def random_choice_list(n=3):
 
 @app.route('/')
 def hello():
+    # check if the user already exists
+    try:
+        id = request.cookies.get('id')
+        score, total = request.cookies.get('correct_total')
+    except:
+        # create a unique id
+        id = uuid.uuid1().hex
+        score, total = 0, 0
+
     char, choices, correct = random_choice_list()
     img = 'static/dog.jpg'
 
-    return html_template.render(kanji_char=char, choices=choices,
-                                correct_value=correct, happy_img=img)
+    pending_answers[id] = correct
+
+    resp = make_response(html_template.render(kanji_char=char, choices=choices,
+                                              happy_img=img))
+    resp.set_cookie('id', id)
+    resp.set_cookie('correct_total', '0,0')
+
+    return resp
+
 
 
 @app.route('/_validate', methods=['POST'])
-def wrong():
-    char, choices, correct = random_choice_list()
-    img = ('static/dog.jpg' if int(request.form['correct']) != 0
-           else 'static/wrong.jpg')
+def validate():
+    id = request.cookies.get('id')
+    score, total = [int(x) for x in
+                    request.cookies.get('correct_total').split(',')]
+    correct = pending_answers[id]
+    answer = int(request.form['answer'])
 
-    return jsonify(kanji_char=char, choices=choices, correct_value=correct,
-                   happy_img=img)
+    print(correct, answer)
+
+    total += 1
+    if answer == correct:
+        img = 'static/dog.jpg'
+        score += 1
+    else:
+        img = 'static/wrong.jpg'
+
+    char, choices, correct = random_choice_list()
+
+    resp = make_response(jsonify(kanji_char=char, choices=choices, correct_value=correct,
+                                 happy_img=img, score=score, total=total))
+    resp.set_cookie('correct_total', '{},{}'.format(score, total))
+
+    return resp
+
 
 
 def main():
