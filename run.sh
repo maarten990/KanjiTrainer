@@ -7,4 +7,5 @@ if [[ -f $PID_FILE ]]; then
 fi
 
 python3 kanjitrainer.py &
-echo $! > ~/kanjitrainer.pid
+pid=$!
+echo $pid > ~/kanjitrainer.pid
