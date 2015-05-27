@@ -88,4 +88,4 @@ class Kanji():
 if __name__ == '__main__':
     kanjidic = KanjiDic()
     for k in kanjidic.kanji:
-        print k.literal, k.meanings, '\n'
+        print(k.literal, k.meanings, '\n')
