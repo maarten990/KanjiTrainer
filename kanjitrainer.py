@@ -33,7 +33,7 @@ def random_choice_list(n=3):
 
 
 @app.route('/')
-def hello():
+def root():
     # check if the user already exists
     try:
         id = request.cookies.get('id')
