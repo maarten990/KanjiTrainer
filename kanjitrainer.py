@@ -26,6 +26,9 @@ def get_kanji():
 def random_choice_list(n=3):
     _, char, meaning = get_kanji()
     choices = [random.choice(kanji)[2] for _ in range(n-1)] + [meaning]
+	#if the list contains duplicates, redraw
+	while len(set(choices))!=len(choices):
+		choices = [random.choice(kanji)[2] for _ in range(n-1)] + [meaning]
     random.shuffle(choices)
     correct = choices.index(meaning)
 
