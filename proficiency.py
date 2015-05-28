@@ -79,6 +79,16 @@ def predict(history):
     print(prediction)
     return prediction
     
+
+def is_struggling(history, exponent, min_acc, min_attempts): 
+    current_acc = predict(history)
+    if len(history) < min_attempts: 
+        return False
+    if current_acc > min_acc: 
+        return False
+    value = (len(history) ** exponent) * (min_acc - currenct_acc)    
+    return value > 20.0
+    
 # test thingamajig    
 def main(): 
     history = [1,1,0,0,1,1,0,1,0,1,1,1,1,1,0,0,1,1,1,1]
