@@ -5,12 +5,11 @@ import operator
 # higher weight = higher importance to history
 def exp_moving_avg(history):
      ewma   = history[-1] # alternative? 
-     ewma = .33 # P(first problem correct)
+     ewma   = .33 # P(first problem correct)
      weight = 2/(len(history)+1)
- 
+     
      for i in reversed(range(len(history))):
          ewma = weight * history[i] + (1 - weight) * ewma
- 
      return ewma
 
 
