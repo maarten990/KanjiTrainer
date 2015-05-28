@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request, make_response
 from jinja2 import Template, Environment, PackageLoader
 from argparse import ArgumentParser
-from proficiency import get_all
+from proficiency import get_all, predict
 import csv
 import random
 import uuid
@@ -80,8 +80,10 @@ def validate():
     pending_answers[id] = correct
 
     score, total, perc, ewma, streak, top_streak = get_all(history)
+    prediction = predict(history)
     resp = make_response(jsonify(kanji_char=char, choices=choices, correct_value=correct,
-                                 happy_img=img, score=score, total=total, perc=perc, ewma=ewma, streak=streak, top_streak=top_streak))
+                                 happy_img=img, score=score, total=total, perc=perc, 
+                                 ewma=ewma, streak=streak, top_streak=top_streak, predict = prediction))
     history_string = ''
     for ans in history: 
         history_string += str(ans) + " "

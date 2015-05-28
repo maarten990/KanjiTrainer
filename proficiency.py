@@ -15,7 +15,7 @@ def exp_moving_avg(history):
 
 def top_streak(history): 
     top_streak = 0
-    streak = 0
+    streak     = 0
     for i in history: 
         if i == 1: 
             streak += 1
