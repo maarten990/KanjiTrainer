@@ -89,7 +89,8 @@ def validate():
     prediction = predict(history)
     resp = make_response(jsonify(kanji_char=char, choices=choices, correct_value=correct,
                                  happy_img=img, score=score, total=total, perc=perc, 
-                                 ewma=ewma, streak=streak, top_streak=top_streak, predict = prediction))
+                                 ewma=ewma, streak=streak, top_streak=top_streak, 
+                                 predict = prediction, correct = correct))
     history_string = ''
     for ans in history: 
         history_string += str(ans) + " "

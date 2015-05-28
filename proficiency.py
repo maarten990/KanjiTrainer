@@ -52,14 +52,15 @@ def get_all(history):
 def predict(history):
     # parameters fairly random - obviously not good. 
     INTERCEPT       = -1.2229719
+    INTERCEPT       = -0.5
     EWMA            = 0.8393673
     STREAK          = 0.0153545
     LOG_NUM_DONE    = 0.4135883
     LOG_NUM_MISSED  = -0.5677724
     PERCENT_CORRECT = 0.6284309
     # higher importance to streak and lower to ewma seems to generate better results
-    STREAK          = EWMA
-    EWMA            = 0.015
+    #STREAK          = EWMA
+    #EWMA            = 0.015
     
     
     # get features
