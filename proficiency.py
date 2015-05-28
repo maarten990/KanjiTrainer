@@ -55,6 +55,8 @@ def predict(history):
     LOG_NUM_DONE    = 0.4135883
     LOG_NUM_MISSED  = -0.5677724
     PERCENT_CORRECT = 0.6284309
+    STREAK          = EWMA
+    EWMA            = 0.015
     
     lnd            = log_num_done(history)
     lnm            = log_num_missed(history)
@@ -74,6 +76,7 @@ def predict(history):
     dot_product      = sum( weight_vector[i]*X[i] for i in range(len(X)))
     z                = dot_product + INTERCEPT
     prediction       = 1.0 / (1.0 + math.exp(-z))
+    print(prediction)
     return prediction
     
 # test thingamajig    
@@ -85,6 +88,12 @@ def main():
     history = [1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,0,1]
     print(exp_moving_avg(history))
     print(predict(history))
+    print('----')
+    predict([1])
+    predict([1,1])
+    predict([1,1,1])
+    predict([1,1,1,1])
+    predict([1,1,1,1,1])
     
 if __name__ == '__main__':
     main()
