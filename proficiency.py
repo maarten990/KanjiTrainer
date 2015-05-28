@@ -48,16 +48,19 @@ def get_all(history):
     return [sum(history), len(history), percent_correct(history), exp_moving_avg(history), streak(history), top_streak(history)]
     
 def predict(history):
-    # parameters from Khan Academy - obviously not good. 
+    # parameters fairly random - obviously not good. 
     INTERCEPT       = -1.2229719
     EWMA            = 0.8393673
     STREAK          = 0.0153545
     LOG_NUM_DONE    = 0.4135883
     LOG_NUM_MISSED  = -0.5677724
     PERCENT_CORRECT = 0.6284309
+    # higher importance to streak and lower to ewma seems to generate better results
     STREAK          = EWMA
     EWMA            = 0.015
     
+    
+    # get features
     lnd            = log_num_done(history)
     lnm            = log_num_missed(history)
     perc_cor       = percent_correct(history)
@@ -65,6 +68,7 @@ def predict(history):
     current_streak = streak(history)
     highest_streak = top_streak(history)
     
+    # combine features with associated weights
     weighted_features = [
                 (ewma, EWMA),
                 (current_streak, STREAK),
@@ -72,6 +76,7 @@ def predict(history):
                 (lnm, LOG_NUM_MISSED),
                 (perc_cor, PERCENT_CORRECT),
             ]
+    # logistc regression
     X, weight_vector = zip(*weighted_features)
     dot_product      = sum( weight_vector[i]*X[i] for i in range(len(X)))
     z                = dot_product + INTERCEPT
