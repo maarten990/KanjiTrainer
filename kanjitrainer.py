@@ -1,11 +1,11 @@
-#!/usr/bin/env python3
-
 from flask import Flask, jsonify, request, make_response
 from jinja2 import Template, Environment, PackageLoader
 from argparse import ArgumentParser
+from proficiency import get_all
 import csv
 import random
 import uuid
+
 
 app = Flask(__name__)
 env = Environment(loader=PackageLoader('kanjitrainer', '.'))
@@ -42,11 +42,11 @@ def root():
     # check if the user already exists
     try:
         id = request.cookies.get('id')
-        score, total = request.cookies.get('correct_total')
+        history = request.cookies.get('history')
     except:
         # create a unique id
         id = uuid.uuid1().hex
-        score, total = 0, 0
+        history = []
 
     char, choices, correct = random_choice_list()
     img = 'static/dog.jpg'
@@ -56,7 +56,7 @@ def root():
     resp = make_response(html_template.render(kanji_char=char, choices=choices,
                                               happy_img=img))
     resp.set_cookie('id', id)
-    resp.set_cookie('correct_total', '0,0')
+    resp.set_cookie('history', '1') #FIXME: initialize empty history
 
     return resp
 
@@ -65,25 +65,30 @@ def root():
 @app.route('/_validate', methods=['POST'])
 def validate():
     id = request.cookies.get('id')
-    score, total = [int(x) for x in
-                    request.cookies.get('correct_total').split(',')]
+    print(request.cookies.get('history'))
+    history = [int(x) for x in request.cookies.get('history').split(' ')]
+    print(len(history))
     correct = pending_answers[id]
     answer = int(request.form['answer'])
-
-    total += 1
+    
     if answer == correct:
         img = 'static/dog.jpg'
-        score += 1
+        history.append(1)
     else:
         img = 'static/wrong.jpg'
+        history.append(0)
 
     char, choices, correct = random_choice_list()
     pending_answers[id] = correct
 
+    score, total, perc, ewma, streak, top_streak = get_all(history)
     resp = make_response(jsonify(kanji_char=char, choices=choices, correct_value=correct,
-                                 happy_img=img, score=score, total=total))
-    resp.set_cookie('correct_total', '{},{}'.format(score, total))
-
+                                 happy_img=img, score=score, total=total, perc=perc, ewma=ewma, streak=streak, top_streak=top_streak))
+    history_string = ''
+    for ans in history: 
+        history_string += str(ans) + " "
+    
+    resp.set_cookie('history', history_string.strip())
     return resp
 
 

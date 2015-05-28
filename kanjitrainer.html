@@ -15,7 +15,12 @@ function validate(value) {
         $("#button1").html(data.choices[1]);
         $("#button2").html(data.choices[2]);
         $("#kanji").html(data.kanji_char);
-        $("#score").html(data.score + "/" + data.total);
+		$("#correct").html("Correct/Total: " + data.score +
+		 " / " + data.total + 
+		"<br>Avg: " + data.perc + 
+		"<br>Exponentially weighted moving average: " + data.ewma +
+		"<br>Current Streak: " + data.streak + 
+		"<br>Top Streak: " + data.top_streak)
       },
       'json');
 }
@@ -29,6 +34,7 @@ function validate(value) {
     <li><button id="button1" onclick="validate(1)">{{ choices[1] }}</button></li>
     <li><button id="button2" onclick="validate(2)">{{ choices[2] }}</button></li>
   </ul>
-  <div id="score"></div>
+  <div id=correct></div>
+  <div id=streak></div>
 </body>
 </html>
