@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from flask import Flask, jsonify, request, make_response
 from jinja2 import Template, Environment, PackageLoader
 from argparse import ArgumentParser
