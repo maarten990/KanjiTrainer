@@ -54,7 +54,7 @@ def root():
         history = []
 
     char, choices, correct = random_choice_list()
-    img = 'static/dog.jpg'
+    img = 'static/dideriku.png'
 
     pending_answers[id] = correct
 
