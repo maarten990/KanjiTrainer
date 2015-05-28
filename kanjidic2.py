@@ -13,7 +13,6 @@ KANJIDIC2_DATAFILE = 'kanjidic2.xml'
 class KanjiDic():
     def __init__(self):
         self.elements = []
-        self.definitions = defaultdict(list)
         self.kanji = []
         self.setup()
 
@@ -31,6 +30,9 @@ class KanjiDic():
     def setup(self):
         self._open_kanjidic2_file_get_elements()
         self.get_kanji()
+
+        # clear the elements to save memory
+        del self.elements
 
 
 class Kanji():
@@ -61,8 +63,8 @@ class Kanji():
         for reading in self.element.getElementsByTagName("reading"):
             self.on.append(u''.join([on for on in reading.childNodes[0].data if reading.getAttribute('r_type') == 'ja_on']))
             self.kun.append(u''.join([on for on in reading.childNodes[0].data if reading.getAttribute('r_type') == 'ja_kun']))
-        self.on = filter(lambda x: x, self.on)
-        self.kun = filter(lambda x: x, self.kun)
+        self.on = list(filter(lambda x: x, self.on))
+        self.kun = list(filter(lambda x: x, self.kun))
 
     def get_meanings(self):
         # meanings that have attributes are in non-English languages
@@ -73,7 +75,7 @@ class Kanji():
 
     def get_nanori(self):
         try:
-            self.nanori = [nanori.childNodes[0].data.encode('utf-8') for nanori in self.element.getElementsByTagName("nanori")]
+            self.nanori = [nanori.childNodes[0].data for nanori in self.element.getElementsByTagName("nanori")]
         except:
             pass
 
@@ -84,6 +86,9 @@ class Kanji():
         self.get_on_and_kun()
         self.get_meanings()
         self.get_nanori()
+
+        # clear the xml element to save memory
+        del self.element
 
 if __name__ == '__main__':
     kanjidic = KanjiDic()

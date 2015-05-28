@@ -6,32 +6,33 @@ from proficiency import get_all, predict
 import csv
 import random
 import uuid
+import pickle
 
 
 app = Flask(__name__)
 env = Environment(loader=PackageLoader('kanjitrainer', '.'))
 html_template = env.get_template('kanjitrainer.html')
-kanji = []
 
 pending_answers = {}
 
-with open('static/kanji.csv', 'r') as f:
-    reader = csv.reader(f, delimiter=';')
-    for row in reader:
-        id, char, _, meaning = row
-        kanji.append((id, char, meaning))
-
+with open('static/kanjidic.pickle', 'rb') as f:
+    kanji = pickle.load(f)
 
 def get_kanji():
-    return random.choice(kanji)
+    k = random.choice(kanji)
+    char = k.literal
+    meaning = ', '.join(k.meanings)
+
+    return char, meaning
 
 
 def random_choice_list(n=3):
-    _, char, meaning = get_kanji()
-    choices = [random.choice(kanji)[2] for _ in range(n-1)] + [meaning]
-	#if the list contains duplicates, redraw
+    char, meaning = get_kanji()
+    choices = [', '.join(random.choice(kanji).meanings) for _ in range(n-1)] + [meaning]
+    #if the list contains duplicates, redraw
     while len(set(choices))!= len(choices):
-        choices = [random.choice(kanji)[2] for _ in range(n-1)] + [meaning]
+        choices = [', '.join(random.choice(kanji).meanings) for _ in range(n-1)] + [meaning]
+
     random.shuffle(choices)
     correct = choices.index(meaning)
 
