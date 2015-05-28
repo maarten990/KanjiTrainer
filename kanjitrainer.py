@@ -65,9 +65,7 @@ def root():
 @app.route('/_validate', methods=['POST'])
 def validate():
     id = request.cookies.get('id')
-    print(request.cookies.get('history'))
     history = [int(x) for x in request.cookies.get('history').split(' ')]
-    print(len(history))
     correct = pending_answers[id]
     answer = int(request.form['answer'])
     
