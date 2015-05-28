@@ -43,6 +43,7 @@ def log_num_missed(history):
 def percent_correct(history): 
     return sum(history) / len(history)
 
+# return for kanjitrainer.py
 def get_all(history): 
     history = history[1:] # quick fix for non-empty initialization
     return [sum(history), len(history), percent_correct(history), exp_moving_avg(history), streak(history), top_streak(history)]
@@ -84,7 +85,7 @@ def predict(history):
     print(prediction)
     return prediction
     
-
+# higher value for exponent = longer history allowed. 
 def is_struggling(history, exponent, min_acc, min_attempts): 
     current_acc = predict(history)
     if len(history) < min_attempts: 
