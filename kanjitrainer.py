@@ -44,6 +44,10 @@ def root():
     try:
         id = request.cookies.get('id')
         history = request.cookies.get('history')
+
+        # ducttape fix, this should not be necessary, help
+        if id == None or history == None:
+            raise Exception()
     except:
         # create a unique id
         id = uuid.uuid1().hex
