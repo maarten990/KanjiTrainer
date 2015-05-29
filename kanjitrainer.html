@@ -15,8 +15,9 @@ function validate(value) {
         $("#button1").html(data.choices[1]);
         $("#button2").html(data.choices[2]);
         $("#kanji").html(data.kanji_char);
-		$("#correct").html("Correct/Total: " + data.score +
-		 " / " + data.total + 
+		$("#correct").html("Correct char index: " + data.correct + 
+		"<br><br>Correct/Total: " + data.score + 
+		" / " + data.total + 
 		"<br>Avg: " + data.perc + 
 		"<br>Exponentially weighted moving average: " + data.ewma +
 		"<br>Current Streak: " + data.streak + 
