@@ -40,6 +40,7 @@
 
    function validate_freeform() {
        text = $("#freeform-input").val().toLowerCase();
+       $("#freeform-input").val("");
        return validate(text);
    }
 
