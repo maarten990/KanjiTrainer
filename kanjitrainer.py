@@ -57,7 +57,7 @@ def root():
     char, choices, correct = random_choice_list()
     img = 'static/dideriku.png'
 
-    pending_answers[id] = correct
+    pending_answers[id] = choices[correct]
 
     resp = make_response(html_template.render(kanji_char=char, choices=choices,
                                               happy_img=img))
@@ -73,9 +73,12 @@ def validate():
     id = request.cookies.get('id')
     history = [int(x) for x in request.cookies.get('history').split(' ')]
     correct = pending_answers[id]
-    answer = int(request.form['answer'])
+    answer = request.form['answer']
     
-    if answer == correct:
+    # the answer is either the full string from the button, or one of the words
+    # in the comma-separated list
+    meaning_list = [meaning.strip() for meaning in correct.split(',')]
+    if answer == correct or answer.strip() in meaning_list:
         img = 'static/dog.jpg'
         history.append(1)
     else:
@@ -83,7 +86,7 @@ def validate():
         history.append(0)
 
     char, choices, correct = random_choice_list()
-    pending_answers[id] = correct
+    pending_answers[id] = choices[correct]
 
     score, total, perc, ewma, streak, top_streak = get_all(history)
     prediction = predict(history)
