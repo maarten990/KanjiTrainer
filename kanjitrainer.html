@@ -16,10 +16,17 @@
            if (event.keyCode == 13) {
                $("#freeform-button").click();
            }
-       })
+       });
+
+       set_data('/_initial_data', '');
    })
+
    function validate(value) {
-       $.post('/_validate', {'answer': value},
+       set_data('/_validate', value)
+   }
+
+   function set_data(url, value) {
+       $.post(url, {'answer': value},
               function(data) {
                   $("#happiness")[0].src = data.happy_img;
                   $("#button0").html(data.choices[0]);
@@ -51,13 +58,13 @@
   </script>
 </head>
 <body>
-  <img id="happiness" src="{{ happy_img }}" height=300px/>
-  <div id="kanji">{{ kanji_char }}</div>
+  <img id="happiness" src="" height=300px/>
+  <div id="kanji"></div>
   <div class="input">
     <ul id="answers">
-      <li><button id="button0" onclick="validate_choice(0)">{{ choices[0] }}</button></li>
-      <li><button id="button1" onclick="validate_choice(1)">{{ choices[1] }}</button></li>
-      <li><button id="button2" onclick="validate_choice(2)">{{ choices[2] }}</button></li>
+      <li><button id="button0" onclick="validate_choice(0)"></button></li>
+      <li><button id="button1" onclick="validate_choice(1)"></button></li>
+      <li><button id="button2" onclick="validate_choice(2)"></button></li>
     </ul>
     <div id="freeform">
       <input id="freeform-input" type="text">

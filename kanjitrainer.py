@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 from flask import Flask, jsonify, request, make_response
-from jinja2 import Template, Environment, PackageLoader
 from argparse import ArgumentParser
 from proficiency import get_all, predict
 import csv
@@ -10,8 +9,8 @@ import pickle
 
 
 app = Flask(__name__)
-env = Environment(loader=PackageLoader('kanjitrainer', '.'))
-html_template = env.get_template('kanjitrainer.html')
+with open('kanjitrainer.html', 'r') as f:
+    html_page = f.read()
 
 pending_answers = {}
 
@@ -54,13 +53,7 @@ def root():
         id = uuid.uuid1().hex
         history = []
 
-    char, choices, correct = random_choice_list()
-    img = 'static/dideriku.png'
-
-    pending_answers[id] = choices[correct]
-
-    resp = make_response(html_template.render(kanji_char=char, choices=choices,
-                                              happy_img=img))
+    resp = make_response(html_page)
     resp.set_cookie('id', id)
     resp.set_cookie('history', '1') #FIXME: initialize empty history
 
@@ -93,7 +86,7 @@ def validate():
     resp = make_response(jsonify(kanji_char=char, choices=choices, correct_value=correct,
                                  happy_img=img, score=score, total=total, perc=perc, 
                                  ewma=ewma, streak=streak, top_streak=top_streak, 
-                                 predict = prediction, correct = correct))
+                                 predict=prediction, correct=correct))
     history_string = ''
     for ans in history: 
         history_string += str(ans) + " "
@@ -101,6 +94,23 @@ def validate():
     resp.set_cookie('history', history_string.strip())
     return resp
 
+
+# TODO: remove code duplication between this and the validate function
+@app.route('/_initial_data', methods=['POST'])
+def initial_data():
+    id = request.cookies.get('id')
+    history = [int(x) for x in request.cookies.get('history').split(' ')]
+    char, choices, correct = random_choice_list()
+    pending_answers[id] = choices[correct]
+    img = 'static/dideriku.png'
+    prediction = predict(history)
+
+    resp = make_response(jsonify(kanji_char=char, choices=choices, correct_value=correct,
+                                 happy_img=img, score=0, total=0, perc=0, 
+                                 ewma=0, streak=0, top_streak=0, 
+                                 predict=prediction, correct=correct))
+
+    return resp
 
 
 def main():
