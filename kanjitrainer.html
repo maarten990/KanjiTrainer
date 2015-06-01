@@ -18,6 +18,20 @@
            }
        });
 
+       $(document).keydown(function(event) {
+           switch (event.keyCode) {
+               case 49:
+                   $("#button0").click();
+                   break;
+               case 50:
+                   $("#button1").click();
+                   break;
+               case 51:
+                   $("#button2").click();
+                   break;
+           }
+       });
+
        set_data('/_initial_data', '');
    })
 
