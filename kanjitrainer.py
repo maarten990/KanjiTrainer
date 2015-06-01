@@ -83,10 +83,13 @@ def validate():
 
     score, total, perc, ewma, streak, top_streak = get_all(history)
     prediction = predict(history)
+
+    time = request.form['time']
+    
     resp = make_response(jsonify(kanji_char=char, choices=choices, correct_value=correct,
                                  happy_img=img, score=score, total=total, perc=perc, 
                                  ewma=ewma, streak=streak, top_streak=top_streak, 
-                                 predict=prediction, correct=correct))
+                                 predict=prediction, correct=correct, time=time))
     history_string = ''
     for ans in history: 
         history_string += str(ans) + " "

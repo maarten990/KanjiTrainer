@@ -11,6 +11,8 @@
   </style>
   <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
   <script>
+   var page_loaded_time;
+
    $(document).ready(function() {
        $("#freeform-input").keydown(function(event) {
            if (event.keyCode == 13) {
@@ -36,11 +38,13 @@
    })
 
    function validate(value) {
-       set_data('/_validate', value)
+       time_elapsed = new Date() - page_loaded_time;
+       data = {'answer': value, 'time': time_elapsed};
+       set_data('/_validate', data);
    }
 
-   function set_data(url, value) {
-       $.post(url, {'answer': value},
+   function set_data(url, post_data) {
+       $.post(url, post_data,
               function(data) {
                   $("#happiness")[0].src = data.happy_img;
                   $("#button0").html(data.choices[0]);
@@ -54,9 +58,13 @@
                                      "<br>Exponentially weighted moving average: " + data.ewma +
                                      "<br>Current Streak: " + data.streak + 
                                      "<br>Top Streak: " + data.top_streak + 
-                                     "<br>Prediction: " + data.predict)
+                                     "<br>Prediction: " + data.predict +
+                                     "<br>Previous page time: " + data.time /
+                                     1000 + " seconds");
               },
               'json');
+
+       page_loaded_time = new Date();
    }
 
    function validate_freeform() {
