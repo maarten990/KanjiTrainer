@@ -75,7 +75,7 @@ def validate():
         img = 'static/dog.jpg'
         history.append(1)
     else:
-        img = 'static/wrong.jpg'
+        img = 'static/suzanne.png'
         history.append(0)
 
     char, choices, correct = random_choice_list()
