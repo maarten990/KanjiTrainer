@@ -97,6 +97,9 @@ def validate():
     if answer == correct or answer.strip() in meaning_list:
         img = 'static/dog.jpg'
         history.append(1)
+
+        if random.random() <= 0.01:
+            img = 'static/streak.jpg'
     else:
         img = 'static/suzanne.png'
         history.append(0)
