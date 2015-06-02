@@ -36,6 +36,8 @@ def get_kanji(grade=1):
 
 
 def random_choice_list(n=3):
+    global prev_char
+
     #draw a character not equal to the last one
     char, meanings = get_kanji()
     meaning = ', '.join(meanings)
