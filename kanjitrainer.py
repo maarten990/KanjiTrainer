@@ -11,6 +11,7 @@ import sqlite3
 
 
 app = Flask(__name__)
+prev_char = "" #the previously shown character
 with open('kanjitrainer.html', 'r') as f:
     html_page = f.read()
 
@@ -35,15 +36,22 @@ def get_kanji(grade=1):
 
 
 def random_choice_list(n=3):
+    #draw a character not equal to the last one
     char, meanings = get_kanji()
     meaning = ', '.join(meanings)
-    choices = [', '.join(get_kanji()[1]) for _ in range(n-1)] + [meaning]
-    #if the list contains duplicates, redraw
+    while char==prev_char:
+        char, meanings = get_kanji()
+        meaning = ', '.join(meanings)
+        
+    #draw a list of choices without duplicates
+    choices = [', '.join(get_kanji()[1]) for _ in range(n-1)] + [meaning]    
     while len(set(choices))!= len(choices):
         choices = [', '.join(get_kanji()[1]) for _ in range(n-1)] + [meaning]
 
     random.shuffle(choices)
     correct = choices.index(meaning)
+    
+    prev_char = char
 
     return char, choices, correct
 
