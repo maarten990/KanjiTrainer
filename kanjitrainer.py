@@ -12,6 +12,7 @@ import sqlite3
 
 app = Flask(__name__)
 prev_char = "" #the previously shown character
+prev_correct = "" #the previously correct meaning
 with open('kanjitrainer.html', 'r') as f:
     html_page = f.read()
 
@@ -52,10 +53,9 @@ def random_choice_list(n=3):
 
     random.shuffle(choices)
     correct = choices.index(meaning)
-    
-    prev_char = char
+    correct_meaning = meaning
 
-    return char, choices, correct
+    return char, choices, correct, correct_meaning
 
 
 @app.route('/')
@@ -83,6 +83,9 @@ def root():
 
 @app.route('/_validate', methods=['POST'])
 def validate():
+    global prev_char
+    global prev_correct
+
     id = request.cookies.get('id')
     history = [int(x) for x in request.cookies.get('history').split(' ')]
     correct = pending_answers[id]
@@ -98,7 +101,7 @@ def validate():
         img = 'static/suzanne.png'
         history.append(0)
 
-    char, choices, correct = random_choice_list()
+    char, choices, correct, correct_meaning = random_choice_list()
     pending_answers[id] = choices[correct]
 
     score, total, perc, ewma, streak, top_streak = get_all(history)
@@ -106,13 +109,17 @@ def validate():
 
     time = request.form['time']
     
-    resp = make_response(jsonify(kanji_char=char, choices=choices, correct_value=correct,
+    resp = make_response(jsonify(kanji_char=char, choices=choices,
                                  happy_img=img, score=score, total=total, perc=perc, 
                                  ewma=ewma, streak=streak, top_streak=top_streak, 
-                                 predict=prediction, correct=correct, time=time))
+                                 predict=prediction, correct=correct, time=time, 
+                                 kanji_prev_char=prev_char, prev_correct_value=prev_correct))
     history_string = ''
     for ans in history: 
         history_string += str(ans) + " "
+    
+    prev_char = char
+    prev_correct = correct_meaning
     
     resp.set_cookie('history', history_string.strip())
     return resp
@@ -121,18 +128,24 @@ def validate():
 # TODO: remove code duplication between this and the validate function
 @app.route('/_initial_data', methods=['POST'])
 def initial_data():
+    global prev_char
+    global prev_correct
+    
     id = request.cookies.get('id')
     history = [int(x) for x in request.cookies.get('history').split(' ')]
-    char, choices, correct = random_choice_list()
+    char, choices, correct, correct_meaning = random_choice_list()
     pending_answers[id] = choices[correct]
     img = 'static/dideriku.png'
     prediction = predict(history)
 
-    resp = make_response(jsonify(kanji_char=char, choices=choices, correct_value=correct,
+    resp = make_response(jsonify(kanji_char=char, choices=choices,
                                  happy_img=img, score=0, total=0, perc=0, 
                                  ewma=0, streak=0, top_streak=0, 
                                  predict=prediction, correct=correct))
 
+    prev_char = char
+    prev_correct = correct_meaning
+                                 
     return resp
 
 

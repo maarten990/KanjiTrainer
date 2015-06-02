@@ -51,7 +51,8 @@
                   $("#button1").html(data.choices[1]);
                   $("#button2").html(data.choices[2]);
                   $("#kanji").html(data.kanji_char);
-                  $("#correct").html("Correct char index: " + data.correct +
+                  $("#correct").html("Previous answer: " + data.kanji_prev_char + " " + data.prev_correct_value +
+                                     "<br>Correct char index: " + data.correct +
                                      "<br><br>Correct/Total: " + data.score +
                                      " / " + data.total + 
                                      "<br>Avg: " + data.perc + 
@@ -59,8 +60,8 @@
                                      "<br>Current Streak: " + data.streak + 
                                      "<br>Top Streak: " + data.top_streak + 
                                      "<br>Prediction: " + data.predict +
-                                     "<br>Previous page time: " + data.time /
-                                     1000 + " seconds");
+                                     "<br>Previous page time: " + data.time/1000 + " seconds"
+                                     );
               },
               'json');
 
