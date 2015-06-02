@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 from flask import Flask, jsonify, request, make_response
 from argparse import ArgumentParser
+from collections import defaultdict
 from proficiency import get_all, predict
 import csv
 import random
 import uuid
 import pickle
+import sqlite3
 
 
 app = Flask(__name__)
@@ -13,24 +15,32 @@ with open('kanjitrainer.html', 'r') as f:
     html_page = f.read()
 
 pending_answers = {}
+kanji = defaultdict(lambda: [])
 
 with open('static/kanjidic.pickle', 'rb') as f:
-    kanji = pickle.load(f)
+    conn = sqlite3.connect('static/kanji.db')
+    c = conn.cursor()
 
-def get_kanji():
-    k = random.choice(kanji)
-    char = k.literal
-    meaning = ', '.join(k.meanings)
+    for grade in range(1, 11):
+        for row in c.execute('SELECT literal, meanings FROM kanji WHERE grade=?',
+                             repr(1)):
+            kanji[grade].append((row[0], row[1].split(', ')))
+
+    conn.close()
+
+def get_kanji(grade=1):
+    char, meaning = random.choice(kanji[grade])
 
     return char, meaning
 
 
 def random_choice_list(n=3):
-    char, meaning = get_kanji()
-    choices = [', '.join(random.choice(kanji).meanings) for _ in range(n-1)] + [meaning]
+    char, meanings = get_kanji()
+    meaning = ', '.join(meanings)
+    choices = [', '.join(get_kanji()[1]) for _ in range(n-1)] + [meaning]
     #if the list contains duplicates, redraw
     while len(set(choices))!= len(choices):
-        choices = [', '.join(random.choice(kanji).meanings) for _ in range(n-1)] + [meaning]
+        choices = [', '.join(get_kanji()[1]) for _ in range(n-1)] + [meaning]
 
     random.shuffle(choices)
     correct = choices.index(meaning)
