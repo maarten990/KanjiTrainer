@@ -10,6 +10,7 @@ import pickle
 import sqlite3
 import compareKanji as ck
 
+user_grade = 1
 
 app = Flask(__name__)
 prev_char = "" #the previously shown character
@@ -26,12 +27,12 @@ with open('static/kanjidic.pickle', 'rb') as f:
 
     for grade in range(1, 11):
         for row in c.execute('SELECT literal, meanings FROM kanji WHERE grade=?',
-                             repr(1)):
+                             repr(user_grade)):
             kanji[grade].append((row[0], row[1].split(', ')))
 
     conn.close()
 
-def get_kanji(grade=1):
+def get_kanji(grade=user_grade):
     char, meaning = random.choice(kanji[grade])
 
     return char, meaning
@@ -51,7 +52,7 @@ def random_choice_list(n=4, difficulty="hard"):
     SQLotherOptions = str(otherOptions).replace("[","(").replace("]",")")
     conn = sqlite3.connect('static/kanji.db')
     c = conn.cursor()
-    c.execute('SELECT meanings FROM kanji WHERE literal IN ' +  SQLotherOptions)
+    c.execute('SELECT meanings FROM kanji WHERE grade=? AND literal IN ' +  SQLotherOptions, repr(user_grade))
     otherMeanings = c.fetchall()
     conn.close()
     choices = [otherMeanings[x][0] for x in range(0, len(otherMeanings))] + [meaning] 
