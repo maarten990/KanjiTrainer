@@ -31,6 +31,9 @@
                case 51:
                    $("#button2").click();
                    break;
+               case 52:
+                   $("#button3").click();
+                   break;
            }
        });
 
@@ -50,6 +53,7 @@
                   $("#button0").html(data.choices[0]);
                   $("#button1").html(data.choices[1]);
                   $("#button2").html(data.choices[2]);
+		  $("#button3").html(data.choices[3]);
                   $("#kanji").html(data.kanji_char);
                   $("#correct").html("Previous answer: " + data.kanji_prev_char + " " + data.prev_correct_value +
                                      "<br>Correct char index: " + data.correct +
@@ -88,6 +92,7 @@
       <li><button id="button0" onclick="validate_choice(0)"></button></li>
       <li><button id="button1" onclick="validate_choice(1)"></button></li>
       <li><button id="button2" onclick="validate_choice(2)"></button></li>
+      <li><button id="button3" onclick="validate_choice(3)"></button></li>
     </ul>
     <div id="freeform">
       <input id="freeform-input" type="text">

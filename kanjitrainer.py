@@ -8,6 +8,7 @@ import random
 import uuid
 import pickle
 import sqlite3
+import compareKanji as ck
 
 
 app = Flask(__name__)
@@ -36,7 +37,7 @@ def get_kanji(grade=1):
     return char, meaning
 
 
-def random_choice_list(n=3):
+def random_choice_list(n=4, difficulty="hard"):
     global prev_char
 
     #draw a character not equal to the last one
@@ -45,15 +46,19 @@ def random_choice_list(n=3):
     while char==prev_char:
         char, meanings = get_kanji()
         meaning = ', '.join(meanings)
-        
-    #draw a list of choices without duplicates
-    choices = [', '.join(get_kanji()[1]) for _ in range(n-1)] + [meaning]    
-    while len(set(choices))!= len(choices):
-        choices = [', '.join(get_kanji()[1]) for _ in range(n-1)] + [meaning]
-
+    
+    otherOptions = ck.giveChoicesKanji(char, difficulty, n-1)
+    SQLotherOptions = str(otherOptions).replace("[","(").replace("]",")")
+    conn = sqlite3.connect('static/kanji.db')
+    c = conn.cursor()
+    c.execute('SELECT meanings FROM kanji WHERE literal IN ' +  SQLotherOptions)
+    otherMeanings = c.fetchall()
+    conn.close()
+    choices = [otherMeanings[x][0] for x in range(0, len(otherMeanings))] + [meaning] 
     random.shuffle(choices)
     correct = choices.index(meaning)
     correct_meaning = meaning
+    print(choices)
 
     return char, choices, correct, correct_meaning
 
