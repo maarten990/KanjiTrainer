@@ -9,16 +9,14 @@ def getListDistance(list1, list2):
 	numberDeleteAdd = abs(len(list1)-len(list2))
 	return numberSub + numberDeleteAdd
 
-def getSimilarKanji(Kanjiliteral):
+def getSimilarKanji(Kanjiliteral, db):
 	similarKanji = []
-	conn = sqlite3.connect('static/kanji.db')
-	c = conn.cursor()
-	c.execute('SELECT grade, radicals, stroke_count, meanings, on_reading,' +
-              'kun_reading FROM kanji WHERE literal=?', Kanjiliteral)
-	literal_grade, literal_radicals, literal_stroke_count, literal_meanings, literal_on, literal_kun = c.fetchone()
+	one = db.fetch_one('SELECT grade, radicals, stroke_count, meanings, on_reading,' +
+                       'kun_reading FROM kanji WHERE literal=?', Kanjiliteral)
+	literal_grade, literal_radicals, literal_stroke_count, literal_meanings, literal_on, literal_kun = one
 	literal_radicals = literal_radicals.strip('\n').split(', ')
-	for row in c.execute('SELECT literal, radicals, stroke_count, meanings,' + 
-        'on_reading, kun_reading FROM kanji WHERE grade=?', literal_grade):
+	for row in db.fetch_iterator('SELECT literal, radicals, stroke_count, meanings,' + 
+                                 'on_reading, kun_reading FROM kanji WHERE grade=?', literal_grade):
 		radicalDistance = getListDistance(literal_radicals,row[1].strip('\n').split(', '))
 		strokeCountDistance = abs(int(literal_stroke_count)-int(row[2]))*0.5
 		meaningDistance = sum(1 for element in literal_meanings.strip('\n').split(', ') if 
@@ -29,7 +27,7 @@ def getSimilarKanji(Kanjiliteral):
 				element not in row[5].strip('\n').split(', '))		
 		similarKanji.append((row[0], radicalDistance, strokeCountDistance, 
                              meaningDistance, onDistance, kunDistance))
-	conn.close()
+
 	return similarKanji
 
 def random_pick(some_list, probabilities):
@@ -44,9 +42,9 @@ def getKey(item):
     return item[1]
 
 # TODO: make difficulty range from 0 to 1?
-def giveChoicesKanji(literal, difficulty, numberChoices):
+def giveChoicesKanji(literal, difficulty, numberChoices, db):
     difficultyStrength = 2.5
-    similarKanji = getSimilarKanji(literal)
+    similarKanji = getSimilarKanji(literal, db)
     summed = [(similarKanji[x][0],sum(similarKanji[x][1:])) for x in range(0,len(similarKanji))]
     sortedKanji = sorted(summed, key=getKey)
     #select kanji

@@ -10,6 +10,26 @@ import pickle
 import sqlite3
 import compareKanji as ck
 
+
+class SQLReader(object):
+    def __init__(self, db_path):
+        # open in read-only mode just to be sure
+        self.conn = sqlite3.connect('file:{}?mode=ro'.format(db_path),
+                                    check_same_thread=False, uri=True)
+        self.cursor = self.conn.cursor()
+
+    def fetch_one(self, query, *args):
+        self.cursor.execute(query, *args)
+        return self.cursor.fetchone()
+
+    def fetch_all(self, query, *args):
+        self.cursor.execute(query, *args)
+        return self.cursor.fetchall()
+
+    def fetch_iterator(self, query, *args):
+        return self.cursor.execute(query, *args)
+
+
 user_grade = 1
 
 app = Flask(__name__)
@@ -21,16 +41,13 @@ with open('kanjitrainer.html', 'r') as f:
 pending_answers = {}
 kanji = defaultdict(lambda: [])
 
-with open('static/kanjidic.pickle', 'rb') as f:
-    conn = sqlite3.connect('static/kanji.db')
-    c = conn.cursor()
+sql = SQLReader('static/kanji.db')
 
-    for grade in range(1, 11):
-        for row in c.execute('SELECT literal, meanings FROM kanji WHERE grade=?',
-                             repr(user_grade)):
-            kanji[grade].append((row[0], row[1].split(', ')))
+for grade in range(1, 11):
+    for row in sql.fetch_iterator('SELECT literal, meanings FROM kanji WHERE grade=?',
+                                  repr(user_grade)):
+        kanji[grade].append((row[0], row[1].split(', ')))
 
-    conn.close()
 
 def get_kanji(grade=user_grade):
     char, meaning = random.choice(kanji[grade])
@@ -48,18 +65,14 @@ def random_choice_list(n=4, difficulty="hard"):
         char, meanings = get_kanji()
         meaning = ', '.join(meanings)
     
-    otherOptions = ck.giveChoicesKanji(char, difficulty, n-1)
+    otherOptions = ck.giveChoicesKanji(char, difficulty, n-1, sql)
     SQLotherOptions = str(otherOptions).replace("[","(").replace("]",")")
-    conn = sqlite3.connect('static/kanji.db')
-    c = conn.cursor()
-    c.execute('SELECT meanings FROM kanji WHERE grade=? AND literal IN ' +  SQLotherOptions, repr(user_grade))
-    otherMeanings = c.fetchall()
-    conn.close()
+    otherMeanings = sql.fetch_all('SELECT meanings FROM kanji WHERE grade=? AND literal IN '
+                                  + SQLotherOptions, repr(user_grade))
     choices = [otherMeanings[x][0] for x in range(0, len(otherMeanings))] + [meaning] 
     random.shuffle(choices)
     correct = choices.index(meaning)
     correct_meaning = meaning
-    print(choices)
 
     return char, choices, correct, correct_meaning
 
