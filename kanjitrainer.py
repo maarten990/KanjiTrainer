@@ -33,8 +33,7 @@ class SQLReader(object):
 user_grade = 1
 
 app = Flask(__name__)
-prev_char = "" #the previously shown character
-prev_correct = "" #the previously correct meaning
+
 with open('kanjitrainer.html', 'r') as f:
     html_page = f.read()
 
@@ -63,7 +62,8 @@ def random_choice_list(n=4, difficulty="hard"):
     #draw a character not equal to the last one
     char, meanings = get_kanji()
     meaning = ', '.join(meanings)
-    while char==prev_char:
+    prev_char = request.cookies.get('prev_char')
+    while char == prev_char:
         char, meanings = get_kanji()
         meaning = ', '.join(meanings)
     
@@ -97,7 +97,9 @@ def root():
     resp = make_response(html_page)
     resp.set_cookie('id', id)
     resp.set_cookie('history', '1') #FIXME: initialize empty history
-
+    resp.set_cookie('prev_char', 'NA') 
+    resp.set_cookie('prev_correct', 'NA') 
+    
     return resp
 
 @app.route('/giveHint', methods=['POST'])
@@ -117,9 +119,6 @@ def giveHint():
 
 @app.route('/_validate', methods=['POST'])
 def validate():
-    global prev_char
-    global prev_correct
-
     id = request.cookies.get('id')
     history = [int(x) for x in request.cookies.get('history').split(' ')]
     correct = pending_answers[id]
@@ -146,6 +145,9 @@ def validate():
 
     time = request.form['time']
     
+    prev_char = request.cookies.get('prev_char')
+    prev_correct = request.cookies.get('prev_correct')
+    
     resp = make_response(jsonify(kanji_char=char, choices=choices,
                                  happy_img=img, score=score, total=total, perc=perc, 
                                  ewma=ewma, streak=streak, top_streak=top_streak, 
@@ -159,6 +161,8 @@ def validate():
     prev_correct = correct_meaning
     
     resp.set_cookie('history', history_string.strip())
+    resp.set_cookie('prev_char', char) 
+    resp.set_cookie('prev_correct', correct_meaning)
     return resp
 
 
@@ -180,8 +184,8 @@ def initial_data():
                                  ewma=0, streak=0, top_streak=0, 
                                  predict=prediction, correct=correct))
 
-    prev_char = char
-    prev_correct = correct_meaning
+    resp.set_cookie('prev_char', char) 
+    resp.set_cookie('prev_correct', correct_meaning)
                                  
     return resp
 
