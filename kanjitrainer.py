@@ -30,7 +30,7 @@ class SQLReader(object):
         return self.cursor.execute(query, *args)
 
 
-user_grade = 1
+user_grade = 2
 
 app = Flask(__name__)
 prev_char = "" #the previously shown character
@@ -40,8 +40,10 @@ with open('kanjitrainer.html', 'r') as f:
 
 pending_answers = {}
 kanji = defaultdict(lambda: [])
+radicalMeanings = pickle.load(open("static/radicalMeanings.p", "rb"))
 
 sql = SQLReader('static/kanji.db')
+
 
 for grade in range(1, 11):
     for row in sql.fetch_iterator('SELECT literal, meanings FROM kanji WHERE grade=?',
@@ -98,7 +100,17 @@ def root():
 
     return resp
 
-
+@app.route('/giveHint', methods=['POST'])
+def giveHint():
+    current_kanji = request.form['current_kanji']
+    kanji_radicals = sql.fetch_one('SELECT radicals FROM kanji WHERE grade=' + repr(user_grade) + ' AND literal = ' + repr(current_kanji))
+    radical_text = "<ul>" 
+    for radical in kanji_radicals[0].strip('\n').split(', '):
+        radical_text += "<li>" + radical + ": " + radicalMeanings[radical] + "</li>"
+    radical_text += "</ul>"
+    hint = "Hint:<br>The kanji " + current_kanji + " consist of the following radicals:<br>" + radical_text
+    resp = make_response(jsonify(hint_txt=hint))
+    return resp
 
 @app.route('/_validate', methods=['POST'])
 def validate():
