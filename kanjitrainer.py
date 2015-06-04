@@ -30,7 +30,7 @@ class SQLReader(object):
         return self.cursor.execute(query, *args)
 
 
-user_grade = 2
+user_grade = 1
 
 app = Flask(__name__)
 prev_char = "" #the previously shown character
@@ -106,7 +106,10 @@ def giveHint():
     kanji_radicals = sql.fetch_one('SELECT radicals FROM kanji WHERE grade=' + repr(user_grade) + ' AND literal = ' + repr(current_kanji))
     radical_text = "<ul>" 
     for radical in kanji_radicals[0].strip('\n').split(', '):
-        radical_text += "<li>" + radical + ": " + radicalMeanings[radical] + "</li>"
+        if radical == current_kanji:
+            radical_text += "<li>" + radical + ": ?""</li>"
+        else:
+            radical_text += "<li>" + radical + ": " + radicalMeanings[radical] + "</li>"
     radical_text += "</ul>"
     hint = "Hint:<br>The kanji " + current_kanji + " consist of the following radicals:<br>" + radical_text
     resp = make_response(jsonify(hint_txt=hint))
