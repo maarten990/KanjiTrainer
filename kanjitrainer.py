@@ -53,8 +53,11 @@ def root():
 
 @app.route('/giveHint', methods=['POST'])
 def giveHint():
+    id = request.cookies.get('id')
+    chunk = user_chunks[id]
+
     current_kanji = request.form['current_kanji']
-    kanji_radicals = sql.fetch_one('SELECT radicals FROM kanji WHERE grade=' + repr(user_grade) + ' AND literal = ' + repr(current_kanji))
+    kanji_radicals = sql.fetch_one('SELECT radicals FROM kanji WHERE grade=' + repr(chunk.grade) + ' AND literal = ' + repr(current_kanji))
     radical_text = "<ul>" 
     for radical in kanji_radicals[0].strip('\n').split(', '):
         if radical == current_kanji:
