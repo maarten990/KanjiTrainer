@@ -32,7 +32,7 @@ class ChunkGenerator(object):
         allow_duplicates -- allow duplicate kanji within the chunk
         """
 
-        chunk = Chunk()
+        chunk = Chunk(n_answers, kanji_similarity, answer_similarity, grade)
 
         # List of potential indices into the kanji list, indices can be removed
         # to disallow duplicates.
@@ -77,10 +77,17 @@ class Chunk(object):
     """
     Represents a chunk of multiple questions.
     """
-    def __init__(self):
+    def __init__(self, n_answers, kanji_similarity, answer_similarity, grade):
         self.questions = []
         self.next_question_idx = 0
         self.history = []
+
+        # save the parameters that were used to generate the chunk
+        self.n_answers = n_answers
+
+        self.kanji_similarity = kanji_similarity
+        self.answer_similarity = answer_similarity
+        self.grade = grade
 
     def add_question(self, kanji, meaning, options, hint):
         self.questions.append((kanji, meaning, options, hint))
