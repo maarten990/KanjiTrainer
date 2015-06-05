@@ -3,6 +3,8 @@ from flask import Flask, jsonify, request, make_response
 from argparse import ArgumentParser
 from collections import defaultdict
 from proficiency import get_all, predict
+from sqlreader import SQLReader
+from chunks import ChunkGenerator
 import csv
 import random
 import uuid
@@ -11,53 +13,23 @@ import sqlite3
 import compareKanji as ck
 
 
-user_grade = 1
-
 app = Flask(__name__)
 
 with open('kanjitrainer.html', 'r') as f:
     html_page = f.read()
 
-pending_answers = {}
+user_chunks = {}
 kanji = defaultdict(lambda: [])
 radicalMeanings = pickle.load(open("static/radicalMeanings.p", "rb"))
 
 sql = SQLReader('static/kanji.db')
 
-
-for grade in range(1, 11):
+for grade in range(1, 10):
     for row in sql.fetch_iterator('SELECT literal, meanings FROM kanji WHERE grade=?',
-                                  repr(user_grade)):
-        kanji[grade].append((row[0], row[1].split(', ')))
+                                  repr(grade)):
+        kanji[grade].append((row[0], row[1]))
 
-
-def get_kanji(grade=user_grade):
-    char, meaning = random.choice(kanji[grade])
-
-    return char, meaning
-
-
-def random_choice_list(n=4, difficulty="hard"):
-    global prev_char
-
-    #draw a character not equal to the last one
-    char, meanings = get_kanji()
-    meaning = ', '.join(meanings)
-    prev_char = request.cookies.get('prev_char')
-    while char == prev_char:
-        char, meanings = get_kanji()
-        meaning = ', '.join(meanings)
-    
-    otherOptions = ck.giveChoicesKanji(char, difficulty, n-1, sql)
-    SQLotherOptions = str(otherOptions).replace("[","(").replace("]",")")
-    otherMeanings = sql.fetch_all('SELECT meanings FROM kanji WHERE grade=? AND literal IN '
-                                  + SQLotherOptions, repr(user_grade))
-    choices = [otherMeanings[x][0] for x in range(0, len(otherMeanings))] + [meaning] 
-    random.shuffle(choices)
-    correct = choices.index(meaning)
-    correct_meaning = meaning
-
-    return char, choices, correct, correct_meaning
+chunkgen = ChunkGenerator(kanji, radicalMeanings, sql)
 
 
 @app.route('/')
@@ -65,7 +37,6 @@ def root():
     # check if the user already exists
     try:
         id = request.cookies.get('id')
-        history = request.cookies.get('history')
 
         # ducttape fix, this should not be necessary, help
         if id == None or history == None:
@@ -73,15 +44,12 @@ def root():
     except:
         # create a unique id
         id = uuid.uuid1().hex
-        history = []
 
     resp = make_response(html_page)
     resp.set_cookie('id', id)
-    resp.set_cookie('history', '1') #FIXME: initialize empty history
-    resp.set_cookie('prev_char', 'NA') 
-    resp.set_cookie('prev_correct', 'NA') 
     
     return resp
+
 
 @app.route('/giveHint', methods=['POST'])
 def giveHint():
@@ -98,80 +66,47 @@ def giveHint():
     resp = make_response(jsonify(hint_txt=hint))
     return resp
 
+
 @app.route('/_validate', methods=['POST'])
 def validate():
     id = request.cookies.get('id')
-    history = [int(x) for x in request.cookies.get('history').split(' ')]
-    correct = pending_answers[id]
     answer = request.form['answer']
-    
-    # the answer is either the full string from the button, or one of the words
-    # in the comma-separated list
-    meaning_list = [meaning.strip() for meaning in correct.split(',')]
-    if answer == correct or answer.strip() in meaning_list:
-        img = 'static/dog.jpg'
-        history.append(1)
-        
-        ran = random.random()
-        if ran <= 0.01 and ran > 0.002:
-            img = 'static/streak.jpg'
-        if ran <= 0.002:
-            img = 'static/epic.jpg'
+
+    chunk = user_chunks[id]
+    correct = chunk.validate_previous_question(answer)
+
+    img = 'static/dog.jpg' if correct else 'static/suzanne.png'
+
+    # if the chunk has ended, do something
+    if chunk.done():
+        return jsonify(eoc=True, history=chunk.history)
     else:
-        img = 'static/suzanne.png'
-        history.append(0)
+        kanji_char, choices = chunk.next_question()
 
-    char, choices, correct, correct_meaning = random_choice_list()
-    pending_answers[id] = choices[correct]
-
-    score, total, perc, ewma, streak, top_streak = get_all(history)
-    prediction = predict(history)
-
-    time = request.form['time']
+        return jsonify(kanji_char=kanji_char, choices=choices,
+                       happy_img=img)
     
-    prev_char = request.cookies.get('prev_char')
-    prev_correct = request.cookies.get('prev_correct')
-    
-    resp = make_response(jsonify(kanji_char=char, choices=choices,
-                                 happy_img=img, score=score, total=total, perc=perc, 
-                                 ewma=ewma, streak=streak, top_streak=top_streak, 
-                                 predict=prediction, correct=correct, time=time, 
-                                 kanji_prev_char=prev_char, prev_correct_value=prev_correct))
-    history_string = ''
-    for ans in history: 
-        history_string += str(ans) + " "
-    
-    prev_char = char
-    prev_correct = correct_meaning
-    
-    resp.set_cookie('history', history_string.strip())
-    resp.set_cookie('prev_char', char) 
-    resp.set_cookie('prev_correct', correct_meaning)
-    return resp
 
-
-# TODO: remove code duplication between this and the validate function
+# TODO: get parameters from somewhere
 @app.route('/_initial_data', methods=['POST'])
 def initial_data():
-    global prev_char
-    global prev_correct
-    
     id = request.cookies.get('id')
-    history = [int(x) for x in request.cookies.get('history').split(' ')]
-    char, choices, correct, correct_meaning = random_choice_list()
-    pending_answers[id] = choices[correct]
+
+    # generate a chunk for this user
+    chunk = chunkgen.generate(size=4, n_answers=4, kanji_similarity=0.5,
+                              answer_similarity=0.5, grade=1)
+    user_chunks[id] = chunk
+    kanji_char, choices = chunk.next_question()
+
     img = 'static/dideriku.png'
-    prediction = predict(history)
 
-    resp = make_response(jsonify(kanji_char=char, choices=choices,
-                                 happy_img=img, score=0, total=0, perc=0, 
-                                 ewma=0, streak=0, top_streak=0, 
-                                 predict=prediction, correct=correct))
+    return jsonify(kanji_char=kanji_char, choices=choices,
+                   happy_img=img, end_of_chunk=False)
 
-    resp.set_cookie('prev_char', char) 
-    resp.set_cookie('prev_correct', correct_meaning)
-                                 
-    return resp
+
+@app.route('/game_over', methods=['GET'])
+def game_over():
+    return str(request.args.get('history'))
 
 
 def main():

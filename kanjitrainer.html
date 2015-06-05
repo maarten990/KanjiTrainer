@@ -96,36 +96,28 @@
    })
 
    function validate(value) {
-       time_elapsed = new Date() - page_loaded_time;
-       data = {'answer': value, 'time': time_elapsed};
-       set_data('/_validate', data);
+     time_elapsed = new Date() - page_loaded_time;
+     data = {'answer': value, 'time': time_elapsed};
+     set_data('/_validate', data);
    }
 
    function set_data(url, post_data) {
        $.post(url, post_data,
               function(data) {
-                  $("#happiness")[0].src = data.happy_img;
-                  $("#button0").html(data.choices[0]);
-                  $("#button1").html(data.choices[1]);
-                  $("#button2").html(data.choices[2]);
-		          $("#button3").html(data.choices[3]);
-                  $("#kanji").html(data.kanji_char);
-		          current_kanji = data.kanji_char;
-		          $("#hint").html('<button class="extrabtn" id="hint_button"  ' + 
-                                   'onclick="show_hint()">Give hint</button>');
-                  $("#correct").html("Previous answer: " + data.kanji_prev_char + " " + data.prev_correct_value +
-                                     "<br>Correct char index: " + data.correct +
-                                     "<br><br>Correct/Total: " + data.score +
-                                     " / " + data.total + 
-                                     "<br>Avg: " + data.perc + 
-                                     "<br>Exponentially weighted moving average: " + data.ewma +
-                                     "<br>Current Streak: " + data.streak + 
-                                     "<br>Top Streak: " + data.top_streak + 
-                                     "<br>Prediction: " + data.predict +
-                                     "<br>Previous page time: " + data.time/1000 + " seconds"
-                                     );
-              },
-              'json');
+                  if (data.end_of_chunk) {
+                      $(document).load('/game_over', data={'history': data.history})
+                  } else {
+                      $("#happiness")[0].src = data.happy_img;
+                      $("#button0").html(data.choices[0]);
+                      $("#button1").html(data.choices[1]);
+                      $("#button2").html(data.choices[2]);
+                      $("#button3").html(data.choices[3]);
+                      $("#kanji").html(data.kanji_char);
+                      current_kanji = data.kanji_char;
+                      $("#hint").html('<button class="extrabtn" id="hint_button"  ' + 
+                                      'onclick="show_hint()">Give hint</button>');
+                  }},
+                  'json');
 
        page_loaded_time = new Date();
    }
@@ -169,7 +161,5 @@
   <br><br>
   <div id="hint"></div>
   <br>
-  <div id=correct></div>
-  <div id=streak></div>
 </body>
 </html>

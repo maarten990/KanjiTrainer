@@ -79,6 +79,40 @@ class Chunk(object):
     """
     def __init__(self):
         self.questions = []
+        self.next_question_idx = 0
+        self.history = []
 
     def add_question(self, kanji, meaning, options, hint):
         self.questions.append((kanji, meaning, options, hint))
+
+    def next_question(self):
+        idx = self.next_question_idx
+        self.next_question_idx += 1
+
+        # randomize the full list of answers
+        kanji, meaning, options, _ = self.questions[idx]
+        choice_list = options + [meaning]
+        random.shuffle(choice_list)
+
+        return kanji, choice_list
+
+    def done(self):
+        return self.next_question_idx >= len(self.questions)
+
+    def validate_previous_question(self, answer):
+        if self.next_question_idx == 0:
+            return None
+        _, correct, _, _ = self.questions[self.next_question_idx - 1]
+
+        # the answer is either the full string from the button, or one of the words
+        # in the comma-separated list
+        meaning_list = [meaning.strip() for meaning in correct.split(',')]
+        if answer == correct or answer.strip() in meaning_list:
+            right_answer = True
+        else:
+            right_answer = False
+
+        self.history.append(right_answer)
+
+        return right_answer
+
