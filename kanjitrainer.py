@@ -71,9 +71,10 @@ def giveHint():
 def validate():
     id = request.cookies.get('id')
     answer = request.form['answer']
+    time_taken = request.form['time']
 
     chunk = user_chunks[id]
-    correct = chunk.validate_previous_question(answer)
+    correct = chunk.validate_previous_question(answer, time_taken)
 
     img = 'static/dog.jpg' if correct else 'static/suzanne.png'
 
