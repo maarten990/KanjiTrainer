@@ -130,9 +130,12 @@ def validate():
     if answer == correct or answer.strip() in meaning_list:
         img = 'static/dog.jpg'
         history.append(1)
-
-        if random.random() <= 0.01:
+        
+        ran = random.random()
+        if ran <= 0.01 and ran > 0.002:
             img = 'static/streak.jpg'
+        if ran <= 0.002:
+            img = 'static/epic.jpg'
     else:
         img = 'static/suzanne.png'
         history.append(0)
