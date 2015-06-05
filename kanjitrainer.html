@@ -105,7 +105,7 @@
        $.post(url, post_data,
               function(data) {
                   if (data.end_of_chunk) {
-                      $(document).load('/game_over', data={'history': data.history})
+                      window.location.href = '/game_over?history=' + data.history;
                   } else {
                       $("#happiness")[0].src = data.happy_img;
                       $("#button0").html(data.choices[0]);

@@ -79,7 +79,7 @@ def validate():
 
     # if the chunk has ended, do something
     if chunk.done():
-        return jsonify(eoc=True, history=chunk.history)
+        return jsonify(end_of_chunk=True, history=chunk.history)
     else:
         kanji_char, choices = chunk.next_question()
 
@@ -101,7 +101,7 @@ def initial_data():
     img = 'static/dideriku.png'
 
     return jsonify(kanji_char=kanji_char, choices=choices,
-                   happy_img=img, end_of_chunk=False)
+                   happy_img=img)
 
 
 @app.route('/game_over', methods=['GET'])
