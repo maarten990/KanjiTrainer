@@ -116,7 +116,9 @@ def main():
     args = parser.parse_args()
 
     if args.debug:
-        app.run(debug=True)
+        app.run(debug=True, extra_files=['kanjitrainer.html',
+                                         'static/kanjitrainer.css',
+                                         'static/kanjitrainer.js'])
     else:
         app.run(host='0.0.0.0')
 
