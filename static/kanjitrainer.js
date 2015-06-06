@@ -40,7 +40,6 @@ function set_data(url, post_data) {
                if (data.end_of_chunk) {
                    window.location.href = '/game_over';
                } else {
-                   $("#happiness")[0].src = data.happy_img;
                    $("#button0").html(data.choices[0]);
                    $("#button1").html(data.choices[1]);
                    $("#button2").html(data.choices[2]);

@@ -79,16 +79,13 @@ def validate():
     chunk = user_chunks[id]
     correct = chunk.validate_previous_question(answer, time_taken)
 
-    img = 'static/dog.jpg' if correct else 'static/suzanne.png'
-
     # if the chunk has ended, do something
     if chunk.done():
         return jsonify(end_of_chunk=True, history=chunk.history)
     else:
         kanji_char, choices = chunk.next_question()
 
-        return jsonify(kanji_char=kanji_char, choices=choices,
-                       happy_img=img)
+        return jsonify(kanji_char=kanji_char, choices=choices)
     
 
 # TODO: get parameters from somewhere
@@ -102,10 +99,7 @@ def initial_data():
     user_chunks[id] = chunk
     kanji_char, choices = chunk.next_question()
 
-    img = 'static/dideriku.png'
-
-    return jsonify(kanji_char=kanji_char, choices=choices,
-                   happy_img=img)
+    return jsonify(kanji_char=kanji_char, choices=choices)
 
 
 @app.route('/game_over', methods=['GET'])

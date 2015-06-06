@@ -1,25 +1,26 @@
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="/static/kanjitrainer.css">
+  <link rel="stylesheet" type="text/css" href="/static/kanjitrainer.css">
   <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="/static/kanjitrainer.js"></script>
 </head>
 <body>
-  <img id="happiness" src="" height=300px/>
+  What is the meaning of the following kanji?
   <div id="kanji"></div>
-  <div class="input">
+
+  <div id="buttons">
     <ul id="answers">
       <li><button class="btn" id="button0" onclick="validate_choice(0)"></button></li>
       <li><button class="btn" id="button1" onclick="validate_choice(1)"></button></li>
       <li><button class="btn" id="button2" onclick="validate_choice(2)"></button></li>
       <li><button class="btn" id="button3" onclick="validate_choice(3)"></button></li>
     </ul>
-    <div id="freeform">
-      <input id="freeform-input" type="text">
-      <button class="extrabtn" id="freeform-button" onclick="validate_freeform()">Submit</button>
-    </div>
+    <input id="freeform-input" type="text" placeholder="Insert your answer here">
+    <button class="extrabtn" id="freeform-button" onclick="validate_freeform()" >
+      Submit
+    </button>
   </div>
-  <br><br>
+  
   <button class="extrabtn" id="hint_button" onclick="show_hint()">Give hint</button>
   <div id="hint"></div>
 </body>
