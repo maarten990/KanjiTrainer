@@ -47,8 +47,8 @@ function set_data(url, post_data) {
                    $("#button3").html(data.choices[3]);
                    $("#kanji").html(data.kanji_char);
                    current_kanji = data.kanji_char;
-                   $("#hint").html('<button class="extrabtn" id="hint_button"  ' + 
-                                   'onclick="show_hint()">Give hint</button>');
+                   $("#hint_button").show()
+                   $("#hint").html("")
                }},
                'json');
 
@@ -72,5 +72,7 @@ function show_hint() {
                $("#hint").html(data.hint_txt);
            },
            'json');
+
+    $("#hint_button").hide()
 }
 
