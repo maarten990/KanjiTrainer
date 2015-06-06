@@ -110,7 +110,9 @@ def initial_data():
 
 @app.route('/game_over', methods=['GET'])
 def game_over():
-    return str(request.args.get('history'))
+    id = request.cookies.get('id')
+    chunk = user_chunks[id]
+    return str(chunk.history)
 
 
 def main():
