@@ -5,6 +5,7 @@ from collections import defaultdict
 from proficiency import get_all, predict
 from sqlreader import SQLReader
 from chunks import ChunkGenerator
+import os.path
 import csv
 import random
 import uuid
@@ -57,15 +58,22 @@ def giveHint():
     chunk = user_chunks[id]
 
     current_kanji = request.form['current_kanji']
-    kanji_radicals = sql.fetch_one('SELECT radicals FROM kanji WHERE grade=' + repr(chunk.grade) + ' AND literal = ' + repr(current_kanji))
+    filePath = "static/KanjiPics/" + current_kanji + ".png"
+    kanji_radicals = sql.fetch_one('SELECT radicals FROM kanji WHERE grade=' + \
+                    repr(chunk.grade) + ' AND literal = ' + repr(current_kanji))
     radical_text = "<ul>" 
     for radical in kanji_radicals[0].strip('\n').split(', '):
         if radical == current_kanji:
-            radical_text += "<li>" + radical + ": ?""</li>"
+            radical_text += "<li>" + radical + \
+                            ": ? (This kanji is also a radical itself)""</li>"
         else:
-            radical_text += "<li>" + radical + ": " + radicalMeanings[radical] + "</li>"
+            radical_text += "<li>" + radical + ": " + \
+                            radicalMeanings[radical] + "</li>"
     radical_text += "</ul>"
-    hint = "Hint:<br>The kanji " + current_kanji + " consist of the following radicals:<br>" + radical_text
+    hint = "Hint:<br> The kanji " + current_kanji + \
+           " consist of the following radicals:<br>" + radical_text
+    if os.path.isfile(filePath):
+       hint += '<img src="' + filePath + '" height="25%" width="25%">'
     resp = make_response(jsonify(hint_txt=hint))
     return resp
 
