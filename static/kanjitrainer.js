@@ -72,6 +72,18 @@ function show_hint() {
            },
            'json');
 
-    $("#hint_button").hide()
+    // attach a hint image if it exists
+    kanji_hint_url = '/static/kanji' + current_kanji + '.png'
+
+    $.ajax({
+        url: kanji_hint_url,
+        method: 'GET',
+        error: function() {},
+        success: function() {
+            $('#hint').append('<img src="' + kanji_hint_url + '"></img>');
+        }
+    });
+
+    $("#hint_button").hide();
 }
 
