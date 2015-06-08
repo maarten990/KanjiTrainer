@@ -92,7 +92,6 @@ def javascript_validate():
     correct_id = options.index(answer)
     return jsonify(correct_id=correct_id)  
 
-# TODO: get parameters from somewhere
 @app.route('/_initial_data', methods=['POST'])
 def initial_data():
     id = request.cookies.get('id')
