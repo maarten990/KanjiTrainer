@@ -88,6 +88,10 @@ class ChunkGenerator(object):
     def __choice_list(self, kanji, difficulty, grade, n, QuestionType):
         options = ck.giveChoicesKanji(kanji, difficulty, n, self.database)
 
+        # QuestionType == meaning
+        if QuestionType != 'kanji':
+            return options
+
         if n == 1:
             query = 'SELECT meanings FROM kanji WHERE grade=? AND literal=?'
             meanings = self.database.fetch_all(query, [repr(grade), options[0]])
@@ -97,7 +101,6 @@ class ChunkGenerator(object):
             meanings = self.database.fetch_all(query, repr(grade))
 
         return [meaning[0] for meaning in meanings]
-
 
     def __hint(self, QuestionType, item, grade):
         filePath = "static/KanjiPics/" + item + ".png"
@@ -131,7 +134,6 @@ class ChunkGenerator(object):
             else:
                 hint = "Sorry, there is no hint for this kanji"    
         return hint
-
 
 class Chunk(object):
     """
