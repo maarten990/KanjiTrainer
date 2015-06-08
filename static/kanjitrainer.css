@@ -15,8 +15,24 @@ body {
     font-size: 1em;
 }
 
+.btn_wrong {
+    background: #fa2f2f;
+    width: 100%;
+    font-size: 1em;
+}
+
+.btn_right {
+    background: #6efa6c;
+    width: 100%;
+    font-size: 1em;
+}
+
 .extrabtn {
     font-size: 1em;
+}
+
+[disabled] {
+    color: black;
 }
 
 

@@ -83,7 +83,14 @@ def validate():
         question, item, choices = chunk.next_question()
 
         return jsonify(question=question, item=item, choices=choices)
-    
+
+@app.route('/javascript_validate', methods=['POST'])
+def javascript_validate():
+    id = request.cookies.get('id')
+    chunk = user_chunks[id]
+    _, _, answer, options, _ = chunk.questions[chunk.next_question_idx - 1]
+    correct_id = options.index(answer)
+    return jsonify(correct_id=correct_id)  
 
 # TODO: get parameters from somewhere
 @app.route('/_initial_data', methods=['POST'])

@@ -73,13 +73,18 @@ class ChunkGenerator(object):
            
             options = self.__choice_list(kanji, answer_difficulty, grade,
                                          n_answers - 1, QuestionType)
+
             hint = self.__hint(QuestionType, kanji, grade)
 
             if QuestionType == "kanji":
                 question = "What is the meaning of the following kanji?"
+                options += [meaning]
+                random.shuffle(options)
                 chunk.add_question(question, kanji, meaning, options, hint)
             else:
                 question = "Which kanji belongs to the following meaning(s)?"
+                options += [kanji]
+                random.shuffle(options)
                 chunk.add_question(question, meaning, kanji, options, hint)
         return chunk
 
@@ -132,7 +137,7 @@ class ChunkGenerator(object):
                 hint = "Hint:<br> The kanji consist of the following radicals:" + \
                    "<br>" + radical_text
             else:
-                hint = "The kanji does not consist of any radicals"    
+                hint = "Hint:<br> The kanji does not consist of any radicals"    
         return hint
 
 class Chunk(object):
@@ -160,10 +165,8 @@ class Chunk(object):
 
         # randomize the full list of answers
         question, item, choices, options, _ = self.questions[idx]
-        choice_list = options + [choices]
-        random.shuffle(choice_list)
 
-        return question, item, choice_list
+        return question, item, options
 
     def done(self):
         return self.next_question_idx >= len(self.questions)

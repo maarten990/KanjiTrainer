@@ -33,6 +33,14 @@ function validate(value) {
     set_data('/_validate', data);
 }
 
+function reset_buttons() {
+    n_buttons = 4;
+    for (i = 0; i < n_buttons; i++) {
+         $("#button" + i).attr("class", "btn");
+         document.getElementById("button" + i).disabled = false;
+    }
+}
+
 function set_data(url, post_data) {
     $("#buttons").hide()
     $.post(url, post_data,
@@ -41,6 +49,7 @@ function set_data(url, post_data) {
                    window.location.href = '/game_over';
                } else {
                    $("#loadimg").show()
+                   reset_buttons()
                    $("#button0").html(data.choices[0]);
                    $("#button1").html(data.choices[1]);
                    $("#button2").html(data.choices[2]);
@@ -64,8 +73,24 @@ function validate_freeform() {
 }
 
 function validate_choice(choice) {
-    text = $("#button" + choice).html();
-    validate(text);
+    //disable buttons
+    n_buttons = 4;
+    for (i = 0; i < n_buttons; i++) {
+         document.getElementById("button" + i ).disabled = true;
+    }
+    //first validate for button colors
+    $.post('/javascript_validate', {},
+           function(data) {
+                $("#button" + choice).attr("class", "btn_wrong");
+                $("#button" + data.correct_id).attr("class", "btn_right");
+           },
+           'json');
+    //real validation after a short moment
+    setTimeout(function(){
+            text = $("#button" + choice).html();
+            validate(text);
+        }, 1000);
+    
 }
 
 function show_hint() {
