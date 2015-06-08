@@ -85,7 +85,6 @@ def validate():
         return jsonify(question=question, item=item, choices=choices)
     
 
-# TODO: get parameters from somewhere
 @app.route('/_initial_data', methods=['POST'])
 def initial_data():
     id = request.cookies.get('id')
