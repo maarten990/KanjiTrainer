@@ -4,7 +4,7 @@ from argparse import ArgumentParser
 from collections import defaultdict
 from proficiency import get_all, predict
 from sqlreader import SQLReader
-from chunks import ChunkGenerator
+from chunks import ChunkGenerator, Parameters
 import os.path
 import csv
 import random
@@ -20,6 +20,7 @@ with open('kanjitrainer.html', 'r') as f:
     html_page = f.read()
 
 user_chunks = {}
+user_parameters = {}
 kanji = defaultdict(lambda: [])
 radicalMeanings = pickle.load(open("static/radicalMeanings.p", "rb"))
 
@@ -33,18 +34,23 @@ for grade in range(1, 10):
 chunkgen = ChunkGenerator(kanji, radicalMeanings, sql)
 
 
-@app.route('/')
+@app.route('/', methods=['GET'])
 def root():
     # check if the user already exists
     try:
         id = request.cookies.get('id')
 
         # ducttape fix, this should not be necessary, help
-        if id == None or history == None:
+        if id == None:
             raise Exception()
     except:
         # create a unique id
         id = uuid.uuid1().hex
+
+    params = Parameters(**{p: request.args.get(p) for p in ["size", "n_answers",
+                        "kanji_similarity", "answer_similarity", "grade",
+                        "allow_duplicates"] if request.args.get(p) != None})
+    user_parameters[id] = params
 
     resp = make_response(html_page)
     resp.set_cookie('id', id)
@@ -102,8 +108,8 @@ def initial_data():
     id = request.cookies.get('id')
 
     # generate a chunk for this user
-    chunk = chunkgen.generate(size=4, n_answers=4, kanji_similarity=0.5,
-                              answer_similarity=0.5, grade=1)
+    params = user_parameters[id]
+    chunk = chunkgen.generate(params)
     user_chunks[id] = chunk
     kanji_char, choices = chunk.next_question()
 

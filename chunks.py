@@ -2,6 +2,17 @@ import random
 import compareKanji as ck
 
 
+class Parameters(object):
+    def __init__(self, size=5, n_answers=4, kanji_similarity=0.5,
+                 answer_similarity=0.5, grade=1, allow_duplicates=False):
+        self.size = int(size)
+        self.n_answers = int(n_answers)
+        self.kanji_similarity = float(kanji_similarity)
+        self.answer_similarity = float(answer_similarity)
+        self.grade = int(grade)
+        self.allow_duplicates = bool(allow_duplicates)
+
+
 class ChunkGenerator(object):
     def __init__(self, kanji, radical_meanings, database):
         """
@@ -17,8 +28,7 @@ class ChunkGenerator(object):
 
     # TODO: make use of kanji_similarity
     # TODO: don't be limited to picking from one grade
-    def generate(self, size, n_answers, kanji_similarity, answer_similarity,
-                 grade, allow_duplicates=False):
+    def generate(self, params):
         """
         Generate a list of questions.
 
@@ -31,6 +41,12 @@ class ChunkGenerator(object):
         grade -- the grade to pick kanji from
         allow_duplicates -- allow duplicate kanji within the chunk
         """
+        size = params.size
+        n_answers = params.n_answers
+        kanji_similarity = params.kanji_similarity
+        answer_similarity = params.answer_similarity
+        grade = params.grade
+        allow_duplicates = params.allow_duplicates
 
         chunk = Chunk(n_answers, kanji_similarity, answer_similarity, grade)
 
@@ -62,9 +78,14 @@ class ChunkGenerator(object):
     # mapping kanji to meanings
     def __choice_list(self, kanji, difficulty, grade, n):
         options = ck.giveChoicesKanji(kanji, difficulty, n, self.database)
-        query = ('SELECT meanings FROM kanji WHERE grade=? AND literal IN ' +
-                 str(tuple(options)))
-        meanings = self.database.fetch_all(query, repr(grade))
+
+        if n == 1:
+            query = 'SELECT meanings FROM kanji WHERE grade=? AND literal=?'
+            meanings = self.database.fetch_all(query, [repr(grade), options[0]])
+        else:
+            query = ('SELECT meanings FROM kanji WHERE grade=? AND literal IN ' +
+                     str(tuple(options)))
+            meanings = self.database.fetch_all(query, repr(grade))
 
         return [meaning[0] for meaning in meanings]
 
