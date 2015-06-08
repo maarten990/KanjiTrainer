@@ -35,12 +35,12 @@ function validate(value) {
 
 function set_data(url, post_data) {
     $("#buttons").hide()
-    $("#loadimg").show()
     $.post(url, post_data,
            function(data) {
                if (data.end_of_chunk) {
                    window.location.href = '/game_over';
                } else {
+                   $("#loadimg").show()
                    $("#button0").html(data.choices[0]);
                    $("#button1").html(data.choices[1]);
                    $("#button2").html(data.choices[2]);
