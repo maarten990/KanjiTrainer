@@ -34,6 +34,8 @@ function validate(value) {
 }
 
 function set_data(url, post_data) {
+    $("#buttons").hide()
+    $("#loadimg").show()
     $.post(url, post_data,
            function(data) {
                if (data.end_of_chunk) {
@@ -45,7 +47,8 @@ function set_data(url, post_data) {
                    $("#button3").html(data.choices[3]);
                    $("#question").html(data.question);
                    $("#item").html(data.item);
-                   $("#hint_button").show()
+                   $("#loadimg").hide()
+                   $("#buttons").show()
                    $("#hint").html("")
                }},
                'json');
