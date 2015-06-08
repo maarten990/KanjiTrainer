@@ -1,6 +1,6 @@
 import random
 import compareKanji as ck
-
+import os
 
 class ChunkGenerator(object):
     def __init__(self, kanji, radical_meanings, database):
@@ -50,28 +50,67 @@ class ChunkGenerator(object):
             if not allow_duplicates:
                 kanji_indices.remove(index)
 
+            if random.random() > 0.5:
+                QuestionType = "meaning"
+            else:
+                QuestionType = "kanji"
+           
             options = self.__choice_list(kanji, answer_difficulty, grade,
-                                         n_answers - 1)
-            hint = self.__hint(kanji)
+                                         n_answers - 1, QuestionType)
+            hint = self.__hint(QuestionType, kanji, grade)
 
-            chunk.add_question(kanji, meaning, options, hint)
-
+            if QuestionType == "kanji":
+                question = "What is the meaning of the following kanji?"
+                chunk.add_question(question, kanji, meaning, options, hint)
+            else:
+                question = "Which kanji belongs to the following meaning(s)?"
+                chunk.add_question(question, meaning, kanji, options, hint)
         return chunk
 
     # TODO: this database query could be removed if we had a pickled dictionary
     # mapping kanji to meanings
-    def __choice_list(self, kanji, difficulty, grade, n):
+    def __choice_list(self, kanji, difficulty, grade, n, QuestionType):
         options = ck.giveChoicesKanji(kanji, difficulty, n, self.database)
-        query = ('SELECT meanings FROM kanji WHERE grade=? AND literal IN ' +
+        if QuestionType == "kanji":
+            query = ('SELECT meanings FROM kanji WHERE grade=? AND literal IN ' +
                  str(tuple(options)))
-        meanings = self.database.fetch_all(query, repr(grade))
+       	    meanings = self.database.fetch_all(query, repr(grade))
+            return [meaning[0] for meaning in meanings]
+        else: #QuestionType == "meaning"
+            return options
 
-        return [meaning[0] for meaning in meanings]
-
-    # TODO: implement
-    def __hint(self, kanji):
-        pass
-
+    def __hint(self, QuestionType, item, grade):
+        filePath = "static/KanjiPics/" + item + ".png"
+        query = ('SELECT radicals FROM kanji WHERE grade=' + str(grade) + \
+                     ' AND literal = ' + repr(item))
+        kanji_radicals = self.database.fetch_one(query)
+        if QuestionType == "kanji":
+            radical_text = "<ul>" 
+            for radical in kanji_radicals[0].strip('\n').split(', '):
+                if radical ==item:
+                    radical_text += "<li>" + radical + \
+                                    ": ? (This kanji is also a radical itself)""</li>"
+                else:
+                    radical_text += "<li>" + radical + ": " + \
+                                    self.radical_meanings[radical] + "</li>"
+            radical_text += "</ul>"
+            hint = "Hint:<br> The kanji " + item + \
+                   " consist of the following radicals:<br>" + radical_text
+            if os.path.isfile(filePath):
+               hint += '<img src="' + filePath + '" height="25%" width="25%">'
+        # TODO: check how many radicals were found
+        else: # QuestionType = "meaning":
+            radical_text = "<ul>" 
+            for radical in kanji_radicals[0].strip('\n').split(', '):
+                if radical != item:
+                    radical_text += "<li>" + self.radical_meanings[radical] + "</li>"
+            radical_text += "</ul>"
+            if radical_text != "<ul></ul>":
+                hint = "Hint:<br> The kanji consist of the following radicals:" + \
+                   "<br>" + radical_text
+            else:
+                hint = "Sorry, there is no hint for this kanji"    
+        return hint
 
 class Chunk(object):
     """
@@ -89,27 +128,31 @@ class Chunk(object):
         self.answer_similarity = answer_similarity
         self.grade = grade
 
-    def add_question(self, kanji, meaning, options, hint):
-        self.questions.append((kanji, meaning, options, hint))
+    def add_question(self, question, kanji, meaning, options, hint):
+        self.questions.append((question, kanji, meaning, options, hint))
 
     def next_question(self):
         idx = self.next_question_idx
         self.next_question_idx += 1
 
         # randomize the full list of answers
-        kanji, meaning, options, _ = self.questions[idx]
-        choice_list = options + [meaning]
+        question, item, choices, options, _ = self.questions[idx]
+        choice_list = options + [choices]
         random.shuffle(choice_list)
 
-        return kanji, choice_list
+        return question, item, choice_list
 
     def done(self):
         return self.next_question_idx >= len(self.questions)
 
+    def get_hint(self):
+        _, _, _, _, hint = self.questions[self.next_question_idx - 1]
+        return hint
+
     def validate_previous_question(self, answer, time_taken):
         if self.next_question_idx == 0:
             return None
-        _, correct, _, _ = self.questions[self.next_question_idx - 1]
+        _, _, correct, _, _ = self.questions[self.next_question_idx - 1]
 
         # the answer is either the full string from the button, or one of the words
         # in the comma-separated list

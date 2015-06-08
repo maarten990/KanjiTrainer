@@ -1,5 +1,4 @@
 var page_loaded_time;
-var current_kanji;
 
 $(document).ready(function() {
     $("#freeform-input").keydown(function(event) {
@@ -44,8 +43,8 @@ function set_data(url, post_data) {
                    $("#button1").html(data.choices[1]);
                    $("#button2").html(data.choices[2]);
                    $("#button3").html(data.choices[3]);
-                   $("#kanji").html(data.kanji_char);
-                   current_kanji = data.kanji_char;
+                   $("#question").html(data.question);
+                   $("#item").html(data.item);
                    $("#hint_button").show()
                    $("#hint").html("")
                }},
@@ -66,12 +65,11 @@ function validate_choice(choice) {
 }
 
 function show_hint() {
-    $.post('/giveHint', {'current_kanji': current_kanji},
+    $.post('/giveHint', {},
            function(data) {
-               $("#hint").html(data.hint_txt);
+                $("#hint").html(data.hint);
            },
            'json');
-
     $("#hint_button").hide()
 }
 

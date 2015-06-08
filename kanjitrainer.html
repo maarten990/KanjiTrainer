@@ -5,9 +5,8 @@
   <script src="/static/kanjitrainer.js"></script>
 </head>
 <body>
-  What is the meaning of the following kanji?
-  <div id="kanji"></div>
-
+  <div id="question"></div>
+  <div id="item"></div>
   <div id="buttons">
     <ul id="answers">
       <li><button class="btn" id="button0" onclick="validate_choice(0)"></button></li>
@@ -19,8 +18,7 @@
     <button class="extrabtn" id="freeform-button" onclick="validate_freeform()" >
       Submit
     </button>
-  </div>
-  
+  </div>  
   <button class="extrabtn" id="hint_button" onclick="show_hint()">Give hint</button>
   <div id="hint"></div>
 </body>
