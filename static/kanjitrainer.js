@@ -33,8 +33,7 @@ function validate(value) {
     set_data('/_validate', data);
 }
 
-function reset_buttons() {
-    n_buttons = 4;
+function reset_buttons(n_buttons) {
     for (i = 0; i < n_buttons; i++) {
          $("#button" + i).attr("class", "btn");
          document.getElementById("button" + i).disabled = false;
@@ -49,11 +48,17 @@ function set_data(url, post_data) {
                    window.location.href = '/game_over';
                } else {
                    $("#loadimg").show()
-                   reset_buttons()
-                   $("#button0").html(data.choices[0]);
-                   $("#button1").html(data.choices[1]);
-                   $("#button2").html(data.choices[2]);
-                   $("#button3").html(data.choices[3]);
+
+                   // create the required buttons
+                   $("#answers").html("");
+                   fmt_string = '<li><button class="btn" id="buttonNUM" onclick="validate_choice(NUM)"></button></li>';
+                   for (i = 0; i < data.choices.length; ++i) {
+                       $("#answers").append(fmt_string.replace(/NUM/g, i));
+                       $("#button" + i).html(data.choices[i]);
+                   }
+
+                   reset_buttons(data.choices.length);
+
                    $("#question").html(data.question);
                    $("#item").html(data.item);
                    $("#loadimg").hide()
