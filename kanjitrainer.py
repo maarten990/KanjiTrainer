@@ -71,9 +71,10 @@ def validate():
     id = request.cookies.get('id')
     answer = request.form['answer']
     time_taken = request.form['time']
+    hint_requested = request.form['hint']
 
     chunk = user_chunks[id]
-    correct = chunk.validate_previous_question(answer, time_taken)
+    correct = chunk.validate_previous_question(answer, time_taken, hint_requested)
 
     # if the chunk has ended, do something
     if chunk.done():

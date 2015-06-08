@@ -29,7 +29,7 @@ $(document).ready(function() {
 
 function validate(value) {
     time_elapsed = new Date() - page_loaded_time;
-    data = {'answer': value, 'time': time_elapsed};
+    data = {'answer': value, 'time': time_elapsed, 'hint': !$("#hint_button").is(":visible")};
     set_data('/_validate', data);
 }
 
@@ -48,8 +48,9 @@ function set_data(url, post_data) {
                    $("#question").html(data.question);
                    $("#item").html(data.item);
                    $("#loadimg").hide()
-                   $("#buttons").show()
                    $("#hint").html("")
+                   $("#hint_button").show()
+                   $("#buttons").show()
                }},
                'json');
 

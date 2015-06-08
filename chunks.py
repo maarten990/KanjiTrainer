@@ -172,7 +172,7 @@ class Chunk(object):
         _, _, _, _, hint = self.questions[self.next_question_idx - 1]
         return hint
 
-    def validate_previous_question(self, answer, time_taken):
+    def validate_previous_question(self, answer, time_taken, hint_requested):
         if self.next_question_idx == 0:
             return None
         _, _, correct, _, _ = self.questions[self.next_question_idx - 1]
@@ -185,7 +185,7 @@ class Chunk(object):
         else:
             right_answer = False
 
-        self.history.append((right_answer, time_taken))
+        self.history.append((right_answer, time_taken, hint_requested))
 
         return right_answer
 
