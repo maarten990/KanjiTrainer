@@ -132,7 +132,7 @@ class ChunkGenerator(object):
                 hint = "Hint:<br> The kanji consist of the following radicals:" + \
                    "<br>" + radical_text
             else:
-                hint = "Sorry, there is no hint for this kanji"    
+                hint = "The kanji does not consist of any radicals"    
         return hint
 
 class Chunk(object):
