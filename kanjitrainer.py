@@ -62,26 +62,8 @@ def root():
 def giveHint():
     id = request.cookies.get('id')
     chunk = user_chunks[id]
-
-    current_kanji = request.form['current_kanji']
-    filePath = "static/KanjiPics/" + current_kanji + ".png"
-    kanji_radicals = sql.fetch_one('SELECT radicals FROM kanji WHERE grade=' + \
-                    repr(chunk.grade) + ' AND literal = ' + repr(current_kanji))
-    radical_text = "<ul>" 
-    for radical in kanji_radicals[0].strip('\n').split(', '):
-        if radical == current_kanji:
-            radical_text += "<li>" + radical + \
-                            ": ? (This kanji is also a radical itself)""</li>"
-        else:
-            radical_text += "<li>" + radical + ": " + \
-                            radicalMeanings[radical] + "</li>"
-    radical_text += "</ul>"
-    hint = "Hint:<br> The kanji " + current_kanji + \
-           " consist of the following radicals:<br>" + radical_text
-    if os.path.isfile(filePath):
-       hint += '<img src="' + filePath + '" height="25%" width="25%">'
-    resp = make_response(jsonify(hint_txt=hint))
-    return resp
+    hint = chunk.get_hint()
+    return jsonify(hint=hint)
 
 
 @app.route('/_validate', methods=['POST'])
@@ -97,9 +79,9 @@ def validate():
     if chunk.done():
         return jsonify(end_of_chunk=True, history=chunk.history)
     else:
-        kanji_char, choices = chunk.next_question()
+        question, item, choices = chunk.next_question()
 
-        return jsonify(kanji_char=kanji_char, choices=choices)
+        return jsonify(question=question, item=item, choices=choices)
     
 
 # TODO: get parameters from somewhere
@@ -111,9 +93,9 @@ def initial_data():
     params = user_parameters[id]
     chunk = chunkgen.generate(params)
     user_chunks[id] = chunk
-    kanji_char, choices = chunk.next_question()
+    question, item, choices = chunk.next_question()
 
-    return jsonify(kanji_char=kanji_char, choices=choices)
+    return jsonify(question=question, item=item, choices=choices)
 
 
 @app.route('/game_over', methods=['GET'])
