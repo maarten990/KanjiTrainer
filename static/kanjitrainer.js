@@ -1,4 +1,5 @@
 var page_loaded_time;
+var n_buttons;
 
 $(document).ready(function() {
     $("#freeform-input").keydown(function(event) {
@@ -33,7 +34,7 @@ function validate(value) {
     set_data('/_validate', data);
 }
 
-function reset_buttons(n_buttons) {
+function reset_buttons() {
     for (i = 0; i < n_buttons; i++) {
          $("#button" + i).attr("class", "btn");
          document.getElementById("button" + i).disabled = false;
@@ -48,16 +49,17 @@ function set_data(url, post_data) {
                    window.location.href = '/game_over';
                } else {
                    $("#loadimg").show()
+                   n_buttons = data.choices.length;
 
                    // create the required buttons
                    $("#answers").html("");
                    fmt_string = '<li><button class="btn" id="buttonNUM" onclick="validate_choice(NUM)"></button></li>';
-                   for (i = 0; i < data.choices.length; ++i) {
+                   for (i = 0; i < n_buttons; ++i) {
                        $("#answers").append(fmt_string.replace(/NUM/g, i));
                        $("#button" + i).html(data.choices[i]);
                    }
 
-                   reset_buttons(data.choices.length);
+                   reset_buttons();
 
                    $("#question").html(data.question);
                    $("#item").html(data.item);
@@ -79,10 +81,10 @@ function validate_freeform() {
 
 function validate_choice(choice) {
     //disable buttons
-    n_buttons = 4;
     for (i = 0; i < n_buttons; i++) {
          document.getElementById("button" + i ).disabled = true;
     }
+
     //first validate for button colors
     $.post('/javascript_validate', {},
            function(data) {
