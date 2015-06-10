@@ -18,6 +18,8 @@ app = Flask(__name__)
 
 with open('kanjitrainer.html', 'r') as f:
     html_page = f.read()
+with open('feedback.html', 'r') as f:
+    feedback_page = f.read()
 
 user_chunks = {}
 user_parameters = {}
@@ -105,11 +107,18 @@ def initial_data():
     return jsonify(question=question, item=item, choices=choices)
 
 
-@app.route('/game_over', methods=['GET'])
-def game_over():
-    id = request.cookies.get('id')
-    chunk = user_chunks[id]
-    return str(chunk.history)
+@app.route('/feedback', methods=['GET', 'POST'])
+def feedback():
+    if request.method == 'GET':
+        return feedback_page
+    else:
+        id = request.cookies.get('id')
+        chunk = user_chunks[id]
+        chunk.score = request.form.get('score')
+
+        # TODO: add link to present new chunk
+        # TODO: save the observations
+        return '{} {}'.format(chunk.history, chunk.score)
 
 
 def main():

@@ -46,7 +46,7 @@ function set_data(url, post_data) {
     $.post(url, post_data,
            function(data) {
                if (data.end_of_chunk) {
-                   window.location.href = '/game_over';
+                   window.location.href = '/feedback';
                } else {
                    $("#loadimg").show()
                    n_buttons = data.choices.length;
