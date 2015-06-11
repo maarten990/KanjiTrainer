@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-from flask import Flask, jsonify, request, make_response
+from flask import Flask, jsonify, request, make_response, g
 from argparse import ArgumentParser
 from collections import defaultdict
 from proficiency import get_all, predict
-from sqlreader import SQLReader
+from sqlreader import db_path
 from chunks import ChunkGenerator, Parameters
 import os.path
 import csv
@@ -26,14 +26,16 @@ user_parameters = {}
 kanji = defaultdict(lambda: [])
 radicalMeanings = pickle.load(open("static/radicalMeanings.p", "rb"))
 
-sql = SQLReader('static/kanji.db')
-
+db = sqlite3.connect(db_path)
+cursor = db.cursor()
 for grade in range(1, 10):
-    for row in sql.fetch_iterator('SELECT literal, meanings FROM kanji WHERE grade=?',
-                                  repr(grade)):
+    for row in cursor.execute('SELECT literal, meanings FROM kanji WHERE grade=?',
+                              repr(grade)):
         kanji[grade].append((row[0], row[1]))
+db.close()
 
-chunkgen = ChunkGenerator(kanji, radicalMeanings, sql)
+chunkgen = ChunkGenerator(kanji, radicalMeanings)
+db.close()
 
 
 @app.route('/', methods=['GET'])

@@ -1,6 +1,7 @@
 import random
 import compareKanji as ck
 import os
+from sqlreader import fetch_all, fetch_one
 
 class Parameters(object):
     def __init__(self, size=5, n_answers=4, kanji_similarity=0.5,
@@ -14,17 +15,15 @@ class Parameters(object):
 
 
 class ChunkGenerator(object):
-    def __init__(self, kanji, radical_meanings, database):
+    def __init__(self, kanji, radical_meanings):
         """
         Parameters:
         kanji -- a dictionary mapping a grade to a list of tuples of kanji and
                  their meanings
         radical_meanings -- a dictionary mapping radicals to their meaning
-        database -- an SQLReader instance
         """
         self.kanji = kanji
         self.radical_meanings = radical_meanings
-        self.database = database
 
     # TODO: make use of kanji_similarity
     # TODO: don't be limited to picking from one grade
@@ -91,7 +90,7 @@ class ChunkGenerator(object):
     # TODO: this database query could be removed if we had a pickled dictionary
     # mapping kanji to meanings
     def __choice_list(self, kanji, difficulty, grade, n, QuestionType):
-        options = ck.giveChoicesKanji(kanji, difficulty, n, self.database)
+        options = ck.giveChoicesKanji(kanji, difficulty, n)
 
         # QuestionType == meaning
         if QuestionType != 'kanji':
@@ -99,11 +98,11 @@ class ChunkGenerator(object):
 
         if n == 1:
             query = 'SELECT meanings FROM kanji WHERE grade=? AND literal=?'
-            meanings = self.database.fetch_all(query, [repr(grade), options[0]])
+            meanings = fetch_all(query, [repr(grade), options[0]])
         else:
             query = ('SELECT meanings FROM kanji WHERE grade=? AND literal IN ' +
                      str(tuple(options)))
-            meanings = self.database.fetch_all(query, repr(grade))
+            meanings = fetch_all(query, repr(grade))
 
         return [meaning[0] for meaning in meanings]
 
@@ -111,7 +110,7 @@ class ChunkGenerator(object):
         filePath = "static/KanjiPics/" + item + ".png"
         query = ('SELECT radicals FROM kanji WHERE grade=' + str(grade) + \
                      ' AND literal = ' + repr(item))
-        kanji_radicals = self.database.fetch_one(query)
+        kanji_radicals = fetch_one(query)
         if QuestionType == "kanji":
             radical_text = "<ul>" 
             for radical in kanji_radicals[0].strip('\n').split(', '):
