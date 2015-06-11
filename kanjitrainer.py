@@ -3,7 +3,7 @@ from flask import Flask, jsonify, request, make_response, g
 from argparse import ArgumentParser
 from collections import defaultdict
 from proficiency import get_all, predict
-from sqlreader import db_path
+from sqlreader import db_path, db_commit
 from chunks import ChunkGenerator, Parameters
 import os.path
 import csv
@@ -118,8 +118,15 @@ def feedback():
         chunk = user_chunks[id]
         chunk.score = request.form.get('score')
 
+        # save data
+        hist = repr(chunk.history)
+        score = chunk.score
+        params = repr(chunk.parameters)
+        query = 'INSERT INTO training_data VALUES(?, ?, ?)'
+
+        db_commit(query, [hist, params, score])
+
         # TODO: add link to present new chunk
-        # TODO: save the observations
         return '{} {}'.format(chunk.history, chunk.score)
 
 

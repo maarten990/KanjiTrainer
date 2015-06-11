@@ -13,6 +13,13 @@ class Parameters(object):
         self.grade = int(grade)
         self.allow_duplicates = bool(allow_duplicates)
 
+    def __repr__(self):
+        return '{}, {}, {}, {}, {}, {}'.format(self.size, self.n_answers,
+                                               self.kanji_similarity,
+                                               self.answer_similarity,
+                                               self.grade,
+                                               self.allow_duplicates)
+
 
 class ChunkGenerator(object):
     def __init__(self, kanji, radical_meanings):
@@ -47,7 +54,7 @@ class ChunkGenerator(object):
         grade = params.grade
         allow_duplicates = params.allow_duplicates
 
-        chunk = Chunk(n_answers, kanji_similarity, answer_similarity, grade)
+        chunk = Chunk(params)
 
         # List of potential indices into the kanji list, indices can be removed
         # to disallow duplicates.
@@ -143,17 +150,13 @@ class Chunk(object):
     """
     Represents a chunk of multiple questions.
     """
-    def __init__(self, n_answers, kanji_similarity, answer_similarity, grade):
+    def __init__(self, parameters):
         self.questions = []
         self.next_question_idx = 0
         self.history = []
 
         # save the parameters that were used to generate the chunk
-        self.n_answers = n_answers
-
-        self.kanji_similarity = kanji_similarity
-        self.answer_similarity = answer_similarity
-        self.grade = grade
+        self.parameters = parameters
 
     def add_question(self, question, kanji, meaning, options, hint):
         self.questions.append((question, kanji, meaning, options, hint))

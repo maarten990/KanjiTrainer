@@ -6,9 +6,9 @@ db_path = 'static/kanji.db'
 def get_cursor(g):
     db = getattr(g, '_database', None)
     if not db:
-        g._database = sqlite3.connect(db_path)
+        db = g._database = sqlite3.connect(db_path)
 
-    return g._database.cursor()
+    return db.cursor()
 
 
 def fetch_one(query, *args):
@@ -26,3 +26,12 @@ def fetch_all(query, *args):
 def fetch_iterator(query, *args):
     cursor = get_cursor(g)
     return cursor.execute(query, *args)
+
+def db_commit(query, *args):
+    db = getattr(g, '_database', None)
+    if not db:
+        db = g._database = sqlite3.connect(db_path)
+
+    cursor = db.cursor()
+    cursor.execute(query, *args)
+    db.commit()
