@@ -52,7 +52,7 @@ def root():
         id = uuid.uuid1().hex
 
     params = Parameters(**{p: request.args.get(p) for p in ["size", "n_answers", "max_strokes",
-                        "kanji_similarity", "answer_similarity", "grade",
+                        "min_strokes", "kanji_similarity", "answer_similarity", "grade",
                         "allow_duplicates", "reversed_ratio"] if request.args.get(p) != None})
     user_parameters[id] = params
 

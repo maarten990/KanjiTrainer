@@ -4,12 +4,13 @@ import os
 from sqlreader import fetch_all, fetch_one
 
 class Parameters(object):
-    def __init__(self, size=5, n_answers=4, max_strokes=3, kanji_similarity=0.5,
+    def __init__(self, size=5, n_answers=4, max_strokes=3, min_strokes=1, kanji_similarity=0.5,
                  answer_similarity=0.5, grade=1, allow_duplicates=False,
                  reversed_ratio=0):
         self.size = int(size)
         self.n_answers = int(n_answers)
         self.max_strokes = int(max_strokes)
+        self.min_strokes = int(min_strokes)
         self.kanji_similarity = float(kanji_similarity)
         self.answer_similarity = float(answer_similarity)
         self.grade = int(grade)
@@ -17,9 +18,10 @@ class Parameters(object):
         self.reversed_ratio = (float(reversed_ratio))
 
     def __repr__(self):
-        return '{}, {}, {}, {}, {}, {}, {}, {}'.format(self.size, 
+        return '{}, {}, {}, {}, {}, {}, {}, {}, {}'.format(self.size, 
                                                self.n_answers,
                                                self.max_strokes,
+                                               self.min_strokes,
                                                self.kanji_similarity,
                                                self.answer_similarity,
                                                self.grade,
@@ -48,6 +50,7 @@ class ChunkGenerator(object):
         size -- number of questions to generate
         n_answers -- the number of possible answers to present
         max_strokes -- the max number of strokes required to form the kanji
+        min_strokes -- the min number of strokes required to form the kanji
         kanji_similarity -- the similarity of the kanji on a scale from 0 to 1
         answer_variation -- the similarity within the answer on a scale from 0
                             to 1
@@ -57,6 +60,7 @@ class ChunkGenerator(object):
         size = params.size
         n_answers = params.n_answers
         max_strokes = params.max_strokes
+        min_strokes = params.min_strokes
         kanji_similarity = params.kanji_similarity
         answer_similarity = params.answer_similarity
         grade = params.grade
@@ -74,7 +78,7 @@ class ChunkGenerator(object):
         new_kanji_indices = []
         for index in kanji_indices:
             _,_,stroke_count = self.kanji[grade][index]
-            if int(stroke_count) <= max_strokes:
+            if int(stroke_count) <= max_strokes and int(stroke_count) >= min_strokes:
                 new_kanji_indices.append(index)
         kanji_indices = new_kanji_indices
 
