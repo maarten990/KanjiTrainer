@@ -3,20 +3,21 @@ import sqlite3
 import random
 import numpy as np
 from collections import defaultdict
+from sqlreader import fetch_all, fetch_one, fetch_iterator
 
 def getListDistance(list1, list2):
 	numberSub = sum(1 for element in list2 if element not in list1)
 	numberDeleteAdd = abs(len(list1)-len(list2))
 	return numberSub + numberDeleteAdd
 
-def getSimilarKanji(Kanjiliteral, db):
+def getSimilarKanji(Kanjiliteral):
 	similarKanji = []
-	one = db.fetch_one('SELECT grade, radicals, stroke_count, meanings, on_reading,' +
-                       'kun_reading FROM kanji WHERE literal=?', Kanjiliteral)
+	one = fetch_one('SELECT grade, radicals, stroke_count, meanings, on_reading,' +
+                    'kun_reading FROM kanji WHERE literal=?', Kanjiliteral)
 	literal_grade, literal_radicals, literal_stroke_count, literal_meanings, literal_on, literal_kun = one
 	literal_radicals = literal_radicals.strip('\n').split(', ')
-	for row in db.fetch_iterator('SELECT literal, radicals, stroke_count, meanings,' + 
-                                 'on_reading, kun_reading FROM kanji WHERE grade=?', literal_grade):
+	for row in fetch_iterator('SELECT literal, radicals, stroke_count, meanings,' + 
+                              'on_reading, kun_reading FROM kanji WHERE grade=?', literal_grade):
 		radicalDistance = getListDistance(literal_radicals,row[1].strip('\n').split(', '))
 		strokeCountDistance = abs(int(literal_stroke_count)-int(row[2]))*0.5
 		meaningDistance = sum(1 for element in literal_meanings.strip('\n').split(', ') if 
@@ -42,9 +43,9 @@ def getKey(item):
     return item[1]
 
 # TODO: make difficulty range from 0 to 1?
-def giveChoicesKanji(literal, difficulty, numberChoices, db):
+def giveChoicesKanji(literal, difficulty, numberChoices):
     difficultyStrength = 2.5
-    similarKanji = getSimilarKanji(literal, db)
+    similarKanji = getSimilarKanji(literal)
     summed = [(similarKanji[x][0],sum(similarKanji[x][1:])) for x in range(0,len(similarKanji))]
     sortedKanji = sorted(summed, key=getKey)
     #select kanji

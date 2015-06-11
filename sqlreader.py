@@ -1,34 +1,28 @@
 import sqlite3
-from io import StringIO
+from flask import g
 
-class SQLReader(object):
-    """Wrapper around an in-memory SQLite database"""
-    def __init__(self, db_path):
-        # open in read-only mode just to be sure
-        conn = sqlite3.connect('file:{}?mode=ro'.format(db_path),
-                                    check_same_thread=False, uri=True)
-        tempfile = StringIO()
+db_path = 'static/kanji.db'
 
-        for line in conn.iterdump():
-            tempfile.write('{}\n'.format(line))
+def get_cursor(g):
+    db = getattr(g, '_database', None)
+    if not db:
+        g._database = sqlite3.connect(db_path)
 
-        conn.close()
-        tempfile.seek(0)
+    return g._database.cursor()
 
-        self.conn = sqlite3.connect(':memory:', check_same_thread=False)
-        self.cursor = self.conn.cursor()
 
-        # copy the old database
-        self.cursor.executescript(tempfile.read())
-        self.conn.commit()
+def fetch_one(query, *args):
+    cursor = get_cursor(g)
+    cursor.execute(query, *args)
+    return cursor.fetchone()
 
-    def fetch_one(self, query, *args):
-        self.cursor.execute(query, *args)
-        return self.cursor.fetchone()
 
-    def fetch_all(self, query, *args):
-        self.cursor.execute(query, *args)
-        return self.cursor.fetchall()
+def fetch_all(query, *args):
+    cursor = get_cursor(g)
+    cursor.execute(query, *args)
+    return cursor.fetchall()
 
-    def fetch_iterator(self, query, *args):
-        return self.cursor.execute(query, *args)
+
+def fetch_iterator(query, *args):
+    cursor = get_cursor(g)
+    return cursor.execute(query, *args)
