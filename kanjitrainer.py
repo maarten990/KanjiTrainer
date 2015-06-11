@@ -29,9 +29,9 @@ radicalMeanings = pickle.load(open("static/radicalMeanings.p", "rb"))
 db = sqlite3.connect(db_path)
 cursor = db.cursor()
 for grade in range(1, 10):
-    for row in cursor.execute('SELECT literal, meanings FROM kanji WHERE grade=?',
+    for row in cursor.execute('SELECT literal, meanings, stroke_count FROM kanji WHERE grade=?',
                               repr(grade)):
-        kanji[grade].append((row[0], row[1]))
+        kanji[grade].append((row[0], row[1], row[2]))
 db.close()
 
 chunkgen = ChunkGenerator(kanji, radicalMeanings)
@@ -51,7 +51,7 @@ def root():
         # create a unique id
         id = uuid.uuid1().hex
 
-    params = Parameters(**{p: request.args.get(p) for p in ["size", "n_answers",
+    params = Parameters(**{p: request.args.get(p) for p in ["size", "n_answers", "max_strokes",
                         "kanji_similarity", "answer_similarity", "grade",
                         "allow_duplicates", "reversed_ratio"] if request.args.get(p) != None})
     user_parameters[id] = params

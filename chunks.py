@@ -4,11 +4,12 @@ import os
 from sqlreader import fetch_all, fetch_one
 
 class Parameters(object):
-    def __init__(self, size=5, n_answers=4, kanji_similarity=0.5,
+    def __init__(self, size=5, n_answers=4, max_strokes=3, kanji_similarity=0.5,
                  answer_similarity=0.5, grade=1, allow_duplicates=False,
                  reversed_ratio=0):
         self.size = int(size)
         self.n_answers = int(n_answers)
+        self.max_strokes = int(max_strokes)
         self.kanji_similarity = float(kanji_similarity)
         self.answer_similarity = float(answer_similarity)
         self.grade = int(grade)
@@ -16,7 +17,9 @@ class Parameters(object):
         self.reversed_ratio = (float(reversed_ratio))
 
     def __repr__(self):
-        return '{}, {}, {}, {}, {}, {}'.format(self.size, self.n_answers,
+        return '{}, {}, {}, {}, {}, {}, {}, {}'.format(self.size, 
+                                               self.n_answers,
+                                               self.max_strokes,
                                                self.kanji_similarity,
                                                self.answer_similarity,
                                                self.grade,
@@ -44,6 +47,7 @@ class ChunkGenerator(object):
         Parameters:
         size -- number of questions to generate
         n_answers -- the number of possible answers to present
+        max_strokes -- the max number of strokes required to form the kanji
         kanji_similarity -- the similarity of the kanji on a scale from 0 to 1
         answer_variation -- the similarity within the answer on a scale from 0
                             to 1
@@ -52,6 +56,7 @@ class ChunkGenerator(object):
         """
         size = params.size
         n_answers = params.n_answers
+        max_strokes = params.max_strokes
         kanji_similarity = params.kanji_similarity
         answer_similarity = params.answer_similarity
         grade = params.grade
@@ -63,6 +68,15 @@ class ChunkGenerator(object):
         # List of potential indices into the kanji list, indices can be removed
         # to disallow duplicates.
         kanji_indices = list(range(len(self.kanji[grade])))
+        
+        # Filter out all kanji with a stroke_count up to max_strokes.
+        # Horrendous piece of code. Don't show your kids.
+        new_kanji_indices = []
+        for index in kanji_indices:
+            _,_,stroke_count = self.kanji[grade][index]
+            if int(stroke_count) <= max_strokes:
+                new_kanji_indices.append(index)
+        kanji_indices = new_kanji_indices
 
         # translate the answer_similarity measure to an easy/normal/hard scale
         # as used by compareKanji.py
@@ -71,7 +85,7 @@ class ChunkGenerator(object):
 
         for _ in range(size):
             index = random.choice(kanji_indices)
-            kanji, meaning = self.kanji[grade][index]
+            kanji, meaning, stroke_count = self.kanji[grade][index]
 
             if not allow_duplicates:
                 kanji_indices.remove(index)
