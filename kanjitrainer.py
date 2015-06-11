@@ -53,7 +53,7 @@ def root():
 
     params = Parameters(**{p: request.args.get(p) for p in ["size", "n_answers",
                         "kanji_similarity", "answer_similarity", "grade",
-                        "allow_duplicates"] if request.args.get(p) != None})
+                        "allow_duplicates", "reversed_ratio"] if request.args.get(p) != None})
     user_parameters[id] = params
 
     resp = make_response(html_page)

@@ -5,20 +5,23 @@ from sqlreader import fetch_all, fetch_one
 
 class Parameters(object):
     def __init__(self, size=5, n_answers=4, kanji_similarity=0.5,
-                 answer_similarity=0.5, grade=1, allow_duplicates=False):
+                 answer_similarity=0.5, grade=1, allow_duplicates=False,
+                 reversed_ratio=0):
         self.size = int(size)
         self.n_answers = int(n_answers)
         self.kanji_similarity = float(kanji_similarity)
         self.answer_similarity = float(answer_similarity)
         self.grade = int(grade)
         self.allow_duplicates = bool(allow_duplicates)
+        self.reversed_ratio = (float(reversed_ratio))
 
     def __repr__(self):
         return '{}, {}, {}, {}, {}, {}'.format(self.size, self.n_answers,
                                                self.kanji_similarity,
                                                self.answer_similarity,
                                                self.grade,
-                                               self.allow_duplicates)
+                                               self.allow_duplicates,
+                                               self.reversed_ratio)
 
 
 class ChunkGenerator(object):
@@ -53,6 +56,7 @@ class ChunkGenerator(object):
         answer_similarity = params.answer_similarity
         grade = params.grade
         allow_duplicates = params.allow_duplicates
+        reversed_ratio = params.reversed_ratio
 
         chunk = Chunk(params)
 
@@ -72,7 +76,7 @@ class ChunkGenerator(object):
             if not allow_duplicates:
                 kanji_indices.remove(index)
 
-            if random.random() > 0.5:
+            if random.random() < reversed_ratio:
                 QuestionType = "meaning"
             else:
                 QuestionType = "kanji"
