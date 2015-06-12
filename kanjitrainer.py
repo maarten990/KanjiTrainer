@@ -21,6 +21,8 @@ with open('kanjitrainer.html', 'r') as f:
     html_page = f.read()
 with open('feedback.html', 'r') as f:
     feedback_page = f.read()
+with open('thankyou.html', 'r') as f:
+    thankyou_page = f.read()
 
 user_chunks = {}
 user_parameters = {}
@@ -132,8 +134,7 @@ def feedback():
 
         db_commit(query, [hist, params, score])
 
-        # TODO: add link to present new chunk
-        return '{} {}'.format(chunk.history, chunk.score)
+        return thankyou_page
 
 
 def main():
@@ -144,6 +145,8 @@ def main():
 
     if args.debug:
         app.run(debug=True, extra_files=['kanjitrainer.html',
+                                         'feedback.html',
+                                         'thankyou.html',
                                          'static/kanjitrainer.css',
                                          'static/kanjitrainer.js'])
     else:
