@@ -17,10 +17,15 @@ class Parameters(object):
         self.allow_duplicates = bool(allow_duplicates)
         self.reversed_ratio = (float(reversed_ratio))
 
+    def params():
+        return [p for p in dir(Parameters()) if '__' not in p and p != 'params']
+
+    def __params(self):
+        return [p for p in dir(self) if '__' not in p and p != 'params']
+
     def __repr__(self):
-        params = [p for p in dir(self) if '__' not in p]
         param_str = ', '.join(['{}={}'.format(p, getattr(self, p))
-                               for p in params])
+                               for p in self.__params()])
 
         return 'Parameters({})'.format(param_str)
 

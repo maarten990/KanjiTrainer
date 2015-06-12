@@ -12,12 +12,4 @@ allow_duplicates  = [False]
 reversed_ratio    = [0, 1]
 
 def sample_parameters():
-    return Parameters(size              = choice(size),
-                      n_answers         = choice(n_answers),
-                      max_strokes       = choice(max_strokes),
-                      min_strokes       = choice(min_strokes),
-                      kanji_similarity  = choice(kanji_similarity),
-                      answer_similarity = choice(answer_similarity),
-                      grade             = choice(grade),
-                      allow_duplicates  = choice(allow_duplicates),
-                      reversed_ratio    = choice(reversed_ratio))
+    return Parameters(**{p: choice(globals()[p]) for p in Parameters.params()})

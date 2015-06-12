@@ -54,9 +54,8 @@ def root():
 
     # randomly sample the parameters unless the debug option is given
     if request.args.get('debug'):
-        params = Parameters(**{p: request.args.get(p) for p in ["size", "n_answers", "max_strokes",
-                            "min_strokes", "kanji_similarity", "answer_similarity", "grade",
-                            "allow_duplicates", "reversed_ratio"] if request.args.get(p) != None})
+        params = Parameters(**{p: request.args.get(p) for p in Parameters.params()
+                               if request.args.get(p) != None})
     else:
         params = sample_parameters()
         print(params)
