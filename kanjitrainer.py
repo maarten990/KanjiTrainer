@@ -5,6 +5,7 @@ from collections import defaultdict
 from proficiency import get_all, predict
 from sqlreader import db_path, db_commit
 from chunks import ChunkGenerator, Parameters
+from parameter_sampling import sample_parameters
 import os.path
 import csv
 import random
@@ -51,9 +52,15 @@ def root():
         # create a unique id
         id = uuid.uuid1().hex
 
-    params = Parameters(**{p: request.args.get(p) for p in ["size", "n_answers", "max_strokes",
-                        "min_strokes", "kanji_similarity", "answer_similarity", "grade",
-                        "allow_duplicates", "reversed_ratio"] if request.args.get(p) != None})
+    # randomly sample the parameters unless the debug option is given
+    if request.args.get('debug'):
+        params = Parameters(**{p: request.args.get(p) for p in ["size", "n_answers", "max_strokes",
+                            "min_strokes", "kanji_similarity", "answer_similarity", "grade",
+                            "allow_duplicates", "reversed_ratio"] if request.args.get(p) != None})
+    else:
+        params = sample_parameters()
+        print(params)
+
     user_parameters[id] = params
 
     resp = make_response(html_page)
