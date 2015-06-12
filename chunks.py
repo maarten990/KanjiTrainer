@@ -18,15 +18,11 @@ class Parameters(object):
         self.reversed_ratio = (float(reversed_ratio))
 
     def __repr__(self):
-        return '{}, {}, {}, {}, {}, {}, {}, {}, {}'.format(self.size, 
-                                               self.n_answers,
-                                               self.max_strokes,
-                                               self.min_strokes,
-                                               self.kanji_similarity,
-                                               self.answer_similarity,
-                                               self.grade,
-                                               self.allow_duplicates,
-                                               self.reversed_ratio)
+        params = [p for p in dir(self) if '__' not in p]
+        param_str = ', '.join(['{}={}'.format(p, getattr(self, p))
+                               for p in params])
+
+        return 'Parameters({})'.format(param_str)
 
 
 class ChunkGenerator(object):
