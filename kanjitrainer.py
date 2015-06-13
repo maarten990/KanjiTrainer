@@ -109,8 +109,16 @@ def initial_data():
     id = request.cookies.get('id')
 
     # generate a chunk for this user
+    # resample the parameters if no chunk can be generated
     params = user_parameters[id]
-    chunk = chunkgen.generate(params)
+    chunk = None
+    while not chunk:
+        try:
+            chunk = chunkgen.generate(params)
+        except:
+            params = sample_parameters()
+            user_parameters[id] = params
+
     user_chunks[id] = chunk
     question, item, choices = chunk.next_question()
 
