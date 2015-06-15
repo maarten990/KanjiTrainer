@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from flask import Flask, jsonify, request, make_response, g
+from flask import Flask, jsonify, request, make_response, g, redirect, url_for
 from argparse import ArgumentParser
 from collections import defaultdict
 from proficiency import get_all, predict
@@ -145,7 +145,7 @@ def feedback():
 
         db_commit(query, [hist, params, score])
 
-        return html_page
+        return redirect(url_for('questions'))
 
 
 def main():
