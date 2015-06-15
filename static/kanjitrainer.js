@@ -28,18 +28,6 @@ $(document).ready(function() {
     set_data('/_initial_data', '');
 })
 
-$(function() {
-    $(window).on('resize', function resize()  {
-        $(window).off('resize', resize);
-        setTimeout(function () {
-            var content = $('#content');
-            var top = (window.innerHeight - content.height()) / 2;
-            content.css('top', Math.max(0, top) + 'px');
-            $(window).on('resize', resize);
-        }, 50);
-    }).resize();
-});
-
 function validate(value) {
     time_elapsed = new Date() - page_loaded_time;
     data = {'answer': value, 'time': time_elapsed, 'hint': !$("#hint_button").is(":visible")};
