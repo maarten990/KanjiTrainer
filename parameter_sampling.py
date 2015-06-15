@@ -12,9 +12,18 @@ allow_duplicates  = [False]
 reversed_bool     = [True, False]
 question_type     = ["kanji","vocab"]
 
-def sample_parameters():
-    params = Parameters(**{p: choice(globals()[p]) for p in Parameters.params()})
 
+def sample_parameters(level):
+    if level == 1: 
+        grade = [1]
+    if level == 2: 
+        grade = range(1,3)
+    if level == 3: 
+        grade = range(1,6)
+    
+    
+    params = Parameters(**{p: choice(globals()[p]) for p in Parameters.params()})
     params.max_strokes = params.min_strokes + 3
+    params.grade = choice(grade)
 
     return params

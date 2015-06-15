@@ -24,6 +24,7 @@ with open('feedback.html', 'r') as f:
 with open('welcome.html', 'r') as f:
     welcome_page = f.read()
 
+user_level = {} 
 user_chunks = {}
 user_parameters = {}
 kanji = defaultdict(lambda: [])
@@ -41,7 +42,7 @@ chunkgen = ChunkGenerator(kanji, radicalMeanings)
 db.close()
 
 
-@app.route('/questions', methods=['POST'])
+@app.route('/questions', methods=['POST', 'GET'])
 def questions():
     # check if the user already exists
     try:
@@ -54,14 +55,18 @@ def questions():
         # create a unique id
         id = uuid.uuid1().hex
 
+    # set user_level 
+    if request.method == 'POST': 
+        user_level[id] = int(request.form.get('level'))
+        
     # randomly sample the parameters unless the debug option is given
     if request.args.get('debug'):
         params = Parameters(**{p: request.args.get(p) for p in Parameters.params()
                                if request.args.get(p) != None})
     else:
-        params = sample_parameters()
+        params = sample_parameters(user_level[id])
         print(params)
-
+        
     user_parameters[id] = params
 
     resp = make_response(html_page)
@@ -116,7 +121,7 @@ def initial_data():
         try:
             chunk = chunkgen.generate(params)
         except:
-            params = sample_parameters()
+            params = sample_parameters(user_level[id])
             user_parameters[id] = params
 
     user_chunks[id] = chunk
