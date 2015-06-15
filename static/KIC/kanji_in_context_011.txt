@@ -1,0 +1,189 @@
+﻿# Kanji in Context Lesson 011: 226-250
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+郵便局 [ゆうびんきょく] /post office/
+郵送 [ゆうそう] /mail/
+郵便局 [ゆうびんきょく] /post office/
+定期便 [ていきびん] /regular service (a flight, etc.)/
+便乗値上げ [びんじょうねあげ] /jumping on the bandwagon and increasing prices/
+便箋 [びんせん] /letter pad/
+便利な [べんりな] /useful, handy/
+便所 [べんじょ] /lavatory/
+小便 [しょうべん] /urine/
+便り [たより] /letter, correspondence, news, tidings/
+郵便局 [ゆうびんきょく] /post office/
+放送局 [ほうそうきょく] /TV station, radio station/
+北米局 [ほくべいきょく] /Bureau for North America/
+局長 [きょくちょう] /bureau chief/
+結局 [けっきょく] /finally, in the end/
+政局 [せいきょく] /political situation/
+病院 [びょういん] /hospital/
+病気 [びょうき] /illness, sickness, disease/
+病気の [びょうきの] /ill, sick/
+病人 [びょうにん] /sick person/
+重病 [じゅうびょう] /serious illness or disease/
+不治の病 [ふちのやまい] /incurable or fatal disease/
+病む [やむ] /fall ill, become sick, suffer from/
+疾病 [しっぺい] /illness, sickness, disease/
+病院 [びょういん] /hospital/
+大学院 [だいがくいん] /graduate school/
+入院 [にゅういん] /be sent to a hospital, be hospitalized/
+退院 [たいいん] /leave the hospital, be discharged from the hospital/
+窓 [まど] /window/
+窓口 [まどぐち] /(teller's, etc.) window/
+同窓会 [どうそうかい] /alumni association/
+雨 [あめ] /rain/
+大雨 [おおあめ] /heavy rain/
+雨水 [あまみず] /rainwater/
+雨具 [あまぐ] /rainwear, raincoat, umbrella/
+雨量 [うりょう] /precipitation, rainfall/
+梅雨 [つゆ] /the rainy season/
+梅雨前線 [ばいうぜんせん] /warm front of early summer rain/
+小雨 [こさめ] /light rain, drizzle/
+春雨 [はるさめ] /spring rain, drizzle/
+霧雨 [きりさめ] /misty rain/
+五月雨 [さみだれ] /early summer rain/
+時雨 [しぐれ] /(rain) shower (in late autumn and early winter)/
+東京 [とうきょう] /Tokyo/
+京都 [きょうと] /Kyoto/
+上京 [じょうきょう] /go to Tokyo/
+帰京 [ききょう] /return to Tokyo/
+京阪神地方 [けいはんしんちほう] /Osaka and its neighboring regions/
+映画 [えいが] /movie/
+上映 [じょうえい] /show (a movie)/
+映る [うつる] /be reflected/
+映す [うつす] /reflect, project/
+映える [はえる] /shine, look nice/
+映画 [えいが] /movie/
+画家 [がか] /painter, artist/
+日本画 [にほんが] /Japanese-style painting/
+絵画 [かいが] /picture, drawing, painting/
+洋画 [ようが] /Western-style painting, foreign film/
+邦画 [ほうが] /Japanese film/
+計画 [けいかく] /create a plan or project/
+仕事 [しごと] /work, business, job/
+仕上げる [しあげる] /finish (off, up), complete/
+仕上がる [しあがる] /be finished, be completed, be ready/
+仕立てる [したてる] /make (clothes), tailor/
+仕える [つかえる] /serve (a person), work under or for/
+給仕 [きゅうじ] /waiter, waitress, wait/
+仕事 [しごと] /work, business, job/
+出来事 [できごと] /event, happening, occurrence/
+見事な [みごとな] /beautiful, splendid, masterful/
+物事 [ものごと] /things, matters, everything/
+家事 [かじ] /housework, housekeeping/
+火事 [かじ] /fire/
+人事 [じんじ] /personnel affairs/
+大事な [だいじな] /important/
+事件 [じけん] /incident, affair, matter, case, trouble/
+好事家 [こうずか] /dilettante/
+質問 [しつもん] /question, ask questions/
+質 [しつ] /quality/
+本質 [ほんしつ] /real nature, substance, essence/
+品質 [ひんしつ] /quality of a product/
+地質 [ちしつ] /nature of the soil, geological features/
+人質 [ひとじち] /hostage/
+質屋 [しつや] /pawnshop/
+言質 [げんち] /pledge word (as in "get one's word")/
+質問 [しつもん] /question, ask questions/
+問題 [もんだい] /problem, issue, question (in an exam)/
+学問 [がくもん] /learning, study, studies/
+問答 [もんどう] /ask questions and give answers/
+問 [とい] /question/
+問い合わせる [といあわせる] /make inquirires (at an office), inquire/
+問い合わせ [といあわせ] /inquiry/
+問屋 [とにゃ、といや] /wholesale store/
+料理 [りょうり] /cook, cuisine/
+料金 [りょうきん] /charge, fee, fare/
+送料 [そうりょう] /postage, cost of sending/
+有料道路 [ようりょうどうろ] /toll road/
+食料品 [しょくりょうひん] /food, groceries/
+料理 [りょうり] /cook, cuisine/
+理解 [りかい] /understand, comprehend/
+心理 [しんり] /psychology/
+心理学 [しんりがく] /psychology/
+地理 [ちり] /geography/
+物理学 [ぶつりがく] /physics/
+物理的に [ぶつりてきに] /physically/
+理論 [りろん] /theory/
+論理 [ろんり] /logic/
+写真 [しゃしん] /photograph, picture/
+真理 [しんり] /truth/
+真空 [しんくう] /vacuum/
+真っ白な [まっしろな] /pure white, snow white/
+真っ黒な [まっくろな] /pitch-black/
+真っ赤な [まっかな] /bright or deep red/
+真っ青な [まっさおな] /deep blue, pale/
+真っ暗な [まっくらな] /pitch-dark/
+真ん丸い [まんまるい] /(perfectly) round/
+真中 [まんなか] /the middle, the center, the heart/
+真っ先に [まっさきに] /at the very beginning, first of all/
+手紙 [てがみ] /letter/
+紙 [かみ] /paper/
+新聞紙 [しんぶんし] /newspaper/
+コピー用紙 [コピーようし] /copying paper/
+白紙 [はくし] /blank sheet/
+和紙 [わし] /Japanese paper/
+好きな [すきな] /favorite, be fond of/
+大好きな [だいすきな] /(most) favorite, be very fond of/
+好き好きな [すきずきな] /be a matter of taste/
+好意 [こうい] /goodwill, good wishes, kindness, favor/
+好調な [こうちょうな] /in good condition, satisfactory/
+友好的な [ゆうこうてきな] /friendly/
+好人物 [こうじんぶつ] /good-natured person/
+好む [このむ] /like, be found of/
+好み [このみ] /preference/
+元気な [げんきな] /healthy, be in good spirits/
+二元論 [にげんろん] /dualism/
+足元 [あしもと] /at one's feet, (one's) step/
+地元の [じもとの] /local or home (team, etc.)/
+家元 [いえもと] /headmaster of a school/
+元来 [がんらい] /originally, primarily, by nature/
+元旦 [がんたん] /the first day of the year/
+元気な [げんきな] /healthy, in good spirits/
+気持ち [きもち] /feeling, mood, sensation/
+気に入る [きにいる] /get or grow fond of/
+電気 [でんき] /electricity/
+人気 [にんき] /popularity, popular/
+人気 [ひとけ] /sign or presence of people/
+大気 [たいき] /atmosphere/
+気体 [きたい] /gas/
+気候 [きこう] /weather, climate/
+浮気 [うわき] /have an affair, be unfaithful to one's spouse/
+人気のない [にんきのない] /deserted, empty/
+気配 [けはい] /indication, sign/
+火の気 [ひのけ] /fire, heat/
+意気地のない [いくじのない] /timid, cowardly/
+静かな [しずかな] /quiet, silent, calm, peaceful/
+静まる [しずまる] /calm down/
+静けさ [しずけさ] /stillness, silence, calm, peace/
+冷静な [れいせいな] /cool-headed/
+静電気 [せいでんき] /static electricity/
+静脈 [じょうみゃく] /vein/
+便利な [べんりな] /useful, handy/
+利用 [りよう] /use/
+勝利 [しょうり] /victory/
+利口な [りこうな] /wise, clever/
+利子 [りし] /interest (on a loan, etc.)/
+利息 [りそく] /interest (on a loan, etc.)/
+利益 [りえき] /profit/
+右利き [みぎきき] /right-handed/
+左利き [ひだりきき] /left-handed/
+砂利 [じゃり] /gravel, pebbles/
+親切な [しんせつな] /kind/
+両親 [りょうしん] /father and mother, parents/
+父親 [ちちおや] /father/
+母親 [ははおや] /mother/
+親 [おや] /parent(s)/
+親子 [おやこ] /parent(s) and child(ren)/
+親指 [おやゆび] /thumb/
+親しい [したしい] /close, intimate/
+親友 [しんゆう] /close friend/
+親日家 [しんにちか] /Japanophile, pro-Japanese person/
+切る [きる] /cut/
+切手 [きって] /(postage) stamp/
+親切な [しんせつな] /kind/
+大切な [たいせつな] /important/
+一切 [いっさい] /all, the whole, everything, not anything, not at all/
+#end

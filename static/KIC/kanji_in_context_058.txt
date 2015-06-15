@@ -1,0 +1,74 @@
+﻿# Kanji in Context Lesson 058 : 791-802
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+真剣な [しんけんな] /serious/
+剣道 [けんどう] /kendo, swordsmanship/
+剣 [つるぎ] /sword/
+点検 [てんけん] /examine/
+検討 [けんとう] /examine, consider/
+検定 [けんてい] /official approval (of a school, textbook, etc.)/
+検証 [けんしょう] /probe/
+検察庁 [けんさつちょう] /public prosecutor's office/
+検事 [けんじ] /public prosecuror/
+経験 [けいけん] /experience/
+体験 [たいけん] /experience/
+試験 [しけん] /examination; experiment, test/
+実験 [じっけん] /experiment/
+受験 [じゅけん] /take an exam/
+験 [げん] /affect (of a prayer, etc.), omen/
+騒ぐ [さわぐ] /be noisy, make a fuss/
+騒がしい [さわがしい] /noisy, boisterous/
+大騒ぎ [おおさわぎ] /uproar, big fuss/
+騒音 [そうおん] /noise/
+騒々しい [そうぞうしい] /clumsy/
+物騒な [ぶっそうな] /dangerous, frightening, unsettled/
+試験 [しけん] /examination; experiment, test/
+試合 [しあい] /match, game/
+試食 [ししょく] /try or taste (food)/
+試運転 [しうんてん] /test or trial run; make a test or trial run/
+試す [ためす] /try/
+試みる [こころみる] /try/
+結婚式 [けっこんしき] /wedding ceremony/
+入学式 [にゅうがくしき] /(school) entrance ceremony/
+卒業式 [そつぎょうしき] /commencement or graduation ceremony/
+正式に [せいしきに] /formally/
+公式の [こうしきの] /official/
+方式 [ほうしき] /system, method/
+形式 [けいしき] /form, formality/
+方程式 [ほうていしき] /equation/
+専門 [せんもん] /major, area of expertise/
+専門家 [せんこんか] /expert/
+専任の [せんにんの] /full-time (lecturer, instructor, etc.)/
+専制政治 [せんせいせいじ] /autocracy/
+バス専用レーン [バスせんようレーン] /(exclusive) bus lane/
+専ら [もっぱら] /mainly, mostly/
+博士 [はくし] /PhD, Doctor/
+博士課程 [はくしかてい] /PhD program/
+博士号 [はくしごう] /PhD/
+博物館 [はくぶつかん] /museum/
+万博 [ばんぱく] /world's fair/
+賭博 [とばく] /gambling/
+薄い [うすい] /light (color), weak (coffee, tea, etc.), thin (book, paper, etc.)/
+薄暗い [うすぐらい] /dim, gloomy/
+薄める [うすめる] /make thin/
+薄利多売 [はくりたばい] /(gaining profit by) selling a lot with a small profit margin on each item/
+薄情な [はくじょうな] /heartless, cold-hearted/
+精神薄弱 [せいしんはくじゃく] /mental weakness, feeble mindedness, low intelligence/
+夢 [ゆめ] /dream/
+悪夢 [あくむ] /nightmare, bad dream/
+夢中になる [むちゅうになる] /be fascinated with, be crazy about/
+葬式 [そうしき] /funeral/
+葬儀 [そうぎ] /funeral/
+火葬 [かそう] /cremation; cremate/
+土葬 [どそう] /interment, burial; bury/
+副葬品 [ふくそうひん] /items buried with the dead/
+葬る [ほうむる] /bury/
+蒸気 [じょうき] /steam/
+蒸気船 [じょうきせん] /steamship/
+水蒸気 [すいじょうき] /steam/
+蒸し暑い [むしあつい] /muggy hot/
+蒸す [むす] /steam/
+蒸れる [むれる] /become stuffy/
+蒸らす [むらす] /steam (rice, etc.)/
+# end

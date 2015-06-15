@@ -1,0 +1,122 @@
+﻿# Kanji in Context Lesson 016: 306-321
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+卒業 [そつぎょう] /graduate/
+卒業生 [そつぎょうせい] /graduate (person)/
+大卒 [だいそつ] /college or university graduate/
+大卒者 [だいそつしゃ] /college or university graduate/
+新卒 [しんそつ] /recent graduate/
+授業 [じゅぎょう] /class/
+事業 [じぎょう] /business/
+休業 [きゅうぎょう] /close a business (for a holiday, etc.), suspend business or operations/
+職業 [しょくぎょう] /profession, job/
+産業 [さんぎょう] /industry/
+実業家 [じつぎょうか] /businessman, entrepreneur/
+自業自得 [じぎょうじとく] /the natural consequences of one's evil deed, getting one's just deserts/
+早業 [はやわざ] /quick feat or trick/
+利用 [りよう] /use/
+使用 [しよう] /use/
+通用 [つうよう] /be available, be good, be valid/
+用事 [ようじ] /business, errand, engagement/
+用 [よう] /business, errang, engagement (casual speech)/
+用意 [ようい] /prepare/
+用心 [ようじん] /be careful, be on the alert/
+用語 [ようご] /(technical) term/
+用途 [ようと] /use/
+費用 [ひよう] /cost/
+用いる [もちいる] /use, employ, adopt/
+去年 [きょねん] /last year/
+過去 [かこ] /past/
+立ち去る [たちさる] /leave (a place)/
+趣味 [しゅみ] /interest, hobby/
+趣 [おもむき] /grace, elegance, charm/
+意味 [いみ] /significance/
+興味 [きょうみ] /interest/
+地味な [じみな] /plain, simple, quiet/
+風気味だ [かぜぎみだ] /have a slight cold/
+気味が悪い [きみがわるい] /weird, uncanny, creepy/
+正味 [しょうみ] /net (weight, quantity, etc.), full (as in "eight full hours")/
+味 [あじ] /taste, flavor/
+味わう [あじわう] /taste, experience, go through/
+調味料 [ちょうみりょう] /seasoning/
+味覚 [みかく] /sence of taste/
+三味線 [しゃみせん] /shamisen, a three-stringed banjo-like instrument/
+授業 [じゅぎょう] /class/
+教授 [きょうじゅ] /professor/
+授受 [じゅじゅ] /give and receive/
+授ける [さずける] /grant (a license), confer (a title), award (a prize)/
+橋 [はし] /bridge/
+日本橋 [にほんばし] /Nihonbashi (a place in Tokyo)/
+日本橋 [にほんばし] /Nipponbashi (a place in Osaka)/
+歩道橋 [ほどうばし] /pedestrian bridge/
+鉄橋 [てっきょう] /railway bridge/
+花 [はな] /flower/
+花屋 [はなや] /florist, flower shop, flower stall/
+生け花 [いけばな] /ikebana, the art of flower arrangement/
+お花見 [おはなみ] /cherry blossom viewing/
+花火 [はなび] /firework/
+花壇 [かだん] /flower bed/
+薬 [くすり] /drug, medicine/
+薬屋 [くすりや] /pharmacy, drugstore/
+薬局 [やっきょく] /pharmacy/
+薬学 [やくがく] /pharmacy, pharmaceutics/
+薬味 [やくみ] /spice/
+色 [いろ] /color/
+茶色 [ちゃいろ] /brown/
+～色の [～いろの] /~ colored/
+色紙 [いろがみ] /colored paper/
+色づく [いろづく] /turn color (as in leaves)/
+色っぱい [いろっぱい] /erotic, seductive, sexy/
+色気 [いろけ] /sex appeal/
+色気がる [いろけがある] /be very interested in, have an inclination for, sexy/
+好色な [こうしょくな] /lustful, erotic/
+色紙 [しきし] /square piece of fancy paper (for writing a poem, etc.)/
+色彩 [しきさい] /hue, tint, coloring, color/
+原色 [げんしょく] /primary color/
+特色 [とくしょく] /distinguishing characteristics/
+景色 [けしき] /view, landscape/
+服 [ふく] /clothes/
+洋服 [ようふく] /Western-style clothes/
+和服 [わふく] /Japanese-style clothes, kimono/
+服装 [ふくそう] /(a way of) dressing, clothes/
+征服 [せいふく] /conquer/
+着服 [ちゃくふく] /embezzle/
+客 [きゃく] /guest, customer/
+客間 [きゃくま] /guest room (in a house)/
+乗客 [じょうきゃく] /passenger/
+旅客機 [りょかくき] /passenger airplane/
+お客様 [おきゃくさま] /guest, customer (honorific)/
+客観的な [きゃっかんてきな] /objective/
+犬 [いぬ] /dog/
+小犬 [こいぬ] /puppy/
+子犬 [こいぬ] /puppy/
+野犬 [やけん] /stray dog/
+文 [ぶん] /sentence, passage/
+作文 [さぶん] /composition, essay/
+文学 [ぶんがく] /literature/
+文体 [ぶんたい] /style/
+文語 [ぶんご] /literature language, expression/
+文明 [ぶんめい] /civilization/
+文化 [ぶんか] /culture/
+人文科学 [じんぶんかがく] /humanities/
+文字 [もじ] /letter (of the alphabet, etc.)/
+文盲率 [もんもうりつ] /illiteracy rate/
+文 [ふみ] /letter/
+飲物 [のみもの] /drink, message/
+食べ物 [たべもの] /food/
+物 [もの] /thing, object, substance, article/
+本物 [ほのもの] /genuine article, real thing/
+偽物 [にせもの] /imitation, sham, fake/
+名物 [めいぶつ] /local specialty, well-known product/
+生き物 [いきもの] /living thing, creature, animal, life/
+動物 [どうぶつ] /animal/
+植物 [しょくぶつ] /plant/
+生物 [せいぶつ] /living thing, organism/
+生物学 [せいぶつがく] /biology/
+物理的に [ぶつりてきに] /physically/
+物理学 [ぶつりがく] /physics/
+物質 [ぶっしつ] /matter, substance/
+物価 [ぶっか] /prices/
+食物 [しょくもの] /food/
+# end

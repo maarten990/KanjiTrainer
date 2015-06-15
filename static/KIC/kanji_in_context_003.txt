@@ -1,0 +1,182 @@
+﻿# Kanji in Context Lesson 003 : 52-79
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.2  
+# Paul Denisowski (paul@denisowski.org)
+家 [いえ、うち] /house, home/
+家族 [かぞく] /family/
+家庭 [かてい] /family, home/
+家事 [かじ] /housework, housekeeping/
+家内 [かない] /my wife/
+国家 [こっか] /state, nation/
+作家 [さっか] /novelist, author/
+ロックフェラー家 [ロックフェラーけ] /the Rockefeller family/
+大家さん [おおやさん] /landlord, owner of a rented house, apartment/
+部屋 [へや] /room/
+部長 [ぶちょう] /department head/
+人事部 [じんじぶ] /personnel department/
+部下 [ぶか] /subordinate, one's men/
+本部 [ほんぶ] /headquarters, head office/
+外部の [がいぶの] /outside, external/
+内部の [ないぶの] /inside, internal/
+全部 [ぜんぶ] /all/
+一部 [いちぶ] /a portion, a part of/
+部分 [ぶぶん] /one portion, one part/
+大部分 [だいぶぶん] /most of ~, the bulk of ~/
+本屋 [ほんや] /bookstore/
+花屋 [はなや] /flower shop/
+八百屋 [やおや] /fruit and vegetable shop/
+部屋 [へや] /room/
+小屋 [こや] /hut, shed/
+屋根 [やね] /roof/
+屋上 [おくじょう] /housetop, roof/
+屋内プール [おくないプール] /indoor (swimming) pool/
+屋外 [おくがい] /outdoor, open-air/
+家屋 [かおく] /houses/
+母屋 [おもや] /main building, house/
+店 [みせ] /store, shop/
+店長 [てんちょう] /store manager/
+本店 [ほんてん] /the main office, store/
+支店 [してん] /branch office, store/
+支店長 [してんちょう] /branch manager/
+夜店 [よみせ] /night stall, stand/
+店屋 [みせや] /shops and stores/
+駅 [えき] /station/
+駅前 [えきまえ] /in front of the station/
+東京駅 [とうきょうえき] /Tokyo station/
+駅長 [えきちょう] /stationmaster/
+銀行 [ぎんこう] /bank/
+日本銀行 [にほんぎんこう] /the Bank of Japan/
+銀 [ぎん] /silver/
+水銀 [すいぎん] /mercury/
+銀色 [ぎんいろ] /silver, silvery/
+銀行 [ぎんこう] /bank/
+旅行 [りょこう] /trip, to make a trip or travel/
+行動 [こうどう] /act, behave, conduct/
+行く [いく、ゆく] /go/
+行方 [ゆくえ] /whereabouts/
+行う [おこなう] /do, carry out, hold/
+行い [おこない] /act, action, behavior/
+行事 [ぎょうじ] /event/
+行政 [ぎょうせい] /administration/
+行 [ぎょう] /line (in a text)/
+～行目 [～ぎょうめ] /line (one, two, etc.)/
+行脚 [あんぎゃ] /(make a) pilgrimage/
+会社 [かいしゃ] /company/
+社会 [しゃかい] /society/
+会話 [かいわ] /conversation/
+国会 [こっかい] /the Diet/
+学会 [がっかい] /academic conference/
+大会 [たいかい] /convention, general meeting, tournament, rally/
+会う [あう] /meet/
+会釈 [えしゃく] /bow slightly/
+会得 [えとく] /understand (the meaning of), learn how to do/
+会社 [かいしゃ] /company/
+社会 [しゃかい] /society/
+社長 [しゃちょう] /company president/
+社員 [しゃいん] /company employee/
+本社 [ほんしゃ] /headquarters, main office/
+支社 [ししゃ] /branch (office)/
+社 [やしろ] /Shinto shrine/
+電車 [でんしゃ] /train/
+電話 [でんわ] /telephone/
+電気 [でんき] /electricity/
+発電 [はつでん] /(electric) power generation, generate electricity/
+電子 [でんし] /electron/
+電池 [でんち] /battery/
+電車 [でんしゃ] /train/
+自転車 [じてんしゃ] /bicycle/
+車 [くるま] /car/
+山車 [だし] /float, festival car/
+自動車 [じどうしゃ] /car/
+自転車 [じてんしゃ] /bicycle/
+自分 [じぶん] /self, oneself, I/
+自分で [じぶんで] /by oneself, personally/
+事由 [じゆう] /freedom, liberty/
+自然 [しぜん] /nature/
+自ら [みずから] /(for) oneself, in person/
+自動車 [じどうしゃ] /car/
+自動 [じどう] /automatic/
+動く [うごく] /move/
+動物 [どうぶつ] /animal/
+行動 [こうどう] /act, behave, conduct/
+自転車 [じてんしゃ] /bicycle/
+運転 [うんてん] /drive, work, operate/
+転ぶ [ころぶ] /tumble, fall down/
+転がす [ころがす] /roll (a stone, tire, etc.)/
+転がる [ころがる] /roll (over), tumble/
+転々とする [てんてんとする] /go rolling, wander (from one place or job to another)/
+道 [みち] /road/
+水道 [すいどう] /waterworks, water service, tap water/
+国道 [こくどう] /national road/
+道路 [どうろ] /road/
+北海道 [ほっかいどう] /Hokkaido/
+茶道 [きどう、ちゃどう] /the art of the tea ceremony/
+華道 [かどう] /the art of flower arrangement/
+剣道 [けんどう] /kendo, swordsmanship/
+柔道 [じょうどう] /judo/
+神道 [しんとう] /Shintoism/
+男の人 [おとこのひと] /man/
+男 [おとこ] /man/
+山男 [やまおとこ] /mountaineer, alpinst, woodsman/
+男性 [だんせい] /male, man/
+長男 [ちょうなん] /the eldest son/
+女の人 [おんなのひと] /woman/
+女 [おんな] /woman/
+女性 [じょせい] /female, woman/
+長女 [ちょうじょ] /the eldest daughter/
+女房 [にょうぼう] /my wife/
+老若男女 [ろうじゃくだんじょ、ろうにゃくなんにょ] /men and women of all ages/
+女人 [にょにん] /woman/
+女神 [めがみ] /goddess/
+乙女 [おとめ] /maiden, (young) girl, virgin/
+海女 [あま] /woman diver (for pearls, oysters, etc.)/
+子ども [こども] /child, son, daughter/
+男の子 [おとこのこ] /boy/
+女の子 [おんなのこ] /girl/
+迷子 [まいご] /lost child/
+息子 [むすこ] /son/
+帰国子女 [きこくしじょ] /children who have returned to Japan after living abroad for some time/
+男子社員 [だんししゃいん] /male employee (of a company)/
+女子社員 [じょししゃいん] /female employee/
+扇子 [せんす] /folding fan/
+主人 [しゅじん] /master, proprietor, my husband/
+主語 [しゅご] /subject/
+主題 [しゅだい] /subject, theme/
+主観的な [しゅかんてきな] /subjective/
+主な [おもな] /main/
+持ち主 [もちぬし] /owner/
+地主 [じぬし] /landlord, landowner/
+坊主 [ぼうず] /Buddhist priest, shaven head, boy/
+奥さん [おくさん] /(your, his) wife/
+奥 [おく] /inside, inner part/
+山奥 [やまおく] /deep in the mountains/
+奥行き [おくゆき] /depth/
+奥義 [おうぎ] /secrets/
+私 [わたくし、わたし] /I, me/
+私立大学 [しりつだいがく] /private university, college/
+父 [ちち] /father/
+お父さん [おとうさん] /father (polite)/
+父母 [ふぼ] /father and mother/
+母 [はは] /mother/
+お母さん [おかあさん] /mother (polite)/
+母国語 [ぼこくご] /mother tongue/
+乳母 [うば] /wet nurse/
+母屋 [おもや] /main building, house/
+兄 [あに] /elder brother/
+お兄さん [おにいさん] /elder brother (polite)/
+兄弟 [きょうだい] /brother(s) and sister(s)/
+父兄 [ふけい] /parents/
+弟 [おとうと] /younger brother/
+兄弟 [きょうだい] /brother(s) and sister(s)/
+子弟 [してい] /children/
+弟子 [でし] /disciple/
+姉 [あね] /elder sister/
+お姉さん [おねえさん] /elder sister (polite)/
+姉妹 [しまい] /sister/
+妹 [いもうと] /younger sister/
+姉妹 [しまい] /sisters/
+姉妹都市 [しまいとし] /sister city/
+友だち [ともだち] /friend/
+友人 [ゆうじん] /friend (more formal)/
+友好関係 [ゆうこうかんけい] /friendly relations/
+#end

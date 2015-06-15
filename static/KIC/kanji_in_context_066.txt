@@ -1,0 +1,62 @@
+﻿# Kanji in Context Lesson 066 : 884-893
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+縮む [ちぢむ] /shrink, become short/
+縮める [ちぢめる] /shorten/
+縮れる [ちぢれる] /be frizzled, be wavy, curl/
+縮れげ [ちぢれげ] /curly hair/
+縮小 [しゅくしょう] /reduce/
+短縮 [たんしゅく] /reduce (time)/
+縮図 [しゅくず] /reduced drawing/
+軍縮 [ぐんしゅく] /disarmament, arms reduction/
+伸縮自在 [しんしゅくじざい] /elastic/
+成績 [せいせき] /results, grades, performance/
+成績表 [せいせきひょう] /school transcript, report card/
+業績 [ぎょうせき] /work, achievement, business performance/
+実績 [じっせき] /actual results/
+功績 [こうせき] /meritorious service/
+紡績 [ぼうせき] /spinning/
+積む [つむ] /load, pile up/
+積もる [つもる] /accumulate (as in snow, dust, etc.)/
+積極的な [せっきょくてきな] /positive (attitude, etc.), active/
+面積 [めんせき] /area, square measure/
+体積 [たいせき] /volume, capacity, cubic measure/
+容積 [ようせき] /volume, capacity/
+見積り [みつもり] /estimate/
+毛布 [もうふ] /blanket/
+布 [ぬの] /cloth/
+分布 [ぶんぷ] /distribute/
+配布 [はいふ] /distribute/
+公布 [こうふ] /promulgate, make public/
+希望 [きぼう] /hope, wish; hope wish/
+希少価値 [きしょうかち] /scarcity value/
+衣食住 [いしょくじゅう] /food, clothing, and shelter/
+衣類 [いるい] /clothing/
+法衣 [ほうい] /vestment, clerical dress, canonicals/
+衣 [ころも] /clothes, robe, gown/
+依存 [いそん] /depend on/
+依頼 [いらい] /request/
+依然として [いぜんとして] /still, as ever/
+帰依 [きえ] /become a believer (in a religion)/
+報告 [ほうこく] /report/
+天気予報 [てんきよほう] /weather forecast/
+情報 [じょうほう] /information/
+電報 [でんぽう] /telegram/
+報道機関 [ほうどうきかん] /the news media, the press/
+報道 [ほうどう] /news, information, report; inform, report/
+報復 [ほうふく] /retaliation; retaliate/
+報酬 [ほうしゅう] /reward, remuneration/
+報い [むくい] /reward/
+報いる [むくいる] /reward/
+報告 [ほうこく] /report/
+告白 [こくはく] /confess/
+告訴 [こくそ] /enter a complaint, take legal action/
+告発 [こくはつ] /indict, prosecute, charge (a person for a crime), accuse/
+申告 [しんこく] /declare/
+告げる [つげる] /tell, announce/
+吉日 [きちじつ] /lucky day/
+吉報 [きっぽう] /good news/
+不吉な [ふきつな] /ill-omened, ominous, unlucky/
+吉田 [よしだ] /(surname)/
+# end

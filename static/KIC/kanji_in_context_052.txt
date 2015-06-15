@@ -1,0 +1,71 @@
+﻿# Kanji in Context Lesson 052 : 726-738
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+改良 [かいりょう] /improve/
+改正 [かいせい] /revise, amend/
+改善 [かいぜん] /make better/
+改めて [あらためて] /newly, again, formally/
+改める [あらためる] /revise, change, renew/
+心配 [しんぱい] /worry/
+支配 [しはい] /conquer, rule/
+配達 [はいたつ] /deliver/
+配る [くばる] /distribute, deliver/
+酔う [よう] /get drunk/
+酔っ払い [よっぱらい] /drunk/
+麻酔 [ますい] /anesthesia/
+方針 [ほうしん] /policy, guidelines/
+針路 [しんろ] /course, direction (of a ship, airplace, etc.)/
+針 [はり] /needle/
+針金 [はりがね] /wire/
+録音 [ろくおん] /record (speech, sound, etc.)/
+録画 [ろくが] /record on videotape/
+記録 [きろく] /record/
+付録 [ふろく] /supplement/
+緑 [みどり] /green/
+緑色 [みどりいろ] /green/
+新緑 [しんりょく] /fresh verdure/
+緑地 [りょくち] /green zone/
+葉緑素 [ようりょくそ] /chlorophyll/
+緑青 [ろくしょう] /copper or green rust, patina/
+縁 [えん] /fate, karma/
+因縁 [いんねん] /cause/
+縁側 [えんがわ] /veranda/
+縁 [ふち] /edge/
+納得 [なっとく] /understand, give one's consent to/
+納税 [のうぜい] /pay a tax/
+納める [おさめる] /pay, supply, store/
+納屋 [なや] /barn, shed/
+出納 [すいとう] /receipts and disbursements/
+出納係 [すいとうがかり] /cashier, teller/
+納戸 [なんど] /closet/
+絶対に [ぜったいに] /definitely/
+絶望 [ぜつぼう] /despair/
+絶望的な [ぜつぼうてきな] /hopeless/
+絶大な [ぜつだいな] /full or total (support)/
+根絶 [こんぜつ] /exterminate, eradicate/
+絶滅 [ぜつめつ] /be extinct/
+絶えず [たえず] /continuosly, incessantly, all the time/
+絶える [たえる] /cease, die/
+絶やす [たやす] /run out of, exhaust/
+絶つ [たつ] /stop (drinking, smoking, etc.)/
+総合的な [そうごうてきな] /comprehensive/
+総計 [そうけい] /grand total; total/
+総会 [そうかい] /general assembly/
+国民総生産 [こくみんそうせいさん] /gross national product/
+総理大臣 [そうりだいじん] /prime minister/
+行為 [こうい] /act, deed, behavior, conduct/
+人為的な [じんいてきな] /artificial/
+無作為 [むさくい] /random (sampling)/
+為政者 [いせいしゃ] /statesman/
+為替相場 [かわせそうば] /exchange rate/
+為替レート [かわせレート] /exchange rate/
+為替 [かわせ] /currency/
+老人 [ろうじん] /old person/
+長老 [ちょうろう] /elder (of a village, etc.)/
+老子 [ろうし] /Lao-Tse/
+老ける [ふける] /grow old (in terms of appearance)/
+老いる [おいる] /grow old/
+親孝行 [おやこうこう] /filial piety/
+親不孝 [おやふこう] /disrespect to one's parents/
+# end

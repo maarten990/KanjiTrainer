@@ -1,0 +1,69 @@
+﻿# Kanji in Context Lesson 025 : 417-426
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+地位 [ちい] /(social) position, rank, status/
+学位 [がくい] /academic degress/
+位置 [いち] /position, location; be located/
+位 [くらい] /position, rank/
+子供 [こども] /child, son, daughter/
+供 [とも] /companion/
+自供 [じきょう] /confess, admit/
+供給 [きょうきゅう] /supply/
+供える [そなえる] /offer/
+供物 [くもつ] /votive offering/
+共通の [きょうつうの] /mutual, common/
+共通点 [きょうつうてん] /something in common/
+男女共学 [だんじょきょうがく] /coeducation/
+公共の [こうきゅうの] /public/
+公共事業 [こうきょうじぎょう] /government enterprise/
+共和国 [きょうわこく] /republic/
+共に [ともに] /both, together/
+～以上 [～いじょう] /more than ~/
+～以下 [～いか] /less than ~/
+～以内 [～いない] /within ~/
+以前 [いぜん] /formerly/
+女性 [じょせい] /woman, female/
+男性 [だんせい] /man, male/
+性 [せい] /sexuality/
+性別 [せいべつ] /gender/
+中性洗剤 [ちゅうせいせんざい] /neutral detergent/
+本性 [ほんしょう] /true nature/
+水不足 [みずふそく] /water shortage/
+不足 [ふそく] /insufficiency, shortage; lack, be short of/
+不安な [ふあんな] /uneasy, insecure/
+不十分な [ふじゅうぶんな] /inadequete/
+不正な [ふせいな] /unlawful/
+不利な [ふりな] /disadvantageous/
+不運 [ふうん] /misfortune/
+不通になる [ふつうになる] /be cut off, be interrupted/
+行方不明 [ゆくえふめい] /missing/
+不気味な [ぶきみな] /weird/
+不可 [ふか] /failure (in an exam, etc.)/
+必要な [ひつような] /necessary/
+必死に [ひっしに] /desperately/
+必然的な [ひつぜんてきな] /natural, inevitable/
+必ず [かならず] /surely, without fail/
+必ずしも [かならずしも] /not always/
+必要な [ひつような] /necessary/
+重要な [じゅうような] /important/
+主要な [しゅような] /major/
+要点 [ようてん] /main point/
+要約 [ようやく] /summarize/
+要素 [ようそ] /element/
+要求 [ようきゅう] /demand, request/
+要するに [ようするに] /in short/
+要る [いる] /be required, be needed/
+物価 [ぶっか] /prices/
+地価 [ちか] /land prices/
+単価 [たんか] /unit price/
+定価 [ていか] /manufacturer's recommended price/
+高価な [こうかな] /expensive/
+価格 [かかく] /price/
+価 [あたい] /value/
+値上げ [ねあげ] /price increase; raise prices/
+値下げ [ねさげ] /price reduction; lower prices/
+値段 [ねだん] /price/
+価値 [かち] /value, worth/
+値 [あたい] /value, worth/
+# end

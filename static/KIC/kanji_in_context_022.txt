@@ -1,0 +1,68 @@
+﻿# Kanji in Context Lesson 022: 385-394
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+間違い [まちがい] /mistake, error, accident, mishap/
+間違って [まちがって] /erroneously/
+間違える [まちがえる] /make a mistake/
+違う [ちがう] /be different, be wrong/
+違い [ちがい] /difference/
+違反 [いはん] /violate (a law, treaty, etc.)/
+違法 [いほう] /illegal/
+違憲 [いけん] /unconstitutional/
+相違点 [そういてん] /difference/
+逆の [ぎゃくの] /reverse/
+逆説 [ぎゃくせつ] /paradox/
+反逆 [はんぎゃく] /rebel/
+逆らう [さからう] /oppose, go against/
+逆さ [さかさ] /upside-down, inverted/
+整理 [せいり] /arrange/
+調整 [ちょうせい] /adjust/
+整然と [せいぜんと] /in an orderly fashion/
+整数 [せいすう] /integer, integral number/
+整える [ととのえる] /arrange/
+事務 [じむ] /clerical work/
+事務室 [じむしつ] /administration office/
+事務員 [じむいん] /office clerk/
+外務省 [がいむしょう] /the Ministry of Foreign Affairs/
+国務省 [こくむしょう] /the State Department (of the US Government)/
+公務員 [こうむいん] /public official, public servant/
+務める [つとめる] /work, serve/
+文部省 [もんぶしょう] /the Ministry of Education/
+省エネルギー [しょうエネルギー] /energy conservation/
+反省 [はんせい] /reflect upon, examine one's conscience/
+省略 [しょうりゃく] /omit/
+省く [はぶく] /save (time, effort, etc.)/
+省みる [かえりみる] /reflect upon/
+相談 [そうだん] /consult, talk over/
+会談 [かいだん] /conference, talk; talk together, have a conference/
+談話 [だんわ] /conversation, talk; talk, chat/
+対談 [たいだん] /face-to-face talk, conversation; have a conversation/
+想像 [そうぞう] /inherit, succeed/
+首相 [しゅしょう] /prime minister/
+外相 [がいしょう] /foreign minister/
+文相 [ぶんしょう] /minister of education/
+相手 [あいて] /the other party, partner, opponent/
+相変わらず [あいかわらず] /as usual, as ever, as before/
+理想 [りそう] /ideal/
+思想 [しそう] /idea, thought/
+連想 [れんそう] /be reminded of; association (of ideas)/
+発想 [はっそう] /idea, conception/
+空想 [くうそう] /fantasy, daydream/
+回想 [かいそう] /look back on, recollect/
+予想 [よそう] /foresee/
+愛想 [あいそ] /amiability/
+首 [くび] /neck, head/
+手首 [てくび] /wrist/
+首席 [しゅせき] /top or first in the class/
+首相 [しゅしょう] /prime minister/
+国家元首 [こっかげんしゅ] /sovreign of a nation, head of state/
+部首 [ぶしゅ] /radical of a Chinese character/
+出身 [しゅっしん] /(be) from, place of origin/
+自身 [じしん] /(one's) self/
+心身 [しんしん] /mind and body/
+全身 [ぜんしん] /whole body/
+単身赴任 [たんしんふにん] /take up a post in a distant place, leaving one's family behind/
+身分 [みぶん] /one's social standing/
+中身 [なかみ] /contents/
+# end

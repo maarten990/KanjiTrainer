@@ -1,0 +1,136 @@
+﻿# Kanji in Context Lesson 010: 208-225
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+覚える [おぼえる] /remember, memorize/
+覚えている [おぼえている] /remember, have or keep or bear something in mind/
+目が覚める [めがさめる] /wake up/
+目を覚ます [めをさます] /wake up/
+目覚し時計 [めざましとけい] /alarm (clock)/
+知覚 [ちかく] /perceive/
+感覚 [かんかく] /sense, sensation, feeling/
+忘れる [わすれる] /forget/
+忘れ物 [わすれもの] /thing left behind/
+忘年会 [ぼうねんかい] /year-end (dinner) party/
+調べる [しらべる] /study, investigate, examine/
+調子がいい [ちょうしがいい] /be in good health, be in good order/
+強調 [きょうちょう] /emphasize/
+調える [ととのえる] /prepare something, make arrangements, supply/
+続ける [つづける] /continue/
+話し続ける [はなしつづける] /continue talking or speaking/
+続く [つづく] /continue/
+降り続く [ふりつづく] /continue raining/
+続き [つづき] /continuation, continuance, sequel/
+手続き [てつづき] /procedures/
+連続 [れんぞく] /continuation, series; continue, be consecutive/
+続々と [ぞくぞくと] /one after another, in rapid succession/
+相続 [そうぞく] /inherit, succeed/
+継続 [けいぞく] /continue/
+考える [かんがえる] /think, consider, mediate/
+考え方 [かんがえかた] /way of thinking, thought, idea/
+考え [かんがえ] /idea, thought, plan, opinion, intention/
+思考 [しこう] /thinking, think/
+参考書 [さんこうしょ] /reference book/
+考古学 [こうこがく] /archeology/
+考慮 [こうりょ] /consider, take into consideration/
+答える [こたえる] /answer, reply, respond/
+答え [こたえ] /answer, reply, response/
+回答 [かいとう] /reply, answer, reply; answer, respond/
+解答 [かいとう] /answer, solution; answer, solve/
+答弁 [とうべん] /reply, answer (at an assembly)/
+教える [おしえる] /teach, tell/
+教え方 [おしえかた] /teaching method/
+教わる [おそわる] /be taught, be told/
+教室 [きょうしつ] /classroom/
+教授 [きょうじゅ] /professor; teach/
+教育 [きょういく] /education; educate/
+教会 [きょうかい] /church/
+キリスト教 [キリストきょう] /Christianity/
+宗教 [しゅうきょう] /religion/
+開ける [あける] /open, make room for, vacate, empty/
+開く [あく] /open, become empty or vacant, be through with, be free (as in not busy, have no plans)/
+開店 [かいてん] /open a store/
+開始 [かいし] /start, begin/
+開会 [かいかい] /open a meeting, go into session/
+開会式 [かいかいしき] /opening ceremony/
+開通 [かいつう] /be open to traffic/
+開く [ひらく] /open, unfold, found, establish, hold (a meeting, party), bloom, blossum/
+海開き [うみひらき] /opening a beach to the public for the summer/
+開発 [かいはつ] /develop/
+展開 [てんかい] /develop, unfold/
+閉める [しめる] /shut, close/
+閉まる [しまる] /be shut or closed, shut, close/
+閉じる [とじる] /close/
+閉店 [へいてん] /close a shop/
+閉会 [へいかい] /close a meeting, adjourn/
+閉会式 [へいかいしき] /closing ceremony/
+開閉 [かいへい] /open and close/
+閉鎖 [へいさ] /close (a road, port, etc.)/
+閉ざす [とざす] /shut (one's mouth, a gate, etc.)/
+止める [とめる] /stop, turn off/
+止まる [とまる] /stop, halt, be parked/
+通行止め [つうこうどめ] /No Thoroughfare/
+中止 [ちゅうし] /stop, suspend, discontinue, cancel/
+禁止 [きんし] /forbid, prohibit, place a ban on/
+波止場 [はとば] /wharf, pier/
+焼く [やく] /burn, roast, bake, broil, grill, toast, bake, fire (pottery), scorch, be jealous/
+焼ける [やける] /be burnt, be baked, be toasted, be roasted, be suntanned/
+日焼け [ひやけ] /be suntanned/
+夕焼け [ゆうやけ] /evening glow/
+全焼 [ぜんしょう] /be burned down, be reduced to ashes/
+焼失 [しょうしつ] /be burned down, be consumed by fire/
+消す [けす] /extinguish, switch off (a light), turn off (the gas), erase, wipe out, cross out/
+取り消す [とりけす] /cancel/
+消しゴム [けしゴム] /eraser/
+消える [きえる] /disappear, go out (as in a light or candle), melt (away), die away/
+消火器 [しょうかき] /fire extinguisher/
+消化 [しょうか] /digest/
+消費者 [しょうひしゃ] /consumer/
+直す [なおす] /repair, fix, correct, revise, improve/
+見直す [みなおす] /reconsider, come to have a better opinion of/
+直る [なおる] /be repaired, be fixed/
+直通電話 [ちょくつうでんわ] /direct (phone) line/
+直流 [ちょくりゅう] /direct current, DC/
+直行便 [ちょっこうびん] /direct flight/
+直前 [ちょくぜん] /immediately before/
+直後 [ちょくご] /immediately after/
+工場直売 [こうじょうちょくばい] /selling directly from the factory/
+直接 [ちょくせつ] /directly/
+率直な [そっちょくな] /honest, frank, candid, straightforward/
+正直な [しょうじきな] /honest/
+直に [じきに] /soon, in a short time, before long, immediately/
+直ちに [ただちに] /immediately, right away/
+並べる [ならべる] /line (things) up, put side-by-side, display, list/
+並ぶ [ならぶ] /stand in a line, line up, be parallel/
+並木 [なみき] /row of trees (along a road, etc.)/
+並びに [ならびに] /and, as well as/
+並行して [へいこうして] /(do another thing) at the same time/
+変える [かえる] /change, alter, reform (a system), ammend (a regulation)/
+変わる [かわる] /change, be altered, vary, be ammended, be revised, change into/
+大変な [たいへんな] /serious, grave, terrible, dreadful/
+変な [へんな] /odd, strange, queer/
+変化 [へんか] /change, vary, transform, transition/
+残す [のこす] /leave (behind), save (for later use)/
+残る [のこる] /remain, stay/
+残らず [のこらず] /completely, without exception/
+残り [のこり] /remainder, remnant, surplus/
+残りご飯 [のこりごはん] /leftover rice, food/
+残業 [ざんぎょう] /overtime work, work overtime/
+残金 [ざんきん] /remainder, balance/
+残念な [ざんねんな] /be regrettable, be unfortunate/
+名残 [なごり] /traces, remains/
+集める [あつめる] /bring together, gather, collect, call together/
+集まる [あつまる] /gather, get together, meet, crowd, be concentrated/
+集会 [しゅうかい] /meeting, gathering, assembly/
+集金 [しゅうきん] /collect money or bills/
+集合 [しゅうごう] /gather, meet, assemble/
+集中 [しゅうちゅう] /concentrate, centralize, center on, focus on/
+収集 [しゅうしゅう] /collect, gather/
+特集 [とくしゅう] /special feature, feature/
+特集号 [とくしゅうご] /special issue/
+全集 [ぜんしゅう] /the complete works (of)/
+集う [つどう] /gather, get together, meet/
+倒す [たおす] /knock down, push over, fell, beat, defeat, kill, overthrow, topple/
+倒れる [たおれる] /fall over, collapse, break down, die, be killed, be overthrown/
+倒産 [とうさん] /go bankrupt, bankruptcy, financial failure/
+#end

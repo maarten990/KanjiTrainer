@@ -1,0 +1,76 @@
+﻿# Kanji in Context Lesson 019: 351-361
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+平和 [へいわ] /peace/
+和平 [わへい] /peace (conference, etc.)/
+平行な [へいこうな] /parallel/
+水平線 [すいへいせん] /hoirzon/
+平日 [へいじつ] /week days/
+平気な [へいきな] /calm, indifferent/
+公平な [こうへいな] /fair/
+不公平な [ふこうへいな] /unfair/
+不平 [ふへい] /complaint/
+平等 [びょうどう] /equality/
+平らな [たいらな] /flat/
+平社員 [ひらしゃいん] /ordinary employee, non-managerial employee/
+平家物語 [へいけものがたり] /Heike Monogatari (the historic romanace of the Taira Family)/
+和 [わ] /peace, harmony/
+和文 [わぶん] /Japanese script, writing in Japanese/
+和風 [わふう] /Japanese style/
+不和 [ふわ] /disharmony, discord/
+和らげる [やわらげる] /pacify, soften/
+和やかな [なごやかな] /congenial/
+和尚 [おしょう] /Buddhist priest/
+大和 [やまと] /Yamato (ancient Japan)/
+同等の [どうとうの] /equal/
+上等な [じょとうな] /one of the best, fine, superior/
+等分 [とうぶん] /divide into equal parts; equal parts/
+高等教育 [こうとうきょういく] /higher education/
+一等 [いっとう] /first class/
+等しい [ひとしい] /be equal to/
+第一に [だいいちに] /first, first of all/
+第～ [だい～] /No. ~ (prefix for ordinals)/
+第一人者 [だいいちにんしゃ] /the leading person (in a field, etc.)/
+第三者 [だいさんしゃ] /third person or party/
+次第に [しだいに] /gradually/
+～次第 [～しだい] /as soon as ~, depending on ~/
+落第 [らくだい] /flunk, fail/
+万年筆 [まんねんひつ] /fountain pen/
+筆 [ふで] /writing brush/
+自筆 [じひつ] /one's own handwriting/
+鉛筆 [えんぴつ] /pencil/
+筆記試験 [ひっきしけん] /written examination/
+計算 [けいさん] /calculate, compute/
+足し算 [たしざん] /addition/
+引き算 [ひきざん] /subtraction/
+暗算 [あんざん] /mental arithmetic or calculation; calculate in one's head/
+予算 [ようさん] /budget/
+算数 [さんすう] /arithmetic/
+公算 [こうさん] /probability, likelihood/
+切符 [きっぷ] /ticket/
+音符 [おんぷ] /musical note/
+符号 [ふごう] /mark, sign/
+簡単な [かんたんな] /easy, brief/
+簡潔な [かんけつな] /concise/
+簡素な [かんそな] /plain, simple/
+書簡 [しょかん] /letter/
+単語 [たんご] /word/
+単なる [たんなる] /mere/
+単に [たんに] /only, merely, simply/
+単数 [たんすう] /singular/
+単位 [たんい] /unit, denomination/
+単独で [たんどくで] /by oneself/
+戦争 [せんそう] /war; fight, go to war/
+内戦 [ないせん] /civil war/
+休戦 [きゅうせん] /cease-fire; hold a cease-fire/
+戦前 [せんぜん] /prewar, before the war/
+戦後 [せんご] /postwar, after the war/
+第二（世界）大戦 [だいにじ（せかい）たいせん] /World War II/
+戦う [たたかう] /fight/
+戦 [いくさ] /war, batttle/
+言い争う [いいあらそう] /quarrel, argue/
+論争 [ろんそう] /argument, controversy; argue, dispute/
+争点 [そうてん] /point of contention, issue/
+争議 [そうぎ] /dispute, strike/
+# end

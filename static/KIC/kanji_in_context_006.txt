@@ -1,0 +1,203 @@
+﻿# Kanji in Context Lesson 006: 127-155
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.1  
+# Paul Denisowski (paul@denisowski.org)
+寝る [ねる] /fall asleep, go to bed, lie down/
+昼寝 [ひるね] /nap/
+寝かす [ねかす] /put (a child) to bed, lay down/
+寝室 [しんしつ] /bedroom/
+寝台車 [しんだいしゃ] /sleeping car/
+起きる [おきる] /get up, happen, occur/
+早起きる [はやおきる] /get up early/
+起こす [おこす] /wake up (a person), raise, sit up, bring about/
+起こる [おこる] /happen, occur/
+起立 [きりつ] /stand up/
+起源 [きげん] /origin, beginning/
+始まる [はじまる] /begin, start, commence/
+始まり [はじまり] /beginning/
+始める [はじめる] /begin, start, commence/
+始め [はじめ] /outset, beginning/
+開始 [かいし] /begin, start, commence/
+始発 [しはつ] /the first train, bus of the day/
+終る [おわる] /end, be completed/
+終える [おえる] /end, finish, complete/
+終了 [しゅうりょう] /end/
+終電 [しゅうでん] /the last train of the day/
+終点 [しゅうてん] /terminal/
+終日 [しゅうじつ] /all day (long)/
+始終 [しじゅう] /all the time/
+食べる [たべる] /eat/
+食べ物 [たべもの] /food/
+食事 [しょくじ] /meal/
+朝食 [ちょうしょく] /breakfast/
+昼食 [ちゅうしょく] /lunch/
+夕食 [ゆうしょく] /dinner, supper/
+食料 [しょくりょう] /food, provisions/
+食う [くう] /eat/
+断食 [だんじき] /fast, fasting/
+乞食 [こじき] /beggar/
+飲む [のむ] /drink, take (medicine), swallow/
+飲物 [のみもの] /drink, beverage/
+飲み水 [のみみず] /drinking water/
+飲料水 [いんりょうすい] /drinking water/
+飲食店 [いんしょくてん] /restaurant/
+飲酒運転 [いんしゅうんてん] /drunken driving/
+来る [くる] /come/
+来月 [らいげつ] /next month/
+来年 [らいねん] /next year/
+来日 [らいにち] /come to Japan/
+本来 [ほんらい] /originally, from the first/
+来る～日 [きたる～にち] /this coming ~ (date)/
+来す [きたす] /cause, bring about, lead to/
+帰る [かえる] /go back, return, leave (from work, etc.)/
+日帰り旅行 [ひがえりりょこう] /day trip/
+帰国 [きこく] /return to one's country/
+乗る [のる] /get on, ride, take (a bus, plane, etc.)/
+乗り物酔い [のりものよい] /motion sickness, carsickness, seasickness/
+乗車券 [じょしゃけん] /train, bus ticket/
+大乗仏教 [だいじょうぶっきょう] /Mahayana Buddhism/
+小乗仏教 [しょうじょうぶっきょう] /Hinayana, Theravada Buddhism/
+降りる [おりる] /get off (train, bus, etc.)/
+乗り降り [のりおり] /getting on and off/
+降ろす [おろす] /unload, drop off (a person)/
+降車口 [こうしゃぐち] /exit on a train, bus/
+降る [ふる] /fall, rain/
+降雨量 [こううりょう] /(amount of) rainfall/
+下降 [かこう] /descend/
+作る [つくる] /make, produce/
+手作りの [てづくりの] /handmade/
+作文 [さくぶん] /composition/
+作家 [さっか] /novelist/
+作者 [さくしゃ] /writer/
+名作 [めいさく] /masterpiece, fine piece (of art)/
+作品 [さくひん] /(artistic, fictional, etc.) work/
+作物 [さくもつ] /crop, agricultural product/
+動作 [どうさ] /action, movement, motion/
+作法 [さほう] /manners, form, etiquette/
+休む [やすむ] /rest, have a day off, be absent (from school, work)/
+夏休み [なつやすみ] /summer vacation/
+お休みなさい [おやすみなさい] /Good night/
+一休み [ひとやすみ] /short break/
+休める [やすめる] /rest, give a rest/
+休日 [きゅうじつ] /holiday, day off/
+連休 [れんきゅう] /consecutive holidays/
+週休二日制 [しゅうきゅうふつかせい] /the five-day workweek system/
+見る [みる] /look, watch, see/
+見上げる [みあげる] /look up/
+見下ろす [みおろす] /look down (from the roof, etc.)/
+見下す [みくだす] /despise, look down on (in contempt)/
+見方 [みかた] /point of view/
+見本 [みほん] /sample/
+見える [みえる] /(can) be seen, (can) see, be in sight, appear (honorific)/
+見せる [みせる] /show/
+意見 [いけん] /opinion, idea, suggestion/
+見学 [けんがく] /visit (a factory, etc.), to learn something/
+勉強 [べんきょう] /study/
+勉学 [べんがく] /study/
+勤勉な [きんべんな] /hardworking, industrious/
+住む [すむ] /live/
+住所 [じゅうしょ] /address/
+住民 [じゅうみん] /inhabitants, residents/
+住宅 [じゅうたく] /house, residence/
+住まい [すまい] /house, dwelling/
+持つ [もつ] /have, take, carry, hold/
+持ち上げる [もちあげる] /lift (up), hold up, flatter, praise/
+気持ち [きもち] /feeling, sensation/
+支持 [しじ] /support/
+知る [しる] /know, learn, notice, be acquainted/
+知人 [ちじん] /acquaintance, friend/
+知事 [ちじ] /(prefectural) governor/
+知識 [ちしき] /knowledge, information/
+酒 [さけ] /liquor, sake/
+酒屋 [さかや] /liquor shop/
+酒場 [さかば] /bar, pub/
+日本酒 [にほんしゅ] /Japanese sake/
+飲酒運転 [いんしゅうんてん] /drunken driving/
+お神酒 [おみき] /sake offered to the gods/
+お茶 [おちゃ] /tea, Japanese tea/
+紅茶 [こうちゃ] /black tea/
+茶碗 [ちゃわん] /(rice) bowl, teacup/
+茶色 [ちゃいろ] /brown/
+茶の間 [ちゃのま] /living room/
+茶室 [ちゃしつ] /tea-ceremony room, house/
+茶道 [さどう、ちゃどう] /the art of the tea ceremony/
+地下鉄 [ちかてつ] /subway, underground railway/
+地下水 [ちかすい] /ground water/
+土地 [とち] /land/
+地名 [ちめい] /place name/
+地方 [ちほう] /region, district, province, countryside/
+居心地がいい [いごこちがいい] /comfortable or cozy room, feel at home/
+地震 [じしん] /earthquake/
+地面 [じめん] /surface of the earth, land, ground/
+意気地のない [いくじのない] /timid, cowardly/
+地下鉄 [ちかてつ] /subway, underground railway/
+私鉄 [してつ] /private railway/
+鉄道 [てつどう] /railroad/
+鉄 [てつ] /iron/
+学者 [がくしゃ] /scholar/
+医者 [いしゃ] /doctor/
+前者 [ぜんしゃ] /the former/
+後者 [こうしゃ] /the latter/
+第三者 [だいさんしゃ] /third person, outsider/
+若者 [わかもの] /young person/
+うちのもの [うちのもの] /member of one's family or group/
+近所 [きんじょ] /neighborhood/
+住所 [じゅうしょ] /address/
+場所 [ばしょ] /place/
+研究所 [けんきゅうじょ] /(research) laboratory, research institute/
+所長 [しょちょう] /head, chief, manager (of an office)/
+名所 [めいしょ] /famous place, sight/
+発電所 [はつでんしょ] /electric power plant/
+長所 [ちょうしょ] /strong point, merit/
+短所 [たんしょ] /weak point, shortcoming/
+所得 [しょとく] /income/
+台所 [だいどころ] /kitchen/
+外国 [がいこく] /foreign country/
+外国人 [がいこくじん] /foreigner/
+外国語 [がいこくご] /foreign language/
+外来語 [がいらいご] /loan word/
+外出 [がいしゅつ] /go out/
+海外旅行 [かいがいりょこう] /travelling abroad, overseas trip/
+外 [そと] /outside/
+外の [ほかの] /another/
+外す [はずす] /take off, remove, unfasten/
+外れる [はずれる] /come off, come undone, miss (the target)/
+外科 [げか] /surgery/
+外国 [がいこく] /foreign country/
+母国語 [ぼこくご] /mother tongue/
+大国 [だいこく] /big or powerful nation/
+小国 [しょうこく] /small nation/
+中国 [ちゅうごく] /China/
+韓国 [かんこく] /the Republic of Korea, (South) Korea/
+四国 [しょこく] /Shikoku/
+国家 [こっか] /nation/
+国 [くに] /country, nation/
+国内旅行 [こくないりょこう] /travel within a country/
+館内 [かんない] /in the building/
+構内 [こうない] /in the station building/
+家内 [かない] /my wife/
+内外 [ないがい] /inside and outside/
+内側 [うちがわ] /inside/
+境内 [けいだい] /precinct (of a temple or shrine)/
+旅行 [りょこう] /trip, travel/
+旅館 [りょかん] /Japanese-style inn/
+旅 [たび] /journey, trip, travel/
+旅先 [たびさき] /destination, place where one is staying while on a journey/
+旅人 [たびびと] /traveler/
+日本語 [にほんご] /Japanese (language)/
+英語 [えいご] /English (language)/
+中国語 [ちゅうごくご] /Chinese (language)/
+外国語 [がいこくご] /foreign language/
+語学 [ごがく] /(foreign) language study/
+言語 [げんご] /language, speech/
+国語 [こくご] /(the Japanese) language (as a school subject)/
+物語 [ものがたり] /tale, story, narrative/
+語る [かたる] /talk, chat, tell (a story)/
+語り手 [かたりて] /narrator, storyteller/
+物語る [ものがたる] /narrate, show (the fact that ~)/
+英語 [えいご] /English (language)/
+英会話 [えいかいわ] /English conversation/
+英国 [えいこく] /the United Kingdom/
+大英帝国 [だいえいていこく] /the British Empire/
+英才教育 [えいさいきょういく] /special education for the gifted/
+#end

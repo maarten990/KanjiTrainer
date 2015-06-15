@@ -1,0 +1,42 @@
+﻿# Kanji in Context Lesson 096 : 1211-1220
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+法廷 [ほうてい] /law court/
+開廷 [かいてい] /open a court/
+出廷 [しゅってい] /appear in court/
+宮廷 [きゅうてい] /imperial palace/
+対処 [たいしょ] /cope with/
+処理 [しょり] /treat, deal with/
+処分 [しょぶん] /dispose of, deal with, punish/
+処置 [しょち] /treatment, measure; deal with , take measures/
+処女 [しょじょ] /virgin/
+証拠 [しょうこ] /evidence/
+根拠 [こんきょ] /basis, grounds/
+拠点 [きょてん] /base, position/
+準拠 [じゅんきょ] /conform to (guidelines, standards, etc.)/
+派遣 [はけん] /dispatch/
+小遣い [こづかい] /pocket money/
+仮名遣い [かなづかい] /kana usage/
+言葉遣い [ことばづかい] /wording, phraseology/
+遣わす [つかわす] /send, dispatch, give/
+返還 [へんかん] /return/
+生還 [せいかん] /come back alive/
+還元 [かんげん] /restore, return (the company's profits to the consumers) /
+逐語訳 [ちくごやく] /word-for-word or literal translation/
+逐一 [ちくいち] /one by one, in detail/
+逐次 [ちくじ] /one after another, one by one/
+駆逐 [くちく] /expel drive away/
+遂行 [すいこう] /carry out, execute, accomplish/
+自殺未遂 [じさつみすい] /attempted suicide/
+やり遂げる [やりとげる] /carry out, go through with/
+墜落 [ついらく] /fall, crash (used for aircraft)/
+撃墜 [げきつい] /shoot down (a plane)/
+失墜 [しっつい] /lose (prestige, credit, etc.)/
+後悔 [こうかい] /regret/
+悔しい [くやしい] /feel bitter, vexed/
+悔やむ [くやむ] /repent, regret, be sorry for/
+悔いる [くいる] /repent, regret/
+慎重な [しんちょうな] /cautious/
+慎む [つつしむ] /be discreet. refrain from/
+# end

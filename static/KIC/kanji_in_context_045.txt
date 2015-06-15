@@ -1,0 +1,67 @@
+﻿# Kanji in Context Lesson 045 : 653-662
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+自慢 [じまん] /boast, self-praise; (one's) pride and joy/
+慢性の [まんせいんの] /chronic/
+我慢 [がまん] /endure, bear/
+怠慢 [たいまん] /negligence/
+感情 [かんじょう] /emotion, feeling/
+感情な的 [かんじょうてきな] /emotional/
+同情 [どうじょう] /sympathize/
+友情 [ゆうじょう] /friendship/
+苦情 [くじょう] /complaint/
+情 [じょう] /emotion, sympathy/
+無情の [むじょうの] /unfortunate, heartless/
+事情 [じじょう] /circumstances, situation/
+実情 [じつじょう] /actual situation/
+風情 [ふぜい] /charm, good taste/
+情 [なさけ] /sympathy, empathy/
+慣れる [なれる] /get used to/
+見慣れた [みなれた] /familiar/
+習慣 [しゅうかん] /custom, practice, habit/
+慣習 [かんしゅう] /rules and conventions/
+慣例 [かんれい] /custom, convention/
+快適な [かいてきな] /comfortable, pleasant/
+快晴 [かいせい] /clear sky, fine weather/
+全快 [ぜんかい] /recover from an illness completely/
+快速電車 [かいそくでんしゃ] /rapid train/
+愉快な [ゆかいな] /joyful, pleasant, delightful/
+快い [こころよい] /pleasant/
+適当な [てきとうな] /appropriate, suitable/
+適度な [てきどな] /adequete/
+適切な [てきせつな] /appropriate/
+適用 [てきよう] /apply (a rule)/
+適材適所 [] /(put) the right person in the right post or place/
+適する [てきする] /be suitable for/
+敵 [てき] /enemy/
+強敵 [きょうてき] /tough enemy/
+敵意 [てきい] /hostility/
+敵対 [てきたい] /oppose/
+不適な [ふてきな] /fearless/
+敵 [かたき] /enemy/
+欠席 [けっせき] /be absent (from school, etc.)/
+欠員 [けついん] /vacancy (in the staff)/
+欠ける [かける] /lack/
+欠く [かく] /lack/
+次の [つぎの] /following, next/
+次男 [じなん] /second son/
+目次 [もくじ] /table of contents/
+~次第 [~しだい] /as soon as ~, depending on ~/
+次いで [ついで] /subsequently/
+~に次ぐ [~につぐ] /rank next to ~, follow ~/
+姿 [すがた] /figure, appearance/
+後ろ姿 [うしろすがた] /back view (of a person)/
+姿勢 [しせい] /posture, stance/
+容姿 [ようし] /face and figure, appearance/
+冷たい [つめたい] /cold/
+冷える [ひえる] /become cold/
+冷やす [ひやす] /chill, cool/
+冷戦 [れいせん] /cold war/
+冷水 [れいすい] /cold water/
+冷静な [れいせいな] /calm, cool(-headed)/
+冷蔵庫 [れいぞうこ] /refrigerator/
+冷やかす [ひやかす] /tease, poke fun at/
+冷める [さめる] /cool off/
+冷ます [さます] /cool/
+# end

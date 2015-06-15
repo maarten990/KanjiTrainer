@@ -1,0 +1,53 @@
+﻿# Kanji in Context Lesson 055 : 760-769
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+翻訳 [ほんやく] /translate/
+翻案 [ほんあん] /adaprtation (from a play, novel, etc.)/
+翻意 [ほんい] /change one's mind/
+翻す [ひるがえす] /turn aside or around quickly, change (one's mind)/
+翻る [ひるがえる] /flutter/
+通訳 [つうやく] /interpreter; interpret/
+訳 [] /translation/
+英訳 [えいやく] /English translation; translate into English/
+和訳 [わやく] /Japanese translation; translate into Japanese/
+訳者 [やくしゃ] /translator/
+訳す [やくす] /translate/
+訳 [わけ] /reason/
+言い訳 [いいわけ] /excuse/
+申し訳 [もうしわけ] /apology/
+申し訳ない [もうしわけない] /be very sorry, apologize for/
+尺度 [しゃくど] /measure/
+尺 [しゃく] /shaku (unit of length, appox. 30.3 cm)/
+解釈 [かいしゃく] /interpretation; interpret/
+注釈 [ちゅうしゃく] /annotation, commentary; annotate, comment/
+釈明 [しゃくめい] /apologize/
+釈放 [しゃくほう] /release (a suspect, etc.)/
+保釈 [ほしゃく] /release on bail/
+選択 [せんたく] /select, choose/
+選択科目 [せんたくかもく] /elective (subject)/
+二者択一 [にしゃたくいつ] /either-or alternative/
+採択 [さいたく] /adopt (a bill, act, etc.)/
+描写 [びょうしゃ] /describe/
+心理描写 [しんりびょうしゃ] /psychological description/
+描く [えがく] /describe, draw, paint, sketch/
+拝見 [はいけん] /see, have a look at (humble)/
+参拝 [さんぱい] /go and worship (at a shrine or temple)/
+参拝者 [さんぱいしゃ] /visitor (to a shrine or temple)/
+礼拝 [れいはい] /church services; worship/
+拝啓 [はいけい] /Dear Sir or Madam (opening word for letters)/
+拝む [おがむ] /pray, venerate, implore/
+提案 [ていあん] /propose/
+提出 [ていしゅつ] /present, submit/
+前提 [ぜんてい] /presupposition/
+提供 [ていきょう] /offer, supply/
+提げる [さげる] /carry in one's hand/
+拡大 [かくだい] /expand, magnify/
+拡散 [かくさん] /diffuse/
+拡声器 [かくせいき] /loudspeaker/
+拡張 [かくちょう] /extend, expand/
+拡充 [かくじゅう] /expand, enlarge, amplify/
+抜群の [ばつぐんの] /outstanding/
+選抜 [せんばつ] /select, pick out/
+抜く [ぬく] /pull out, surpass/
+# end

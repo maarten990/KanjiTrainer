@@ -1,0 +1,57 @@
+﻿# Kanji in Context Lesson 060 : 814-824
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+指示 [しじ] /directions, instructions; direct, instruct/
+明示 [めいじ] /point out, clarify/
+暗示 [あんじ] /suggest/
+公示 [こうじ] /announce publically/
+掲示 [けいじ] /notice; put up (a notice)/
+掲示板 [けいじばん] /bulletin board/
+示唆 [しさ] /suggest/
+示す [しめす] /show/
+禁止 [きんし] /prohibit/
+立入禁止 [たちいりきんし] /No Tresspassing/
+発禁 [はっきん] /ban/
+禁じる [きんじる] /forbid, prohibit/
+禁煙 [きんえん] /give up smoking; No Smoking/
+宗教 [しゅうきょう] /religion/
+改宗 [かいしゅう] /be converted/
+宗家 [そうけ] /the head family, the originator (of a sect)/
+完成 [かんせい] /complete/
+未完成の [みかんせいの] /incomplete/
+完全な [かんぜんな] /complete/
+完敗 [かんぱい] /be totally defeated/
+終了 [しゅうりょう] /finish, complete/
+完了 [かんりょう] /complete/
+任期満了 [にんきまんりょう] /expiration of a term of office/
+了解 [りょうかい] /understand, approve, consent/
+承認 [しょうにん] /approve/
+承知 [しょうち] /be aware of, consent/
+了承 [りょうしょう] /acknowledge/
+伝承 [でんしょう] /oral tradition; transmit by word of mouth/
+承る [うけたまわる] /hear, be told (humble)/
+浮く [うく] /float/
+浮世絵 [うきよえ] /ukiyoe/
+浮力 [ふりょく] /buoyancy/
+浮気 [うわき] /extramartital affair/
+浮かぶ [うかぶ] /float, rise to the surface, think of/
+浮かべる [うかべる] /set afloat, appear/
+牛乳 [ぎゅうにゅう] /milk/
+母乳 [ぼにゅう] /mother's milk/
+乳首 [ちくび] /nipple/
+乳母車 [うばぐるま] /baby carriage/
+乳 [ちち] /milk/
+お礼 [おれい] /gratitude, thanks/
+失礼な [しつれいな] /impolite/
+無礼な [ぶれいな] /rude/
+礼拝 [れいはい] /worship/
+礼儀 [れいぎ] /etiquette, formality/
+祈る [いのる] /pray/
+お祈り [おいのり] /prayer/
+祈願 [きがん] /pray/
+祖父 [そふ] /grandfather/
+祖母 [そぼ] /grandmother/
+祖先 [そせん] /ancestor/
+先祖 [せんぞ] /ancestry/
+# end

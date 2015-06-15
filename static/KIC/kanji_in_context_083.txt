@@ -1,0 +1,46 @@
+﻿# Kanji in Context Lesson 083 : 1068-1075
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+単純な [たんじゅんな] /simple/
+純金 [じゅんきん] /pure gold/
+純毛 [じゅんもう] /pure or 100 percent wool/
+純文学 [じゅんぶんがく] /pure literature/
+純日本風の [じゅんにほんふうの] /classical Japanese style/
+純情な [じゅんじょうな] /pure in heart/
+純益 [じゅんえき] /net profit/
+純粋な [じゅんすいな] /pure, genuine/
+粋人 [すいじん] /person of refined taste/
+迷う [まよう] /get lost, be unable to decide/
+迷子 [まいご] /lost child/
+迷路 [めいろ] /maze/
+迷信 [めいしん] /superstition/
+低迷 [ていめい] /be in a slump/
+迷惑 [めいわく] /trouble, inconvenience; be troubled or annoyed/
+迷惑な [めいわくな] /annoying/
+当惑 [とうわく] /be puzzled/
+困惑 [こんわく] /be embarassed, be upset/
+思惑 [おもわく] /intention, expectation/
+惑星 [わくせい] /planet/
+戸惑う [とまどう] /be bewildered or flustered/
+惑う [まどう] /go astray, be misguided or tempted/
+地域 [ちいき] /region, area, zone/
+領域 [りょういき] /territory, domain/
+区域 [くいき] /zone, district/
+流域 [りゅういき] /(river) basin, valley/
+聖域 [せいいき] /sacred precints, sanctuary/
+引っ越し [ひっこし] /moving (to a new house)/
+引っ越す [ひっこす] /move (to a new house)/
+乗り越す [のりこす] /ride past/
+越える [こえる] /exceed, go over/
+超越 [ちょうえつ] /transcend/
+越権行為 [えっけんこい] /overstepping one's authority/
+超大国 [ちょうたいこく] /superpower/
+超満員 [ちょうまんいん] /overcrowded, overflowing (with people)/
+超音速 [ちょうおんそく] /supersonic speed/
+超過 [ちょうか] /exceed/
+越える [こえる] /exceed, go over/
+赴任 [ふにん] /take up a new post/
+単身赴任 [たんしんふにん] /take up a post in a distant place, leaving one's family behind/
+赴く [おもむく] /proceed, go/
+# end

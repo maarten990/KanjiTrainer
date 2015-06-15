@@ -1,0 +1,58 @@
+﻿# Kanji in Context Lesson 067 : 894-904
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+幸福 [こうふく] /happiness/
+不幸 [ふこう] /misery, unhappiness/
+幸運 [こううん] /good fortune/
+幸せ [しあわせ] /happiness/
+幸 [さち] /happiness, fortune/
+海の幸 [うみなさち] /products of the sea/
+幸い [さいわい] /fortunately; happiness, good luck or fortune; cause good fortune/
+幸福 [こうふく] /happiness/
+福祉 [ふくし] /welfare, well-being/
+祝福 [しゅくふく] /blessing; bless/
+福音書 [ふくいんしょ] /the Gospels/
+福祉 [ふくし] /welfare, well-being/
+社会福祉 [しゃかいふくし] /social or public welfare/
+幅 [はば] /width/
+大幅な [おおはばな] /big (fall, raise, cut, etc.)/
+振幅 [しんぷく] /amplitude (of a swing)/
+副社長 [ふくしゃちょう] /vice president (of a company)/
+副業 [ふくぎょう] /side business/
+副産物 [ふくさんぶつ] /by-product/
+副作用 [ふくさよう] /side effect/
+副題 [ふくだい] /subtitle/
+判断 [はんだん] /judge/
+裁判 [さいばん] /trial, hearing/
+判事 [はんじ] /judge/
+判決 [はんけつ] /judgement, judicial decision/
+公判 [こうはん] /trial, hearing/
+判明 [はんめい] /become clear, be ascertained/
+判子 [はんこ] /seal/
+判断 [はんだん] /judge/
+決断 [けつだん] /decide or determine (to do something)/
+油断 [ゆだん] /be careless, be off one's guard/
+断定 [だんてい] /conclude/
+横断歩道 [おうだんほどう] /pedestrian crossing/
+横断 [おうだん] /cross, go across/
+断水 [だんすい] /stoppage of the water supply; the water supply is cut off/
+断念 [だんねん] /give up/
+断る [ことわる] /decline, refuse, give notice/
+断つ [たつ] /cut off/
+継続 [けいぞく] /continue/
+後継者 [こうけいしゃ] /successor/
+衛星中継 [えいせいちゅうけい] /satellite broadcasting/
+継ぐ [つぐ] /inherit, succeed to/
+受け継ぐ [うけつぐ] /succeed, take over (another's business, etc.)/
+繰り返す [くりかえす] /repeat/
+引っ繰り返す [ひっくりかえす] /turn upside down, overturn, upset, tip over/
+引っ繰り返る [ひっくりかえる] /topple over, fall one one's back, be upset/
+乾燥 [かんそう] /dry up, dry out/
+乾燥器 [かんそうき] /clothes dryer/
+乾燥地帯 [かんそうちだい] /dry area/
+乾燥 [かんそう] /dry up, dry out/
+乾電池 [かんでんち] /dry cell battery/
+乾杯 [かんぱい] /drink a toast; "Cheers!"/
+乾く [かわく] /become dry, dry out/
+# end

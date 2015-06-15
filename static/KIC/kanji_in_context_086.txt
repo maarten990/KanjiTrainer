@@ -1,0 +1,50 @@
+﻿# Kanji in Context Lesson 086 : 1101-1110
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+移民 [いみん] /immigrant; immigrate/
+移住 [いじゅう] /immigrate/
+移動 [いどう] /move (from one place to another)/
+移転 [いてん] /move (as in an office, school, etc.)/
+移植 [いしょく] /transplant/
+移る [うつる] /move/
+移す [うつっす] /move/
+秘密 [ひみつ] /secret/
+秘書 [ひしょ] /secretary/
+神秘的な [しんぴてきな] /mysterious, mystical/
+極秘 [ごくひ] /top secret/
+秘められた [ひめられた] /hidden, secret/
+秘密 [ひみつ] /secret/
+密輸 [みつゆ] /smuggle/
+人口密度 [じんこうみつど] /population density/
+精密な [せいみつな] /precise, detailed, minute/
+密接な [みっせつな] /close/
+親密な [しんみつな] /close, intimate/
+骨 [ほね] /bone/
+骨折 [こっせつ] /break a bone, bone fracture/
+鉄骨 [てっこつ] /steel frame/
+骨子 [こっし] /outlines/
+胃 [い] /stomach/
+胃がん [いがん] /stomach cancer/
+腸 [ちょう] /intestines, bowels/
+胃腸 [いちょう] /stomach and intestines/
+小腸 [しょうちょう] /small intestine/
+大腸 [だいちょう] /large intestine/
+肝心な [かんじんな] /main, essential/
+肝臓 [かんぞう] /liver/
+肝 [きも] /liver, guts/
+心臓 [しんぞう] /heart/
+肝臓 [かんぞう] /liver/
+内蔵 [ないぞう] /internal organs, viscera/
+臓器 [ぞうき] /internal organs, viscera/
+脳 [のう] /brain/
+洗脳 [せんのう] /brainwash/
+脳卒中 [のうそっちゅう] /cerebral hemorrhage/
+首脳会談 [しゅのうかいだん] /summit conference/
+頭脳 [ずのう] /brain/
+悩み [なやみ] /trouble, worry, agony, anguish/
+伸び悩む [のびなやむ] /fail to make progress/
+悩ます [なやます] /annoy, pester, harass/
+苦悩 [くのう] /suffer, be distressed or afflicted/
+悩殺 [のうさつ] /enhance, captivate/
+# end

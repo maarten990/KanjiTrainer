@@ -1,0 +1,86 @@
+﻿# Kanji in Context Lesson 026 : 427-438
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+普通の [ふつうの] /common, ordinary/
+普段の [ふだんの] /usual/
+普段着 [ふだんぎ] /everyday clothes/
+普遍的な [ふへんてきな] /universal/
+普及 [ふきゅう] /diffuse, spread/
+昔 [むかし] /long ago, before (in contrast to "the present")/
+昔話 [むかしばなし] /old tale/
+大昔 [おおむかし] /ancient times/
+昔日 [せきじつ] /old days/
+今昔物語 [こんじゃくものがたり] /Konjaku Monogatari (a collection of folktales edited in the 11th century)/
+増える [ふえる] /increase/
+増やす [ふやす] /increase/
+増加 [ぞうか] /increase/
+増大 [ぞうだい] /expand, increase/
+倍増 [ばいぞう] /double/
+増税 [ぞうぜい] /tax increase or hike; increase or raise taxes/
+増産 [ぞうさん] /expansion of production; expand production/
+増す [ます] /increase/
+減る [へる] /decrease/
+減らす [へらす] /decrease/
+減少 [げんしょう] /decrease/
+半減 [はんげん] /reduce by half, take off half, decrease by half/
+増減 [ぞうげん] /increase and decrease/
+加減 [かげん] /addition and subtraction, state, condition; regulate, adjust/
+減税 [げんぜい] /tax reduction or cut; reduce or cut taxes/
+減産 [げんさん] /reduction of production; reduce production/
+感じる [かんじる] /feel, sense/
+感想 [かんそう] /impressions, one's thoughts/
+感心 [かんしん] /be impressed/
+五感 [ごかん] /five senses/
+感受性 [かんじゅせい] /sensibility, sensitivity/
+感情 [かんじょう] /feelings, emotion/
+留学 [りゅうがく] /study abroad/
+書留 [かきとめ] /registered mail/
+留守 [るす] /absence from home/
+留守番電話 [るすばんでんわ] /answering machine/
+留める [とめる] /stop, detain, fix in one position/
+貿易 [ぼうえき] /trade; trade, do business with/
+貿易摩擦 [ぼえきまさつ] /trade friction/
+易しい [やさしい] /easy/
+容易な [よういんな] /easy, simple/
+難易度 [なんいど] /degree of difficulty/
+交易 [こうえき] /trade, commerce, barter; trade, exchange, barter/
+易者 [えきしゃ] /fortune-teller/
+量 [りょう] /quantity, amount/
+大量の [たいりょうの] /large amount of/
+少量の [しょうりょうの] /small amount of/
+分量 [ぶんりょう] /quantity/
+雨量 [うりょう] /amount of rainfall/
+重量 [じゅうりょう] /weight (of a vehicle, machine, etc)/
+大量生産 [たいりょうせいさん] /mass production; mass produce/
+量る [はかる] /measure (amount or weight)/
+裏 [うら] /reverse side, back/
+裏返す [うらがえす] /turn inside out/
+裏口 [うらぐち] /back door, rear entrance/
+裏切る [うらぎる] /betray/
+表裏のない [ひょうりのない] /single-minded/
+表裏一体の [ひょうりいったいの] /one and indivisible/
+表 [おもて] /surface, front/
+裏表のある人 [うらおもてのあるひと] /double-dealer, hypocrite/
+表 [ひょう] /table, chart/
+表紙 [ひょうし] /cover (of a book, magazine)/
+発表 [はっぴょう] /announce, make public, present (findings, etc.)/
+公表 [こうひょう] /make public, publically announce/
+代表的な [だいひょうてきな] /representative, typical/
+表す [あらわす] /express/
+表れる [あらわれる] /be expressed/
+表れ [あらわれ] /manifestation, expression/
+面白い [おもしろい] /interesting/
+面 [めん] /mask, surface, aspect/
+表面 [ひょうめん] /surface, exterior/
+水面 [すいめん] /surface of the water/
+洗面所 [せんめんじょ] /lavatory, washroom, toilet/
+場面 [ばめん] /situation, scene/
+面倒 [めんどう] /care, trouble/
+～方面 [～ほうめん] /~ direction, ~side/
+面会人 [めんかいにん] /vistor to a hospitalized or imprisoned person/
+面目 [めんぼく] /face, honor, dignity/
+面影 [おもかげ] /looks, trace/
+面 [おもて] /face, surface/
+面 [つら] /surface, face (impolite)
+# end

@@ -1,0 +1,84 @@
+﻿# Kanji in Context Lesson 028 : 452-466
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+池 [いけ] /pond/
+電池 [でんち] /battery/
+湖 [みずうみ] /lake/
+ミシガン湖 [ミシガンこ] /Lake Michigan/
+湖水 [こすい] /lake water/
+湖面 [こめん] /surface of a lake/
+海 [うみ] /ocean/
+海外 [かいがい] /overseas/
+日本海 [にほんかい] /Sea of Japan/
+東シナ海 [ひがしシナかい] /the East China Sea/
+海洋 [かいよう] /ocean/
+海原 [うなばら] /ocean, sea/
+海女 [あま] /woman diver (for pearls, oysters, etc.)/
+島 [しま] /island/
+島国 [しまぐに] /island country/
+島民 [とうみん] /island/
+無人島 [むじんとう] /uninhabited island/
+半島 [はんとう] /peninsula/
+淡路島 [あわじしま] /Awaji Island/
+西海岸 [にしかいがん] /west coast/
+東海岸 [ひがしかいがん] /east coast/
+海岸 [かいがん] /coast, beach/
+対岸 [たいがん] /opposite bank/
+岸 [きし] /riverbank, shore/
+岩 [いわ] /rock/
+岩石 [がんせき] /stone, rock/
+谷 [たに] /valley/
+谷間 [たにま] /ravine/
+谷川 [たにがわ] /mountain stream/
+谷底 [たにぞこ] /the bottom of a ravine/
+渓谷 [けいこく] /valley/
+四ツ谷 [よつや] /Yotsuya/
+長谷川 [はせがわ] /Hasegawa (surname)/
+林 [はやし] /small forest/
+山林 [さんりん] /mountain forest/
+林業 [りんぎょう] /forestry/
+森 [もり] /woods, forest/
+森林 [しんりん] /forest/
+空 [そら] /sky/
+青空 [あおぞら] /blue sky, open-air (market, concert, etc.)/
+大空 [おおぞら] /sky, firmament/
+空気 [くうき] /air/
+空間 [くうかん] /space/
+空中 [くうちゅう] /in the air/
+空く [あく] /become unoccupied/
+空室 [くうしつ] /unoccupied room/
+空車 [くうしゃ] /empty cab/
+空の [からの] /empty/
+空っぽの [からっぽの] /empty/
+空手 [からて] /karate/
+天気 [てんき] /weather/
+天文学 [てんもんがく] /astronomy/
+天国 [てんごく] /heaven, paradise/
+天性の [てんせいの] /natural (attribute), innate/
+天の川 [あまのがわ] /the Milky Way/
+天下り [あまくだり] /appointment of a former gov't official to a high post in a company (through influence from above)/
+天の下 [あまのした] /this world/
+星 [ほし] /star/
+星空 [ほしぞら] /starry sky/
+流れ星 [ながれぼし] /meteor/
+火星 [かせい] /Mars/
+金星 [きんせい] /Venus/
+明星 [みょうじょう] /Venus/
+光 [ひかり] /light/
+光る [ひかる] /shine, glitter/
+日光 [にっこう] /sunlight, sunshine; Nikko/
+光線 [こうせん] /ray or beam of light/
+風 [かぜ] /wind/
+そよ風 [そよかぜ] /gentle breeze/
+風土 [ふうど] /climate/
+風向き [かざむき] /direction of wind/
+風呂 [ふろ] /bath/
+風土記 [ふどき] /old records and descriptions of a region's culture and geographic features/
+風邪 [かぜ] /a cold/
+虫 [むし] /bug, insect/
+毛虫 [けむし] /hairy caterpillar/
+虫歯 [むしば] /decayed tooth, cavity/
+害虫 [がいちゅう] /harmful insect/
+殺虫剤 [さっちゅうざい] /insecticide/
+# end

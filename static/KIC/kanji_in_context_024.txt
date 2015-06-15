@@ -1,0 +1,87 @@
+﻿# Kanji in Context Lesson 024 : 405-416
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+原因 [げんいん] /cause, reason/
+原理 [げんり] /principle/
+原料 [げんりょう] /raw material/
+原書 [げんしょ] /the text, the original/
+原案 [げんあん] /original plan (or proposal or bill)/
+原野 [げんや] /(uncultivated) field, plain/
+原始時代 [げんしじだい] /primitive age/
+野原 [のはら] /field, plain/
+河原 [かわら] /dry riverbed/
+川原 [かわら] /dry riverbed/
+海原 [うなばら] /ocean, sea/
+原因 [げんいん] /cause, reason/
+死因 [しいん] /cause of death/
+要因 [よういん] /factor/
+因果関係 [いんがかんけい] /causal relationship/
+因る [よる] /be caused by, be due to/
+正しい [ただしい] /right, correct, just/
+正解 [せいかい] /right answer; answer correctly/
+校正 [こうせい] /proofread/
+訂正 [ていせい] /correct/
+正義 [せいぎ] /justice/
+正確な [せいかくな] /exact, precise/
+正直な [しょうじきな] /honest/
+正午 [しょうご] /noon/
+お正月 [おしょうがつ] /the New Year/
+正面 [しょうめん] /front, facade/
+正夢 [まさゆめ] /prophetic dream, a dream which later comes true/
+正に [まさに] /exactly, surely, certainly/
+正す [ただす] /rectify, correct/
+幾つ [いくつ] /how many/
+幾つかの [いくつかの] /a couple of, several/
+幾分 [いくぶん] /somewhat, to some extent/
+幾何学 [きかがく] /geometry/
+糸 [いと] /thread/
+生糸 [きいと] /raw silk/
+綿糸 [めんし] /cotton thread/
+高級な [こうきゅうな] /high-grade/
+同級生 [どうきゅうせい] /classmate/
+初級 [しょきゅう] /elementary level/
+中級 [ちゅうきゅう] /intermediate level/
+上級 [じょうきゅう] /advanced level/
+学級 [がっきゅう] /class (level)/
+能力 [のうりょく] /ability, capacity/
+本能 [ほんのう] /instinct/
+能 [のう] /Noh drama/
+能面 [のうめん] /Noh mask/
+可能な [かのうな] /possible/
+可決 [かけつ] /approve/
+可能性 [かのうせい] /possibility/
+不可能な [ふかのうな] /impossible/
+不可欠な [ふかけつな] /indispensible/
+不可分な [ふかぶんな] /indivisible/
+世代 [せだい] /generation/
+時代 [じだい] /era, period/
+古代 [こだい] /ancient times, antiquity/
+現代 [げんだい] /modern, contemporary; modern times, the present age/
+～年代 [～ねんだい] /~ties (as in "the sixties")/
+代理 [だいり] /act for, represent; proxy, deputy/
+代金 [だいきん] /price, charge/
+交代 [こうたい] /take turns/
+お代わり [おかわり] /second helping, another cup/
+代わりに [かわりに] /in place of, in return, in exchange for/
+千代田区 [ちよだく] /Chioda Ward (in Tokyo)/
+飲み代 [のみしろ] /money for drinking/
+文化 [ぶんか] /culture/
+化学 [かがく] /chemistry/
+強化 [きょうか] /strengthen/
+合理化 [ごうりか] /rationalize/
+民主化 [みんしゅか] /democratize/
+自由化 [じようか] /deregulate/
+～化 [～か] /-ize, -en, etc./
+化粧 [けしょう] /make up, put on make up/
+化ける [ばける] /take another form, disguise oneself/
+他の [たの] /another, other/
+他人 [たにん] /other persons/
+他国 [たこく] /other countries/
+その他 [そのた] /etc., miscellaneous/
+他方 [たほう] /the other party, the other direction, on the other hand/
+仏教 [ぶっきょう] /Buddhism/
+大仏 [だいぶつ] /large statue of Buddha/
+日仏関係 [にちふつかんけい] /Japanese-French relations/
+仏 [ほとけ] /Buddha/
+# end

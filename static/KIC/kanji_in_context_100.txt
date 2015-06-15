@@ -1,0 +1,46 @@
+﻿# Kanji in Context Lesson 100 : 1251-1261
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+首都圏 [しゅとけん] /metropolitan area/
+共産圏 [きょうさんけん] /the Communist bloc/
+北極圏 [ほっきょくけん] /the Arctic Circle/
+南極圏 [なんきょくけん] /the Antarctic Circle/
+大気圏 [たいきけん] /the atmosphere/
+宇宙 [うちゅう] /the universe, space/
+宇宙 [うちゅう] /the universe, space/
+宙返り [ちゅうがえり] /somersault/
+抽象的な [ちゅうしょうてきな] /abstract/
+抽出 [ちゅうしゅつ] /extract, sample/
+抽選 [ちゅうせん] /lottery, drawing of lots; draw lots, ballot/
+拍手 [はくしゅ] /clap one's hands, applaud/
+拍車 [はくしゃ] /spur/
+脈拍 [みゃくはく] /pulse/
+拍子 [ひょうし] /tempo, time, chance, the moment/
+指摘 [してき] /point out/
+摘出 [てきしゅつ] /extract, take out, remove/
+摘発 [てきはつ] /expose, unmask/
+摘む [つむ] /pick (flowers, berries, etc.)/
+茶摘み [ちゃつみ] /tea picking/
+握手 [あくしゅ] /shake hands/
+握力 [あくりょく] /grasping power, grip/
+掌握 [しょうあく] /hold, command, seize/
+握る [にぎる] /grip, grasp, take hold of/
+探す [さがす] /look for/
+探る [さぐる] /grope for, search/
+探求 [たんきゅう] /investigate/
+探知器 [たんちき] /detector/
+掘る [ほる] /dig/
+発掘 [はっくつ] /excavate/
+採掘 [さいくつ] /mine/
+堀 [ほり] /moat/
+内堀 [うちぼり] /inner moat/
+外堀 [そとぼり] /outer moat/
+釣堀 [つりぼり] /fishing pond/
+埋める [うめる] /bury, fill up/
+埋立地 [うめたてち] /reclaimed land/
+埋もれる [うもれる] /be buried, sink into obscurity/
+埋蔵 [まいそう] /bury (a dead person)/
+埋没 [まいぼつ] /be buried/
+埋蔵金 [まいぞうきん] /money buried in the ground/
+# end

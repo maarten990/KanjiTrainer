@@ -1,0 +1,57 @@
+﻿# Kanji in Context Lesson 069 : 918-928
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+卸売り [おろしうり] /wholesale/
+卸値 [おろしね] /wholesale price/
+卸売物価 [おろしうりぶっか] /wholesale prices/
+卸す [おろす] /sell wholesalel/
+御飯 [ごはん] /(cooked) rice, meal/
+京都御所 [きょうとごしょ] /Kyoto Imperial Palace/
+御礼 [おんれい] /gratitude, thanks/
+制御 [せいぎょ] /control/
+空き缶 [あきかん] /empty can/
+缶ビール [かんビール] /canned beer/
+利益 [りえき] /profit/
+収益 [しゅうえき] /profit/
+有益な [ゆうえきな] /useful/
+無益な [むえきな] /useless, futile/
+公益 [こうえき] /the public interest or good/
+公益法人 [こうえきほうじん] /nonprofit organization, public corportation/
+ご利益 [ごりあく] /divine assistance/
+盛大な [せいだいな] /grand, magnificent/
+繁盛 [はんじょう] /prosper, flourish/
+盛り込む [もりこむ] /include/
+盛る [もる] /heap up, fill up (a bowl with rice)/
+盛んな [さかんな] /prosperous, energetic/
+花盛り [はなざかり] /in full bloom, at its best/
+同盟国 [どうめいこく] /allied nations/
+国際連盟 [こくさいれんめい] /the League of Nations/
+連盟 [れんめい] /league/
+加盟 [かめい] /join (a league, federation, etc.)/
+盟主 [めいしゅ] /leader of a league, federation, etc./
+盟約 [めいやく] /pledge/
+塩 [しお] /salt/
+塩分 [えんぶん] /salt content/
+食塩 [しょくえん] /table salt/
+塩水 [しおみず、えんすい] /salt water, brine/
+監督 [かんとく] /(film) director, manager (of a team); supervise/
+監視 [かんし] /watch, keep a watch on/
+監禁 [かんきん] /imprison, confine/
+監査 [かんさ] /inspection; inspect/
+監督 [かんとく] /(film) director, manager (of a team); supervise/
+督促 [とくそく] /demand or urge payment of a debt/
+家督 [かとく] /headship of a family/
+皿 [さら] /plate, dish saucer/
+皿洗い [さらあらい] /dishwashing/
+灰皿 [はいざら] /ashtray/
+血 [ち] /blood/
+血液 [けつえき] /blood/
+血管 [けっかん] /blood vessel/
+出血 [しゅっけつ] /bleed/
+輸血 [ゆけつ] /give a blood transfusion/
+血圧 [けつあつ] /blood pressure/
+高血圧 [こうけつあつ] /high blood pressure/
+献血 [けんけつ] /donate or give blood/
+流血 [りゅうけつ] /bloodshed/
+# end

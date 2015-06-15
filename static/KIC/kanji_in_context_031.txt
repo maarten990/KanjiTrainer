@@ -1,0 +1,69 @@
+﻿# Kanji in Context Lesson 031 : 492-502
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+翌日 [よくじつ] /the following day/
+翌週 [よくしゅう] /the following week/
+翌月 [よくげつ] /the folllowing month/
+翌年 [よくねん、よくとし] /the following year/
+翌朝 [よくちょう、よくあさ] /the next morning/
+社会主義 [しゃかいしゅぎ] /socialism/
+個人主義 [こじんしゅぎ] /individualism/
+民主主義 [みんしゅしゅぎ] /democracy/
+共産主義 [きょうさんしゅぎ] /communism/
+～主義 [～しゅぎ] /~cy, ~ism/
+義務 [ぎむ] /obligation, duty/
+同義語 [どうぎご] /synonym/
+類義語 [るいぎご] /synonym/
+会議 [かいぎ] /meeting, conference/
+議長 [ぎちょう] /chairperson/
+議会 [ぎかい] /congress, parliament/
+議員 [ぎいん] /member of an assembly (or the Diet, Congress, etc.)/
+協議 [きょうぎ] /confer/
+不思議な [ふしぎな] /stranger, mysterious/
+講義 [こうぎ] /lecture; give a lecture/
+休講 [きゅうこう] /cancel a lecture/
+講師 [こうし] /lecturer/
+講演 [こうえん] /lecture; give  a lecture/
+講堂 [こうどう] /lecture hall, auditorium (of a school)/
+講和条約 [こうわうじょうやく] /peace treaty/
+理論 [りろん] /theory/
+論理 [ろんり] /logic/
+議論 [ぎろん] /discuss, argue/
+世論 [せろん] /public opinion/
+世論調査 [せろんちょうさ] /public opinion survey, poll/
+論文 [ろんぶん] /thesis, essay/
+結論 [けつろん] /conclusion/
+～論 [～ろん] /~ theory, theory of ~/
+論じる [ろんじる] /discuss/
+倫理 [りんり] /ethics, morals/
+倫理学 [りんりがく] /ethics/
+不倫の [ふりんの] /illicit, immoral/
+三輪車 [さんりんしゃ] /tricycle/
+車輪 [しゃりん] /wheel/
+競輪 [けいりん] /bicycle race/
+指輪 [ゆびわ] /(finger) ring/
+輸入 [ゆにゅう] /import/
+輸出 [ゆしゅつ] /export/
+輸送 [ゆそう] /transport/
+空輸 [くうゆ] /send by air/
+運輸省 [うんゆしょう] /Ministry of Transportation/
+比較 [ひかく] /compare/
+比較的 [ひかくてき] /rather, comparatively/
+効果 [こうか] /effect, effectiveness/
+効果的な [こうかてきな] /effective, valid/
+無効の [むこうの] /invalid/
+効力 [こうりょく] /effectiveness/
+時効 [じこう] /prescription (in a statute of limitations)/
+効く [きく] /be effective, work/
+効き目 [ききめ] /effectiveness (of a medicine)/
+結果 [けっか] /result/
+成果 [せいか] /result, performance/
+効果 [こうか] /effect, effectiveness/
+果汁 [かじゅう] /fruit juice/
+果物 [くだもの] /fruit/
+果たす [はたす] /fruit/
+果たして [はたして] /accomplish, fulfill/
+果てる [はてる] /die/
+地の果て [ちのはて] /end of the land/
+# end

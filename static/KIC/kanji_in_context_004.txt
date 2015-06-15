@@ -1,0 +1,158 @@
+﻿# Kanji in Context Lesson 004
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+何 [なに] /what/
+何時 [なんじ] /what time/
+何でも [なんでも] /whatever/
+何で [なんで] /why (used in casual speech)/
+何とか [なんとか] /one way or another, somehow/
+幾何学 [きかがく] /geometry/
+誰 [だれ] /who/
+名前 [なまえ] /name/
+人名 [じんめい] /personal name/
+地名 [ちめい] /place name/
+名人 [めいじん] /master, expert/
+仮名 [かな] /kana, Japanese syllabary/
+名残 [なごり] /traces, remains/
+大名 [だいみょう] /daimyo, feudal lord/
+高い [たかい] /high, expensive/
+円高 [えんだか] /rise in the exchange rate of the yen/
+売上高 [うりあげだか] /sales, turnover/
+高校 [こうこう] /high school/
+高気圧 [こうきあつ] /high (atmospheric) pressure/
+高まる [たかまる] /rise, be raised/
+安い [やすい] /cheap, inexpensive/
+ドル安 [ドルやす] /fall in the exchange rate of the dollar/
+安心 [あんしん] /feel relieved, stop worrying, feel at ease/
+安全 [あんぜん] /safety/
+不安 [ふあん] /anxiety/
+新しい [あたらしい] /new/
+新聞 [しんぶん] /newspaper/
+新車 [しんしゃ] /new car/
+中古車 [ちゅうこしゃ] /used car/
+新入生 [しんにゅうせい] /new student/
+新入社員 [しんにゅうしゃいん] /new employee/
+新たな [あらたな] /new/
+新妻 [にいづま] /newly married wife/
+古い [ふるい] /old/
+古本 [ふるほん] /used book/
+使い古す [つかいふるす] /wear out (by use)/
+中古車 [ちゅうこしゃ] /used car/
+古典文学 [こてんぶんがく] /classical literature/
+古文 [こぶん] /ancient writings, classics/
+古今東西 [ここんとうざい] /all ages and countries/
+大きい [おおきい] /big, large/
+大水 [おおみず] /flood/
+大いに [おおいに] /very/
+大学 [だいがく] /university, college/
+大小 [だいしょう] /large and small, size/
+大丈夫 [だいじょうぶ] /all right, secure, safe/
+大豆 [だいず] /soybean/
+大国 [たいこく] /big, powerful nation/
+大金 [たいきん] /large amount of money/
+大した [たいした] /great, serious, important, considerable/
+大して [たいして] /not very ~, not so much ~/
+大人 [おとな] /adult/
+大和朝廷 [やまとちょうてい] /Yamato Chotei : the ancient Japanese Imperial Court/
+大和絵 [やまとえ] /Yamato-e painting/
+小さい [ちいさい] /small, little/
+小学校 [しょうがっこう] /elementary school/
+大小 [だいしょう] /large and small, size/
+小人 [しょうにん] /children (used in bus fares, etc.)/
+小人 [しょうじん] /insignificant person, small-minded person/
+小人 [こびと] /dwarf/
+小指 [こゆび] /the little finger, the little toe/
+小鳥 [ことり] /little bird/
+小切手 [こぎって] /check/
+小川 [おがわ] /(small) stream/
+小豆 [あずき] /adzuki bean/
+長い [ながい] /long/
+社長 [しゃちょう] /company president/
+部長 [ぶちょう] /department head/
+長時間 [ちょうじかん] /for a long time/
+長所 [ちょうしょ] /strong point, merit/
+長年 [ながねん] /for a long time/
+短い [みじかい] /short/
+短気な [たんきな] /quick-tempered/
+短所 [たんしょ] /weak point, shortcoming/
+長短 [ちょうたん] /strong points and weak points/
+短期大学 [たんきだいがく] /junior college/
+短期の [たんきの] /short-term/
+朝 [あさ] /morning/
+朝ごはん [あさごはん] /breakfast/
+毎朝 [まいあさ] /every morning/
+朝日新聞 [あさひしんぶん] /Asahi Shimbun (a newspaper)/
+朝食 [ちょうしょく] /breakfast/
+今朝 [けさ] /this morning/
+昼 [ひる] /daytime, noon, midday/
+昼ごはん [ひるごはん] /lunch/
+昼休み [ひるやすみ] /lunch break/
+昼間 [ひるま] /daytime/
+昼食 [ちゅうしょく] /lunch/
+夜 [よる] /night/
+夜明け [よあけ] /dawn, daybreak/
+夜中 [よなか] /in the night/
+今夜 [こんや] /tonight/
+夜食 [やしょく] /midnight snack/
+夜行列車 [やこうれっしゃ] /overnight train/
+昨夜 [さくや、ゆうべ] /last evening, last night/
+晩 [ばん] /evening, night/
+晩ごはん [ばんごはん] /dinner, supper/
+今晩 [こんばん] /tonight/
+毎晩 [まいばん] /every night/
+一晩 [ひとばん] /one night/
+一晩中 [ひとばんちゅう] /all night (long)/
+晩年 [ばんねん] /late in life, one's later years/
+夕方 [ゆうがた] /evening/
+夕日 [ゆうひ] /evening, setting sun/
+夕べ [ゆうべ] /evening/
+七夕 [たなばた] /the Festival of the Weaver, the Star Festival/
+一朝一夕 [いっちょういっせき] /in a day, in a short time/
+春 [はる] /spring/
+春休み [はるやすみ] /spring vacation/
+春分の日 [しゅんぶんのひ] /Vernal Equinox Day/
+立春 [りっしゅん] /the first day of spring (in the lunar calender)/
+青春時代 [せいしゅんじだい] /youth, the springtime of life/
+売春 [ばいしゅん] /prostitute/
+春画 [しゅんが] /pornographic picture/
+夏 [なつ] /summer/
+夏休み [なつやすみ] /summer vacation/
+春夏秋冬 [しゅんかしゅうとう] /the four seasons/
+夏至 [げし] /the summer solstice/
+秋 [あき] /autumn, fall/
+秋風 [あきかぜ] /autumn breeze/
+秋分の日 [しゅうぶんのひ] /Autumnal Equinox Day/
+冬 [ふゆ] /winter/
+冬休み [ふゆやすみ] /winter vacation/
+冬空 [ふゆぞら] /winter sky, wintry weather/
+冬眠 [とうみん] /hibernate/
+山 [やま] /mountain/
+入山 [にゅうざん] /begin to climb a mountain/
+下山 [げざん] /to climb down a mountain/
+火山 [かざん] /volcano/
+山水画 [さんすいが] /(Chinese-style) landscape painting/
+山車 [だし] /float, festival car/
+築山 [つきやま] /small artificial hill (in a landscape garden)/
+川 [かわ] /river/
+～川 [～がわ] /~River/
+川上 [かわかみ] /upper reaches of a river, upstream/
+川下 [かわしも] /lower reaches of a river, downstream/
+小川 [おがわ] /(small) stream/
+川原 [かわら] /dry riverbed/
+河川 [かせん] /rivers/
+川柳 [せんりゅう] /senryu, short, humorous verse/
+石 [いし] /stone/
+小石 [こいし] /small stone/
+石田 [いしだ] /(surname)/
+石けん [せっけん] /soap/
+宝石 [ほうせき] /jewel, precious stone/
+磁石 [じしゃく] /magnet, compass/
+～石 [～こく] /koku (unit of volume, approx. 180 liters)/
+山田 [やまだ] /(surname)/
+田中 [たなか] /(surname)/
+田 [た] /rice field/
+水田 [すいでん] /paddy field, (rice) paddy/
+油田 [ゆでん] /oil field/
+田舎 [いなか] /the country, countryside, one's hometown/
+#end

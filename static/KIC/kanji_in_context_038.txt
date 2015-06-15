@@ -1,0 +1,77 @@
+﻿# Kanji in Context Lesson 038 : 571-582
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+預ける [あずける] /leave in someone's care, deposit, entrust/
+預かる [あずかる] /receive for safekeeping, take care of/
+預金 [よきん] /deposit/
+頼む [たのむ] /ask (a favor), request/
+頼る [たよる] /rely on/
+信頼 [しんらい] /trust/
+依頼 [いらい] /ask, demand/
+頼もしい [たのもしい] /reliable, dependable/
+顔 [かお] /face/
+顔色 [かおいろ] /complexion, a look/
+新顔 [しんがお] /newcomer/
+笑顔 [えがお] /smiling face/
+素顔 [すがお] /face without makeup/
+童顔 [どうがん] /childlike face/
+顔面 [がんめん] /face/
+産業 [さんぎょう] /industry/
+水産業 [すいさんぎょう] /marine products industry/
+生産 [せいさん] /produce/
+生産物 [せいさんぶつ] /product/
+産地 [さんち] /producing area, center/
+出産 [しゅっさん] /give birth, be delivered/
+共産主義 [きょうさんしゅぎ] /communism/
+不動産 [ふどうさん] /real estate/
+原産国 [げんさんこく] /the country where the good is produced/
+産む [うむ] /give birth to/
+土産 [みやげ] /souvenir/
+産声 [うぶごえ] /the first cry of a newborn baby/
+産湯 [うぶゆ] /bath for a newborn baby/
+玉子 [たまご] /egg/
+十円玉 [じゅうえんだま] /10-yen coin/
+玉 [たま] /gem, jewel, ball/
+玉 [ぎょく] /jewel/
+宝石 [ほうせき] /precious stone, gem/
+国宝 [こくほう] /national treasure/
+宝物 [たからもの、ほうもつ] /treasure/
+宝 [たから] /treasure/
+王国 [おうこく] /kingdom/
+王 [おう] /king/
+王子 [おうじ] /prince/
+王女 [おうじょ] /princess/
+女王 [じょおう] /queen/
+王様 [おうさま] /king/
+法王 [ほうおう] /pope/
+ローマ法王 [ローマほうおう] /the Pope/
+現代 [げんだい] /modern, contemporary; modern times, the present age/
+現在 [げんざい] /present, current/
+表現 [ひょうげん] /express/
+現金 [げんきん] /cash/
+実現 [じつげん] /realize/
+現れる [あらわれる] /appear, come out, emerge/
+表す [あらわす] /show, reveal/
+天皇 [てんのう] /(Japanese) emperor/
+皇居 [こうきょ] /imperial palace/
+皇室 [こうしつ] /imperial family/
+皇位 [こうい] /emporer/
+法皇 [ほうおう] /ex-emporer who has become a monk/
+聖書 [せいしょ] /the Bible/
+聖人 [せいじん] /saint/
+神聖な [しんせいな] /sacred/
+聖母マリア [せいぼマリア] /the Virgin Mary/
+要望 [ようぼう] /demand, request/
+失望 [しつぼう] /be disappointed/
+希望 [きぽう] /hope, wish; hope, wish/
+志望校 [しぼうこう] /the school of one's choice/
+望む [のぞむ] /hope, wish/
+望み [のぞみ] /hope/
+本望 [ほんもう] /full satisfaction/
+死亡 [しぼう] /die/
+死亡者 [しぼうしゃ] /the dead, the deceased/
+亡命 [ぼうめい] /flee (from) one's own country (for a political reason)/
+金の亡者 [かねのもうじゃ] /money-mad/
+亡くなる [なくなる] /pass away/
+# end

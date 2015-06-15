@@ -1,0 +1,56 @@
+﻿# Kanji in Context Lesson 092 : 1166-1176
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+先輩 [せんぱい] /one's senior (at school, work, etc.)/
+後輩 [こうはい] /one's junior (at school, work, etc.)/
+年輩の [ねんぱいの] /elderly/
+俳優 [はいゆう] /actor/
+俳句 [はいく] /haiku, Japanese short poem consisting of 17 syllables/
+俳人 [はいじん] /haiku poet/
+俳優 [はいゆう] /actor/
+女優 [じょゆう] /actress/
+優勝 [ゆうしょう] /win a championship/
+優先 [ゆうせん] /take precedence or priority, give priority/
+優秀な [ゆうしゅうな] /excellent/
+優れた [すぐれた] /excellent/
+優しい [やさしい] /gender, tender, kind-hearted/
+仲がいい [なかがいい] /be on good terms/
+仲 [なか] /relation/
+仲人 [なこうど] /go-between, match-maker/
+仲介 [ちゅうかい] /mediate/
+仲裁 [ちゅうさい] /arbitration, mediation; arbitrate, mediate/
+促進 [そくしん] /promote/
+催促 [さいそく] /press (a person for), urge (a person to do)/
+促成栽培 [そくせいさいばい] /artificially accelerated growth/
+促す [うながす] /urge (a person to do something)/
+優秀な [ゆうしゅうな] /excellent/
+秀才 [しゅうさい] /brilliant or bright student/
+秀でる [ひうでる] /excel/
+似ている [にている] /resemble/
+似顔絵 [にがおえ] /portrait/
+似合う [にあう] /go well (with)/
+類似品 [るいじひん] /imitation/
+疑似体験 [ぎじたいけん] /simulated experience/
+傾向 [けいこう] /tendency, trend/
+傾斜 [けいしゃ] /inclination, slant, slope; slant, slope/
+傾倒 [けいとう] /respect (the master of  an art, leader of a movement, etc.)/
+傾く [かたむく] /lean, incline/
+気候 [きこう] /weather, climate/
+天候 [てんこう] /weather/
+候補者 [こうほうしゃ] /candidate/
+立候補 [りっこうほ] /run in an election/
+居候 [いそうろう] /freeloader/
+候文 [そうろうぶん] /soro-style writing (formal writing style in the Edo period)/
+修理 [しゅうり] /repair/
+修正 [しゅうせい] /amend, revise, correct, retouch/
+修了 [しゅうりょう] /complete/
+修了証 [しゅうりょうしょう] /certificate of completion of a course/
+研修 [けんしゅう] /study and training; be trained/
+修める [おさまる] /master/
+修業 [しゅぎょう] /(religious, artistic, etc.) training; train oneself/
+偏見 [へんけん] /prejudice, bias/
+偏食 [へんしょく] /have an unbalanced diet/
+偏差値 [へんさち] /deviation value or score/
+偏る [かたよる] /lean, incline/
+# end

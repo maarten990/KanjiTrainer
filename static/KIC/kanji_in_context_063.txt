@@ -1,0 +1,60 @@
+﻿# Kanji in Context Lesson 063 : 848-858
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+厚い [あつい] /thick/
+厚かましい [あつかましい] /shameless, brazenfaced/
+厚生省 [こうせいしょう] /the Ministry of Health and Welfare/
+宴会 [えんかい] /dinner party, banquet/
+酒宴 [しゅえん] /banquet/
+宣言 [せんげん] /declare/
+独立宣言 [どくりつせんげん] /declaration of independence/
+宣伝 [せんでん] /propaganda, publicity; propagate, publicize/
+宣教師 [せにょうし] /missionary/
+世界各国 [せっかいかっこく] /many countries (around the word)/
+各地 [かくち] /each area, many places/
+各種の [かくしゅの] /every kind of, all sorts of/
+各自 [かくじ] /each person, individually/
+各々 [おのおの] /each, everyone/
+性格 [せいかく] /personally/
+価格 [かかく] /price/
+合格 [ごうかく] /pass (an examination)/
+人格 [じんかく] /personality, character/
+格好 [かっこう] /shape, form, figure/
+同格の [どうかくの] /equal (in rank)/
+本格的な [ほんかくてきな] /full-scale/
+格別な [かくべつな] /particular, special, exceptional/
+格子 [こうし] /lattice, grille/
+資源 [しげん] /resources/
+資本 [しほん] /capital/
+資金 [しきん] /funds/
+資格 [しかく] /qualification/
+物資 [ぶっし] /goods/
+資源 [しげん] /resources/
+起源 [きげん] /origin/
+財源 [ざいげん] /source of revenue/
+源氏物語 [げんじものがたり] /The Tale of Genji/
+源 [みなもと] /source, origin/
+貴重な [きちょうな] /valuable, precious/
+貴重品 [きちょうひん] /valuables/
+貴族 [きぞく] /nobleman, the nobility/
+貴い [とうとい] /noble/
+貴ぶ [とうとぶ] /respect/
+家賃 [やちん] /rent (of an apartment or house)/
+運賃 [うんちん] /fare/
+賃金 [ちんぎん] /wage/
+賃上げ [ちんあげ] /wage hike/
+通貨 [つうか] /currency/
+外貨 [がいか] /foreign currency/
+金貨 [きんか] /gold coin/
+貨物 [かもつ] /freight/
+費用 [ひよう] /cost, expense/
+経費 [けいひ] /cost, expense/
+人件費 [じんけんひ] /cost of labor/
+旅費 [りょひ] /traveling expenses/
+生活費 [せいかつひ] /cost of living/
+食費 [しょくひ] /food expenses/
+光熱費 [こうねつひ] /heating and lighting expenses/
+費やす [ついやす] /spend, waste, use up/
+費える [ついえる] /be used up/
+# end

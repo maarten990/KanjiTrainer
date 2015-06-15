@@ -1,0 +1,54 @@
+﻿# Kanji in Context Lesson 032 : 503-514
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+郊外 [こうがい] /suburbs, outskirts/
+近郊 []きんこう /subsurbs, outskirts, environs/
+交通 [こうつう] /traffic/
+外交 [がいこう] /diplomacy/
+国交 [こっこう] /diplomatic relations/
+交ざる [まざる] /be mixed/
+交わす [かわす] /exchange/
+交わる [まじわる] /have an exchange/
+交渉 [こうしょう] /negotiate/
+干渉 [かんしょう] /interfere, meddle/
+干す [ほす] /dry/
+干る [ひる] /get dry, parch/
+汗 [あせ] /sweat/
+冷汗 [ひやあせ] /cold sweat/
+発汗 [はっかん] /perspire/
+～軒 [～けん] /(counter for houses)/
+軒並み [のきなみ] /at every house, from one item to another/
+軒 [のき] /eaves/
+軒先 [のきさき] /edge of the eaves, front of the house/
+人形 [にんぎょう] /doll/
+形 [かたち] /shape, form, figure/
+三角形 [さんかくけい] /triangle/
+正方形 [せいほうけい] /square/
+長方形 [ちょうほうけい] /rectangle/
+無形の [むけいの] /invisible, intangible/
+手形 [てがた] /draft (as in "pay by draft")/
+枠 [わく] /frame, quota/
+窓枠 [まどわく] /window frame/
+輸入枠 [ゆにゅうわく] /import quota/
+枠組 [わくぐみ] /framework/
+機械 [きかい] /machine/
+機械化 [きかいか] /mechanization; mechanize, introduce machinery/
+知識 [ちしき] /knowledge/
+意識 [いしき] /consciousness, awareness; be conscious, be aware, feel/
+識別 [しきべつ] /discriminate (something from another), discern/
+常識 [じょうしき] /common sense/
+認識 [にんしき] /recognize, understand, perceive/
+職業 [しょくぎょう] /occupation, profession/
+職場 [しょくば] /place of work, workplace/
+職員 [しょくいん] /personnel, staff, staff member/
+職 [しょく] /job/
+職人 [しょくにん] /artisan, workman/
+現職の [げんしょくの] /current (Diet member, governor, mayor, etc.)/
+無職の [むしょくの] /unemployed/
+就職 [しゅうしょく] /find work/
+就業時間 [しゅうぎょうじかん] /working hours/
+就任 [しゅうにん] /assume (a post)/
+就く [つく] /take a seat, take office, get a job/
+成就 [じょうじゅ] /accomplish, attain/
+# end

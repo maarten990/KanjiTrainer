@@ -1,0 +1,97 @@
+﻿# Kanji in Context Lesson 015: 290-305
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+注意 [ちゅうい] /warn, caution, take notice of/
+注目 [ちゅうもく] /pay attention, watch, keep one's eyes on/
+注文 [ちゅうもん] /order/
+発注 [はっちゅう] /place an order/
+注ぐ [そそぐ] /pour/
+注意 [ちゅうい] /warn, caution, take notice of/
+意見 [いけん] /opinion/
+用意 [ようい] /prepare/
+好意 [こうい] /good will, good wishes, kindness, favor/
+意外な [いがいな] /unexpected, unforeseen/
+意地悪な [いじわるな] /mean, spiteful/
+生意気な [なまいきな] /conceited, impertinent, insolent/
+説明 [せつめい] /explain/
+解説 [かいせつ] /explain, comment on/
+小説 [しょうせつ] /novel/
+社説 [しゃせつ] /editorial/
+説教 [せっきょう] /preach (a sermon), lecture (a child)/
+説得 [せっとく] /persuade/
+仮説 [かせつ] /hypothesis/
+演説 [えんぜつ] /(political) speech; deliver a (political) speech/
+遊説 [ゆうぜい] /make an election tour, go canvassing (for votes)/
+説く [とく] /explain, expound, advocate, persuade/
+理解 [りかい] /understand, comprehend/
+見解 [けんかい] /comment, opinion/
+解決 [かいけつ] /solve, settle/
+解く [とく] /solve/
+解ける [とける] /come untied, melt away/
+解かす [とかす] /melt (snow or ice, etc.)/
+解脱 [げだつ] /emancipation from worldly attachments, salvation from earthly bondage; be emanicapted/
+参加 [さんか] /participate, take part in/
+参考書 [さんこうしょ] /reference book/
+持参 [じさん] /bring/
+お参り [おまいり] /visit a shrine or temple/
+参加 [さんか] /participate, take part in/
+加工 [かこう] /process (food, etc.)/
+加入 [かにゅう] /join (a club, association, etc.)/
+加盟 [かめい] /join (a league, federation, etc.)/
+加熱 [かねつ] /heat/
+加える [くわえる] /add (one number to another), inflict (damage)/
+加わる [くわわる] /join, take part in, increase/
+練習 [れんしゅう] /practice, drill, rehearse/
+洗練された [せんれんされた] /sophisticated/
+訓練 [くんれん] /training drill/
+熟練労働者 [じゅくれんろうどうしゃ] /skilled worker/
+練る [ねる] /knead, elaborate (a scheme)/
+研究 [けんきゅう] /study, research/
+研究所 [けんきゅうじょ] /(research) laboratory, research institute/
+研修 [けんしゅう] /study and training; be trained/
+研修所 [けんしゅうじょ] /training center/
+研ぐ [とぐ] /sharpen (a knife)/
+研究 [けんきゅう] /study, research/
+究明 [きゅうめい] /look deep into, investigate, inquire into/
+究める [きわめる] /master, investigate thoroughly, get at the truth/
+連絡 [れんらく] /contact/
+連続 [れんぞく] /continuation, series; continue, be consecutive/
+国際連合 [こくさいれんごう] /the United Nations/
+国連 [こくれん] /the United Nations/
+連想 [れんそう] /be reminded of; association (of ideas)/
+関連 [かんれん] /relations, connection; be connected or associated or correlated/
+関連した [かんれんした] /related, relevant/
+～に関連して [～にかんれんして] /in connection with, in relation to, with reference to/
+連れていく [つれていく] /take someone along/
+連なる [つらなる] /range, lie or stand in a row, be strung out/
+連絡 [れんらく] /contact/
+絡む [からむ] /coil around, become entwined/
+～絡みの [～からみの] /related to/
+洗濯 [せんたく] /do the laundry/
+洗濯機 [せんたくき] /washing machine/
+洗濯物 [せんたくもの] /laundry/
+結婚 [けっこん] /marry, get married/
+結ぶ [むすぶ] /tie, fasten (together), bind, enter (a relationship with)/
+結合 [けつごう] /combine, unite/
+終結 [しゅうけつ] /end, conclude/
+結論 [けつろん] /conclusion/
+結納 [ゆいのう] /betrothal presents/
+結う [ゆう] /dress or do up (one's hair), tie (up), fasten/
+結わえる [ゆわえる] /bind, fasten, tie/
+結婚 [けっこん] /marry, get married/
+新婚旅行 [しんこんりょこう] /honeymooon/
+婚約 [こにゃく] /get engaged/
+離婚 [りこん] /divorce, get divorced/
+運転 [うんてん] /drive (a car, etc.), operate (a machine)/
+運転手 [うんてんしゅ] /driver/
+運動 [うんどう] /motion, movement, exercise, athletics, (social) movement, campaign; exercise/
+運ぶ [はこぶ] /carry, convey, transport, take (something to a place), make progress/
+運送会社 [うんそうがいしゃ] /delivery company/
+運 [うん] /fortune/
+案内 [あんない] /show around, show the way, give someone a tour of; guidance, invitation/
+案 [あん] /plan, idea/
+名案 [めいあん] /good idea/
+提案 [ていあん] /propose/
+案外 [あんがい] /unexpectedly/
+# end

@@ -1,0 +1,71 @@
+﻿# Kanji in Context Lesson 087 : 1111-1122
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+冷蔵庫 [れいぞうこ] /refrigerator/
+貯蔵 [ちょぞう] /store, reserve/
+蔵書 [ぞうしょ] /(one's personal) library/
+蔵 [くら] /storehouse, warehouse/
+大蔵省 [おおくらしょう] /the Ministry of Finance/
+大蔵大臣 [おおくらだいじん] /the Finance Minister/
+蔵相 [ぞうしょう] /the Finance Minister/
+倉庫 [そうこ] /warehouse/
+倉 [くら] /storehouse, warehouse/
+創造性 [そうぞうせい] /creativity/
+創造 [そうぞう] /create/
+創作 [そうさく] /create/
+創立 [そうりつ] /establish, found/
+独創的な [どくそうてきな] /original, creative/
+創価学会 [そうかがっかい] /Soka Gakkai (a Buddhist sect)/
+看護婦 [かんごふ] /nurse/
+看病 [かんびょう] /nursing/
+看板 [かんばん] /signboard, sign/
+看守 [かんしゅ] /prison guard/
+看破 [かんぱ] /see through, detect/
+看護婦 [かんごふ] /nurse/
+弁護士 [べんごし] /lawyer/
+弁護 [べんご] /defend, plead, speak for/
+保護 [ほご] /protect, preserve/
+護衛 [ごえい] /bodyguard, escort; guard, escort/
+弁護士 [べんごし] /lawyer/
+弁解 [べんかい] /explain, justify, excuse/
+答弁 [とうべん] /reply, answer (at an assembly)/
+関西弁 [かんさいべん] /Kansai dialect or accent/
+弁当 [べんとう] /box lunch/
+駅弁 [えきべん] /box lunch sold at train station/
+信念 [しんねん] /belief, faith, conviction/
+理念 [りねん] /idea/
+念頭に [ねんとうに] /in mind/
+念入りに [ねんいりに] /with special care, thoroughly/
+記念 [きねん] /commemorate/
+記念日 [きねんび] /memorial day, anniversary/
+休息 [きゅうそく] /rest, take a rest/
+利息 [りそく] /interest (on a loan)/
+消息 [しょうそく] /news, information, contact/
+息子 [むすこ] /son/
+息 [いき] /breath/
+息吹 [いぶき] /a breath (of spring), an emanation (of youth)/
+反応 [はんのう] /react/
+応答 [おうとう] /answer/
+質疑応答 [しつぎおうとう] /questions and answers/
+応用 [おうよう] /apply/
+応接間 [おうせつま] /reception room, living room/
+寄る [よる] /approach, draw near, drop in/
+近寄る [ちかよる] /draw near, approach/
+立ち寄る [たちよる] /drop in, stop at/
+最寄りの [もよりの] /nearest, nearby/
+寄付 [きふ] /contribute, donate/
+寄付金 [きふきん] /contribution, donation, gift of money/
+寄生 [きせい] /be parisitic (on a tree, animal, etc.)/
+寄せる [よせる] /bring near, gather together/
+突然 [とつぜん] /suddenly/
+突入 [とつにゅう] /storm (a building), rush (into a strike)/
+突破 [とっぱ] /break through/
+突く [つく] /poke/
+突き当たり [つきあたり] /the end of a street, hall, etc./
+突き当たる [つきあたる] /come to the end of a street, run or bump against/
+突っ込む [つっこむ] /thrust into, pierce/
+穴 [あな] /hole/
+落とし穴 [おとしあな] /pitfall/
+洞穴 [どうけつ] /cave/
+# end

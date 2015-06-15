@@ -1,0 +1,65 @@
+﻿# Kanji in Context Lesson 094 : 1191-1200
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+派閥 [はばつ] /faction/
+右派 [うは] /right-wing faction/
+左派 [さは] /left-wing faction/
+~派 [~は] /~ faction/
+宗派 [しゅうは] /religious sect/
+特派員 [とくはいん] /correspondent/
+派出所 [はしゅつじょ] /police box/
+派手な [はでな] /showy, flashy/
+立派な [りっぱな] /fine, splendid, admirable, magnificent/
+派遣 [はけん] /dispatch/
+派閥 [はばつ] /faction/
+財閥 [ざいばつ] /zaibatsu, financial combine or group or clique/
+軍閥 [ぐんばつ] /militarists, military clique/
+内閣 [ないかく] /cabinet/
+閣議 [かくぎ] /cabinet meeting/
+閣僚 [かくりょう] /cabinet member/
+組閣 [そかく] /form a cabinet/
+金閣寺 [きんかくじ] /Kinkakuji Temple, Temple of the Golden Pavillion/
+公衆電話 [こうしゅうでんわ] /pay phone/
+大衆文化 [たいしゅうぶんか] /popular culture/
+アメリカ合衆国 [アメリカがっしゅうこく] /the United States of America/
+民衆 [みんしゅう] /the people, the masses/
+衆生 [しゅじょう] /mankind, the world (in Buddhism)/
+省略 [しょうりゃく] /omit, abbreviate/
+略す [りゃくす] /omit, abbreviate/
+略語 [りゃくご] /abbreviation/
+略歴 [りゃくれき] /brief personal history/
+略式な [りゃくしきな] /informal/
+戦略 [せんりゃく] /strategy/
+異常な [いじょうな] /unusual, abnormal/
+異質の [いしつの] /heterogeneous/
+異国 [いこく] /foreign country/
+異民族 [いみんぞく] /other tribe, other ethnic group/
+異教徒 [いきょうと] /heathen, pagan/
+異議 [いぎ] /objection/
+突然変異 [とつぜんへんい] /mutation/
+異なる [ことなる] /be different/
+圧力 [あつりょく] /pressure/
+気圧 [きあつ] /atmospheric pressure, air pressure/
+高気圧 [こうきあつ] /high atmospheric pressure/
+低気圧 [ていきあつ] /low atmospheric pressure/
+圧縮 [あっしゅく] /compress, press, condense, constrict/
+圧迫 [あっぱく] /oppress/
+抑圧 [よくあつ] /suppress/
+圧倒的な [あっとうてきな] /overwhelmingly/
+至急 [しきゅう] /urgently/
+夏至 [げし] /summer solstice/
+冬至 [とうじ] /winter solstice/
+必至の [ひっしの] /inevitable/
+至る [いたる] /arrive, lead to/
+投票 [とうひょう] /vote/
+開票 [かいひょう] /count votes, open ballot boxes/
+得票率 [とくひょうりつ] /percentage of votes obtained/
+票 [ひょう] /vote, ballot, slip of paper/
+目標 [もくひょう] /goal/
+標準的な [ひょうじゅんてきな] /standard/
+標準語 [ひょうじゅんご] /standard language/
+標語 [ひょうご] /motto, slogan/
+標本 [ひょうほん] /specimen/
+道路標識 [どうろひょうしき] /traffic sign/
+# end

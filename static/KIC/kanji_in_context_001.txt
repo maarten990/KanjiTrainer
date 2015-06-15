@@ -1,0 +1,183 @@
+﻿# Kanji in Context Lesson 001 : 1-26
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.1  
+# Paul Denisowski (paul@denisowski.org)
+一 [いち] /one/
+一分 [いっぷん] /one minute/
+統一 [とういつ] /to unify/
+一般的な [いっぱんてきな] /general, usual, ordinary/
+唯一の [ゆいいつの] /sole/
+一人 [ひとり] /one person/
+一人一人 [ひとりひとり] /one (person) by one, one (person) at a time/
+一つ [ひとつ] /one thing/
+一目で [ひとめで] /at a glance/
+一日 [ついたち] /the first (day of a month)/
+一日 [いちにち] /one day/
+二 [に] /two/
+二分 [にふん] /two minutes/
+二人 [ふたり] /two persons/
+二つ [ふたつ] /two (things)/
+二日 [ふつか] /the second (day of a month), two days/
+二十日 [はつか] /the twentieth (day of a month)/
+二十歳 [はたち] /twenty years old/
+三 [さん] /three/
+三分 [さんぶん] /three minutes/
+三人 [さんにん] /three persons/
+三つ [みっつ] /three (things)/
+三日 [みっか] /the third (day of a month), three days/
+三つ角 [みつかど] /three way junction/
+三日月 [みかづき] /crescent moon/
+四  [よん、し] /four/
+四分 [よんぷん] /four minutes/
+四人  [よにん] /four persons/
+四つ  [よっつ] /four (things)/
+四日  [よっか] /four (days)/
+四月四日 [しがつよっか] /April fourth/
+四つ角  [よつかど] /crossroads, four way junction/
+五  [ご] /five/
+五分  [ごふん] /five minutes/
+五人  [ごにん] /five persons/
+五つ  [いつつ] /five (things)/
+五日  [いつか] /the fifth (day of the month), five days/
+六 [ろく] / six/
+六分 [ろっぷん] / six minutes/
+六人 [ろくにん] / six persons/
+六つ [むっつ] / six (things)/
+六日 [むいか] / the sixth (day of a month), six days/
+六つ切り [むつぎり] /cutting into six pieces/
+七 [しち、なな] /seven/
+七分 [ななふん] /seven minutes/
+七人 [ななにん] /seven persons/
+七つ [ななつ] /seven (things)/
+七日 [なのか] /the seventh (day of a month), seven days/
+七夕 [たなばた] /Festival of the Weaver, the Star Festival/
+八 [はち] /eight/
+八分 [はちふん] /eight minutes/
+八人 [はちにん] /eight persons/
+八つ [やっつ] /eight (things)/
+八日 [ようか] /the eighth (day of a month), eight days/
+八百屋 [やおや] /fruit and vegetable shop/
+八つ当たり [やつあたり] /take out one's anger on someone/
+八重桜 [やえざくら] /double-flowered cherry tree/
+九 [きゅう、く] /nine/
+九分 [きゅうふん] /nine minutes/
+九人 [きゅうにん] /nine persons/
+九つ [ここのつ] /nine (things)/
+九日 [ここのか] /nine days/
+九月九日 [くがつここのか] /September 9th/
+十 [じゅう] /ten/
+十分 [じっぷん、じゅっぷん] /ten minutes/
+十分に [じゅうふんに] /in the full, thoroughly/
+十人 [じゅうにん] /ten persons/
+十字架 [じゅうじか] /cross/
+十 [とお] /ten (things)/
+十日 [とおか] /the tenth (day of a month), ten days/
+十重 [とえ] /tenfold/
+二十日 [はつか] /the twentieth (day of a month), twenty days/
+二十歳 [はたち] / twenty years old/
+百 [ひゃく] /one hundred/
+百円 [ひゃくえん] /one hundred yen/
+～百 [～ひゃく] /~ hundred/
+三百六十五日 [さんびゃくろくじゅうごにち] /365 days/
+八百屋 [やおや] /fruit and vegetable shop/
+千 [せん] /one thousand/
+千円 [せんえん] /one thousand yen/
+～千 [～せん] /~ thousand/
+千島列島 [ちしまれっとう] /the Kuril Islands/
+一万 [いちまん] /ten thousand/
+一万円 [いちまんえん] /ten thousand yen/
+万年筆 [まんねんひつ] /fountain pen/
+万一に [まんいちに] /by any chance, if anything should happen/
+万全の [ばんぜんの] /thorough, all possible (means, etc.)/
+アメリカ人 [アメリカじん] /an American/
+中国人 [ちゅうごくじん] /a Chinese/
+外国人 [がいこくじん] /a foreigner/
+一人 [ひとり] /one person/
+二人 [ふたり] /two persons/
+三人 [さんにん] /three persons/
+五、六人 [ごろくにん] /five or six person/
+人 [ひと] /person/
+男の人 [おとこのひと] /man/
+女の人 [おんなのひと] /woman/
+人々 [ひとびと] /people/
+大人 [おとな] /adult/
+仲人 [なこうど] /go-between, matchmaker/
+素人 [しろうと] /amateur/
+玄人 [くろうと] /expert/
+日曜日 [にちようび] /Sunday/ 
+その日 [そのひ] /that day/
+日ざし [ひざし] /sunlight/
+毎日 [まいにち] /every day/
+日本 [にほん、にっぽん] /Japan/
+休日 [きゅうじつ] /day off, holiday/
+祝日 [しゅくじつ] /national holiday/
+一日 [ついたち] /the first (day of a month)/
+二日 [ふつか] /the second (day of a month), two days/
+三日 [みっか] /the third (day of a month), three days/
+昨日 [さくじつ、きのう] /yesterday/
+今日 [きょう] /today/
+明日 [みょうにち、あす、あした] /tomorrow/
+月曜日 [げつようび] /Monday/
+月 [つき] /month, moon/
+月見 [つきみ] /moon-viewing/
+三日月 [みかづき] /crescent moon/
+一月 [いちがつ] /January/
+一か月 [いっかげつ] /one month/
+五月晴れ [さつきばれ] /fine weather in May/
+五月雨 [さみだれ] /early summer rain/
+火曜日 [かようび] /Tuesday/
+火 [ひ] /fire, flame/
+火事 [かじ] /fire, conflagration/
+火星 [かせい] /Mars/
+火影 [ほかげ] /light of a fire or flame/
+水曜日 [すいようび] /Wednesday/
+水 [みず] /water/
+水道 [すいどう] /waterworks, water service, tap water/
+水星 [すいせい] /Mercury/
+清水寺 [きよみずでら] /Kiyoumizu Temple (in Kyoto)/
+木曜日 [もくようび] /Thursday/
+木 [き] /tree/
+木々 [きぎ] /trees/
+大木 [たいぼく] /big tree/
+木星 [もくせい] /Jupiter/
+木綿 [もめん] /cotton/
+木立 [こだち] /grove, thicket of trees/
+金曜日 [きんようび] /Friday/
+金 [きん] /gold/
+金 [かね] /money/
+お金もち [おかねもち] /rich person/
+金星 [きんせい] /Venus/
+金物屋 [かなものや] /hardware store/
+金堂 [こんどう] /main hall of a temple, golden pavillion/
+黄金 [おうごん、こがね] /gold/
+土曜日 [どようび] /Saturday/
+土 [つち] /soil, earth/
+土地 [とち] /land/
+土星 [どせい] /Saturn/
+曜日 [ようび] /day (of the week)/
+来年 [らいねん] /next year/
+去年 [きょねん] /last year/
+今年 [ことし] /this year/
+年 [とし] /year, age/
+二千年 [にせんねん] /(the year) 2000, two thousand years/
+三年生 [さんねんせい] /third-year student/
+年月 [ねんげつ、としつき] /months and years, time/
+年中 [ねんじゅう] /the whole year, throughout the year/
+生年月日 [せいねんがっぴ] /date of birth/
+年金 [ねんきん] /pension/
+一時 [いちじ] /one o'clock/
+時間 [じかん] /time/
+～時間 [～じかん] /~ hour(s)/
+時々 [ときどき] /sometimes/
+時 [とき] /time/
+時計 [とけい] /clock, watch/
+時雨 [しぐれ] /rain shower in the late autumn or early winter/
+～分 [～ふん] /~ minutes/
+十分 [じゅうぶん] /enough, sufficient/
+水分 [すいぶん] /moisture, water/
+分かる [わかる] /understand, realize, find out/
+分ける [わける] /share, divide/
+分かれる [わかれる] /branch off from/
+五分五分 [ごぶごぶ] /fifty-fifty/
+分かつ [わかつ] /share/
+# end

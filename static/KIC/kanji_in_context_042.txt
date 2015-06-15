@@ -1,0 +1,63 @@
+﻿# Kanji in Context Lesson 042 : 619-629
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+声 [こえ] /voice/
+音声 [おんせい] /audio, sound, voice/
+声明 [せいめい] /statement/
+共同声明 [きょうどうせいめい] /joint statement/
+声色 [こわいろ] /voice impersonation/
+大音声 [だいおんじょう] /very loud voice/
+発音 [はつおん] /pronounce/
+足音 [あしおと] /sound of steps/
+物音 [ものおと] /(unidentified) sound/
+音 [おと] /sound/
+母音 [ぼいん] /vowel/
+子音 [しいん] /consonant/
+本音 [ほんね] /real intention/
+昨年 [さくねん] /last year/
+昨日 [さくじつ] /yesterday/
+一昨日 [いっさくじつ] /the day before yesterday/
+一昨年 [いっさくねん] /the year before last/
+暇な [ひまな] /not busy, have time, free/
+暇つぶし [ひまつぶし] /killing time/
+暇 [ひま] /free time/
+休暇 [きゅうか] /vacation/
+余暇 [よか] /leisure, spare time/
+理由 [りゆう] /reason/
+自由 [じゆう] /freedom, liberty/
+不自由な [ふじゆうな] /inconvenient, uncomfortable, handicapped/
+由来 [ゆらい] /origin/
+由緒ある [ゆいしょある] /be of a noble family, historic/
+～の由 [～のよし] /I heard that ~ (used in letters)/
+石油 [せきゆ] /oil/
+原油 [げんゆ] /crude oil/
+油田 [ゆでん] /oil field/
+油 [あぶら] /oil/
+油絵 [あぶらえ] /oil painting/
+曲 [きょく] /music, tune/
+作曲 [さっきょく] /compose music/
+名曲 [めいきょく] /famous tune or music/
+曲がる [まがる] /make a turn, bend/
+曲がり角 [まがりかど] /corner (of a street), turning point/
+曲線 [きょくせん] /curve/
+農業 [のうぎょう] /agriculture, farming/
+農村 [のうそん] /farming village/
+農家 [のうか] /farm, farming family/
+農民 [のうみん] /farmer/
+農産物 [のうさんぶつ] /agricultural product/
+農薬 [のうやく] /agricultural chemical/
+農協 [のうきょう] /agricultural cooperative/
+濃い [こい] /dark (color), strong (coffee, tea, etc.), dense (fog)/
+濃度 [のうど] /density, thickness/
+濃霧 [のうむ] /dense fog/
+豊かた [ゆたかた] /abundant, rich/
+豊富な [ほうふな] /abundant, rich/
+豊作 [ほうさく] /good harvest/
+豊漁 [ほうりょう] /good catch of fish/
+豊富な [ほうふな] /abundant, rich/
+富士山 [ふじさん] /Mt. Fuji/
+富 [とみ] /wealth/
+富む [とむ] /be rich/
+富貴 [ふうき] /riches and honors/
+# end

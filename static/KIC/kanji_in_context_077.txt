@@ -1,0 +1,51 @@
+﻿# Kanji in Context Lesson 077 : 1004-1014
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+巨大な [きょだいな] /gigantic/
+巨人 [きょじん] /giant, Yomiuri Giants (a professional baseball team)/
+拒否 [きょひ] /reject, veto/
+拒絶 [きょぜつ] /refuse, reject/
+拒む [こばむ] /refuse, decline/
+否定 [ひてい] /deny, negate/
+否認 [ひにん] /deny, repudiate/
+否決 [ひけつ] /vote down, reject/
+賛否 [さんぴ] /approval or disapproval, yes or no/
+否めない [いなめない] /undeniable/
+距離 [きょり] /distance/
+距離 [きょり] /distance/
+離婚 [りこん] /get divorced/
+離陸 [ちちく] /take off (from the ground)/
+離反 [りはん] /secede, break away from/
+離れる [はなれる] /be separated or apart/
+切り離す [きりはなす] /cut off, sever/
+推理小説 [すいりしょうせつ] /detective story/
+推理 [すいり] /reason, deduct, detect/
+推論 [すいろん] /reason, infer, induce, deduce/
+推測 [すいそく] /surmise, suppose/
+推定 [すいてい] /presume, assume, infer/
+類推 [るいすい] /analogize/
+推進 [すいしん] /promote, propel, push forward/
+推し量る [おしはかる] /guess, conjecture/
+哲学 [てつがく] /philosophy/
+哲学者 [てつがくしゃ] /philosopher/
+掲示板 [けいじばん] /bulletin board/
+掲示 [けいじ] /notice; put up (a notice)/
+掲載 [けいさい] /publish, carry an article/
+掲げる [かかげる] /hoist (a flag), hang out (a sign, notice, etc.)/
+抱く [だく] /hug, hold in one's arms/
+抱く [いだく] /embrace, harbor (hope, ambition, etc.)/
+抱える [かかえる] /carry in one's arms, employ/
+介抱 [かいほう] /nurse, care for/
+抱負 [ほうふ] /ambition, aspiration/
+抱擁 [ほうよう] /embrace, hug, hold in one's arms/
+包む [つつむ] /wrap/
+包み紙 [つつみがみ] /wrapping paper/
+小包み [こづつみ] /parcel/
+包容力 [ほうようりょく] /broadmindedness, tolerance/
+包丁 [ほうちょう] /kitchen knife/
+包装紙 [ほうそうし] /wrapping paper/
+平均 [へいきん] /average, mean; even/
+均等に [きんとうに] /equally/
+均一価格 [きんいつかかく] /uniform price/
+# end
