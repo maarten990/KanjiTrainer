@@ -245,6 +245,17 @@ class Chunk(object):
 
         return question, item, options
 
+    def repeat_previous_question(self):
+        if self.next_question_idx > 0:
+            idx = self.next_question_idx - 1
+        else:
+            idx = 0
+
+        # randomize the full list of answers
+        question, item, choices, options, _ = self.questions[idx]
+
+        return question, item, options
+
     def done(self):
         return self.next_question_idx >= len(self.questions)
 

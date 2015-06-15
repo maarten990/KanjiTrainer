@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from flask import Flask, jsonify, request, make_response, g, redirect, url_for
+from flask import Flask, jsonify, request, make_response, g, session, redirect, url_for
 from argparse import ArgumentParser
 from collections import defaultdict
 from proficiency import get_all, predict
@@ -16,6 +16,7 @@ import compareKanji as ck
 
 
 app = Flask(__name__)
+app.secret_key = 'This would be insecure if people found our github'
 
 with open('kanjitrainer.html', 'r') as f:
     html_page = f.read()
@@ -45,15 +46,14 @@ db.close()
 @app.route('/questions', methods=['POST', 'GET'])
 def questions():
     # check if the user already exists
-    try:
-        id = request.cookies.get('id')
-
-        # ducttape fix, this should not be necessary, help
-        if id == None:
-            raise Exception()
-    except:
+    if 'id' in session:
+        id = session['id']
+        print('Welcome back, {}'.format(id))
+    else:
         # create a unique id
         id = uuid.uuid1().hex
+        session['id'] = id
+    session.permanent = True
 
     # set user_level 
     if request.method == 'POST': 
@@ -69,15 +69,12 @@ def questions():
         
     user_parameters[id] = params
 
-    resp = make_response(html_page)
-    resp.set_cookie('id', id)
-    
-    return resp
+    return make_response(html_page)
 
 
 @app.route('/giveHint', methods=['POST'])
 def giveHint():
-    id = request.cookies.get('id')
+    id = session['id']
     chunk = user_chunks[id]
     hint = chunk.get_hint()
     return jsonify(hint=hint)
@@ -85,7 +82,7 @@ def giveHint():
 
 @app.route('/_validate', methods=['POST'])
 def validate():
-    id = request.cookies.get('id')
+    id = session['id']
     answer = request.form['answer']
     time_taken = request.form['time']
     hint_requested = request.form['hint']
@@ -103,16 +100,14 @@ def validate():
 
 @app.route('/javascript_validate', methods=['POST'])
 def javascript_validate():
-    id = request.cookies.get('id')
+    id = session['id']
     chunk = user_chunks[id]
     _, _, answer, options, _ = chunk.questions[chunk.next_question_idx - 1]
     correct_id = options.index(answer)
     return jsonify(correct_id=correct_id)  
 
-@app.route('/_initial_data', methods=['POST'])
-def initial_data():
-    id = request.cookies.get('id')
 
+def generate_chunk(id):
     # generate a chunk for this user
     # resample the parameters if no chunk can be generated
     params = user_parameters[id]
@@ -124,8 +119,22 @@ def initial_data():
             params = sample_parameters(user_level[id])
             user_parameters[id] = params
 
-    user_chunks[id] = chunk
-    question, item, choices = chunk.next_question()
+    return chunk
+
+
+@app.route('/_initial_data', methods=['POST'])
+def initial_data():
+    id = session['id']
+
+    if id in user_chunks and not user_chunks[id].done():
+        chunk = user_chunks[id]
+        print('Continuing from question {}'.format(chunk.next_question_idx))
+        question, item, choices = chunk.repeat_previous_question()
+    else:
+        chunk = generate_chunk(id)
+        user_chunks[id] = chunk
+        question, item, choices = chunk.next_question()
+
 
     return jsonify(question=question, item=item, choices=choices)
 
@@ -138,7 +147,7 @@ def feedback():
     if request.method == 'GET':
         return feedback_page
     else:
-        id = request.cookies.get('id')
+        id = session['id']
         chunk = user_chunks[id]
         chunk.score = request.form.get('score')
 
