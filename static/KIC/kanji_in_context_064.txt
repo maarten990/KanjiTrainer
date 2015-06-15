@@ -1,0 +1,61 @@
+﻿# Kanji in Context Lesson 064 : 859-870
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+貧乏な [びんぼうな] /poor/
+貧富の差 [ひんぷのさ] /disparity in wealth/
+貧困 [ひんこん] /poverty/
+貧弱な [ひんじゃくな] /poor, scanty/
+貧しい [まずしい] /poor/
+貧乏な [びんぼうな] /poor/
+欠乏 [けつぼう] /shortage; lack, run short of/
+乏しい [とぼしい] /poor, scarce/
+額 [がく] /picture frame, framed picture, amount of money/
+金額 [きんがく] /amount of money/
+総額 [そうがく] /total amount/
+半額 [はんがく] /half price/
+差額 [さがく] /difference, balance/
+額 [ひたい] /forehead/
+お願い [おねがい] /request/
+願う [ねがう] /desire/
+願書 [がんしょ] /application (form)/
+志願者 [しがんしゃ] /applicant/
+塾 [じゅく] /private prep school attended after regular school hours/
+学習塾 [がくしゅうじゅく] /private prep school attended after regular school hours/
+慶應義塾大学 [けいおうぎじゅくだいがく] /Keio University/
+未熟な [みじゅくな] /immature, inexperienced/
+成熟 [せいじゅく] /mature/
+熟す [じゅくす] /ripen/
+熟語 [じゅくご] /idiom, kanji compound/
+熟れる [うれる] /ripen/
+大勢 [おおぜい] /a lot of people/
+大勢 [たいせい] /general tendency/
+勢力 [せいりょく] /power, influence/
+情勢 [じょうせい] /situation/
+国勢調査 [こくせいちょうさ] /national census/
+勢い [いきおい] /power, force/
+熱い [あつい] /hot/
+熱 [ねつ] /heat, fever/
+高熱 [こうねつ] /high fever/
+熱湯 [ねっとう] /boiling water/
+情熱 [じょうねつ] /enthusiasm, passion/
+熱中 [ねっちゅう] /be crazy about/
+熱心な [ねっしんな] /earnest/
+昭和 [しょわ] /Showa (imperial era, 1926-1989)/
+対照的に [たいしょうてきに] /in contrast/
+参照 [さんしょう] /refer to/
+照明 [しょうめい] /lighting/
+東照宮 [とうしょうぐう] /Toshogu Shrine (the Shrine in Nikko where the first shogun is enshrined)/
+照る [てる] /shine (used for the sun)/
+照れる [てれる] /feel embarassed/
+黙る [だまる] /become silent, say nothing/
+沈黙 [ちんもく] /silence; become or fall silent/
+黙認 [もくにん] /permit tacitly/
+黙秘権 [もくひけん] /the right of silence/
+黙殺 [もくさつ] /ignore, take no notice of/
+燃える [もえる] /burn/
+燃す [もやす] /burn/
+燃料 [ねんりょう] /fuel/
+可燃性の [かねんせいの] /flammable/
+不燃性の [ふねんせいの] /non-flammable/
+# end

@@ -1,0 +1,70 @@
+﻿# Kanji in Context Lesson 068 : 905-917
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+江戸 [えど] /Edo (the old name for Tokyo)/
+入り江 [いりえ] /inlet/
+江ノ島 [えのしま] /Enoshima (an island near Kamakura)/
+揚子江 [ようすこう] /the Yangtze River/
+液体 [えきたい] /liquid/
+液化 [えきか] /liquefy/
+唾液 [だえき] /saliva/
+汚染 [おせん] /pollute, contaminate/
+大気汚染 [たいきおせん] /air polution/
+汚職 [おしょく] /corruption/
+汚名 [おめい] /stigma, dishonor/
+汚点 [おてん] /stain/
+汚い [きたない] /dirty/
+汚す [よごす] /stain, taint, dirty/
+汚れる [よごれる] /get dirty, become soiled, be polluted or contaminated/
+汚す [けがす] /dishonor, disgrace/
+汚れた [けがれた] /filthy, impure/
+汚染 [おせん] /pollute, contaminate/
+大気汚染 [たいきおせん] /air pollution/
+伝染病 [でんせんびょう] /contagious disease/
+伝染病 [でんせんびょう] /be infected/
+感染 [かんせん] /dye/
+染色 [せんしょく] /dye/
+染み [しみ] /stain/
+染みる [しみる] /permeate, stain, soak into/
+空港 [こうこう] /airport/
+横浜港 [よこはまこう] /the port of Yokohama/
+港 [みなと] /habor, port/
+港町 [みなとまち] /port town/
+東京湾 [とうきょうわん] /Tokyo Bay/
+湾 [わん] /bay, gulf/
+台湾 [たいわん] /Taiwan/
+横浜 [よこはま] /Yokohama (port city near Tokyo)/
+浜辺 [はまべ] /beach, seashore/
+海浜公園 [はいきんこうえん] /seashore park/
+沖 [おき] /offshore, open sea/
+沖積層 [ちゅうせきそう] /alluvial bed/
+波 [なみ] /wave/
+電波 [でんぱ] /radio wave/
+短波 [たんぱ] /shortwave (radio), short wavelength/
+波長 [はちょう] /wavelength/
+漁業 [ぎょぎょう] /fishing industry/
+漁船 [ぎょせん] /fishing boat/
+漁村 [ぎょそん] /fishing village/
+漁場 [ぎょじょう] /fishing ground or spot/
+漁民 [ぎょみん] /fishermen/
+漁 [りょう] /fihsing/
+漁師 [りょうし] /fisherman/
+鯨 [くじら] /whale/
+鯨油 [げいゆ] /whale oil/
+鯨肉 [げいにく] /whale meat/
+白鯨 [はくげい] /white whale/
+捕鯨船 [ほげいせん] /whaler/
+新鮮な [しんせんな] /fresh/
+鮮魚 [せんぎょ] /fresh fish/
+鮮度 [せんど] /freshness/
+鮮明な [せんめいな] /clear, distinct/
+朝鮮半島 [ちょうせんはんとう] /the Korean Peninsula/
+鮮やかな [あざやかな] /vivid, bright, brilliant/
+太平洋 [たいへいよう] /the Pacific Ocean/
+大西洋 [たいせいよう] /the Atlantic Ocean/
+海洋 [かいよう] /ocean/
+西洋 [せいよう] /the West/
+東洋 [とうよう] /the East/
+洋書 [ようしょ] /foreign or Western book/
+# end

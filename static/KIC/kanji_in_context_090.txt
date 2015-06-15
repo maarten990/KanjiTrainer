@@ -1,0 +1,55 @@
+﻿# Kanji in Context Lesson 090 : 1144-1153
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+皮 [かわ] /skin, hide, leather, bark, rind/
+毛皮 [けがわ] /fur/
+皮革製品 [ひかくせいひん] /fur and leather goods/
+皮肉 [ひにく] /irony, sarcasm/
+皮相的な [ひそうてきな] /superficial/
+被害 [ひがい] /damage, harm, injury/
+被害者 [ひがいしゃ] /victim/
+被告 [ひこく] /defendant/
+被選挙権 [ひせんきょけん] /eligibility/
+被る [こうむる] /suffer/
+彼 [かれ] /he, boyfriend/
+彼女 [かのじょ] /she, girlfriend/
+彼岸 [ひがん] /equinoctial week/
+徹夜 [てつや] /stay up all night/
+徹底的な [てっていてきな] /thoroughly/
+冷徹な [れいてつな] /cool-headed/
+貫徹 [かんてつ] /accomplish, carry out/
+象徴 [しょうちょう] /symbol; symbolize/
+特徴 [とくちょう] /special feature, distinguishing characteristic/
+徴候 [ちょうこう] /sign, indication, symptom/
+徴兵 [ちょうへい] /(military) draft, conscription; conscript, draft/
+徴税 [ちょうぜい] /tax collection; collect taxes/
+微妙な [びみょうな] /delicate, subtle/
+微笑 [びしょう] /smile/
+微熱 [びねつ] /slight fever/
+微生物 [びせいぶつ] /microbe, microorganism/
+微妙な [びみょうな] /delicate, subtle/
+奇妙な [きみょうな] /strange, curious, odd/
+妙な [みょうな] /strange, curious, odd/
+妙案 [みょうあん] /excellent idea, bright idea/
+絶妙な [ぜつみょうな] /exquisite, superb/
+神妙な [しんみょうな] /solemn/
+巧妙な [こうみょうな] /tactful/
+~秒 [~びょう] /~second(s)/
+砂 [] /sand/
+砂浜 [すなはま] /sandy beach/
+砂時計 [すなどけい] /hourglass/
+砂利 [じゃり] /gravel/
+土砂 [どしゃ] /earth and sand/
+土砂降り [どしゃぶり] /downpour/
+土砂崩れ [どしゃくずれ] /landslide/
+砂金 [さきん] /gold dust/
+砂糖 [さとう] /sugar/
+砂漠 [さばく] /desert/
+砂丘 [さきゅう] /sand hill, dune/
+劣等感 [れっとうかん] /inferiority complex/
+劣等生 [れっとうせい] /poor student/
+優劣 [ゆうれつ] /superior or inferior, relative merit/
+劣勢 [れっせい] /numerical inferiority (as in a war, etc.)/
+劣る [おとる] /be inferior/
+# end

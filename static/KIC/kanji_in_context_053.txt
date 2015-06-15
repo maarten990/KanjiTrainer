@@ -1,0 +1,53 @@
+﻿# Kanji in Context Lesson 053 : 739-749
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+~才 [~さい] /~ years old/
+天才 [てんさい] /genius/
+才能 [さいのう] /talent/
+多才な [たさいな] /versatile (person)/
+材料 [ざいりょう] /material/
+教材 [きょうざい] /teaching material/
+取材 [しゅざい] /gather material, collect data/
+題材 [だいざい] /theme/
+材木 [ざいもく] /lumber, timber/
+木材 [もくざい] /wood/
+新素材 [しんそざい] /new materials/
+財産 [ざいさん] /estate, assets, property/
+財政 [ざいせい] /finance/
+財界 [ざいかい] /business world/
+財団 [ざいだん] /foundation/
+ロックフェラー財団 [ロックフェラーざいだん] /the Rockefeller Foundation/
+文化財 [ぶんかざい] /cultural asset/
+財布 [さいふ] /purse, wallet/
+貯金 [ちょきん] /savings, deposit; save money/
+貯水池 [ちょすいち] /reservoir/
+貯蔵 [ちょぞう] /store/
+貯蓄 [ちょちく] /savings; save money/
+備蓄 [びちく] /store or save or reserve (something for an emergency)/
+蓄積 [ちくせき] /accumulate/
+氏名 [しめい] /name (used for people)/
+~氏 [~し] /Mr. or Ms. ~/
+氏神 [うじがみ] /guardian god (of a village)/
+海底 [かいてい] /bottom of the sea/
+根底 [こんてい] /bottom (in an abstract sense)/
+底 [そこ] /bottom/
+底値 [そこね] /bottom piece/
+抵抗 [ていこう] /resist/
+大抵 [たいてい] /usually/
+抵当 [ていとう] /mortgage/
+抵触 [ていしょく] /conflict (with the law)/
+抵抗 [ていこう] /resist/
+反抗 [はんこう] /oppose, disobey/
+反抗的な [はんこうてきな] /defiant/
+抗議 [こうぎ] /protest/
+抗争 [こうそう] /rivalry, war/
+抗ガン剤 [こうガンざい] /anti-cancer drug/
+直接 [ちょくせつ] /direct/
+間接的に [かんせつてきに] /indirectly/
+面接 [めんせつ] /give an interview/
+接近 [せっきん] /approach/
+接続 [せつぞく] /connect/
+接待 [せったい] /entertain (usually for a business client)/
+接ぐ [つぐ] /connect/
+# end

@@ -1,0 +1,61 @@
+﻿# Kanji in Context Lesson 029 : 467-477
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+平凡な [へいぼんな] /commonplace/
+凡人 [ぼんじん] /ordinary person/
+凡例 [はんれい] /introductory notes, map legend/
+冗談 [じょうだん] /joke/
+冗長な [じょうちょうな] /lengthy, verbose/
+個人 [こじん] /individual/
+個人主義 [こじんしゅぎ] /individualism/
+個性 [こせい] /individuality, one's personality/
+個別的な [こべつてきな] /individual, specific/
+～個 [～こ] /(counter for various objects)/
+固い [かたい] /hard/
+固まる [かたまる] /harden/
+個体 [こたい] /solid/
+固定 [こてい] /fix, sette/
+強固な [きょうこな] /firm, solid, strong/
+固有の [こゆうの] /peculiar, inherent, characteristic of/
+固執 [こしつ] /hold fast to, persist in, insist on/
+豆 [まめ] /beans, peas/
+コーヒー豆 [コーヒーまめ] /coffee beans/
+枝豆 [えだまめ] /(cooked) green soybeans/
+納豆 [なっとう] /fermented soybeans/
+豆腐 [とうふ] /tofu, soybean curd/
+大豆 [だいず] /soybean/
+小豆 [あずき] /adzuki bean/
+登る [のぼる] /climb/
+登山 [とざん] /mountain climbing; climb a mountain/
+登録 [とうろく] /register/
+登場 [とうじょう] /appear (as in a character in a play, novel, etc.)/
+登用 [とうよう] /promote, appoint/
+祭 [まつり] /festival/
+秋祭 [あきまつり] /fall festival/
+文化祭 [ぶんかまつり] /cultural festival/
+百年祭 [ひゃくねんまつり] /100th anniversary/
+祝祭日 [しゅくさいじつ] /national holiday/
+祭る [まつる] /deify, enshrine/
+国際的な [こくさいてきな] /international/
+学際的な [がくさいてきな] /interdisciplinary/
+交際 [こうさい] /keep company with, associate with/
+実際 [じっさい] /as a matter of fact, in fact/
+水際 [みずぎわ] /water's edge/
+際だつ [きわだつ] /stand out/
+警察 [けいさつ] /police/
+検察 [けんさつ] /observe/
+考察 [こうさつ] /examine, study (as an academic inquiry)/
+視察 [しさつ] /visit to observe or inspect/
+検察庁 [けんさつちょう] /the Public Prosecutor's Office/
+警察 [けいさつ] /police/
+警官 [けいかん] /police officer/
+警告 [けいこく] /warn, caution, advise/
+警報 [けいほう] /warning (signal), alarm (signal)/
+警備 [けいび] /guard, defend/
+警視庁 [けいしちょう] /Tokyo Metropolitan Police/
+驚く [おどろく] /be surprised/
+驚かす [おどろかす] /surprise/
+驚異的な [きょうてきな] /astonishing/
+驚嘆 [きょうたん] /be astonished/
+# end

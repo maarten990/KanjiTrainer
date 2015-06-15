@@ -1,0 +1,79 @@
+﻿# Kanji in Context Lesson 076 : 992-1003
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+再婚 [さいこん] /remarry/
+再会 [さいかい] /meet again/
+再開 [さいかい] /reopen, resume/
+再編成 [さいへんせい] /reorganize, restructure/
+再三 [さいさん] /many times/
+再来週 [さらいしゅう] /the week after next/
+再び [ふたたび] /again/
+黄色 [きいろ] /yellow/
+黄身 [きみ] /egg yolk/
+黄河 [こうが] /Hwang Ho, the Yellow River/
+黄熱病 [おうねつびょう] /yellow fever/
+硫黄 [いおう] /sulfur/
+黄金 [おおごん] /gold/
+核兵器 [かくへいき] /nuclear weapon/
+兵器 [へいき] /weapon/
+兵士 [へいし] /soldier/
+兵役 [へいえき] /military service/
+兵糧 [ひょうろう] /(military) provisions/
+靴 [くつ] /shoes/
+靴屋 [くつや] /shoe store/
+革靴 [かわぐつ] /leather shoes/
+靴下 [くつした] /socks/
+軍靴 [ぐんか] /army boots/
+革命 [かくめい] /revolution/
+革新 [かくしん] /reform, renovate/
+技術革新 [ぎじゅつかくしん] /technological innovation/
+改革 [かいかく] /reform, reorganize/
+変革 [へんかく] /reform, innovate/
+皮革製品 [ひかくせいひん] /leather goods/
+革 [かわ] /leather/
+革命 [かくめい] /revolution/
+生命 [せいめい] /life/
+生命保険 [せいめいほけん] /life insurance/
+人命 [じんめい] /life/
+運命 [うんめい] /fate/
+使命 [しめい] /mission/
+任命 [にんめい] /appoint, nominate/
+命令 [めいれい] /order; order, give orders/
+寿命 [じゅみょう] /life span/
+命 [いのち] /life/
+命令 [めいれい] /order; order, give orders/
+法令 [ほうれい] /law/
+政令 [せいれい] /government or cabinet ordinance/
+大統領 [だいとうりょう] /president (of a country)/
+領事 [りょうじ] /consul/
+総領事 [そうりょうじ] /consul general/
+領土 [りょうど] /territory (of a nation)/
+領地 [りょうち] /feudal estate/
+領主 [りょうしゅ] /feudal lord/
+領収書 [りょうしゅうしょ] /receipt/
+要領 [ようりょう] /point, gist, knack/
+横領 [おうりょう] /usurp, misappropriate, embezzle/
+大統領 [だいとうりょう] /president (of a country)/
+統治 [とうち] /reign, rule/
+統制経済 [とうせいけいざい] /controlled economy/
+統一 [とういつ] /unify/
+統合 [とうごう] /unite, combine, put together/
+伝統 [でんとう] /tradition/
+統計 [とうけい] /statistics/
+統べる [すべる] /govern/
+補助金 [ほじょきん] /subsidy/
+補助 [ほじょ] /assist, help/
+補給 [ほきょう] /supply, replenish/
+補習 [ほしゅう] /supplementary class, lesson/
+補正 [ほせい] /revised, supplementary (budget, etc.); revise, supplement (a budget, etc.)/
+補充 [ほじゅう] /fill a vacany, replenish, supplement/
+補う [おぎなう] /make up for, supplement, complement/
+補佐官 [ほさかん] /(presidential) aide/
+補佐 [ほさ] /assistant, aide; assist, aid/
+大佐 [たいさ] /colonel/
+佐幕 [さばく] /supporting the Shogunate government/
+大臣 [だいじん] /(government) minister/
+総理大臣 [そうりだいじん] /prime minister/
+臣民 [しんみん] /subjects (in contrast to royalty)/
+# end

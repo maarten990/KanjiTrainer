@@ -1,0 +1,58 @@
+﻿# Kanji in Context Lesson 088 : 1122-1133
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+美容院 [びよういん] /beauty parlor/
+美容 [びよう] /beauty/
+内容 [ないよう] /contents/
+容器 [ようき] /container/
+容量 [ようりょう] /volume, capacity/
+受容 [じゅよう] /accept, take in/
+形容詞 [けいようし] /adjective/
+食欲 [しょくよく] /appetite/
+性欲 [せいよく] /sexual desire, sex drove/
+欲望 [よくぼう] /desire, craving/
+欲 [よく] /desire/
+無欲な [むよくな] /free from avarice, unselfish/
+欲しい [ほしい] /want/
+欲する [ほっする] /want/
+余裕 [よゆう] /leeway, spare (time, money, etc.)/
+裕福な [ゆうふくな] /wealthy/
+入浴 [にゅうよく] /take a bath/
+浴室 [よくしつ] /bathroom/
+海水浴 [かいすいよく] /sea bathing/
+日光浴 [にっこうよく] /sun bathing/
+浴衣 [ゆかた] /yukata (cotton kimono for the summer)/
+浴びる [あびる] /be bathed in, take (a shower)/
+浴びせる [あびせる] /pour over, douse, bombard (with criticism, questions, etc.)/
+運河 [うんが] /canal/
+河 [かわ] /river/
+銀河 [ぎんが] /the Milky Way/
+黄河 [こうが] /Hwang Ho, the Yellow River/
+河川 [かせん] /rivers/
+河原 [かわら] /dry riverbed/
+~に沿って [~にそって] /along (the coast, river, etc.)/
+川沿いの [かわぞいの] /along the river/
+沿岸 [えんがん] /(or or along) the coast or shore/
+沿線 [えんせん] /along a train line/
+沈没 [ちんぼつ] /sink/
+沈着冷静な [ちんちゃくれいせい] /composed, calm/
+沈む [しずむ] /sink/
+沈没 [ちんぼつ] /sink/
+没落 [ぼつらく] /downfall, ruin (of a family, etc.); be ruined or bankrupt/
+没収 [ぼっしゅう] /confiscate/
+出没 [しゅつぼつ] /appear frequently/
+付き添う [つきそう] /attend on, accompany/
+添える [そえる] /add, attach/
+添加物 [てんかぶつ] /additive/
+添削 [てんさく] /correct, revise/
+歓迎 [かんげい] /welcome/
+歓待 [かんたい] /give a cordial reception/
+歓声 [かんせい] /shout of joy, cheer/
+歓楽街 [かんらくがい] /entertainment district, red-light district/
+歓迎 [かんげい] /welcome/
+送迎バス [そうげいバス] /shuttle bus/
+出迎える [でむかえる] /go out to greet (someone at the front door, station, etc.)/
+迎えに行く [むかえにいく] /go to meet someone (at the airport, etc.), pick up/
+迎合 [げいごう] /cater to/
+# end

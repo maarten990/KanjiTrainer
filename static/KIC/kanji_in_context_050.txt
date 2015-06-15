@@ -1,0 +1,72 @@
+﻿# Kanji in Context Lesson 050 : 707-716
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+非常口 [ひじょうぐち] /emergency exit/
+非公開の [ひこうかいの] /private, closed to the public, unpublished/
+非人道的な [ひじんどうてきな] /inhuman/
+非合法的な [ひごうほうてきな] /illegal/
+非合法な [ひごうほうな] /illegal/
+非公式の [ひこうしきの] /informal/
+非常会話 [ひじょうかいわ] /daily conversation/
+非常生活 [ひじょうせいかつ] /daily life/
+正常な [せいじょうな] /normal/
+異常な [いじょうな] /unusual, abnormal/
+通常の [つうじょうの] /usual, ordinary/
+非常の [ひじょうの] /emergency/
+非常口 [ひじょうぐち] /emergency exit/
+常識 [じょうしき] /common sense/
+常に [すねに] /always/
+常夏の国 [とこなつのくに] /land of everlasting summer/
+食堂 [しょくどう] /restaurant/
+本堂 [ほんどう] /main hall of a temple/
+国会議事堂 [こっかいぎじどう] /the Diet building/
+自民党 [じみんとう] /the Liberal Democractic Party, LDP/
+民主党 [みんしゅとう] /the Democratic Party/
+共和党 [きょうわとう] /the Republican Party/
+保守党 [ほしゅとう] /the Conservative Party/
+労働党 [ろうどうとう] /the Labor Party/
+政党 [せいとう] /political party/
+与党 [よとう] /ruling party/
+野党 [やとう] /opposition party/
+党首 [とうしゅ] /head of a political party/
+ノーベル賞 [ノベルしょう] /Nobel Prize/
+アカデミー賞 [アカデミーしょう] /Academy  Award/
+グラミー賞 [グラミーしょう] /Grammy Award/
+賞 [しょう] /prize/
+賞品 [しょうひん] /prize/
+賞金 [しょうきん] /prize money/
+受賞者 [じうしょうしゃ] /prize winner/
+代償 [だいしょう] /price, return, reward/
+賠償金 [ばいしょうきん] /indemnity/
+損害賠償 [そんがいばいしょう] /indemnity, reparation/
+償う [つぐなう] /atone for, expiate/
+償い [つぐない] /atonement, expiation/
+与党 [よとう] /ruling party/
+与える [あたえる] /give, provide/
+給与 [きゅうよ] /salary/
+供与 [きょうよ] /offer/
+関与 [かんよ] /relate oneself to/
+定期券 [ていきけん] /pass (for riding a train, bus, etc.), season ticket/
+回数券 [かいすうけん] /ticket book (for train, bus, etc.)/
+入場券 [にゅうじょうけん] /admission ticket/
+証券会社 [しょうけんがいしゃ] /securities firm/
+旅券 [りょけん] /passport/
+第~巻 [だい~かん] /volumne no. ~/
+上巻 [じょうかん] /vol. 1/
+中巻 [ちゅうかん] /vol. 2 (in a 3-volume set)/
+下巻 [げかん] /vol. 2 (in a 2-volume set), vol. 3 (in a 3-volume set)/
+巻く [まく] /curl, wind/
+葉巻 [はまき] /cigar/
+寝巻き [にまき] /pajamas/
+パジャマ [パジャマ] /pajamas/
+絵巻物 [えまきもの] /picture scroll/
+角 [かど] /corner/
+街角 [まちかど] /on the street/
+角度 [かくど] /angle/
+直角 [ちょっかく] /right angle/
+三角形 [さんかくけい] /triangle/
+三角関係 [さんかくかんけい] /love triangle/
+方角 [ほうがく] /direction/
+角 [つの] /horn, antler/
+# end

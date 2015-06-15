@@ -1,0 +1,53 @@
+﻿# Kanji in Context Lesson 075 : 982-991
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+~枚 [~まい] /(counter for thin, flat objects)/
+枚数 [まいすう] /number of sheets (of paper, etc.)/
+~杯 [~はい] /~glass or cup of/
+乾杯 [かんぱい] /drink a toast; "Cheers!"/
+祝杯 [しゅくはい] /toast/
+杯 [さかずき] /sake cup, goblet/
+千円札 [せんえんさつ] /1,000 yen bill/
+札 [さつ] /paper money, bill, slip of paper/
+札束 [さつたば] /roll of bills/
+改札口 [かいさつぐち] /ticket gate/
+表札 [ひょうさつ] /nameplate (of a house)/
+競争入札 [きょうそうにゅうさつ] /public tender, competitive bidding/
+名札 [なふだ] /name tag/
+分析 [ぶんせき] /analyze/
+解析 [かいせき] /analyze (used in mathematics)/
+析出 [せきしゅつ] /educe, extract/
+核戦争 [かくせんそう] /nuclear war/
+核エネルギー [かくエネルギー] /nuclear energy/
+核燃料 [かくねんりょう] /nuclear fuel/
+核兵器 [かくへいき] /nuclear weapons/
+核廃棄物 [かくはいきぶつ] /nuclear waste/
+原子核 [げんしかく] /(atomic) nucleus/
+核 [かく] /nucleus, core/
+核家族 [かくかぞく] /nuclear family/
+核心 [かくしん] /core, kernel/
+結核 [けっかく] /tuberculosis/
+黒板 [こくばん] /blackboard/
+板 [いた] /board/
+合板 [ごうはん] /plywood/
+甲板 [かんぱん] /deck (of a ship)/
+鉄棒 [てつぼう] /iron bar or rod, horizontal bar/
+棒 [ぼう] /stick, rod, club/
+棒グラフ [ぼうグラフ] /bar graph/
+柄 [がら] /pattern, design/
+人柄 [ひとがら] /character, personality/
+家柄 [いえがら] /social standing of a family/
+横柄な [おうへいな] /arrogant/
+柄 [え] /handle, grip/
+電柱 [でんちゅう] /telephone or utility pole/
+柱 [はしら] /pillar/
+大黒柱 [だいこくばしら] /the main pillar (of a house), breadwinner for a family/
+構造 [こうぞう] /structure/
+構成 [こうせい] /composition, organization; form, compose/
+構想 [こうそう] /plan, plot/
+機構 [きこう] /organization/
+心構え [こころがまえ] /mental attitude, mental readiness/
+構える [かまえる] /set up (an office, store, etc.)/
+構う [かまう] /mind, care about/
+# end

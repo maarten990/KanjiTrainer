@@ -1,0 +1,65 @@
+﻿# Kanji in Context Lesson 056 : 770-779
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+振動 [しんどう] /vibration; vibrate, swing, oscillate/
+三振 [さんしん] /be struck out/
+振興 [しんこう] /promote/
+振る [ふる] /wave, shake/
+振り返る [ふりかえる] /look back, turn one's head/
+振る舞う [ふりまう] /behave/
+振り仮名 [ふりがな] /kana that are used to show the reading of kanji/
+打つ [うつ] /hit, strike/
+打ち合わせ [うちあわせ] /previous arrangement/
+打ち消す [うちけす] /deny/
+打算的な [ださんてきな] /calculating, selfish/
+打開 [だかい] /achieve a breakthrough, resolve (a situation)/
+打撃 [だげき] /blow, shock/
+折る [おる] /fold, bend, break/
+折り紙 [おりがみ] /origami, paper for origami/
+折 [おり] /occasion/
+右折 [うせつ] /turn right/
+左折 [させつ] /turn left/
+折半 [せっぱん] /divide into halves/
+採用 [さいよう] /employ, adopt/
+採決 [さいけつ] /vote, take a vote/
+採集 [さいしゅう] /collect (plants, butterflies, etc.)/
+採算 [さいさん] /profit/
+採点 [さいてん] /grade/
+採る [とる] /accept, employ, collect/
+野菜 [やさい] /vegetable/
+菜食主義 [さいしょくしゅぎ] /vegetarianism/
+菜園 [さいえん] /vegetable garden/
+山菜 [さんさい] /edible wild plants/
+菜の花 [なのはな] /rape blossoms/
+青菜 [あおな] /greens/
+指 [ゆび] /finger/
+親指 [おやゆび] /thumb/
+指輪 [ゆびわ] /(finger) ring/
+指導 [しどう] /lead, guide, instruct/
+指導員 [しどういん] /instructor/
+指名 [しめい] /nominate/
+指定席 [していせき] /reserved seat (in a train)/
+指示 [しじ] /directions, instructions; direct, instruct/
+指す [さす] /point/
+目指す [めざす] /aim at/
+指揮者 [しきしゃ] /conductor (of an orchestra)/
+指揮 [しき] /conduct, command/
+発揮 [はっき] /exhibit or display (one's power, potential, etc.)/
+輝かしい [かがやかしい] /splendid, glorious/
+輝く [かがやく] /glisten/
+輝き [かがやき] /brilliancy, light, sparkle/
+光輝 [こうき] /brilliancy, luster/
+軍隊 [ぐんたい] /military, army/
+陸軍 [りくぐん] /army/
+空軍 [くうぐん] /air force/
+海軍 [かいぐん] /navy/
+軍人 [ぐんじん] /soldier/
+軍 [ぐん] /military, troops/
+十字軍 [じゅうじぐん] /crusade/
+軍国主義 [ぐんこくしゅぎ] /militarism/
+軍隊 [ぐんたい] /military, army/
+部隊 [ぶたい] /squad/
+隊 [たい] /squad/
+隊長 [たいちょう] /squad chief/
+# end

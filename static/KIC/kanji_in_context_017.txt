@@ -1,0 +1,126 @@
+﻿# Kanji in Context Lesson 017: 322-338
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+家族 [かぞく] /family/
+部族 [ぶぞく] /tribe/
+民族 [みんぞく] /people, ethnic group/
+族議員 [ぞくぎいん] /Diet member who works on policy-making in a particular field/
+公園 [こうえん] /park, square/
+公立高校 [こうりつこうこう] /public high school/
+公共施設 [こうきょうしせつ] /public or community facilities/
+公共事業 [こうきょうじぎょう] /government enterprise/
+公共交通システム [こうきょうこうつうシステム] /public transportation system/
+公言 [こうげん] /declare/
+公平な [こうへいな] /fair, impartial/
+公正な [こうせいな] /just, fair, righteous/
+公の [おおやけの] /public, official, formal/
+主人公 [しゅじんこう] /main character (of a story, etc.)/
+公園 [こうえん] /park, square/
+動物園 [どうぶつえん] /zoo/
+植物園 [しょくぶつえん] /botanical garden/
+遊園地 [ゆうえんち] /amusement park/
+日本庭園 [にほんていえん] /Japanese garden/
+園芸 [えんげい] /gardening/
+花園 [はなぞの] /flower garden/
+医者 [いしゃ] /doctor/
+医師 [いし] /doctor/
+医学 [いがく] /medical science/
+医学部 [いがくぶ] /medical department/
+名医 [めいい] /great doctor, skilled physician/
+女医 [じょい] /woman doctor/
+宿題 [しゅくだい] /homework/
+下宿 [げしゅく] /lodging; lodge, rent a room/
+宿泊 [しゅくはく] /stay at, lodge/
+宿 [やど] /inn, lodgings/
+雨宿り [あまやどり] /take cover from the rain (under the eaves of a house)/
+宿す [やどす] /be pregnant/
+問題 [もんだい] /issue, problem, question (in an exam)/
+出題 [しゅつだい] /make questions (for an exam)/
+話題 [わだい] /topic, subject (of a conversation)/
+題名 [だいめい] /title/
+寺 [てら] /temple/
+山寺 [やまでら] /mountain temple/
+寺院 [じいん] /temple/
+図書館 [としょかん] /library/
+地図 [ちず] /map/
+図 [ず] /figure, diagram/
+図表 [ずひょう] /figures and diagrams/
+図形 [ずけい] /figure/
+合図 [あいず] /signal, sign/
+意図 [いと] /intention; intend/
+図る [はかる] /plot, scheme, design/
+旅館 [りょかん] /Japanese-style inn/
+学生会舘 [がくせいかいかん] /students' hall/
+水族館 [すいぞくかん] /aquarium/
+館長 [かんちょう] /director (of a museum, aquarium, etc.), chief librarian/
+本館 [ほんかん] /main building/
+別館 [べつかん] /annex/
+教室 [きょうしつ] /classroom/
+研究室 [けんきゅうしつ] /office (of a professor, researcher)/
+病室 [びょうしつ] /sickroom/
+客室 [きゃくしつ] /guest room, passenger cabin/
+待合室 [ま×ひあいしつ] /waiting room/
+室内 [しつない] /indoor, indoors, in a room/
+洋室 [ようしつ] /Western-style room/
+和室 [わしつ] /Japanese-style room/
+室町時代 [むらまちじだい] /Muromachi era, 14-16th century/
+出席 [しゅっせき] /attend (a class, meeting, etc.), be present/
+欠席 [けっせき] /be absent (from school, etc.)/
+席 [せき] /seat/
+座席 [ざせき] /seat/
+着席 [ちゃくせき] /be seated, sit down/
+主席 [しゅせき] /the Chairman (of the Chinese Communist Party)/
+首席 [しゅせき] /top or first in class/
+～度 [～ど] /~ time(s), ~ degree(s)/
+今度 [こんど] /shortly, soon, this time, next time/
+毎度 [まいど] /each time, always/
+年度 [ねんど] /(school, fiscal, etc.) year/
+高度な [こうどな] /high, advanced, high-grade/
+高度経済成長 [こうどけいざいせいちょう] /high economic growth/
+温度 [おんど] /temperature/
+速度 [そくど] /speed/
+制度 [せいど] /system/
+限度 [げんど] /limit, limitation/
+度々 [たびたび] /many times, over and over/
+この度 [このど] /this time, now/
+支度 [したく] /preparation; get ready/
+法度 [はっと] /regulations/
+飛行機 [ひこうき] /airplane/
+機内 [きない] /inside an airplane/
+機内食 [きないしょく] /inflight meal/
+機関 [きかん] /organization, institution, engine/
+機関車 [きかんしゃ] /locomotive/
+機械 [きかい] /machine/
+機会 [きかい] /opportunity, occasion/
+機 [はた] /loom/
+場所 [ばしょ] /place, venue/
+場合 [ばあい] /occasion, case/
+場 [ば] /field, place, spot, space, room, scene/
+立場 [たちば] /standpoint, one's ground, point of view, viewpoint/
+市場 [いちば] /marketplace/
+工場 [こうば] /small factory/
+工場 [こうじょう] /factory/
+飛行場 [ひこうじょう] /airfield/
+出場 [しゅつじょう] /take part, participate/
+市場 [しじょう] /market/
+県 [けん] /prefecture, prefectural government/
+～県 [～けん] /~ Prefecture/
+県立の [けんりつの] /prefectural/
+県道 [けんどう] /prefectural road/
+県庁 [けんちょう] /prefectural office/
+京都府 [きょうとふ] /Kyoto Prefecture/
+大阪府 [おおさかふ] /Osaka Prefecture/
+府立の [ふりつの] /prefectural (used only for Osaka and Kyoto)/
+府庁 [ふちょう] /prefectural office (used only for Osaka and Kyoto)/
+幕府 [ばくふ] /the Shogunate government/
+東京都 [とうきょうと] /the Tokyo metropolitan area/
+都立の [とりつの] /metropolitan/
+都内 [とない] /within Tokyo/
+都道府県 [とどうふけん] /the Tokyo metropolitan area, Hokkaido, Osaka, Kyoto, and the prefectures/
+都会 [とかい] /city/
+首都 [しゅと] /capital/
+都庁 [とちょう] /Tokyo Metropolitan Government (office)/
+都 [みやこ] /capital/
+都合 [つごう] /convenience, circumstances; arrange (for), see to (something)/
+# end

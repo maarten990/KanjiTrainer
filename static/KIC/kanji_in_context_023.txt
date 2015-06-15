@@ -1,0 +1,70 @@
+﻿# Kanji in Context Lesson 023 : 395-404
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+社員 [しゃいん] /company worker/
+会社員 [かいしゃいん] /company worker/
+銀行員 [ぎんこういん] /bank employee/
+教員 [きょういん] /teacher/
+工員 [こういん] /factory worker/
+会員 [かいいん] /member (of a club or society)/
+全員 [ぜんいん] /all members, entire staff/
+定員 [ていいん] /(seating) capacity, quota/
+人員削減 [じんいんさくげん] /personnel cut, reduction, layoff/
+損 [そん] /loss, deficit; lose/
+損失 [そんしつ] /loss, deficit/
+損なう [そこなう] /hurt, damage/
+別の [べつの] /different, separate, another/
+区別 [くべつ] /distinguish, differentiate/
+別居 [べつきょ] /live apart/
+別人 [べつじん] /different person/
+差別 [さべつ] /discriminate/
+別荘 [べっそう] /country villa, country cottage, summer house/
+別れる [わかれる] /part from, separate from a person/
+特別な [とくべつな] /special, particular/
+特急 [とっきゅう] /special express (train)/
+特色 [とくしょく] /special characteristic/
+特長 [とくちょう] /special characteristic/
+特徴 [とくちょう] /distinctive feature/
+特売 [とくばい] /bargain sale/
+特に [とくに] /specially, particularly/
+特有の [とくゆうの] /characteristic of, peculiar to/
+独特の [どくとくの] /peculiar, original, unique/
+点 [てん] /point/
+百点 [ひゃくてん] /full marks, perfect score (on a test)/
+出発点 [しゅっぱつてん] /starting point/
+原点 [げんてん] /origin (of coordinates or axes)/
+点字 [てんじ] /braille/
+点火 [てんか] /ignite/
+点検 [てんけん] /check/
+点々と [てんてんと] /here and there, sporadically, in drops/
+無理な [むりな] /impossible/
+無名の [むめいの] /unknown/
+無地の [むじの] /plain, unfigured/
+無料の [むりょうの] /free (of charge)/
+無口な [むくちな] /taciturn, reticent/
+無心に [むしんに] /innocently/
+無事に [ぶじに] /safely, with no problems/
+無い [ない] /not have, not exist/
+自然 [しぜん] /nature/
+当然 [とうぜん] /naturally, as a matter of course/
+当時 [とうじ] /at that time/
+見当 [けんとう] /estimate/
+手当 [てあて] /allowance, medical treatment; treat (a cut, burn, etc.)/
+当たる [あたる] /hit/
+日当たりがいい [ひあたりがいい] /be sunny, have lots of sunshine/
+当たり前 [あたりまえ] /natural, proper/
+当てはめる [あてはめる] /apply (a rule, etc.)/
+一人当たり [ひとりあたり] /per person, per capita/
+心当たり [こころあたり] /idea/
+予定 [よてい] /plan, schedule; make a plan, prearrange/
+予約 [よやく] /reservation, appointment; reserve, make an appointment/
+予想 [よそう] /expect, foresee/
+地震予知 [じしんよち] /earthquake prediction/
+天気予報 [てんきよほう] /weather forecast/
+分野 [ぶんや] /field (of studies, etc.)/
+野生の [やせいの] /wild/
+野菜 [やさい] /vegetable/
+平野 [へいや] /plain, flat land/
+野原 [のはら] /field, plain/
+# end

@@ -1,0 +1,72 @@
+﻿# Kanji in Context Lesson 036 : 547-558
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+市 [し] /city/
+ロサンザルス市 [ロサンザルスし] /(the City of) Los Angeles/
+ニューヨーク市 [ニューヨークし] /New York City/
+市長 [しちょう] /mayor/
+市民 [しみん] /citizen/
+市立 [しりつ] /municipal/
+市場 [いちば] /marketplace/
+市場 [しじょう] /(stock, etc.) market/
+区 [く] /ward/
+区民 [くみん] /inhabitants of a ward/
+地区 [ちく] /district, area, zone/
+区分 [くぶん] /divide, demarcate/
+区切る [くぎる] /punctuate, divide/
+町 [ちょう] /town/
+町民 [ちょうみん] /townspeople/
+町人 [ちょうにん] /townspeople (in Edo period)/
+町 [まち] /town/
+下町 [したまち] /(low-lying) downtown area/
+室町時代 [むろまちじだい] /the Muromachi era/
+～丁目 [～ちょうめ] /~ block (in the numbering system for addresses)/
+丁字路 [ていじろ] /T-intersection/
+～番 [～ばん] /number ~/
+番地 [ばんち] /house number/
+番号 [ばんごう] /number/
+電話番号 [でんわばんごう] /telephone number/
+郵便番号 [ゆうびんばんごう] /zip or postal code/
+局番 [きょくばん] /area code/
+交番 [こうばん] /police box/
+当番 [とうばん] /person on duty, (be on) duty/
+郡 [ぐん] /country/
+州 [しゅう] /state/
+カリフォルニア州 [カリフォルニアしゅう] /(the State of) California/
+本州 [ほんしゅう] /Honshu, the largest of the four main Japanese islands/
+九州 [きゅうしゅう] /Kyushu, the southwestern island of the four main islands of Japan/
+中州 [なかす] /sandback in a river/
+欧州 [おうしゅう] /Europe/
+欧州共同体 [おうしゅうきょうどうたい] /the European Community/
+欧米 [おうべい] /Europe and the U.S./
+西欧諸国 [せいおうしょこく] /Western European countries/
+満足 [まんぞく] /be satisfied or content; satisfaction, contentment/
+不満 [ふまん] /dissatisfaction/
+満員 [まんいん] /be full (as in trains, theaters, etc.)/
+満点 [まんてん] /perfect score (on a test)/
+円満な [えんまんな] /harmonious, peaceful/
+満たす [みたす] /fill, fulfill/
+満ちる [みちる] /become full/
+両親 [りょうしん] /father and mother, (both) parents/
+両手 [りょうて] /both hands/
+両足 [りょうあし] /both legs/
+両方 [りょうほう] /both/
+両立 [りょうりつ] /coexist/
+方向 [ほうこう] /direction/
+向上 [こうじょう] /improve, become better/
+意向 [いこう] /intention/
+向かお [むかお] /proceed, face (toward)/
+向く [むく] /face, turn, tend (toward), suit (one's preference)/
+振り向く [ふりむく] /turn to/
+向き [むき] /direction/
+～向きの [～むきの] /for ~, suitable for ~/
+向ける [むける] /turn something (to)/
+向こう [むこう] /opposite side/
+子供向けの [こどもむけの] /for children/
+一周 [いっしゅう] /go around once, one lap/
+半周 [はんしゅう] /go half-way around, go half a lap/
+百周年 [ひゃくしゅうねん] /100th anniversary/
+円周 [えんしゅう] /circumference/
+周り [まわり] /surroundings/
+# end

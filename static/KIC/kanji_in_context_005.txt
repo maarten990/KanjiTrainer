@@ -1,0 +1,149 @@
+﻿# Kanji in Context Lesson 005: 104-126
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.1  
+# Paul Denisowski (paul@denisowski.org)
+多い [おおい] /abundant, plenty/
+多少 [たしょう] /to a certain extent, somewhat, quantity, amount/
+多数の [たすうの] /many, a lot of/
+少ない [すくない] /few/
+少し [すこし] /a little, a few/
+少年 [しょうねん] /boy/
+少女 [しょうじょ] /girl/
+少々 [しょうしょう] /a little, a bit/
+少数の [しょうすうの] /a little, a few/
+減少 [げんしょう] /to reduce/
+明るい [あかるい] /bright, light, cheerful/
+明るむ [あかるむ] /become light/
+明らかな [あきらかな] /clear, obvious/
+明白な [めいはくな] /clear, obvious/
+説明 [せつめい] /to explain/
+証明 [しょうめい] /to prove, certify; proof, evidence/
+明日 [あした] /tomorrow/
+夜が明ける [よがあける] /day breaks/
+夜明け [よあけ] /dawn, daybreak/
+明け方 [あけがた] /dawn, daybreak/
+明くる日 [あくるひ] /the next day/
+明かり [あかり] /light/
+明かす [あかす] /stay up all night, reveal (one's identity, intentions)/
+暗い [くらい] /dark, gloomy/
+暗室 [あんしつ] /(photo) darkroom/
+明暗 [めいあん] /light and shade/
+暗示 [あんじ] /hint, suggest/
+低い [ひくい] /low, short/
+高低 [こうてい] /rise and fall, pitch, undulations/
+低気圧 [ていきあつ] /low (atmospheric) pressure/
+低める [ひくめる] /lower/
+近い [ちかい] /near/
+近道 [ちかみち] /shortcut/
+近づく [ちかづく] /approach, come near/
+近々 [ちかじか] /shortly, before long/
+近所 [きんじょ] /neighborhood/
+近日中に [きんじつちゅうに] /soon, one of these days/
+近代化 [きんだいか] /modernization/
+遠い [とおい] /far/
+永遠の [えいえんの] /eternal/
+遠足 [えんそく] /(a day) excursion, (school) trip/
+遠心力 [えんしんりょく] /centrifugal force/
+遠近法 [えんきんほう] /perspective drawing/
+久遠の [くおんの] /eternal/
+強い [つよい] /strong/
+強まる [つよまる] /become strong/
+強み [つよみ] /strong point/
+勉強 [べんきょう] /study/
+強力な [きょうりょくな] /strong, powerful/
+強制 [きょうせい] /compel, force/
+強引な [ごういんな] /forcible, overbearing/
+強いる [しいる] /compel, force/
+弱い [よわい] /weak/
+弱まる [よわまる] /become weak/
+弱点 [じゃくてん] /weak point/
+弱肉強食 [じゃくにくきょうしょく] /(a world where) the weak are victims of the strong/
+広い [ひろい] /wide, broad, large/
+広場 [ひろば] /plaza, (public) square, open space/
+広まる [ひろまる] /spread, be diffused, become popular/
+広がる [ひろがる] /spread, extend, stretch/
+広める [ひろめる] /spread, diffuse, dissiminate, make something popular/
+広げる [ひろげる] /widen, unfold, unroll, spread, extend, expand/
+広々とした [ひろびろとした] /wide, spacious/
+広大な [こうだいな] /vast/
+悪い [わるい] /bad, wrong, evil, harmful/
+悪口と言う [わるぐちという] /speak ill of/
+悪人 [あくにん] /wicked, bad person/
+悪意 [あくい] /ill will, malice/
+悪化 [あっか] /worsen/
+憎悪 [ぞうお] /hatred; hate/
+嫌悪感 [けんおかん] /hatred, disgust/
+重い [おもい] /heavy, weighty, serious (illness, injury)/
+体重 [たいじゅう] /body weight/
+重力 [じゅうりょく] /gravity/
+重大な [じゅうだいな] /serious, important, grave/
+重工業 [じゅうこうぎょう] /heavy industry/
+重点 [じゅうてん] /important point, priority, emphasis/
+重役 [じゅうやく] /company director/
+重体 [じゅうたい] /serious injured, ill, in a critical or serious condition/
+貴重な [きちょうな] /precious, valuable/
+慎重な [しんちょうな] /prudent, careful, cautious/
+重複 [じゅうふく] /be repeated, duplicated, overlap/
+二乗否定 [にじょうひてい] /double negative/
+重ねる [かさねる] /pile up, request/
+八重桜 [やえざくら] /doubled-flowered cherry tree/
+軽い [かるい] /light, slight (illness or injury)/
+手軽な [てがるな] /easy, simple/
+気軽に [きがるに] /easily, without reserve/
+軽やかな [かろやかな] /joyously, merrily/
+軽食 [けいしょく] /light meal/
+軽自動車 [けいじどうしゃ] /compact car/
+軽工業 [けいこうぎょう] /light industry/
+軽率な [けいそつな] /careless, thoughtless, rash, hasty/
+早い [はやい] /early/
+早める [はやめる] /move (the date) forward/
+素早い [すばやい] /quick, agile, nimble/
+早朝 [そうちょう] /early in the morning/
+早春 [そうしゅん] /early spring/
+早速 [さっそく] /immediately, right away/
+早急に [さっきゅうに] /immediately/
+遅い [おそい] /late, slow/
+遅れる [おくれる] /be late, be overdue, behind the times/
+遅らす [おくらす] /delay, put off/
+遅刻 [ちこく] /be late/
+暑い [あつい] /hot/
+残暑 [ざんしょ] /late summer heat/
+暑中見舞い [しょちゅうみまい] /midsummer greeting card/
+避暑地 [ひそち] /summer retreat/
+寒い [さむい] /cold/
+寒気 [さむけ] /chill, (have) the shivers/
+寒気 [かんき] /the cold, coldness/
+寒村 [かんそん] /lonely or impoverished village/
+寒天 [かんてん] /agar/
+厳寒の [げんかんの] /severely cold, coldest/
+深い [ふかい] /deep, thick/
+深める [ふかめる] /deepen, promote (better understanding, etc.)/
+深まる [ふかまる] /get deeper, deepen/
+深夜放送 [しんやほうそう] /light night, all-night broadcasting/
+水深 [すいしん] /water depth/
+浅い [あさい] /shallow, slight/
+浅薄な [せんぱくな] /shallow/
+細い [ほそい] /thin, fine, slim, slender/
+やせ細る [やせほそる] /become thin, become emaciated/
+細かい [こまかい] /fine (line), detailed, trifling, small (change)/
+細部 [さいぶ] /details/
+明細書 [めいさいしょ] /detailed statement/
+細雪 [ささめゆき] /light snowfall/
+太い [ふとい] /thick, big/
+太る [ふとる] /grow fat/
+太陽 [たいよう] /the sun/
+太郎 [たろう] /(male given name)/
+丸太 [まるた] /log/
+太刀 [たち] /sword/
+若い [わかい] /young/
+若々しい [わかわかしい] /youthful/
+若者 [わかもの] /young person/
+若手 [わかて] /young (actor, etc.)/
+若人 [わこうど] /young person/
+若年労働者 [じゃくねんろうどうしゃ] /young worker/
+老若男女 [ろうじゃくだんじょ、ろうにゃくなんにょ] /men and women of all ages/
+若しくは [もしくは] /or, otherwise/
+忙しい [いそがしい] /busy/
+多忙な [たぼうな] /busy/
+忙殺される [ぼうさつされる] /be very busy (with work)/
+#end

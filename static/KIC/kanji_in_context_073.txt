@@ -1,0 +1,75 @@
+﻿# Kanji in Context Lesson 073 : 960-971
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+途中 [とちゅう] /on the way, midway/
+中途半端な [ちゅうとはんぱな] /incomplete, halfway/
+開発途上国 [かいはつとじょうこく] /developing countries/
+前途 [ぜんと] /one's future/
+途絶える [とだえる] /stop, cease/
+~した途端に [~したとたんに] /just as, the moment that/
+込む [こむ] /be crowded/
+飛び込む [とびこむ] /dive, plunge into/
+引っ込む [ひっこむ] /retire, withdraw/
+申し込む [もうしこむ] /apply/
+払い込む [はらいこむ] /pay (into an account)/
+申し込み [もうしこみ] /application/
+人込み [ひとごみ] /crowd, throng, crowded place/
+見込み [みこみ] /prospects, outlook, estimate/
+込める [こめる] /load (a gun), include/
+この辺り [このあたり] /this neighborhood, around here/
+この辺 [このへん] /neighborhood, vicinity/
+周辺 [しゅうへん] /environs, periphery/
+底辺 [ていへん] /base, bottom/
+海辺 [うみべ] /beach, seashore/
+水辺 [みずべ] /shore/
+辺境地 [へんきょうち] /frontier/
+述べる [のべる] /state/
+記述 [きじゅつ] /describe/
+口述試験 [こうじゅつしけん] /oral examination/
+述語 [じゅつご] /predicate/
+上述の [じょうじゅつの] /above-mentioned/
+迫る [せまる] /press someone to do something, approach/
+迫力 [はくりょく] /force, power, impressiveness/
+迫害 [はくがい] /persecute/
+切迫した [せっぱくした] /pressing, imminent/
+造船 [ぞうせん] /shipbuilding/
+製造 [せいぞう] /manufacture/
+製造業 [せいぞうぎょう] /manufacturing/
+改造 [かいぞう] /remodel/
+木造の [もくぞうの] /wooden/
+人造湖 [じんぞうこ] /manmade lake/
+造る [つくる] /make, build/
+追いかける [おいかける] /chase, pursure/
+追いつく [おいつく] /catch up with, overtake/
+追い越す [おいこす] /pass, get ahead of, outstrip/
+追う [おう] /chase, pursue, drive away/
+追い風 [おいかぜ] /tail wind/
+追加 [ついか] /add, supplement/
+追求 [ついきゅう] /pursue/
+追放 [ついほう] /drive away, banish, purge/
+教師 [きょうし] /teacher/
+家庭教師 [かていきょうし] /home tutor/
+医師 [いし] /doctor/
+師匠 [ししょう] /master (in contrast to disciples)/
+師走 [しわす] /December/
+桜 [さくら] /cherry tree/
+八重桜 [やえざくら] /double-flowered cherry tree/
+桜花 [おうか] /cherry blossoms/
+梅 [うめ] /ume, Japanese apricot/
+梅酒 [うめしゅ] /ume wine/
+梅干し [うめぼし] /pickled ume/
+白梅 [はくばい] /ume tree with white blossoms/
+紅梅 [こうばい] /ume tree with pink blossoms/
+梅園 [ばいえん] /ume tree orchard/
+梅雨 [つゆ、ばいう] /rainy season (in June)/
+梅雨前線 [ばいうぜんせん] /warm front of early summer tain/
+松 [まつ] /pine tree/
+松林 [まつばやし] /pine woods/
+松島 [まつしま] /Matsushima (scenic coastal area near Sendai)/
+松竹梅 [しょうちくばい] /pine, bamboo, and ume (typical decorations at a celebration)/
+桃 [もも] /peach tree/
+桃色 [ももいろ] /pink/
+桜桃 [おうとう] /cherry/
+桃源郷 [とうげんきょう] /paradise/
+# end

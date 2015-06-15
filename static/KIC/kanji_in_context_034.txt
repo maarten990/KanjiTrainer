@@ -1,0 +1,81 @@
+﻿# Kanji in Context Lesson 034 : 525-535
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+勤める [つとめる] /work for/
+通勤 [つうきん] /commute/
+出勤 [しゅっきん] /go to work/
+勤務時間 [きんむじかん] /working hours/
+転勤 [てんきん] /be transferred to another office of the company/
+勤行 [ごんぎょう] /(Buddhist) religious service/
+難しい [むずかしい] /difficult/
+難解な [なんかいな] /difficult (to understand)/
+難易度 [なんいど] /degree of diffiiculty/
+困難 [こんなん] /hardship, difficulty/
+難病 [なんびょう] /intractable disease/
+難点 [なんてん] /defect/
+非難 [ひなん] /blame, criticize/
+難民 [なんみん] /refugee/
+盗難 [とうなん] /burglary, robbery/
+許し難い [ゆるしがたい] /unforgivable/
+漢字 [かんじ] /kanji, Chinese character/
+漢文 [かんぶん] /Chinese writing, Chinese classics/
+漢和辞典 [かんわじてん] /Japanese dictionary of Chinese characters/
+門外漢 [もんがいかん] /outsider (to a field)/
+熱血漢 [ねっけつかん] /hot-blooded man/
+漢 [かん] /Han dynasty/
+漢字 [かんじ] /kanji, Chinese character/
+数字 [すうじ] /number/
+ローマ字 [ローマじ] /Roman alphabet/
+文字 [もじ] /letter (of the alphabet, etc.)/
+字 [じ] /letter, character/
+赤十字 [せきじゅうじ] /the Red Cross/
+名字 [みょうじ] /surname, last name/
+字 [あざ] /section of a town or village/
+数字 [すうじ] /numeral, figures/
+数学 [すうがく] /mathematics/
+人数 [にんずう] /number of people/
+点数 [てんすう] /points (obtained)/
+分数 [ぶんすう] /fraction (in mathematics)/
+無数の [むすうの] /countless, innumerable/
+単数の [たんすうの] /singular/
+複数の [ふくすうの] /plural/
+手数料 [てすうりょう] /fee, charge/
+数 [かず] /number/
+数える [かぞえる] /count/
+数奇屋橋 [すうきやばし] /Shukiyabashi (a place near Ginza)/
+政治 [せいじ] /politics/
+政治家 [せいじか] /politician/
+政府 [せいふ] /government/
+政局 [せいきょく] /political situation/
+行政 [ぎょうせい] /administration/
+政権 [せいけん] /administration/
+摂政 [せっしょう] /regent/
+政 [まつりごと] /state affairs/
+政治 [せいじ] /politics/
+明治 [めいじ] /the Meiji era/
+地方自治体 [ちほじちたい] /local government/
+治る [なおる] /heal, be cured, get better/
+治める [おさめる] /rule, govern/
+台所 [だいどころ] /kitchen/
+台本 [だいほん] /script, screenplay/
+台 [だい] /base, stand/
+～台 [～だい] /(counter for machines)/
+天文台 [てんもんだい] /astronomical observatory/
+台風 [たいふう] /typhoon/
+道路 [どうろ] /street, road/
+水路 [すいろ] /waterway/
+通路 [つうろ] /passageway, walkway, aisle/
+十字路 [じゅうじろ] /intersection, crossroads/
+路上 [ろじょう] /on the road, on the street/
+大路 [おおき] /main street/
+戸 [と] /door/
+雨戸 [あまど] /storm door, shutter/
+戸外で [こがいで] /outdoors, in the open air/
+下戸 [げこ] /teetotaler/
+居間 [いま] /living room/
+居る [いる] /be present, exist (used for humans, animals, etc.)/
+居座る [いすわる] /stay on, remain (in office)/
+居直る [いなおる] /take a threatening attitude/
+住居 [じゅうきょ] /dwelling, residence/
+# end

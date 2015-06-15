@@ -1,0 +1,50 @@
+﻿# Kanji in Context Lesson 049 : 697-706
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+委員会 [いいんかい] /committee/
+委員 [いいん] /member of a committee/
+委託 [いたく] /entrust, consign/
+季節 [きせつ] /season/
+季節風 [きせつふう] /monsoon/
+四季 [しき] /four seasons/
+季節 [きせつ] /season/
+調節 [ちょうせつ] /adjust/
+使節 [しせつ] /mission, envoy/
+節約 [せつやく] /save (electricity, water, time, etc.)/
+関節 [かんせつ] /joint/
+お節料理 [おせちりょうり] /special dinner for the New Year/
+節 [ふし] /knob, joint (in a bamboo shaft)/
+即興 [そっきょう] /improvisation/
+即時に [そくじに] /instantly, immediately/
+即座に [そくざに] /immediately/
+企業 [きぎょう] /corporation/
+大企業 [だいきぎょう] /large enterprises/
+中小企業 [ちょうしょうきぎょう] /medium and small enterprises/
+企画 [きかく] /plan/
+企てる [くだわてる] /plan, scheme, attempt, try, undertake/
+企て [くわだて] /plan, scheme, project/
+歯 [は] /tooth/
+虫歯 [むしば] /decayed tooth, cavity/
+前歯 [まえば] /front tooth/
+歯医者 [はいしゃ] /dentist/
+歯車 [はぐるま] /gear/
+歯科医 [しかい] /dentist/
+~歳 [~さい] /~ years old/
+歳出 [さいしゅつ] /expenditure/
+歳入 [さいにゅう] /revenue/
+歳末大売出し [さいまつおおうりだし] /big year-end sale/
+万歳 [ばんざい] /Long live (the emporer, king, etc.)/
+二十歳 [はたち] /twenty years old/
+お歳暮 [おせいぼ] /year-end gift/
+歴史 [れきし] /history/
+学歴 [がくれき] /(one's) educational history, academic background/
+職歴 [しょくれき] /(one's) record of employment/
+経歴 [けいれき] /personal history/
+前歴 [ぜんれき] /(one's) past record/
+歴史 [れきし] /history/
+日本史 [にほんし] /Japanese history/
+世界史 [せかいし] /world history/
+文学史 [ぶんがくし] /history of literature/
+中央 [ちゅうおう] /center/
+# end

@@ -1,0 +1,64 @@
+﻿# Kanji in Context Lesson 081 : 1046-1057
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+犯罪 [はんざい] /crime/
+犯罪者 [はんざいしゃ] /criminal, offender/
+犯人 [はんにん] /criminal/
+犯行 [はんこう] /crime/
+共犯者 [きょうはんしゃ] /accomplice/
+防犯カメラ [ぼうはカメラん] /surveillance camera/
+犯す [おかす] /commit (a crime), violate (the law), rape/
+犯罪 [はんざい] /crime/
+有罪 [ゆうざい] /guilty/
+無罪 [むざい] /not guilty/
+罪 [つみ] /crime, sin, guilt/
+逮捕 [たいほ] /arrest/
+逮捕状 [たいほじょう] /arrest warrant/
+逮捕 [たいほ] /arrest/
+捕鯨船 [ほげいせん] /whaling ship/
+拿捕 [だほ] /capture (a ship)/
+捕る [とる] /catch/
+捕まえる [つかまえる] /catch/
+捕まる [つかまる] /be caught/
+捕らえる [とらえる] /catch/
+担当 [たんとう] /be in charge/
+担任の先生 [たんにんのせんせい] /homeroom teacher/
+負担 [ふたん] /bear (expenses, responsibility, etc.); burden, responsibility/
+担保 [たんぽ] /security, mortgage, guarantee/
+担ぐ [かつぐ] /carry one one's shoulder, bear, shoulder/
+担う [になう] /bear or shoulder (responsibility)/
+批判 [ひはん] /criticism; criticize/
+批判的な [ひはんてきな] /critical/
+文芸批評 [ぶんげいひひょう] /literary criticism/
+死刑 [しけい] /capital punishment/
+刑法 [けいほう] /criminal law/
+刑事 [けいじ] /(police) detective; criminal (case, liability, etc.)/
+刑罰 [けいばつ] /punishment, penalty/
+刑 [けい] /punishment, penalty, sentence/
+刑務所 [けいむしょ] /prison/
+健康 [けんこう] /health/
+保健 [ほけん] /health/
+健在 [けんざい] /healthy/
+健勝 [けんしょう] /healthy/
+穏健な [おんけんな] /moderate/
+健やかな [すこやかな] /healthy/
+健康 [けんこう] /health/
+健康な [けんこうな] /healthy/
+不健康な [ふけんこうな] /unhealthy/
+小康 [しょうこう] /(temporary) lull, breathing space/
+建物 [たてもの] /building/
+~階建て [~かいだて] /~story (building)/
+建てう [たてる] /build/
+建前 [たてまえ] /formal principle or policy, profession position/
+建設 [けんせつ] /construct, build/
+建立 [こんりゅう] /build/
+新築の [しんちくの] /newly-constructed/
+改築 [かいちく] /rebuild/
+建築 [けんちく] /architecture, construction; build, construct/
+建築家 [けんちくか] /architect/
+築く [きずく] /build/
+築山 [つきやま] /small artificial hill (in a landscape garden)/
+政策 [せいさく] /policy/
+対策 [たいさく] /measure, countermeasure/
+# end

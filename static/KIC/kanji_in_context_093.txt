@@ -1,0 +1,76 @@
+﻿# Kanji in Context Lesson 093 : 1177-1190
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+普遍的な [ふへんてきな] /universal/
+遍歴 [へんれき] /wandering, travel, pilgrimage/
+待遇 [たいぐう] /treatment, pay/
+優遇 [ゆうぐう] /treat someone well, give favorable treatment to/
+冷遇 [れいぐう] /treat someone coldly, give a cold reception/
+遺伝 [いでん] /heredity; be inherited/
+遺産 [いさん] /an inheritance, estate/
+遺族 [いぞく] /family of the deceased/
+遺体 [いたい] /corpse/
+遺言 [ゆいごん] /will, last wishes/
+貢献 [こうけん] /contribute, serve/
+貢ぐ [みつぐ] /send tribute, give financial aid to/
+貢ぎ物 [みつぎもの] /tribute/
+年貢 [ねんぐ] /annual tribute/
+貢献 [こうけん] /contribute, serve/
+献金 [けんきん] /gift of money, contribution/
+献血 [けんけつ] /donate or give blood/
+文献 [ぶんけん] /literature, bibliography/
+献立 [こんだて] /menu/
+同僚 [どうりょう] /colleague, coworker/
+官僚 [かんりょう] /bureaucrat/
+官僚制度 [かんりょうせいど] /bureaucracy/
+閣僚 [かくりょう] /cabinet member/
+寮 [りょう] /dormitory/
+学生寮 [がくせいりょう] /student dormitory/
+社員寮 [しゃいんりょう] /company dormitory/
+独身寮 [どくしんりょう] /dormitory for single men or women/
+寮長 [りょうちょう] /dormitory director/
+寮生 [りょうせい] /students living in a dormitory/
+電話帳 [でんわちょう] /telephone directory/
+手帳 [てちょう] /(pocket) notebook/
+通帳 [つうちょう] /bankbook, passbook/
+帳消し [ちょうけし] /cancellation of a debt/
+緊張 [きんちょう] /be nervous/
+主張 [しゅちょう] /assert, insist, emphasize/
+出張 [しゅっちょう] /business trip; make a business trip/
+出張所 [しゅっちょうじょ] /branch office/
+拡張 [かくちょう] /extend, expand/
+引っ張る [ひっぱる] /pull, draw, drag/
+見張る [みはる] /keep watch/
+張る [はる] /spread (a net, paper, etc.), stretch (a rope), paste (a poster, paper, etc.)/
+張り切る [はりきる] /be ful of pep, be enthusiastic/
+欲張り [よくばり] /greedy person, avarice, greed/
+欲張りな [よくばりな] /greedy/
+緊張 [きんちょう] /be nervous/
+緊急の [きんきゅうの] /urgent/
+緊密な [きんみつな] /close/
+緊迫 [きんぱく] /be tense or under pressure/
+繁栄 [はんえい] /prosper (used for nations, civilizations, etc.)/
+繁盛 [はんじょう] /propser (used for business)/
+繁華街 [はんかがい] /busy shopping area/
+繁栄 [はんえい] /prosper (used for nations, civilizations, etc.)/
+栄養 [えいよう] /nutrition/
+栄光 [えいこう] /glory/
+栄える [さかえる] /thrive, prosper/
+栄えある [はえある] /honorable/
+栄える [はえる] /shine, be bright/
+選挙 [せんきょ] /election; elect/
+挙手 [きょしゅ] /raise one's hand/
+検挙 [けんきょ] /arrest/
+挙兵 [きょへい] /raise an army/
+一挙に [いっきょに] /at a stroke, at once/
+挙げる [あげる] /raise, enumerate, arrest/
+厳しい [きびしい] /strict, severe/
+厳重な [げんじゅうな] /strict, rigid/
+厳格な [げんかくな] /strict, stern/
+厳禁 [げんきん] /be strictly prohibited/
+尊厳 [そんげん] /dignity/
+威厳 [いげん] /dignity, stateliness/
+厳かな [おごそかな] /solemn, grave/
+荘厳な [そうごんな] /sublime, majestic, impressive/
+# end

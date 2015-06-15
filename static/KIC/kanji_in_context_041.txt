@@ -1,0 +1,72 @@
+﻿# Kanji in Context Lesson 041 : 607-618
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+階段 [かいだん] /stairs/
+段 [だん] /steps/
+石段 [いしだん] /flight of stone steps/
+段階 [だんかい] /stage (in a project, etc.)/
+手段 [しゅだん] /means, measure/
+一段と [いちだんと] /further, even more/
+役所 [やくしょ] /government office/
+役人 [やくにん] /government official/
+役員 [やくいん] /official, executive/
+役者 [やくしゃ] /actor/
+役目 [やくめ] /duty, function/
+主役 [しゅやく] /star (in a play)/
+役に立つ [やくにたつ] /useful/
+役割 [やくわり] /role, part/
+兵役 [へいえき] /military service/
+殺す [ころす] /kill/
+人殺し [ひとごろし] /murder, murderer/
+自殺 [じさつ] /commit suicide/
+暗殺 [あんさつ] /assassinate/
+殺人 [さつじん] /murder/
+相殺 [そうさい] /compensate/
+殺生 [せっしょう] /destroy, take life/
+施設 [しせつ] /facility/
+設立 [せつりつ] /establish/
+新設校 [しんせつこう] /newly established school/
+設置 [せっち] /establish/
+設ける [もうける] /establish, provide/
+施設 [しせつ] /facility/
+試行 [しこう] /enforce, put in force/
+実施 [じっし] /put into practice/
+施工 [せこう] /construct, carry out a construction project/
+施す [ほどこす] /give, give alms/
+準備 [じゅんび] /prepare/
+設備 [せつび] /facilities/
+予備の [よびの] /reserve/
+備考 [びこう] /notes, remarks/
+軍備 [ぐんび] /armaments, military preparedness/
+整備 [せいび] /service (an airplane), fix (a machine), fit out (a ship), provide (facility, equipment, etc.)/
+備える [そなえる] /prepare for, be furnished or equipped with/
+準備 [じゅんび] /prepare/
+水準 [すいじゅん] /level, standard/
+基準 [きじゅん] /standard/
+規準 [きじゅん] /criterion, standard/
+準決勝 [じゅんけっしょう] /semifinal game/
+成長率 [せいちょうりつ] /(economic) growth rate/
+出生率 [しゅっしょうりつ] /birthrate/
+率 [りつ] /rate/
+倍率 [ばいりつ] /degree of magnification/
+効率 [こうりつ] /efficiency/
+能率 [のうりつ] /efficiency/
+率直な [そっちょくな] /straightforward, frank/
+軽率な [けいそつな] /rash, hasty, careless, thoughtless/
+率いる [ひきいる] /lead, command/
+講演 [こうえん] /lecture; give a lecture/
+公演 [こうえん] /public performance; perform in public/
+出演 [しゅつえん] /appear (in a movie, play, etc.)/
+上演 [じょうえん] /put (a play) on the stage, present (a drama)/
+演技 [えんぎ] /performance; act, perform/
+演習 [えんしゅう] /seminar/
+演奏 [えんそう] /musical performance; give a musical performance/
+演じる [えんじる] /perform/
+絵 [え] /painting, drawing/
+絵本 [えほん] /picture book/
+絵画 [かいが] /painting/
+給料 [きゅうりょう] /salary/
+月給 [げっきゅう] /monthly salary/
+供給 [きょうきゅう] /supply/
+# end

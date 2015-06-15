@@ -1,0 +1,39 @@
+﻿# Kanji in Context Lesson 103 : 1281-1290
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+曇り [くもり] /cloudy/
+曇る [くもる] /get cloudy/
+曇天 [どんてん] /cloudy/
+食糧 [しょくりょう] /food, provisions/
+兵糧 [ひょうるう] /military provisions/
+日々の糧 [ひびのかて] /one's daily bread/
+砂糖 [さとう] /sugar/
+糖分 [とうぶん] /sugar content/
+化粧 [けしょう] /make up, put on make up/
+化粧品 [けしょうひん] /cosmetics/
+化粧室 [けしょうしつ] /dressing room, lavatory/
+臭い [くさい] /smelly, suspicious(-looking)/
+悪臭 [あくしゅう] /bad smell, offensive odor/
+鼻 [はな] /nose/
+鼻血 [はなじ] /nosebleed/
+鼻孔 [びこう] /nostril/
+休憩 [きゅうけい] /rest, break; rest, have a break/
+休憩時間 [きゅうけいじかん] /recess, intermission/
+憩い [いこい] /rest/
+憩う [いこう] /rest/
+舌 [した] /tongue/
+二枚舌 [にまいじた] /forked tongue, duplicity/
+舌打ち [したうち] /click one's tongue/
+舌戦 [ぜっせん] /verbal warfare, heated discussion/
+弁舌 [べんぜつ] /eloquence/
+毒舌 [どくぜつ] /malicious words, venemous tongue/
+君 [きみ] /you, ruler/
+君主 [くんしゅ] /monarch, sovereign/
+立憲君主制 [りっけんくんしゅせい] /constitutional monarchy/
+君臨 [くんりん] /reign over (a country)/
+含む [ふくむ] /contain, include, hold (in one's mouth)/
+含める [ふくめる] /include/
+含有量 [がんゆうりょう] /amount contained/
+含蓄 [がんちく] /implication/
+# end

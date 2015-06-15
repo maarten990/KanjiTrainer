@@ -1,12 +1,14 @@
 import random
 import compareKanji as ck
 import os
+import pickle
 from sqlreader import fetch_all, fetch_one
+from IPython import embed
 
 class Parameters(object):
     def __init__(self, size=5, n_answers=4, max_strokes=3, min_strokes=1, kanji_similarity=0.5,
                  answer_similarity=0.5, grade=1, allow_duplicates=False,
-                 reversed_ratio=0):
+                 reversed_bool=False, question_type="kanji"):
         self.size = int(size)
         self.n_answers = int(n_answers)
         self.max_strokes = int(max_strokes)
@@ -15,7 +17,8 @@ class Parameters(object):
         self.answer_similarity = float(answer_similarity)
         self.grade = int(grade)
         self.allow_duplicates = bool(allow_duplicates)
-        self.reversed_ratio = (float(reversed_ratio))
+        self.reversed_bool = bool(reversed_bool)
+        self.question_type = str(question_type)    
 
     def params():
         return [p for p in dir(Parameters()) if '__' not in p and p != 'params']
@@ -40,6 +43,7 @@ class ChunkGenerator(object):
         """
         self.kanji = kanji
         self.radical_meanings = radical_meanings
+        self.vocab_dict = pickle.load( open( "static/vocab_dict.p", "rb" ) )
 
     # TODO: make use of kanji_similarity
     # TODO: don't be limited to picking from one grade
@@ -66,7 +70,8 @@ class ChunkGenerator(object):
         answer_similarity = params.answer_similarity
         grade = params.grade
         allow_duplicates = params.allow_duplicates
-        reversed_ratio = params.reversed_ratio
+        reversed_bool = params.reversed_bool
+        question_type = params.question_type #kanji, vocab 
 
         chunk = Chunk(params)
 
@@ -89,41 +94,89 @@ class ChunkGenerator(object):
                              if answer_similarity <= 0.66 else 'hard')
 
         for _ in range(size):
-            index = random.choice(kanji_indices)
-            kanji, meaning, stroke_count = self.kanji[grade][index]
+            if question_type == "kanji":
+                index = random.choice(kanji_indices)
+                kanji, meaning, stroke_count = self.kanji[grade][index]
+                options = self.__choice_list(kanji, answer_difficulty, grade,
+                                         n_answers - 1, reversed_bool)
+                hint = self.__hint(reversed_bool, kanji, grade)
+                if not reversed_bool:
+                    question = "What is the meaning of the following kanji?"
+                    options += [meaning]
+                    random.shuffle(options)
+                    chunk.add_question(question, kanji, meaning, options, hint)
+                else:
+                    question = "Which kanji belongs to the following meaning(s)?"
+                    options += [kanji]
+                    random.shuffle(options)
+                    chunk.add_question(question, meaning, kanji, options, hint)
+            else: #question_type == vocab
+                kanji = ""
+                while not kanji in self.vocab_dict or self.vocab_dict[kanji] == []:
+                    index = random.choice(kanji_indices)
+                    kanji, meaning, stroke_count = self.kanji[grade][index]
+                compound_choice = self.vocab_dict[kanji]
+                choice = random.choice(compound_choice)
+                item, _, item_meaning = choice
+                selection = [x for x in compound_choice if x != choice] 
+                random.shuffle(selection)            
+                
+                #easy: option compounds
+                #normal: option compounds and 0.5 item compounds
+                #hard: option compounds and all item compounds 
+                if answer_difficulty == "easy":
+                    selection = []
+                elif answer_similarity == "normal":
+                    selection = selection[::2]
 
+                options = self.__choice_list(kanji, answer_difficulty, grade,
+                                         n_answers - 1, reversed_bool)
+
+                def check_compatibility(element):
+                    for i in [0,2]:
+                        if element[i] in [x[i] for x in selection]:
+                            return False
+                        if "(surname)" in element[2] or "~" in element[2]:
+                            return False 
+                    return True
+
+                for option in options:
+                    if option in self.vocab_dict:
+                        if check_compatibility(self.vocab_dict[option]):
+                            selection.extend(self.vocab_dict[option])
+
+                #make we have enough anwsers to present
+                while len(selection) < n_answers - 1:
+                    kanji, _, _ = self.kanji[grade][random.choice(kanji_indices)]
+                    if kanji in self.vocab_dict:
+                        if check_compatibility(self.vocab_dict[kanji]):
+                            selection.extend(self.vocab_dict[kanji])
+
+                sampled_selection = random.sample(selection,n_answers - 1)
+
+                print(sampled_selection)
+                #remove dublicates: on kanji and meaning
+                hint = self.__hint(reversed_bool, kanji, grade)  
+                if not reversed_bool:
+                    question = "What is the meaning of the following word?"
+                    options = [x[2] for x in sampled_selection] + [item_meaning]
+                    random.shuffle(options)
+                    chunk.add_question(question, item, item_meaning, options, hint)
+                else:
+                    question = "Which word belongs to the following meaning(s)?"
+                    options = [x[0] for x in sampled_selection] + [item]
+                    random.shuffle(options)
+                    chunk.add_question(question, item_meaning, item, options, hint)
             if not allow_duplicates:
                 kanji_indices.remove(index)
-
-            if random.random() < reversed_ratio:
-                QuestionType = "meaning"
-            else:
-                QuestionType = "kanji"
-           
-            options = self.__choice_list(kanji, answer_difficulty, grade,
-                                         n_answers - 1, QuestionType)
-
-            hint = self.__hint(QuestionType, kanji, grade)
-
-            if QuestionType == "kanji":
-                question = "What is the meaning of the following kanji?"
-                options += [meaning]
-                random.shuffle(options)
-                chunk.add_question(question, kanji, meaning, options, hint)
-            else:
-                question = "Which kanji belongs to the following meaning(s)?"
-                options += [kanji]
-                random.shuffle(options)
-                chunk.add_question(question, meaning, kanji, options, hint)
         return chunk
 
     # TODO: this database query could be removed if we had a pickled dictionary
     # mapping kanji to meanings
-    def __choice_list(self, kanji, difficulty, grade, n, QuestionType):
+    def __choice_list(self, kanji, difficulty, grade, n, reversed_bool):
         options = ck.giveChoicesKanji(kanji, difficulty, n)
 
-        # QuestionType == meaning
-        if QuestionType != 'kanji':
+        if reversed_bool:
             return options
 
         if n == 1:
@@ -136,12 +189,12 @@ class ChunkGenerator(object):
 
         return [meaning[0] for meaning in meanings]
 
-    def __hint(self, QuestionType, item, grade):
+    def __hint(self, reversed_bool, item, grade):
         filePath = "static/KanjiPics/" + item + ".png"
         query = ('SELECT radicals FROM kanji WHERE grade=' + str(grade) + \
                      ' AND literal = ' + repr(item))
         kanji_radicals = fetch_one(query)
-        if QuestionType == "kanji":
+        if not reversed_bool:
             radical_text = "<ul>" 
             for radical in kanji_radicals[0].strip('\n').split(', '):
                 if radical ==item:
@@ -155,8 +208,7 @@ class ChunkGenerator(object):
                    " consist of the following radicals:<br>" + radical_text
             if os.path.isfile(filePath):
                hint += '<img src="' + filePath + '" height="25%" width="25%">'
-        # TODO: check how many radicals were found
-        else: # QuestionType = "meaning":
+        else:
             radical_text = "<ul>" 
             for radical in kanji_radicals[0].strip('\n').split(', '):
                 if radical != item:

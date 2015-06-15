@@ -1,0 +1,77 @@
+﻿# Kanji in Context Lesson 027 : 439-451
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+最近 [さいきん] /lately, recently/
+最初 [さいしょ] /start, beginning/
+最後 [さいご] /end, last/
+最高の [さいこうの] /best/
+最低の [さいていの] /worst/
+最中に [さいちゅうに] /in the midst of/
+最も [もっとも] /most/
+最寄りの [もよりの] /nearest, nearby/
+初め [はじめ] /beginning/
+始めに [はじめに] /first/
+初めて [はじめて] /for the first time/
+最初 [さいしょ] /start, beginning/
+初歩 [しょほ] /the rudiments, the ABCs/
+初日ど出 [はつひので] /the first sunrise of the year/
+初恋 [はつこい] /one's first love/
+書き初め [かきぞめ] /first (calligraphy) writing of the New Year/
+初々しい [ういういしい] /innocent, naive/
+刀 [かたな] /sword/
+日本刀 [にほんとう] /Japanese sword/
+～号 [～ごう] /~ issue (of a magazine, journal, etc.)/
+今週号 [こんしゅうごう] /this week's issue/
+先週号 [せんしゅうごう] /last week's issue/
+３号室 [さんごうしつ] /Room No. 3/
+号外 [ごうがい] /an extra (edition of a newspaper)/
+年号 [ねんごう] /name of a reign era/
+番号 [ばんごう] /(identification) number/
+信号 [しんごう] /traffic signal/
+労働時間 [ろうどうじかん] /working hours/
+労働 [ろうどう] /work, labor/
+労働力 [ろうどうりょく] /labor, labor force/
+労働者 [ろうどうしゃ] /worker, laborer/
+労働組合 [ろうどうくみあい] /labor union/
+労力 [ろうりょく] /trouble, effort/
+心労 [しんろう] /worry, concern/
+協力 [きょうりょく] /cooperate/
+協力者 [きょうりょくしゃ] /collaborator/
+協同 [きょうどう] /cooperation, collaboration; cooperate, collaborate/
+協会 [きょうかい] /society, association/
+日米協会 [にちべいきょうかい] /the U.S.-Japan Society/
+生協 [せいきょう] /co-op/
+農協 [のうきょう] /agricultural cooperative/
+門 [もん] /gate/
+正門 [せいもん] /front gate/
+名門 [めいもん] /distinguished or illustrious family/
+入門 [にゅうもん] /introduction, primer; become a pupil/
+部門 [ぶんもん] /group, branch, section/
+専門 [せんもん] /specialty, area of expertise/
+門松 [かどまつ] /pine branch decorations for the New Year/
+関係 [かんけい] /relation, relationship; be related or connected/
+関連 [かんれん] /relationship, connection; be connected, be associated, be correlated/
+関心 [かんしん] /interest, concern/
+関東 [かんとう] /the Kanto region/
+関西 [かんさい] /the Kansai region/
+関所 [せきしょ] /border gate (in the Edo period)/
+係 [かかり] /person in charge/
+係長 [かかりちょう] /section chief/
+係る [かかる] /be related to/
+孫 [なご] /grandchild/
+子孫 [しそん] /offspring/
+日系人 [にっけいじん] /a person of Japanese descent/
+体系 [たいけい] /system/
+系統 [けいとう] /system, lineage/
+太陽系 [たいようけい] /solar system/
+系列子会社 [けいれつごがいしゃ] /subsidiary company/
+懸案 [けなん] /pending issue/
+一生懸命 [いっしょうけんめい] /with all one's efforts/
+懸念 [けねん] /worry/
+命懸けの [いのちがけの] /desperate/
+態度 [たいど] /attitude, behavior, one's position or stance/
+事態 [じたい] /state of affairs/
+生態系 [せいたいけい] /ecosystem/
+実態 [じったい] /actual situation/
+# end

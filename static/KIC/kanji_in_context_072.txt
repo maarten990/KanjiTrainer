@@ -1,0 +1,57 @@
+﻿# Kanji in Context Lesson 072 : 949-959
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+誤解 [ごかい] /misunderstand/
+誤報 [ごほう] /erroneous report or information/
+誤算 [ごさん] /miscalculation; miscalculate/
+誤植 [ごしょく] /misprint/
+誤り [あやまり] /mistake, error/
+見誤る [みあやまる] /fail to recognize, mistake (for someone or something else)/
+誇大広告 [いだいこうこく] /exaggerated advertisement/
+誇張 [こちょう] /exaggerate, overstate/
+誇り [ほこり] /pride/
+訓練 [くんれん] /training; train/
+教訓 [きょうくん] /teachings, precept, lesson, moral/
+訓読み [くんよみ] /Japanese reading of a kanji/
+順番 [じゅんばん] /order, turn/
+順位 [じゅんい] /ranking, standing/
+順序 [じゅんじょ] /order, procedure/
+順 [じゅん] /order, sequence/
+道順 [みちじゅん] /route, course/
+順調な [じゅんちょうな] /smooth, favorable, satisfactory/
+順々に [じゅんじゅんに] /in order, by turns/
+順序 [じゅんじょ] /order, procedure/
+秩序 [ちつじょ] /(public, world, etc.) order/
+序列 [じょれつ] /ranking, grade/
+年功序列 [ねんこうじょれつ] /seniority system/
+序文 [じょぶん] /preface, foreward/
+序論 [じょろん] /introduction, first chapter (of a book, article, etc.)/
+序曲 [じょきょく] /overture, prelude/
+秩序 [ちつじょ] /(public, world, etc.) order/
+矛盾 [むじゅん] /contradiction/
+矛先 [ほこさき] /spearhead, aim of an attack/
+矛 [ほこ] /halbred/
+矛盾 [むじゅん] /contradiction/
+矛盾した [むじゅんした] /contradictory/
+矛盾している [むじゅんしている] /be contradictory/
+後ろ盾 [うしろだて] /supporter, backer; support, backing/
+盾 [たて] /shield/
+掃除 [そうじ] /clean/
+一掃 [いっそう] /sweep away, stamp out/
+掃く [はく] /sweep/
+掃除 [そうじ] /clean/
+取り除く [とりのぞく] /remove/
+免除 [めんじょ] /exempt/
+除外 [しょがい] /exclude/
+除名 [じょめい] /expel (from a club), remove a name from a list/
+解除 [かいじょ] /lift (a ban, siege, etc.)/
+余る [あまる] /be left over/
+余り [あまり] /remainder, surplus/
+余分な [よぶんな] /surplus, remaining/
+余計な [よけいな] /unwanted, uncalled for/
+余地 [よち] /room (for doubt, discussion, etc.)/
+余波 [よは] /aftereffect, aftermath/
+余裕 [よゆう] /leeway, spare (time, money, etc.)/
+余命 [よめい] /rest of one's life, one's remaining days/
+# end

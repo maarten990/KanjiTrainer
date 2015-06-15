@@ -1,0 +1,169 @@
+﻿# Kanji in Context Lesson 008: 174-197
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+立つ [たつ] /stand up/
+立ち上がる [たちあがる] /stand up, stand up and take action, rise (up)/
+立ち止まる [たちどまる] /stop, halt, pause/
+目立つ [めだつ] /stand out, be conspicuous/
+立場 [たちば] /position, standpoint, situation/
+夕立ち [ゆうだち] /sudden shower in the late afternoon/
+立食パーティー [りっしょくパーティー] /buffet-style dinner party/
+国立大学 [こくりつだいがく] /national university/
+中立国 [ちゅうりつこく] /neutral country/
+建立される [こんりゅうされる] /be built/
+座る [すわる] /sit down/
+座席 [ざせき] /seat/
+口座 [こうざ] /bank account/
+歩く [あるく] /walk/
+歩道 [ほどう] /sidewalk/
+歩行者 [ほこうしゃ] /pedestrian/
+～歩 [～ほ] /~ step(s)/
+進歩 [しんぽ] /improve, advance; progress, advance, improvement/
+歩合 [ぶあい] /percentage commission/
+歩み [あゆみ] /walking, history (of a company, school, etc.)/
+歩 [ふ] /pawn (in Japanese chess)/
+走る [はしる] /run/
+走者 [そうしゃ] /runner/
+競争 [きょうそう] /run in a race/
+師走 [しわす] /December/
+話す [はなす] /talk, tell, speak/
+話し手 [はなして] /speaker/
+話し中 [はなしちゅう] /(the line is) busy/
+話し合う [はなしあう] /talk, discuss/
+話し合い [はなしあい] /talk, discussion/
+立ち話 [たちばなし] /stand chatting, talking/
+電話 [でんわ] /telephone/
+会話 [かいわ] /conversation/
+聞く [きく] /hear, listen/
+聞き手 [ききて] /hearer, listener/
+聞こえる [きこえる] /(can) be heard, (can) hear/
+新聞 [しんぶん] /newspaper/
+前代未聞の [ぜんだいみもんの] /unheard-of, unprecedented/
+読む [よむ] /read/
+読書 [どくし] /read books/
+読者 [どくしゃ] /reader/
+読経 [どきょう] /chant a sutra/
+句読点 [くとうてん] /punctuation marks/
+読本 [とくほん] /reader (as in a textbook)/
+書く [かく] /write/
+書き手 [かきて] /writer/
+書き取り [かきとり] /dictation, kanji quiz/
+前書き [まえがき] /preface/
+読書 [どくしょ] /read books/
+書名 [しょめい] /title (of a book)/
+書店 [しょてん] /bookstore/
+書道 [しょどう] /calligraphy/
+書物 [しょもつ] /books/
+借りる [かりる] /borrow, rent/
+借り [かり] /debt/
+借金 [しゃっきん] /debt, loan; borrow money/
+借家 [しゃくや] /rented house/
+貸借 [たいしゃく] /lend and borrow; debt and credit/
+貸す [かす] /lend, loan/
+貸家 [かしや] /house for rent/
+貸間 [かしま] /room for rent/
+貸し [かし] /debt (as in "I am in his debt")/
+貸し出す [かしだす] /lending, loan/
+貸借 [たいしゃく] /lend and borrow; debt and credit/
+返す [かえす] /return, give something back/
+送り返す [おくりかえす] /send back, return/
+返事 [へんじ] /answer, reply/
+返却 [へんきゃく] /return, repay/
+出る [でる] /go out, attend/
+出口 [でぐち] /exit/
+日の出 [ひので] /sunrise/
+出かける [でかける] /go out/
+出す [だす] /put out, take out/
+見出す [みだす] /headline, dictionary entry/
+出発 [しゅっぱつ] /depart, leave/
+外出 [がいしゅつ] /go out/
+出国 [しゅっこく] /depart from a country/
+出席 [しゅっせき] /attend (a class, meeting, etc.), be present/
+提出 [ていしゅつ] /present, submit/
+出納係 [すいとうかがり] /cashier, teller/
+入る [はいる] /enter/
+入れる [いれる] /put in, let in/
+気に入り [きにいる] /like, be pleased (with)/
+入口 [いりぐち] /entrance/
+日の入り [ひのいり] /sunset/
+入学 [にゅうがく] /enter a school/
+入社 [にゅうしゃ] /enter or join a company/
+入院 [にゅういん] /be sent to a hospital, be hospitalized/
+入国 [にゅうこく] /enter a country, be admitted to a country/
+入場 [にゅうじょう] /enter, be admitted/
+収入 [しゅうにゅう] /income/
+参入 [さんにゅう] /enter (a market)/
+売る [うる] /sell/
+売り場 [うりば] /sales counter, department where something is sold/
+売り切れる [うりきれる] /be sold out/
+売り上げ [うりあげ] /sales, proceeds/
+小売店 [こうりてん] /retail store/
+前売り券 [まえうりけん] /advance ticket/
+売り手市場 [うりてしじょう] /sellers' market/
+売れる [うれる] /sell (well)/
+売れ行き [うれゆき] /sales/
+売店 [ばいてん] /stand, kiosk, stall/
+買春 [ばいしゅん] /prostitute/
+販売 [はんばい] /sell/
+買う [かう] /buy/
+買いもの [かいもの] /shopping/
+買手市場 [かいてしじょう] /buyers' market/
+売買 [ばいばい] /buy and sell, trade or deal in/
+買収 [ばいしゅう] /buy up, purchase, bribe/
+払う [はらう] /pay/
+支払う [しはらう] /pay/
+支払 [しはらい] /payment/
+前払い [まえばらい] /advance payment/
+払底 [ふってい] /become scarce, run short/
+払拭 [ふっしょく] /sweep away, wipe out/
+着る [きる] /put on, wear/
+着せる [きせる] /dress someone/
+着物 [きもの] /kimono/
+下着 [したぎ] /underwear/
+水着 [みずぎ] /swimsuit, bathing suit/
+着く [つく] /reach, arrive/
+到着 [とうちゃく] /reach, arrive/
+～着 [～ちゃく] /arriving at (time)/
+～着 [～ちゃく] /counter for clothes/
+着々と [ちゃくちゃくと] /steadily, step by step/
+着手 [ちゃくしゅ] /start to do, start on/
+愛着 [あいちゃく] /love, attachment, affection/
+執着 [しゅうちゃく] /be attached, stick (to)/
+脱ぐ [ぬぐ] /take off (clothes, shoes, etc.)/
+脱水 [だっすい] /spin-dry (the laundry)/
+脱水症状 [だっすいしょうじょう] /dehydration/
+脱出 [だっしゅつ] /escape, get out of/
+脱線 [だっせん] /be derailed, run off the track, digress (from the subject)/
+脱獄 [だつごく] /escape from prison/
+働く [はたらく] /work/
+働き [はたらき] /work, workings/
+働き手 [はたらきて] /worker/
+労働 [ろうどう] /work, labor/
+労働者 [ろうどうしゃ] /worker, laborer/
+労働組合 [ろうどうくみあい] /labor union/
+労働人口 [ろうどうじんこう] /working population, work force/
+労働力 [ろうどうりょく] /manpower, work force, labor force/
+労働力不足 [ろうどうりょくぶそく] /labor shortage/
+泳ぐ [およぐ] /swim/
+水泳 [すいえい] /swimming/
+遠泳 [えんえい] /long-distance swimming/
+平泳ぎ [ひらおよぎ] /breaststroke/
+写す [うつす] /copy, take (a picture)/
+写真 [しゃしん] /photograph, picture/
+写真家 [しゃしんか] /photographer/
+写生 [しゃせい] /sketch/
+待つ [まつ] /wait/
+待ち合わせをする [まちあわせをする] /arrange to meet, meet (at)/
+待ち合わせる [まちあわせる] /arrange to meet, meet (at)/
+待合室 [まちあいしつ] /wating room/
+期待 [きたい] /hope for, expect/
+招待 [しょたい] /invite/
+遊ぶ [あそぶ] /play/
+遊園地 [ゆうえんち] /amusement park , recreation grounds/
+遊歩道 [ゆうほどう] /promenade/
+物見遊山 [ものみゆうさん] /pleasure trip/
+呼ぶ [よぶ] /call, call out to/
+呼び出す [よびだす] /ask to come, call up (on the phone), summon/
+呼吸 [こきゅう] /breathe/
+#end

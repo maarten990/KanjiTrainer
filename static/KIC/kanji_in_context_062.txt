@@ -1,0 +1,79 @@
+﻿# Kanji in Context Lesson 062 : 836-847
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+湯 [ゆ] /hot water/
+湯ぶね [ゆぶね] /bathtub/
+湯元 [よもと] /source of a hot spring/
+茶の湯 [ちゃのゆ] /the tea ceremony/
+湯気 [ゆげ] /steam/
+湯飲み [ゆのみ] /cup (for drinking tea)/
+熱湯 [ねっとう] /boiling water/
+湯治 [とうじ] /hot-spring cure; bath in a hot spring as a remedy/
+混雑 [こんざつ] /be crowded, be congested/
+混乱 [こんらん] /be confused, be thrown into confusion/
+混合 [こんごう] /mix/
+混同 [こんどう] /confound, confuse, mix/
+混ぜる [まぜる] /mix/
+かき混ぜる [かきまぜる] /mix/
+湿度 [しつど] /humidity/
+湿気 [しっけ] /moisture, humidity/
+湿布 [しっぷ] /compress; apply a compress/
+湿る [しめる] /become damp/
+温度 [おんど] /temperature/
+気温 [きおん] /air temperature/
+水温 [すいおん] /water temperature/
+体温 [たいおん] /body temperature/
+温室 [おんしつ] /greenhouse/
+温和な [おんわな] /gentle/
+温かい [あたたかい] /warm/
+温める [あたためる] /warm (up) something/
+温泉 [おんせん] /hot spring/
+泉 [いずみ] /spring/
+線 [せん] /line/
+直線 [ちょくせん] /straight line/
+曲線 [きょくせん] /curve/
+下線 [かせん] /underline/
+地平線 [ちへいせん] /horizon/
+水平線 [すいへいせん] /horizon/
+線路 [せんろ] /railway line or track/
+電線 [でんせん] /electric wire/
+無線 [むせん] /radio, wireless/
+内線 [ないせん] /extension (of a telephone)/
+赤外線 [せきがいせん] /infrared light, infrared ray/
+雪 [ゆき] /snow/
+初雪 [はつゆき] /the first snowfall of the year/
+雪祭 [ゆきまつり] /snow festival/
+大雪 [おおゆき] /heavy snow/
+新雪 [しんせつ] /fresh snow/
+積雪 [せきせつ] /pile of snow/
+除雪 [じょせつ] /remove snow/
+吹雪 [ふぶき] /snowstorm/
+雷 [かみなり] /thunder/
+雷雨 [らいう] /thunderstorm/
+雷鳴 [らいめい] /thunder/
+落雷 [らくらい] /lightning strike/
+地雷 [じらい] /(land) mine/
+魚雷 [ぎょらい] /torpedo/
+雲 [くも] /cloud/
+雨雲 [あまぐも] /rain cloud/
+暗雲 [あんうん] /dark clouds/
+出雲大社 [いずもたいしゃ] /Izumo Shrine/
+霧 [きり] /fog/
+霧雨 [きりさめ] /drizzle/
+濃霧 [のうむ] /dense fog/
+露店 [ろてん] /street stall/
+露天風呂 [ろてんぶろ] /open-air bath/
+露天 [ろてん] /open air/
+露出 [ろしゅつ] /exposure; expose/
+暴露 [ばくろ] /reveal, expose/
+披露宴 [ひろうえん] /wedding reception/
+露 [つゆ] /dew/
+夜露 [よつゆ] /evening dew/
+地震 [じしん] /earthquake/
+震度 [しんど] /seismic intensity/
+震動 [しんどう] /tremor, vibration/
+震源 [しんげん] /epicenter/
+震える [ふるえる] /tremble/
+震う [ふるう] /shake/
+# end

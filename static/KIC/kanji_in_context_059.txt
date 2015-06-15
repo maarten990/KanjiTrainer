@@ -1,0 +1,74 @@
+﻿# Kanji in Context Lesson 059 : 803-813
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+正確な [せいかくな] /exact/
+確実な [かくじつな] /certain/
+確率 [かくりつ] /probability/
+確信 [かくしん] /believe firmly, be confident/
+確かな [たしかな] /certain/
+確かめる [たしかめる] /make sure/
+権利 [けんり] /right/
+人権 [じんけん] /human rights/
+特権 [とっけん] /special privilege/
+権力 [けんりょく] /power, authority/
+主権 [しゅけん] /sovereignty/
+三権分立 [さんけんぶんりつ] /separation of powers/
+有権者 [ゆうけんしゃ] /voter/
+権化 [ごんげ] /incarnation/
+観光 [かんこう] /sightseeing; go sightseeing/
+観客 [かんきゃく] /spectator, audience/
+観点 [かんてん] /point of view/
+外観 [がいかん] /appearance/
+主観的な [しゅかんてきな] /subjective/
+客観的な [きゃっかんてきな] /objective/
+楽観的な [らっかんてきな] /optimistic/
+悲観的な [ひかんてきな] /pessimistic/
+人生観 [じんせいかん] /one's view of life/
+世界観 [せかいかん] /one's view of the world/
+無視 [むし] /ignore/
+重視 [じゅうし] /attach importance to/
+視野 [しや] /range of vision, scope/
+視界 [しかい] /field of vision/
+視力 [しりょく] /eyesight, vision/
+近視 [きんし] /near-sighted/
+視察 [しさつ] /visit to observe or inspect/
+監視 [かんし] /watch, keep a watch on/
+規則 [きそく] /rule, regulation/
+規則的な [きそくてきな] /regular/
+不規則な [ふきそくな] /irregular/
+規定 [きてい] /rules, regulations; prescribe, stipulate/
+定規 [じょうぎ] /ruler/
+規準 [きじゅん] /criterion, standard/
+規則 [きそく] /rule, regulation/
+法則 [ほうそく] /law/
+原則 [げんそく] /principle/
+変則的な [てんそくてきな] /irregular/
+校則 [こうそく] /school regulations/
+会則 [かいそく] /regulations of a society/
+右側 [みぎがわ] /right-hand side/
+左側 [ひだりがわ] /left-hand side/
+反対側 [はんたいがわ] /opposite side/
+両側 [りょうがわ] /both sides/
+側面 [そくめん] /side/
+側近 [そっきん] /close associate/
+予測 [よそく] /forecast, predict/
+観測 [かんそく] /observe/
+測定 [そくてい] /measure/
+測る [はかる] /measure/
+例 [れい] /example/
+前例 [ぜんれい] /precendent/
+例外 [れいがい] /exception/
+特例 [とくれい] /exception/
+例年 [れいねん] /every year, average year/
+例えば [たとえば] /for example/
+例える [たとえる] /liken/
+列 [れつ] /row or line (of people, cars, etc.)/
+列車 [れっしゃ] /train/
+夜行列車 [やこうれっしゃ] /overnight train/
+日本列島 [にほんれっと] /the Japanese Archipelago/
+行列 [ぎょうれつ] /line, queue; line or queue up/
+特殊な [とくしゅな] /special, peculiar/
+殊に [ことに] /especially, in particular/
+# end
+

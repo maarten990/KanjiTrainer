@@ -1,0 +1,60 @@
+﻿# Kanji in Context Lesson 033 : 515-524
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+経済 [けいざい] /economy/
+経理 [けいり] /accounting/
+経験 [けいけん] /experience, go through/
+経歴 [けいれき] /one's personal history/
+神経 [しんけい] /nervous system, nerve/
+経由 [けいゆ] /go via, by way of, through/
+経度 [けいど] /longitude/
+経 [きょう] /sutra/
+経る [へる] /go through/
+経済 [けいざい] /economy/
+返済 [へんさい] /repay, return/
+決裁 [けっさい] /settle (bills)/
+使用済みの [しようずみの] /used (battery, plastic bag, etc.)/
+済む [すむ] /come to an end/
+生活 [せいかつ] /life, live, make a living/
+活動 [かつどう] /activity; be active, take an active part/
+活気 [かっき] /vigor, liveliness/
+活力 [かつりょく] /vitality, (vital) energy/
+活性化 [かつせいか] /activate, vitalize/
+活発な [かっぱつな] /lively, active/
+活用 [かつよう] /make (full) use/
+活字 [かつじ] /printing, movable type/
+方法 [ほうほう] /method/
+文法 [ぶんぽう] /grammar/
+法案 [ほうあん] /bill, legislative proposal/
+法律 [ほうりつ] /law, act/
+法被 [はっぴ] /worker's livery coat (now often worn in festivals)/
+法主 [ほっしゅ] /head of a religious sect/
+法律 [ほうりつ] /law, act/
+規律 [きりつ] /order, discipline/
+自律神経 [じりつしんけい] /autonomic nerve/
+律義な [りちぎな] /honest, loyal/
+往復切符 [おうふくきっぷ] /round-trip ticket/
+往来 [おうらい] /traffic, coming and going; come and go/
+立ち往生 [たちおうじょう] /be brought to a standstill, halt, be stalled/
+往々にして [おうおうにして] /often/
+往復切符 [おうふくきっぷ] /round-trip ticket/
+往復 [おうふく] /go to a place and return, run between/
+回復 [かいふく] /recover/
+復習 [ふくしゅう] /review/
+反復 [はんぶく] /repeat/
+復活 [ふっかつ] /revive, come back to life/
+復興 [ふっこう] /revive, restore/
+複雑 [ふくざつ] /complicated, complex/
+複写機 [ふくしゃき] /copying machine/
+重複 [ちょうふく] /overlap, duplicate/
+複合汚染 [ふくごうおせん] /combined pollution/
+複数の [ふくすうの] /plural/
+複製 [ふくせい] /copy, reproduction/
+雑誌 [ざっし] /magazIne, journal/
+雑音 [ざつおん] /noise/
+雑草 [ざっそう] /weeds/
+雑木林 [ぞうきばやし] /coppice/
+雑誌 [ざっし] /magazIne, journal/
+日誌 [にっし] /daily record/
+# end

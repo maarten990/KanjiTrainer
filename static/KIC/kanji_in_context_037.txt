@@ -1,0 +1,72 @@
+﻿# Kanji in Context Lesson 037 : 559-570
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+独身 [どくしん] /single, unmarried/
+独立 [どくりつ] /become independent/
+独学 [どくがく] /study by oneself/
+独特の [どくとくの] /peculiar to, characteristic of/
+日独関係 [にちどくかんけい] /relations between Japan and Germany/
+独り [ひとり] /alone, solitary/
+独り立ちする [ひとりだちする] /be independent/
+独り言 [ひとりごと] /talking to oneself/
+狭い [せまい] /narrow, small (room, etc.)/
+狭める [せばめる] /narrow, contract, reduce (the width)/
+狭まる [せばまる] /become narrow, contract/
+狭心症 [きょうしんしょう] /angina pectoris/
+牛肉 [ぎゅうにく] /beef/
+豚肉 [ぶたにく] /pork/
+肉 [にく] /meat, flesh/
+肉屋 [にくや] /butcher (shop)/
+肉体 [にくたい] /the body, the flesh/
+米 [こめ] /rice/
+新米 [しんまい] /new rice, novice/
+白米 [はくまい] /polished rice/
+米国 [べいこく] /the United States/
+日米関係 [にちべいかんけい] /relations between Japan and the U.S./
+北米 [ほくべい] /North America/
+南米 [なんべい] /South America/
+種類 [しゅるい] /kind, type, sort/
+親類 [しんるい] /relative, kin/
+人類 [じんるい] /mankind/
+人類学 [じんるいがく] /anthropology/
+書類 [しょるい] /papers, documents/
+分類 [ぶんるい] /classify/
+種類 [しゅるい] /kind, type, sort/
+一種の [いっしゅの] /a kind, sort of/
+人種 [じんしゅ] /human race/
+種 [たね] /seed/
+不安の種 [ふあんのたね] /cause of unease/
+科学 [かがく] /science/
+学科 [がっか] /subject of study/
+理科 [りか] /science (as a school subject)/
+科目 [かもく] /subject, course (of study)/
+教科書 [きょうかしょ] /textbook/
+外科 [げか] /surgery/
+内科 [ないか] /internal medicine/
+芸術 [げいじゅつ] /art/
+民芸品 [みんげいひん] /folk craft/
+文芸批評 [ぶんげいひひょう] /literary criticism/
+工芸 [こうげい] /industrial arts/
+草 [くさ] /grass, plants/
+草原 [そうげん] /grassy plain, grasslands/
+雑草 [ざっそう] /weeds/
+草案 [そうあん] /(rough) draft/
+芝生 [しばふ] /lawn, plot of grass/
+芝 [しば] /lawn/
+人工芝 [じんこうしば] /artificial turf/
+芝居 [しばい] /(stage) play; put on an act/
+言葉 [ことば] /word, language/
+葉書 [はがき] /postcard/
+葉 [は] /leaf, foliage/
+木の葉 [きのは] /tree leaves/
+落ち葉 [おちば] /fallen leaves/
+千葉県 [ちばけん] /Chiba Prefecture/
+青葉 [あおば] /green foliage/
+紅葉 [こうよう] /autumn or colored leaves/
+紅葉 [もみじ] /maple tree, autumn or colored leaves/
+荷物 [にもつ] /luggage/
+重荷 [おもに] /burden/
+出荷 [しゅっか] /ship or forward (goods)/
+入荷 [にゅうか] /arrive/
+# end

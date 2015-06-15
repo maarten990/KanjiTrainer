@@ -1,0 +1,50 @@
+﻿# Kanji in Context Lesson 051 : 717-725
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+負ける [まける] /lose (a game)/
+勝負 [しょうぶ] /winning and losing; have a match or contest/
+自負 [じふ] /self-confidence, pride; be self-confident/
+負担 [ふたん] /burden; bear, shoulder, carry/
+負う [おう] /take (responsibility)/
+失敗 [しっぱい] /fail/
+敗戦 [はいせん] /defeat in a war/
+敗者 [はいしゃ] /loser/
+勝敗 [しょうはい] /victory or defeat/
+敗れる [やぶれる] /be defeated/
+貝 [かい] /shellfish/
+貝殻 [かいがら] /shell/
+家具 [かぐ] /furniture/
+道具 [どうぐ] /tool/
+具体的な [ぐたいてきな] /concrete, specific/
+具合 [ぐあい] /condition/
+散歩 [さんぽ] /walk, take a walk/
+解散 [かいさん] /break up, dissolve/
+散文 [さんぶん] /prose/
+散漫な [さんまんな] /loose (lecture, thinking, etc.),  distracted (attention)/
+散る [ちる] /scatter, fall (as in blossoms, leaves, paper, etc.)/
+散らかす [ちらかす] /scatter about, put in disorder/
+交通事故 [こうつうじこ] /traffic accident/
+事故 [じこ] /accident/
+故国 [ここく] /homeland, native country/
+故意に [こいに] /intentionally, purposefully/
+故に [ゆえに] /therefore/
+放送 [ほうそう] /broadcast/
+解放 [かいほう] /liberate/
+開放 [かいほう] /throw (a door) open, open to the public/
+放火 [ほうか] /set on fire/
+放置 [ほうち] /abandon (a car, bicycle, etc.) on a street/
+放す [はなす] /let go, release/
+放れる [はなれる] /leave, be separated/
+放つ [はなつ] /shoot, emit/
+敷石 [しきいし] /paving stone, flagstone/
+屋敷 [やしき] /estate, premises, mansion/
+敷地 [しきち] /site, ground/
+敷く [しく] /pave, cover, spread (a futon, mat, etc.)/
+敷設 [ふせつ] /lay (a pipe), construct (a railroad)/
+一致 [いっち] /agree, be consistent/
+合致 [がっち] /agree, be consistent/
+致死量 [ちしりょう] /lethal dose/
+致命傷 [ちめいしょう] /fatal wound/
+致す [いたす] /do humbly/
+# end

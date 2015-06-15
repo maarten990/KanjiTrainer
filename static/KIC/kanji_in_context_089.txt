@@ -1,0 +1,61 @@
+﻿# Kanji in Context Lesson 089 : 1134-1143
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+信仰 [しんこう] /religious conviction or faith/
+仰向け [あおむけ] /facing upward/
+仰ぐ [あおぐ] /look up at, ask for (advice, support, etc.)/
+仰天 [ぎょうてん] /be astonished/
+仰せ [おおせ] /your wish (honorific)/
+卵 [たまご] /egg/
+卵子 [らんし] /ovum/
+卵巣 [らんそう] /ovary/
+印刷 [いんさつ] /print/
+印象 [いんしょう] /impression/
+調印 [ちょういん] /sign (a treaty, contract, etc.)/
+印税 [いんぜい] /royalty (on a book)/
+矢印 [やじるし] /(directional) arrow/
+目印 [めじるし] /mark, landmark/
+印 [しるし] /mark, sign/
+印刷 [いんさつ] /print/
+印刷物 [いんさつぶつ] /printed matter/
+刷新 [さっしん] /reform/
+刷る [する] /print/
+週刊誌 [しゅうかんし] /weekly magazine/
+朝刊 [ちょうかん] /morning edition (of a newspaper)/
+夕刊 [ゆうかん] /evening edition (of a newspaper)/
+新刊書 [しんかんしょ] /new publication/
+深刻な [しんこくな] /grave, serious/
+時刻 [じこく] /time/
+彫刻 [ちょうこく] /sculpture; sculpt, carve, engrave/
+刻む [きざむ] /cut, chop up, engrave/
+劇 [げき] /drama, play/
+演劇 [えんげき] /drama, play, theatrical performance/
+歌劇 [かげき] /opera/
+劇場 [げきじょう] /theater/
+喜劇 [きげき] /comedy/
+悲劇 [ひげき] /tragedy, tragical event/
+劇的な [げきてきな] /dramatic/
+劇薬 [げきやく] /powerful drug, poison/
+仮定 [かてい] /suppose, assume/
+仮説 [かせつ] /hypothesis/
+仮面 [かめん] /mask/
+平仮名 [ひらがな] /hiragana/
+仮の [かりの] /provisional, tentative, temporary/
+仮病 [けびょう] /faked illness/
+出版 [しゅっぱん] /publish/
+出版社 [しゅっぱんしゃ] /publisher, publishing company/
+版権 [はんけん] /copyright/
+初版 [しょはん] /first edition/
+改訂版 [かいていはん] /revised edition/
+版画 [はんが] /woodblock print/
+破片 [はへん] /fragment, splinter/
+断片的な [だんぺんてきな] /fragmentary/
+断片 [だんぺん] /fragment/
+片道 [かたみち] /one-way (ticket)/
+片手 [かたて] /one hand or arm/
+片仮名 [かたかな] /katakana/
+片付く [かたづく] /be put in order, be settled, be finished, be married/
+片付ける [かたづける] /put in order, tidy (up), put away, finish, marry off/
+片寄る [かたよる] /lean to, incline towards/
+# end

@@ -1,0 +1,59 @@
+﻿# Kanji in Context Lesson 074 : 972-981
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+枝 [えだ] /branch/
+小枝 [こえだ] /twig/
+枝葉 [えだは] /branches and leaves, small details/
+枝葉末節 [しようまっせつ] /small details/
+株式会社 [かぶしきがいしゃ] /joint-stock corporation/
+株式 [かぶしき] /stock, share/
+株券 [かぶけん] /stock certificate/
+株主 [かぶぬし] /stockholder/
+株主総会 [かぶぬしそうかい] /stockholders' meeting/
+株 [かぶ] /stock, share, tree stump/
+切株 [きりかぶ] /tree stump, (grain) stubble/
+屋根 [やね] /roof/
+根 [ね] /roof/
+根強い [ねづよい] /deep-rooted/
+大根 [だいこん] /Japanese radish/
+根本的な [こんぽんてきな] /fundamental, thorough/
+根気 [こんき] /perseverence, patience/
+制限 [せいげん] /restrict, limit/
+限度 [げんど] /limit, limitation (quantity)/
+限界 [げんかい] /limit, limitation (ability, capacity, etc.)/
+期限 [きげん] /deadline, time limit/
+権限 [けんげん] /authority, competance/
+無限の [むげんの] /unlimited, endless, infinite/
+有限の [ゆうげんの] /limited, finite/
+限る [かぎる] /limit/
+主眼 [しゅがん] /chief aim, main purpose/
+眼球 [がんきゅう] /eyeball/
+開眼 [かいげん] /be spiritually enlightened, be initiated into the mysteries of an art/
+眼 [まなこ] /eye/
+血眼になって [ちまなこになって] /frantically/
+睡眠 [すいみん] /sleep/
+睡眠不足 [すいみんぶそく] /lack of sleep/
+熟睡 [じゅくすい] /have a sound or deep sleep/
+睡眠 [すいみん] /sleep/
+安眠 [あんみん] /have a good or sound sleep/
+冬眠 [とうみん] /hibernate/
+不眠症 [ふみんしょう] /insomnia/
+眠る [ねむる] /sleep/
+居眠り [いねむり] /doze, nap/
+眠い [ねむい] /sleepy/
+瞬間 [しゅんかん] /moment/
+瞬時に [しゅんじに] /instantaneously/
+一瞬 [いっしゅん] /momentarily/
+瞬き [またたき] /twinkling/
+隣の [となりの] /neighboring/
+隣人 [りんじん] /neighbor/
+隣国 [りんごく] /neighboring country/
+近隣諸国 [きんりんしょっこく] /neighboring countries/
+隣り合う [となりあう] /be next door to each other, adjacent, adjoining/
+舞台 [ぶたい] /stage/
+お見舞い [おみまい] /inquiry after a person's health/
+見舞う [みまう] /inquire after a person's health/
+舞う [まう] /dance/
+舞 [まい] /dancing/
+# end
