@@ -21,8 +21,8 @@ with open('kanjitrainer.html', 'r') as f:
     html_page = f.read()
 with open('feedback.html', 'r') as f:
     feedback_page = f.read()
-with open('thankyou.html', 'r') as f:
-    thankyou_page = f.read()
+with open('welcome.html', 'r') as f:
+    welcome_page = f.read()
 
 user_chunks = {}
 user_parameters = {}
@@ -41,8 +41,8 @@ chunkgen = ChunkGenerator(kanji, radicalMeanings)
 db.close()
 
 
-@app.route('/', methods=['GET'])
-def root():
+@app.route('/questions', methods=['GET'])
+def questions():
     # check if the user already exists
     try:
         id = request.cookies.get('id')
@@ -124,6 +124,9 @@ def initial_data():
 
     return jsonify(question=question, item=item, choices=choices)
 
+@app.route('/', methods=['GET'])
+def root():
+    return welcome_page
 
 @app.route('/feedback', methods=['GET', 'POST'])
 def feedback():
@@ -142,7 +145,7 @@ def feedback():
 
         db_commit(query, [hist, params, score])
 
-        return thankyou_page
+        return html_page
 
 
 def main():
@@ -154,7 +157,7 @@ def main():
     if args.debug:
         app.run(debug=True, extra_files=['kanjitrainer.html',
                                          'feedback.html',
-                                         'thankyou.html',
+                                         'welcome.html',
                                          'static/kanjitrainer.css',
                                          'static/kanjitrainer.js'])
     else:
