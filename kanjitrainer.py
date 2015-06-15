@@ -41,7 +41,7 @@ chunkgen = ChunkGenerator(kanji, radicalMeanings)
 db.close()
 
 
-@app.route('/questions', methods=['GET'])
+@app.route('/questions', methods=['POST'])
 def questions():
     # check if the user already exists
     try:
