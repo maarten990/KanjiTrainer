@@ -102,7 +102,7 @@ class ChunkGenerator(object):
                 kanji, meaning, stroke_count = self.kanji[grade][index]
                 options = self.__choice_list(kanji, answer_difficulty, grade,
                                          n_answers - 1, reversed_bool)
-                hint = self.__hint(reversed_bool, question_type, kanji, grade)
+                hint = self.__hint(reversed_bool, question_type, kanji, meaning, grade)
                 if not reversed_bool:
                     question = "What is the meaning of the following kanji?"
                     options += [meaning]
@@ -167,7 +167,7 @@ class ChunkGenerator(object):
                 sampled_selection = random.sample(selection,n_answers - 1)
 
                 #remove dublicates: on kanji and meaning
-                hint = self.__hint(reversed_bool, question_type, item, grade)  
+                hint = self.__hint(reversed_bool, question_type, item, item_meaning, grade)  
                 if not reversed_bool:
                     question = "What is the meaning of the following word?"
                     options = [x[2] for x in sampled_selection] + [item_meaning]
@@ -200,7 +200,7 @@ class ChunkGenerator(object):
 
         return [meaning[0] for meaning in meanings]
 
-    def __hint(self, reversed_bool, question_type, item, grade):
+    def __hint(self, reversed_bool, question_type, item, item_meaning, grade):
         if question_type == "kanji":
             filePath = "static/KanjiPics/" + item + ".png"
             query = ('SELECT radicals FROM kanji WHERE grade=' + str(grade) + \
@@ -232,22 +232,19 @@ class ChunkGenerator(object):
                 else:
                     hint = "Hint:<br> The kanji does not consist of any radicals"
         else:
-            if not reversed_bool:
-                kanji_list = []
-                for i in item:
-                    if i in self.vocab_dict:
-                        kanji_list.append(i)
-                query = ('SELECT meanings FROM kanji WHERE literal IN ' + \
-                         str(kanji_list).replace("[","(").replace("]",")"))
-                meanings = fetch_all(query)
-                hint_data = "<ul>"
-                for x in meanings:
-                    hint_data += "<li>" + x[0] + "</li>"
-                hint_data += "</ul>"               
-                hint = "This word consist of the following kanji(s):" + \
-                       "<br>" + hint_data 
-            else:
-                hint = "lol hint"    
+            kanji_list = []
+            for i in item:
+                if i in self.vocab_dict:
+                    kanji_list.append(i)
+            query = ('SELECT meanings FROM kanji WHERE literal IN ' + \
+                     str(kanji_list).replace("[","(").replace("]",")"))
+            meanings = fetch_all(query)
+            hint_data = "<ul>"
+            for x in meanings:
+                hint_data += "<li>" + x[0] + "</li>"
+            hint_data += "</ul>"               
+            hint = "This word consist of the following kanji(s):" + \
+                   "<br>" + hint_data     
         return hint
 
 class Chunk(object):
