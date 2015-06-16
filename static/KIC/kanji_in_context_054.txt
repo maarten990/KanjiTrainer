@@ -1,0 +1,57 @@
+﻿# Kanji in Context Lesson 054 : 750-759
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+条約 [じょうやく] /treaty/
+条文 [じょうぶん] /text (of a constitution, law, treaty, etc.)/
+第~条 [だい~じょう] /article ~/
+憲法第九条 [けんぽうだいきゅうじょう] /Article 9 of the (Japanese) Constitution/
+条件 [じょうけん] /condition/
+信条 [しんじょう] /creed/
+契約 [けいやく] /contact, agreement; enter into or sign a contract/
+契機 [けいき] /opportunity, (serve as an) impetus/
+契る [ちぎる] /pledge (one's love, etc.)/
+喫茶店 [きっさてん] /coffee shop/
+喫煙 [きつえん] /smoking; smoke/
+満喫 [まんきつ] /enjoy fully/
+清潔な [せいけつな] /clean, neat/
+不潔な [ふけつな] /unclean, dirty, filthy/
+潔白 [けっぱく] /innocence/
+潔い [いさぎよい] /good (loser), honorable (death)/
+清潔な [せいけつな] /clean, neat/
+清書 [せいしょ] /write a clean copy/
+清算 [せいさん] /liquidate, settle, clear (a debt), atone for/
+清涼飲料水 [せいりょういんりょうすい] /refreshing beverage, soft drink/
+清水 [しみず] /spring water/
+清水寺 [きよみずでら] /Kiyomizu Temple (in Kyoto)/
+清い [きよい] /pure/
+清める [きよめる] /purify/
+六根清浄 [ろっこんしょうじょう] /be completely purified/
+会計士 [かいけいし] /licensed accountant/
+税理士 [ぜいりし] /licensed tax accountant/
+代議士 [だいぎし] /Diet member/
+学士 [がくし] /bachelor's degree, university or college graduate/
+学士号 [がくしごう] /bachelor's degree/
+弁護士 [べんごし] /lawyer/
+武士 [ぶし] /warrior (in medieval Japan), samurai/
+意志 [いし] /will, desire/
+有志 [ゆうし] /those interested, volunteer/
+同士 [どうし] /comrades, like-minded people/
+志向 [しこう] /orientation, inclination; intend/
+志す [こころざす] /aspire/
+志 [こころざし] /will, aspiration/
+恩 [おん] /kindness, favor, debt of gratitude/
+恩人 [おんじん] /benefactor, patron/
+恩返し [おんがえし] /repay a person's kindness/
+恩知らず [おんしらず] /ungrateful person/
+恩給 [おんきゅう] /pension/
+恩師 [おんし] /mentor/
+忠実な [ちゅうじつな] /faithful, loyal/
+忠告 [ちゅうこく] /advise, warn/
+忠誠 [ちゅうせい] /loyalty/
+恐ろしい [おそろしい] /terrible, frightening/
+恐れる [おそれる] /fear/
+恐縮 [きょうしゅく] /feel obligated, be very grateful, be sorry/
+恐怖 [きょうふ] /fear, terror/
+恐慌 [きょうこう] /panic (in the stock market, etc.)/
+# end

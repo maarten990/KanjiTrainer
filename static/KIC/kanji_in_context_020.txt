@@ -1,0 +1,61 @@
+﻿# Kanji in Context Lesson 020: 362-373
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+反対 [はんたい] /object/
+反日運動 [はんにちうんどう] /anti-Japanese movement/
+反発 [はんぱつ] /repulse, repel, oppose/
+反省 [はんせい] /reflect upon, examine one's conscience/
+反面 [はんめん] /on the other hand/
+謀反 [むほん] /rebellion/
+反る [そる] /bend/
+反らす [そらす] /bend/
+反物 [たんもの] /a roll of cloth/
+対立 [たいりつ] /be opposed to, confronted with/
+対話 [たいわ] /dialogue; have a dialogue/
+～に対する [～にたいする] /to ~, toward ~, against ~/
+一対の [いっついの] /a pair of/
+村 [むら] /village/
+村長 [そんちょう] /village mayor/
+村民 [そんみん] /villager/
+市町村 [しちょうそん] /cities, towns, and villages/
+付く [つく] /be attached, stick to/
+日付 [ひづけ] /date (of a letter, document, etc.)/
+付近の [ふきの] /adjacent, nearby, neighboring/
+交付 [こうふ] /deliver, hand over/
+団体 [だんたい] /group (of tourists, etc.)/
+集団 [しゅうだん] /group, mob, mass (suicide, etc.)/
+団結 [だんけつ] /be united, stand together/
+団地 [だんち] /housing complex/
+布団 [ふとん] /futon/
+座布団 [ざぶとん] /floor cushion/
+寸 [すん] /sun (old Japanese measure of length, 3.03 cm)/
+寸法 [すんぽう] /measurements, size/
+一寸 [ちょっと] /for a while/
+支店 [してん] /branch (office or store)/
+支社 [ししゃ] /branch (office)/
+支部 [しぶ] /branch, local chapter/
+支出 [ししゅつ] /expenditure, disbursement; pay out, expend/
+支持 [しじ] /support (a political party, etc.)/
+支持者 [しじしゃ] /supporter/
+支給 [しきゅう] /supply (money, food, etc.)/
+支える [ささえる] /support/
+差し支える [さしつかえる] /interfere/
+技術 [ぎじゅつ] /technique, technology/
+技師 [ぎし] /engineer/
+技能 [ぎのう] /skill/
+技 [わざ] /art, skill/
+手術 [しゅじゅつ] /(surgical) operation; have an operation, operate (on a patient)/
+手術室 [しゅじゅつしつ] /operating room/
+学術用語 [がくじゅつようご] /technical term/
+街 [まち] /street/
+地下街 [ちかがい] /underground shopping mall/
+五番街 [ごばんがい] /Fifth Avenue/
+街道 [かいどう] /high road/
+封筒 [ふうとう] /envelope/
+開封 [かいふう] /open (a letter)/
+封鎖 [ふうさ] /block up, blockade/
+封建制度 [ほうけんせいど] /feudalism/
+水筒 [すいとう] /canteen, flask/
+筒 [つつ] /pipe, tube, cylinder/
+# end

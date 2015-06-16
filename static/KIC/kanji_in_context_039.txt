@@ -1,0 +1,69 @@
+﻿# Kanji in Context Lesson 039 : 583-594
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+未来 [みらい] /future/
+未婚の [みこんの] /unmarried/
+未知の [みちの] /unknown/
+未亡人 [みぼうじん] /widow/
+未明 [みめい] /early dawn, before daybreak/
+前代未聞の [ぜんだいみもんの] /unheard of, unprecedented/
+週末 [しゅうまつ] /weekend/
+月末 [げつまつ] /end of the month/
+年末 [ねんまつ] /end of the year/
+末っ子 [すえっこ] /youngest child/
+末子 [ばっし、まっし] /youngest child/
+申し上げる [もうしあげる] /say, tell (humble)/
+申し入れ [もうしいれ] /offer, propsal/
+答申 [とうしん] /report (of a committee); submit a report/
+神 [かみ] /god/
+神風 [かみかぜ] /kamikaze, divine wind/
+神社 [じんじゃ] /shrine/
+神話 [しんわ] /myth, mythology/
+神父 [しんぶ] /Catholic priest, Father/
+神主 [かんぬし] /Shinto priest/
+神楽 [かぐら] /kagura (sacred music and dancing of Shinto)/
+神々しい [こうごうしい] /divine, holy/
+存在 [そんざい] /exist/
+生存 [せいぞん] /exist, survive/
+生存者 [せいぞんしゃ] /survivor/
+共存 [きょうぞん] /coexist/
+ご存じだ [ごぞんじだ] /know (honorific)/
+存じる [ぞんじる] /know (humble)/
+存在 [そんざい] /exist/
+現在 [げんざい] /present, current/
+在日外国人 [ざいにちがいこくじん] /foreigners residing in Japan/
+在学 [ざいがく] /be in school, be enrolled (at)/
+不在だ [ふざいだ] /be away, be absent/
+在る [ある] /exist/
+座禅 [ざぜん] /Zen meditation (in a cross-legged position)/
+禅寺 [ぜんでら] /Zen temple/
+禅宗 [ぜんしゅう] /Zen sect/
+禅僧 [ぜんそう] /Zen priest or monk/
+弾 [たま] /bullet/
+弾薬 [だんやく] /ammunition/
+弾頭 [だんとう] /warhead/
+核弾頭 [かくだんとう] /nuclear warhead/
+爆弾 [ばくだん] /bomb/
+弾力 [だんりょく] /elasticity/
+弾む [はずむ] /bounce, rebound/
+弾く [ひく] /play (a piano, guitar, etc.)/
+丸い [まるい] /round/
+丸太 [まるた] /log/
+丸 [まる] /circle, ball, whole/
+丸める [まるめる] /make round/
+弾丸 [だんがん] /bullet/
+弓 [ゆみ] /bow/
+弓道 [きゅうどう] /Japanese archery/
+矢 [や] /arrow/
+弓矢 [ゆみや] /bow and arrow/
+一矢を報いる [いっしをむくいる] /retort, retaliate/
+失業 [しつぎょう] /lose one's job, be out of work/
+失恋 [しつれん] /be unlucky in love, have a broken heart/
+失望 [しつぼう] /be disappointed/
+失神 [しっしん] /faint, lose consciousness/
+失敗 [しっぱい] /fail/
+失礼な [しつれいな] /impolite/
+失う [うしなう] /lose/
+見失う [みうしなう] /lose sight of, lose one's way/
+# end

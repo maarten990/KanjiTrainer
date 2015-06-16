@@ -1,0 +1,62 @@
+﻿# Kanji in Context Lesson 021 : 374-384
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+竹 [たけ] /bamboo/
+竹林 [たけばやし] /bamboo grove/
+両替 [りょうがえ] /exchanging or changing money; exchange or change money/
+替える [かえる] /replace/
+着替え [きがえ] /a change of clothes/
+着替える [きかえる] /change one's clothes/
+取り替える [とりかえる] /change (parts, etc.)/
+代替エネルギー [だいたいエネルギ] /alternative energy source/
+賛成 [さんせい] /agree/
+賛美歌 [さんびか] /hymn, psalm/
+賞賛 [しょうさん] /praise, admire/
+成功 [せいこう] /succeed/
+成長 [せいちょう] /grow, mature/
+成立 [せいりつ] /be established, founded/
+成人 [せいじん] /adult; become an adult/
+成分 [せいぶん] /ingredient, component/
+成り立つ [なりたつ] /be composed of/
+成し遂げる [なしとげる] /accomplish/
+成就 [じょうじゅ] /accomplish, attain/
+功労者 [こうろうしゃ] /a person who has performed distinguished services/
+功徳 [くどく] /charitable act/
+工場 [こうじょう] /factory/
+工場 [こうば] /small factory/
+工事 [こうじ] /construction; construct/
+人工の [じんこうの] /manmade, artificial/
+電子工学 [でんしこうがく] /electronic engineering/
+大工 [だいく] /carpenter/
+細工 [さいく] /craftsmanship; manipulate (a situation)/
+目的 [もくてき] /purpose, aim/
+技術的な [ぎじゅつてきな] /technological/
+人工的な [じんこうてきな] /artificial/
+民主的な [みんしゅてきな] /democratic/
+理想的な [りそうてきな] /ideal/
+～的な []～てきな /-tic, -al, etc./
+的 [もと] /target/
+約束 [やくそく] /promise/
+公約 [こうやく] /public pledge, (campaign) promise; pledge publically/
+先約 [せんやく] /previous engagement/
+約～ [やく～] /about, approximately/
+結束 [けっそく] /unite, stand together/
+束 [たば] /bundle/
+花束 [はなたば] /bouquet/
+束ねる [たばねる] /tie in a bundle/
+速い [はやい] /fast, quick, swift/
+速度 [そくど] /speed, velocity/
+速力 [そくりょく] /speed, velocity/
+時速 [じょそく] /speed per hour/
+加速 [かそく] /accelerate/
+高速道路 [こうそくどうろ] /expressway, freeway/
+早速 [さっそく] /right away/
+速やかに [すみやかに] /immediately, promptly/
+速達 [そくたつ] /express mail, special delivery/
+上達 [じょうたつ] /improve/
+発達 [はったつ] /develop/
+達成 [たっせい] /achieve/
+友達 [ともだち] /friend/
+結論に達する [けつろんにたっすれ] /reach a conclusion/
+# end

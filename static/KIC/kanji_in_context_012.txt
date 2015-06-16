@@ -1,0 +1,78 @@
+﻿# Kanji in Context Lesson 012: 251-266
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+笑う [わらう] /laugh, smile/
+笑い [わらい] /laughter/
+苦笑 [くしょう] /smile wryly, give a forced laugh/
+微笑 [びしょう] /smile/
+笑顔 [えがお] /smiling face/
+笑み [えみ] /smile/
+泣く [なく] /cry/
+泣き声 [なきごえ] /cry, tearful voice/
+号泣 [ごうきゅう] /cry bitterly/
+喜ぶ [よろこぶ] /be glad, be pleased/
+喜劇 [きげき] /comedy/
+困る [こまる] /have difficulty or trouble, be in or get in trouble, be embarassed/
+困難な [こんなんな] /difficult, hard/
+怒る [おこる] /become angry/
+激怒 [げきど] /be enraged, fly into a rage/
+押す [おす] /push, press/
+押し入れ [おしいれ] /closet/
+押える [おさえる] /press or hold down, stop, restrain/
+押収 [おうしゅう] /seize, confiscate/
+引く [ひく] /pull, draw/
+長引く [ながびく] /be prolonged, be protracted/
+引き返す [ひきかえす] /turn or come back, return/
+引き出す [ひきだす] /pull out, take out, withdraw/
+引出し [ひきだし] /drawer/
+引っかかる [ひかっかる] /be caught in or by, be cheated/
+引っかける [ひかっける] /hang or suspend on ~, trap, cheat/
+引き分け [ひきわけ] /draw, tie (as in a game)/
+取り引き [とりひき] /trading, deal/
+字引 [じびき] /dictionary/
+引力 [いんりょく] /gravity, gravitational force/
+引用 [いんよう] /cite/
+引退 [いんたい] /recite/
+強引な [ごおいんな] /overbeaing, coercive, pushy/
+死ぬ [しぬ] /die, be killed/
+死人 [しにん] /dead person, the dead/
+死者 [ししゃ] /the deceased, the dead/
+死体 [したい] /dead body, corpse, cadaver/
+死 [し] /death/
+死亡 [しぼう] /die, be killed/
+吹く [ふく] /blow, exhale/
+吹雪 [ふぶき] /snowstorm, blizzard/
+息吹 [いぶき] /a breath (of spring), an emanation (of youth)/
+吹奏楽 [すいそうがく] /wind-instrument music/
+急ぐ [いそぐ] /hurry (up), hasten/
+急に [きゅうに] /suddenly/
+急行 [きゅうこう] /express (train), go in haste/
+急用 [きゅうよう] /urgent business/
+急速な [きゅうそくな] /rapid/
+咲く [さく] /bloom, blossom/
+返り咲く [かえりざく] /come back (to power)/
+置く [おく] /put, place/
+置物 [おきもの] /ornament (for an alcove, etc.)/
+物置 [ものおき] /storeroom/
+位置 [いち] /position, location, be located/
+勝つ [かつ] /win/
+勝者 [しょうしゃ] /winner/
+勝利 [しょうり] /victory/
+連勝 [れんしょう] /consecutive victories, keep on winning/
+優勝 [ゆうしょう] /win (the championship, etc.)/
+勝る [まさる] /be superior/
+選ぶ [えらぶ] /choose, select, elect/
+選出 [せんしゅつ] /elect/
+選手 [せんしゅ] /athlete/
+選挙 [せんきょ] /election, elect/
+飛ぶ [とぶ] /fly, jump, hop/
+飛び出す [とびだす] /run out, jump out/
+飛行機 [ひこうき] /airplane/
+飛行場 [ひこうじょう] /airfield/
+踏む [ふむ] /step on, tread on/
+踏切 [ふみきり] /railroad crossing/
+雑踏 [ざっとう] /crowd/
+舞踏会 [ぶとうかい] /ball, dance/
+踏まえる [ふまえる] /be based on/
+#end

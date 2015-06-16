@@ -1,0 +1,61 @@
+﻿# Kanji in Context Lesson 061 : 825-835
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+調査 [ちょうさ] /investigate/
+検査 [けんさ] /examine/
+助ける [たすける] /help, assist, rescue/
+助かる [たすかる] /be helped or saved or rescued/
+助け合う [たすけあう] /help each other/
+助手 [じょしゅ] /assistant/
+助言 [じょげん] /advise; suggestion/
+助力 [じょりょく] /assistance, aid/
+助教授 [じょきょうじゅ] /associate professor/
+援助 [えんじょ] /help, assist, aid/
+助六 [すけろく] /name of a famous character in a Kabuki drama/
+努力 [どりょく] /effort, endeavor; make efforts/
+努力家 [どりょくか] /hard worker/
+努める [つとめる] /exert oneself, make efforts/
+収入 [しゅうにゅう] /income/
+買収 [ばいしゅう] /buy up, purchase, bribe/
+貿易収支 [ぼうえきしゅうし] /trade balance/
+収益 [しゅうえき] /profit/
+収容 [しゅうよう] /accomodate/
+収支決算 [しゅうしけっさん] /settlement of accounts/
+収める [おさめる] /obtain (profit, good result, etc.)/
+収まる [おさまる] /settle down, calm down/
+状態 [じょたい] /situation, state of affairs/
+現状 [げんじょう] /present circumstances/
+招待状 [しょうたいじょう] /invitation/
+お礼状 [おれいじょう] /thank-you letter/
+将来 [しょうらい] /the future; in the future/
+将軍 [しょうぐん] /shogun, general/
+将校 [しょうこう] /officer/
+将棋 [しょうぎ] /shogi, Japanese chess/
+奨学金 [しょうがくきん] /scholarship/
+奨学生 [しょうがくせい] /student on a scholarship/
+奨励 [しょうれい] /encourage, promote/
+奨励 [しょうれい] /encourage, promote/
+励行 [れいこう] /practice constantly/
+励む [はげむ] /do diligently/
+励み [はげみ] /encouragement/
+励ます [はげます] /encourage/
+大陸 [たいりく] /continent/
+陸 [りく] /land/
+陸地 [りくち] /land/
+上陸 [じょうりく] /land/
+陸軍 [りくぐん] /army/
+太陽 [たいよう] /the sun/
+陽気な [ようきな] /cheerful/
+陽光 [ようこう] /sunshine/
+陽子 [ようし] /proton/
+傷 [きず] /injury, cut/
+無傷の [むきずの] /uninjured/
+負傷 [ふしょう] /be injured, be wounded/
+重傷 [じゅうしょう] /serious injury/
+軽傷 [けいしょう] /slight injury/
+死傷者 [ししょうしゃ] /casaulty/
+傷害事件 [しょうがいじけん] /incident involving injury/
+中傷 [ちゅうしょう] /slander, slur/
+傷む [いたむ] /be damaged, be worn out/
+# end

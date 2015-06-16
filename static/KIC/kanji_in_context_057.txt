@@ -1,0 +1,68 @@
+﻿# Kanji in Context Lesson 057 : 780-790
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+自衛隊 [じえいたい] /the Self-Defense Forces (of Japan)/
+衛星 [えいせい] /satellite/
+衛生 [えいせい] /hygiene, sanitation/
+防衛 [ぼうえい] /defend/
+防衛庁 [ぼうえいちょう] /the Defense Agency (of Japan)/
+国防省 [こくぼうしょう] /the Department of Defense/
+国防総省 [こくぼうそうしょう] /the Department of Defense (of the U.S.)/
+防止 [ぼうし] /prevent, hold in check/
+予防 [よぼう] /prevent, hold in check/
+消防車 [しょうぼうしゃ] /fire engine/
+防火訓練 [ぼうかくくんれん] /fire prevention drill/
+防ぐ [ふせぐ] /prevent/
+お坊さん [おぼうさん] /Buddhist priest/
+坊主 [ぼうず] /Buddhist priest, shaved head, boy/
+赤ん坊 [あかんぼう] /baby/
+坊や [ぼうや] /(your, his, her) son, boy (honorific)/
+朝寝坊 [あさねぼう] /late riser; oversleep/
+訪問 [ほうもん] /visit/
+訪米 [ほうべい] /visit the U.S./
+訪ねる [たずねる] /visit/
+訪れる [おとずれる] /visit (a place)/
+妨害 [ぼうがい] /interfere, interrupt/
+妨げる [さまたげる] /interfere/
+公害 [こうがい] /environmental pollution/
+水害 [すいがい] /flood, flood damage/
+損害 [そんがい] /damage/
+利害 [りがい] /interest/
+被害 [ひがい] /damage/
+割る [わる] /divide, break (a glass, egg, etc.)/
+割合 [わりあい] /ratio/
+割引 [わりびき] /discount/
+二割引き [にわりびき] /20-percent discount/
+時間割 [じかんわり] /class schedule/
+役割 [やくわり] /role/
+割り算 [わりざん] /division (in mathematics)/
+分割 [ぶんかつ] /divide/
+割く [さく] /spare (time, money, etc.) for someone or something/
+憲法 [けんぽう] /constitution/
+憲法改正 [けんぽうかいせい] /revision of the constitution/
+改憲 [かいけん] /revision of the constitution/
+違憲 [いけん] /unconstitutional/
+立憲政治 [りっけんせいじ] /constitutional government/
+立憲君主制 [りっけんくんしゅせい] /constitutional monarchy/
+毒 [どく] /poison/
+中毒 [ちゅうどく] /poiosning/
+食中毒 [しょくちゅうどく] /food poisoning/
+消毒 [しょうどく] /disinfect/
+有毒な [ゆうどくな] /poisonous/
+気の毒な [きのどくな] /pitiable, unfortunate/
+危ない [あぶない] /dangerous/
+危険な [きけんな] /dangerous/
+危機 [きき] /crisis/
+石油危機 [せきゆきき] /oil crisis, oil shock/
+危害 [きがい] /harm/
+危急の [ききゅうの] /urgent/
+危惧 [きぐ] /worry/
+危うい [あやうい] /dangerous/
+危ぶむ [あやぶむ] /doubt (the success of)/
+危険な [きけんな] /dangerous/
+保険 [ほけん] /insurance/
+険悪な [けんあくな] /hostile/
+陰険な [いんけんな] /treacherous, underhanded/
+険しい [けわしい] /steep, stern/
+# end

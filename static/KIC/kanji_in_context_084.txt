@@ -1,0 +1,77 @@
+﻿# Kanji in Context Lesson 084 : 1076-1089
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+変更 [へんこう] /change, alter/
+更衣室 [こういしつ] /dressing room, locker room/
+更新 [こうしん] /renew, establish a new record/
+更に [さらに] /furthermore/
+夜更かし [よふかし] /stay up late at night/
+更ける [ふける] /grow dark/
+恩恵 [おんけい] /favor, benefit/
+知恵 [ちえ] /wisdom, intelligence/
+恵まれている [めぐまれている] /be blessed with/
+恵む [めぐむ] /bestow a favor, bless/
+恵み [めぐみ] /blessing/
+恋人 [こいびと] /boyfriend, girlfriend, lover/
+恋心 [こごころ] /love/
+恋 [こい] /(romantic) love/
+恋しい [こいしい] /dearest, beloved/
+恋愛 [れんあい] /love/
+恋愛 [れんあい] /love/
+愛 [あい] /love/
+愛情 [あいじょう] /love, affection/
+愛国心 [あいこくしん] /patriotic sentiment, patriotism/
+愛読書 [あいどくしょ] /favorite book/
+お互いに [おたがいに] /mutually/
+相互理解 [そうごりかい] /mutual understanding/
+交互み [こうごに] /alternately/
+涙 [なみだ] /teardrop, tears/
+涙声 [なみだごえ] /tearful voice/
+感涙 [かんるい] /tears (of strong emotion)/
+冷房 [れいぼう] /air conditioning/
+暖房 [だんぼう] /heating; heat (a room)/
+文房具 [ぶんぼうぐ] /stationary/
+官房長官 [かんぼうちょうかん] /chief secretary of the cabinet/
+女房 [にょうぼう] /one's wife/
+乳房 [ちぶさ] /breasts/
+房 [ふさ] /bunch, cluster, tassel, tuft/
+雇用制度 [こようせいど] /employment system/
+雇用 [こよう] /employment; employ/
+解雇 [かいこ] /fire (an employee)/
+雇用主 [こようぬし] /employer/
+雇用者 [こようしゃ] /employee/
+雇う [やとう] /employ, hire/
+肩 [かた] /shoulder/
+肩書き [かたがき] /(one's) title/
+肩代わり [かたがわり] /shoulder (someone's debt)/
+肩身が狭い [かたみがせまい] /feel ashamed/
+肩章 [けんしょう] /epaulet/
+背中 [せなか] /back/
+背 [せ] /back/
+背 [せ、せい] /height/
+背広 [せびろ] /suit/
+背景 [はいけい] /background, setting/
+背後 [はいご] /back, rear/
+背信行為 [はいしんこうい] /betrayal, breach of trust/
+背く [そむく] /disobey, betray, revolt/
+背ける [そむける] /avert (one's eyes from), turn (one's face) away/
+胸 [むね] /chest, breast/
+胸毛 [むなげ] /chest hair/
+胸囲 [きょうい] /girth of the chest/
+胸中 [きょうちゅう] /inner feeling/
+度胸 [どきょう] /courage, bravery, guts/
+腰 [こし] /lower back, waist, hips/
+物腰 [ものごし] /demeanor/
+本腰を入れる [ほんごしをいれる] /set about (a task) in earnest/
+腰痛 [ようつう] /backache, pain in the lower back, lumbago/
+空腹な [くうふくな] /hungry/
+立腹 [りっぷく] /get angry/
+腹が立つ [はらがたつ] /get angry/
+腹 [はら] /stomach, belly/
+お腹 [おなか] /stomach/
+豚 [ぶた] /pig, hog/
+豚肉 [ぶたにく] /pork/
+豚カツ [とんカツ] /pork cutlet/
+養豚 [ようとん] /hog or pig raising/
+# end

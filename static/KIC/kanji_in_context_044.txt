@@ -1,0 +1,65 @@
+﻿# Kanji in Context Lesson 044 : 641-652
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+生徒 [せいと] /pupil/
+キリスト教徒 [キリストきょうと] /Christian/
+仏教徒 [ぶっきょうと] /Buddhist/
+イスラム教徒 [イスラムきょうと] /Muslim/
+従来の [じゅうらいの] /conventional/
+従業員 [じゅうぎょういん] /employee, worker/
+服従 [ふくじゅう] /obedient/
+従順な [じゅうじゅんな] /obedient/
+従事 [じゅうじ] /engage in/
+従う [したがう] /obey, comply with, follow/
+従える [したげる] /be attended by, conquer/
+従～位 [じゅ～い] /rank in the Japanese medieval office system given to nobles or lords/
+従容として [しょうようとして] /calmly, with composure or serenity/
+得意な [とくいな] /good, strong, favorite (subject)/
+得意 [とくい] /strong point, forte, pride/
+得 [とく] /gain, advantage/
+損得 [そんとく] /loss and gain/
+得点 [とくてん] /points (gained)/
+所得 [しょとく] /income/
+得る [える、うる] /gain, acquire/
+やむを得ない [やむをえない] /inevitable/
+心得る [こころえる] /understand, recognize/
+道徳 [どうとく] /morality, morals/
+人徳 [じんとく] /one's natural virtue/
+徳川時代 [とくがわじだい] /the Tokugawa era/
+聴講 [ちょうこう] /audit (a course)/
+聴講生 [ちょうこうせい] /auditing student/
+聴解 [ちょうかい] /listening comprehension/
+公聴会 [こうちょうかい] /public hearing/
+聴覚 [ちょうかく] /sense of hearing/
+視聴率 [しちょうりつ] /audience rating/
+視聴者 [しちょうしゃ] /TV viewer/
+聴衆 [ちょうしゅう] /audience/
+事情聴取 [じじょうちょうしゅ] /investigative inquiry (by the police)/
+聴く [きく] /listen, hear/
+船 [ふね] /boat/
+風船 [ふうせん] /(toy) balloon/
+客船 [きゃくせん] /passenger ship/
+船員 [せんいん] /sailor, crew/
+船長 [せんちょう] /captain/
+船室 [せんしつ] /cabin (of a ship)/
+船旅 [ふなたび] /voyage/
+船便 [ふなびん] /surface mail/
+一般的な [いっぱんてきな] /common, ordinary/
+一般の [いっぱんの] /general, ordinary/
+一般化 [いっぱんか] /generalize/
+全般的に [ぜんぱんてきに] /generally, at large/
+諸般の事情のより [しょはんのじじょうにより] /for various reasons/
+航空便 [こうくうびん] /air mail/
+航空機 [こうくうき] /aircraft/
+航空券 [こうくうけん] /airline ticket/
+航海 [こうかい] /voyage; sail, make a voyage/
+航路 [こうる] /route, line, service/
+巡行ミサイル [じゅんこうミサイル] /cruise missle/
+一億 [いちおく] /100 million/
+記憶 [きおく] /memorize; memory/
+漫画 [まんが] /cartoon, comics/
+漫然と [まんぜんと] /aimlessly/
+散慢な [さんまんな] /aimless, vague/
+漫才 [まんざい] /Japanese comic dialogue/
+# end

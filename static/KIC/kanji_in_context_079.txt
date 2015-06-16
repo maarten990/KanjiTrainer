@@ -1,0 +1,46 @@
+﻿# Kanji in Context Lesson 079 : 1025-1034
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+里 [さと] /village, one's parents' home/
+~理 [~り] /~ri (unit of distance, approx. 3.9 km)/
+海里 [かいり] /nautical mile/
+童話 [どうわ] /fairy tale/
+童心 [どうしん] /child's mind/
+児童 [じどう] /pupil (in primary school), child, juvenile/
+童 [わらべ] /child/
+童歌 [わらべうた] /children's song/
+文章 [ぶんしょう] /composition, writing, sentence/
+章 [しょう] /chapter/
+第~章 [だい~しょう] /chapter ~/
+故障 [こしょう] /breakdown, failure, trouble; break down, fail, be out of order/
+障害 [しょうがい] /obstacle, impediment/
+保障 [ほしょう] /secure/
+支障 [ししょう] /hindrance, obstacle, problem/
+障子 [しょうじ] /sliding paper door/
+障る [さわる] /harm, hurt/
+壁 [かべ] /wall/
+壁紙 [かべがみ] /wallpaper/
+壁画 [へきが] /fresco, mural/
+障壁 [しょうへき] /barrier/
+食卓 [しょくたく] /dining table/
+卓球 [たっきゅう] /ping-pong/
+電卓 [でんたく] /calculator/
+卓越した [たくえつした] /excellent, eminent, superb/
+著者 [しょしゃ] /author, writer/
+著書 [ちょしょ] /(literary) work/
+名著 [めいちょ] /famous or great book/
+著名な [ちょめいな] /well-known, distinguished/
+著作権 [ちょさくけん] /copyright/
+顕著な [けんちょな] /remarkable/
+著しい [いちじるしい] /remarkable/
+著わす [あらわす] /write/
+アジア諸国 [アジアしょこく] /Asian countries/
+マリアナ諸島 [マリアナしょとう] /the Mariana Islands/
+一緒に [いっしょに] /(together) with/
+情緒 [じょうちょ] /emotion, feeling/
+鼻緒 [はなお] /geta strap/
+鏡 [かがみ] /mirror/
+望遠鏡 [ぼうえんきょう] /telescope/
+眼鏡 [めがね] /eyeglasses/
+# end

@@ -1,0 +1,74 @@
+﻿# Kanji in Context Lesson 030 : 478-491
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+尊敬 [そんけい] /respect, look up to/
+敬意 [けいい] /respect/
+敬語 [けいご] /honorific expressions/
+敬老の日 [けいろうのひ] /Respect-for-the-Aged Day/
+敬具 [けいぐ] /Sincerely yours (closing word for letters)/
+敬遠 [けいえん] /keep at a distance/
+敬う [うやまう] /respect, hold in high esteem/
+尊敬 [そんけい] /respect, look up to/
+尊重 [そんちょう] /respect, value/
+自尊心 [じそんしん] /pride/
+尊大な [そんだいな] /arrogant/
+貴ぶ [たっとぶ、とうとぶ] /respect, honor/
+貴い [たっとい、とうとい] /noble, precious/
+半導体 [はんどうたい] /semiconductor/
+導入 [どうにゅう] /introduce (a new system, technology, etc.)/
+先導 [せんどう] /initiate, lead/
+指導 [しどう] /lead, instruct, guide/
+指導者 [しどうしゃ] /leader/
+主導権 [しゅどうけん] /initiative, leadership/
+バス停 [バスてい] /bus stop/
+停留所 [ていりゅうじょ] /bus stop/
+停止 [ていし] /stop, suspend (service, etc.)/
+停車 [ていしゃ] /stop (as in buses or trains)/
+停電 [ていでん] /power failure or cut; have a power failure/
+各駅停車 [かくえきていしゃ] /local train/
+調停 [ちょうてい] /mediate/
+停滞 [ていたい] /stagnate/
+事件 [じけん] /incident/
+用件 [ようけん] /business (as in "get down to business")/
+件 [けん] /matter/
+条件 [じょうけん] /condition/
+牛 [うし] /cow, bull, cattle/
+子牛 [こうし] /calf/
+牛小屋 [うしごや] /cowshed, barn/
+水牛 [すいぎゅう] /water buffalo/
+野牛 [やぎゅう] /buffalo/
+馬 [うま] /horse/
+小馬 [こうま] /pony/
+子馬 [こうま] /pony/
+馬小屋 [うまごや] /stable/
+馬車 [ばしゃ] /horse-drawn carriage/
+馬力 [ばりき] /horsepower/
+馬術 [ばじゅつ] /horseback riding/
+出馬 [しゅつば] /stand as a candidate, run for (the Diet)/
+魚 [さかな] /fish/
+魚屋 [さかなや] /fish shop/
+金魚 [こんぎょ] /goldfish/
+魚市場 [うおいちば] /fish market/
+鳥 [とり] /bird/
+小鳥 [ことり] /little bird/
+野鳥 [やちょう] /wild bird/
+白鳥 [はくちょう] /swan/
+一石二鳥 [いっせきにちょう] /killing two birds with one stone/
+鳥居 [とりい] /Shinto shrine archway/
+鳴く [なく] /sing (birds), meow, neigh, croak, etc./
+鳴き声 [なきごえ] /singing of a bird/
+鳴る [なる] /ring/
+共鳴 [きょうめい] /resonate, sympathize/
+羊 [ひつじ] /sheep/
+小羊 [こひつじ] /baby sheep/
+子羊 [こひつじ] /baby sheep/
+羊毛 [ようもう] /wool/
+不毛な [ふもうな] /unproductive, barren, sterile/
+羽毛 [うもう] /down, feathers, plumage/
+羽田空港 [はねだくうこう] /Haneda Airport/
+羽 [はね] /wing/
+羽根 [はね] /feather, plumage/
+～羽 [～わ、～ば] /(counter for birds)/
+羽音 [はおと] /fluttering (of birds, moths, etc.)/
+# end

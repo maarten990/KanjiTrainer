@@ -1,0 +1,50 @@
+﻿# Kanji in Context Lesson 082 : 1058-1067
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+国籍 [こくせき] /nationality/
+本籍 [ほんせき] /one's domicile, legal residence/
+籍 [せき] /census register/
+在籍 [ざいせき] /be enrolled or registered (at a school)/
+除籍 [じょせき] /remove from a register/
+書籍 [しょせき] /books/
+筋肉 [きんにく] /muscle/
+筋道 [すじみち] /thread of an argument/
+筋 [すじ] /storyline/
+筋書 [すじがき] /syopsis, outline, plan/
+本箱 [ほんばこ] /bookcase/
+箱 [はこ] /box, case/
+箱根 [はこね] /Hakone (scenic spot near Mt. Fuji)/
+範囲 [はんい] /scope, range, limits, sphere/
+広範な [こうはんな] /extensive/
+規範 [きはん] /norm, criterion/
+範囲 [はんい] /scope, range, limits, sphere/
+周囲 [しゅういの] /the surrounding ~/
+囲む [かこむ] /surround, enclose/
+包囲 [ほうい] /encircle, besiege/
+雰囲気 [ふんいき] /atmosphere (of a party, etc.)/
+井戸 [いど] /well/
+天井 [てんじょう] /ceiling/
+軽井沢 [かるいざわ] /Karuizawa (summer resort area northwest of Tokyo)/
+市井の人 [しせいのひと] /a man in the street, the common people/
+熱帯雨林 [ねったいうりん] /tropical rainforest/
+熱帯 [ねったい] /Torrid Zone/
+温帯 [おんたい] /Temperate Zone/
+寒帯 [かんたい] /Frigid Zone/
+熱帯の [ねったいの] /tropical/
+安全地帯 [あんぜんちたい] /safety zone/
+包帯 [ほうたい] /bandage/
+世帯 [せたい] /household/
+帯 [おび] /sash (for kimono)/
+帯びる [おびる] /wear/
+帝国主義 [ていこくしゅぎ] /imperialism/
+皇帝 [こうてい] /emporer/
+ローマ帝国 [ローマていこく] /the Roman Empire/
+帝政 [ていせい] /imperial rule/
+カール大抵 [カールたいてい] /Emperor Charlemagne/
+締切り [しめきり] /deadline, closing date/
+条約の締結 [じょうやくのていけつ] /conclusion of a treaty/
+取締役 [とりしまりやく] /executive director (of a company)/
+締める [しめる] /tighten, tie/
+金融引き締め [きんゆうひきしめ] /financial tightening/
+# end

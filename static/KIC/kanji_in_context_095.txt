@@ -1,0 +1,38 @@
+﻿# Kanji in Context Lesson 095 : 1201-1210
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+戻る [もどる] /return, go back/
+後戻り [あともどり] /go or turn back/
+戻す [もどす] /pay or give back, vomit/
+差し戻す [さしもどす] /send back, remand (a case)/
+返戻 [へんれい] /give back, return/
+丘 [おか] /hill/
+自由が丘 [じゆうがおか] /Jiyugaoka/
+砂丘 [さっきゅう] /sand hill, dune/
+匹 [ひき、びき、ぴき] /(counter for animals)/
+匹敵 [ひってき] /be a match for/
+司会 [しかい] /emcee, chairperson (of a conference, etc.); chair (a conference, etc.)/
+上司 [じょうし] /(one's) boss/
+司法 [じしょう] /judiciary/
+歌詞 [かし] /lyrics, words to a song/
+品詞 [ひんし] /part of speech/
+訂正 [ていせい] /correct/
+改訂 [かいてい] /revise/
+訴える [うったえる] /sue, appeal/
+訴訟 [そしょう] /lawsuit/
+起訴 [きそ] /prosecute, charge/
+告訴 [こくそ] /accuse, sue, lodge a complaint/
+勝訴 [しょうそ] /win a suit or case/
+敗訴 [はいそ] /lose a suit or case/
+訴訟 [そしょう] /lawsuit/
+譲る [ゆずる] /yield, transfer/
+親譲りの [おやゆずりの] /inherited from a parent/
+譲歩 [じょうほ] /compromise, concede/
+譲渡 [じょうと] /hand over, transfer/
+割譲 [かつじょう] /cede (territory)/
+購読 [こうどく] /subscribe/
+購読料 [こうどくりょう] /subscription rate/
+購買力 [こうばいりょく] /purchasing power/
+購入 [こうにゅう] /purchase/
+# end

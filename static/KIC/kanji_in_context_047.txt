@@ -1,0 +1,86 @@
+﻿# Kanji in Context Lesson 047 : 674-684
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+差 [さ] /difference/
+時差 [じさ] /time difference/
+時差ボケ [じさボケ] /jet lag/
+差別 [さべつ] /discriminate/
+交差点 [こうさてん] /intersection/
+差す [さす] /shine into or upon, stream in, fill (a vase with water), hold (an umbrella) over one's head/
+差し上げる [さしあげる] /give (humble)/
+差し引く [さしひく] /deduct, take away/
+物差し [ものさし] /rule, measure/
+差し支える [さしつかえる] /interfere/
+休養 [きゅうよう] /rest/
+教養 [きょうよう] /culture/
+養子 [ようし] /adopted child/
+養育 [よういく] /nurture/
+養分 [ようぶん] /nourishment/
+養う [やしなう] /foster, support/
+善意 [ぜんい] /good intentions/
+善 [ぜん] /good, goodness, virtue/
+善良な [ぜんりょうな] /good(-natured), honest/
+親善 [しんぜん] /friendship/
+善悪 [ぜんあく] /good and evil/
+改善 [かいぜん] /improve, make better/
+善い [よい] /good/
+多様性 [たいようせい] /diversity/
+多様か [たいようか] /diversification (of lifestyles, needs, etc.), be diversified/
+多様な [たような] /diversified/
+同様の [どうようの] /same/
+様子 [ようす] /situation, appearance/
+神様 [かみさま] /God, gods/
+~様 [~さま] /Mr or Ms. ~ (mainly used in writing)/
+植物 [しょくぶつ] /plants/
+植民地 [しょくみんち] /colony/
+植える [うえる] /plant (a tree, etc.)/
+田植え [たうえ] /transplanting of rice shoots/
+北極 [ほっきょく] /the North Pole/
+南極 [なんきょく] /the South Pole/
+極東 [きょくとう] /the Far East/
+極端な [きょくたんな] /extreme/
+見極める [みきわめる] /ascertain, make sure/
+極まる [きわまる] /reach an extreme/
+極み [きわみ] /height, apex/
+極秘 [ごくひ] /top secret/
+極端な [きょくたんな] /extreme/
+先端技術 [せんたんぎじゅつ] /advanced technology/
+異端 [いたん] /heresy, heterodoxy/
+端 [はし] /end, edge/
+端数 [はすう] /fraction/
+半端な [はんぱな] /fractional/
+中途半端な [ちゅうとはんぱな] /incomplete, halfway/
+道端 [みちばた] /roadside/
+需要 [じゅよう] /demand/
+需給 [じゅきゅう] /supply and demand/
+特需 [とくじゅ] /special procurement/
+必需品 [ひつじゅひん] /necessities/
+軍需品 [ぐんじゅひん] /munitions, war supplies/
+軍需産業 [ぐんじゅさんぎょう] /war industry/
+楽器 [がっき] /musical instrument/
+食器 [しょっき] /tableware/
+受話器 [じゅわき] /telephone receiver/
+器用な [きような] /skillful, tactful/
+不器用な [ぶきような] /awkward/
+器具 [きぐ] /appliances, utensils, tools/
+器 [うつわ] /container/
+品質 [ひんしつ] /quality (of a product)/
+部品 [ぶひん] /part/
+日用品 [にちようひん] /daily necesities/
+薬品 [やくひん] /medicine, drug, chemical/
+洋品店 [ようひんてん] /Western-style apparel shop/
+品物 [しなもの] /merchandise, commodity/
+品 [しな] /goods, article/
+手品 [てじな] /magic (show)/
+上品な [じょうひんな] /refined, elegant, graceful/
+下品な [げひんな] /gross, vulgar/
+品 [ひん] /grace, elegance, dignity/
+商品 [しょうひん] /merchandise, commodity/
+商業 [しょうぎょう] /commerce/
+商人 [しょうにん] /merchant/
+商売 [しょうばい] /business, engage in business/
+商社 [しょうしゃ] /trading firm/
+商店 [しょうてん] /shop, store, firm/
+商い [あきない] /dealing, business/
+# end

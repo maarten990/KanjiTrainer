@@ -1,0 +1,64 @@
+﻿# Kanji in Context Lesson 080 : 1035-1045
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+環境 [かんきょう] /environment/
+環状線 [かんじょうせん] /loop line/
+環境 [かんきょう] /environment/
+国境 [こっきょう] /border/
+境界 [きょうかい] /boundary, border/
+境 [さかい] /boundary/
+境目 [さかいめ] /borderline/
+境内 [けいだい] /precinct (of a temple or shrine)/
+環境破壊 [かんきょうはかい] /destruction of the environment/
+破産 [はさん] /bankruptcy; go bankrupt/
+破る [やぶる] /break (a promise, rule, etc.), tear (paper, clothing, etc.), defeat/
+見破る [みやぶる] /see through (a plot), see (into someone's heart)/
+破く [やぶく] /tear (paper)/
+破れる [やぶれる] /be torn, be defeated/
+環境破壊 [かんきょうはかい] /destruction of the environment/
+破壊 [はかい] /destroy/
+壊す [こわす] /break/
+壊れる [こわれる] /be broken/
+崩壊 [ほうかい] /collapse/
+激しい [はげしい] /fierce, intense/
+急激な [きゅうげきな] /intense, drastic/
+過激な [かげきな] /radical/
+過激派 [かげきは] /radicals, extremists/
+激増 [げきぞう] /increase sharply/
+感激 [かんげき] /be moved (emotionally)/
+激動 [げきどう] /shake violently, be thrown into turmoil/
+激流 [げきりゅう] /swift current, rapid stream, torrent/
+攻撃 [こうげき] /attack/
+専攻 [せんこう] /major (in a subject)/
+攻める [せめる] /attack/
+攻撃 [こうげき] /attack/
+反撃 [はんげき] /counterattack; make a counterattack/
+打撃 [だげき] /blow, shock/
+目撃者 [もくげきしゃ] /eyewitness/
+撃つ [うつ] /fire, shoot/
+世襲の [せしゅうの] /hereditary/
+襲撃 [しゅうげき] /raid, attack/
+襲う [おそう] /raid, attack/
+暴力 [ぼうりょく] /violence/
+暴力団 [ぼうりょくだん] /organized group of gangsters/
+乱暴な [らんぼうな] /violent, rude, unruly/
+暴風 [ぼうふう] /violent storm/
+暴走族 [ぼうそうぞく] /motorcyle gang, hot rodders/
+暴徒 [ぼうと] /rioters, mob, insurgents/
+暴れる [あばれる] /act violently/
+暴露 [ばくろ] /bring to light/
+暴く [あばく] /bring to light/
+爆発 [ばくはつ] /explode/
+爆撃 [ばくげき] /bomb/
+爆破 [ばくは] /blow up/
+爆弾 [ばくだん] /bomb/
+原爆 [げんばく] /atomic bomb/
+被爆者 [ひばくしゃ] /victims of the atomic bomb/
+煙 [けむり] /smoke/
+煙い [けむい] /smoky/
+喫煙 [きつえん] /smoke; smoking/
+禁煙 [きんえん] /give up smoking; No Smoking/
+黒煙 [こくえん] /black smoke/
+煙突 [えんとつ] /chimney, smokestack/
+# end

@@ -1,0 +1,67 @@
+﻿# Kanji in Context Lesson 091 : 1154-1165
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+勇気 [ゆうき] /courage/
+勇退 [ゆうたい] /retire voluntarily/
+勇ましい [いさましい] /brave, courageous, valiant/
+募集 [ぼしゅう] /recuit/
+応募 [おうぼ] /apply for/
+応募者 [おうぼしゃ] /applicant/
+募金運動 [ぼきんうんどう] /fund-raising campaign/
+公募 [こうぼ] /advertise (for someone to fill a post)/
+募る [つのる] /recruit, invite (donations), raise (funds), grow intense/
+墓 [はか] /grave/
+墓参り [はかまいり] /visit a grave/
+墓石 [ぼせき] /gravestone/
+墓地 [ぼち] /cemetary/
+墓穴を掘る [ぼけつをほる] /dig one's own grave, bring about one's own ruin/
+幕 [まく] /(stage) curtain, act (of a play)/
+開幕 [かいまく] /beginning of a performance or event; (an event) begins/
+閉幕 [へいまく] /end of a performance or event; (an event) ends/
+字幕 [じまく] /subtitle/
+内幕 [うちまく] /behind-the-scenes story/
+幕府 [ばくふ] /the Shogunate government/
+暮らす [くらす] /live/
+一人暮らし [ひとりぐらし] /living alone/
+夕暮れ [ゆうぐれ] /twilight, evening/
+暮れる [くれる] /grow dark/
+お歳暮 [おせいぼ] /year-end gift/
+砂漠 [おばく] /desert/
+漠然としている [ばくぜんとしている] /vague, obscure/
+規模 [きぼ] /scale/
+大規模な [だいきぼな] /large-scale/
+模型 [もけい] /model/
+模範 [もはん] /model, example/
+模造品 [もぞうひん] /imitation/
+模様 [もよう] /pattern, figure, design, appearance, look/
+概念 [がいねん] /concept/
+概要 [がいよう] /outline/
+概略 [がいりゃく] /outline/
+概算 [がいさん] /rough estimate; make a rough estimate/
+概論 [がいろん] /introduction, outline/
+大概 [たいがい] /mainly, generally/
+既に [すでに] /already/
+既成事実 [きせいじじつ] /accomplished fact/
+既成概念 [きせいがいねん] /preconceived idea/
+既製服 [きせいふく] /ready-made clothes/
+既婚の [きこんの] /married/
+既存の [きそんの] /existing/
+裁判 [さいばん] /trial, hearing/
+裁判官 [さいばんかん] /judge/
+裁判所 [さいばんしょ] /law court/
+独裁者 [どくさいしゃ] /dictator/
+総裁 [そうさい] /president, general director/
+裁く [さばく] /judge, decide (a case)/
+洋裁 [ようさい] /(Western-style) dressmaking/
+裁つ [たつ] /cut (cloth, leather, etc.)/
+我々 [われわれ] /we/
+我が国 [わがくに] /our country/
+自我 [じが] /self, ego/
+無我夢中で [むかむちゅうで] /desperately/
+武器 [ぶき] /weapon, arms/
+武力 [ぶりょく] /military force/
+武道 [ぶどう] /martial arts/
+武士 [ぶし] /warrior (in medieval Japan), samurai/
+武者 [ぶしゅ] /warrior/
+# end

@@ -1,0 +1,67 @@
+﻿# Kanji in Context Lesson 048 : 685-696
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+袋 [ふくろ] /sack, bag/
+紙袋 [かみぶくろ] /paper bag/
+手袋 [てぶくろ] /glove/
+袋小路 [ふくろこうじ] /blind alley/
+郵袋 [ゆうたい] /mailbag/
+日本製 [にほんせい] /made in Japan/
+製品 [せいひん] /(manufactured) product/
+製作 [せいさく] /produce/
+製鉄 [せいてつ] /iron manufacturing/
+製鉄所 [せいてつしょ] /ironworks/
+制度 [せいど] /system/
+製作 [せいさく] /produce/
+強制 [きょうせい] /compel, force/
+強制労働 [きょうせいろうどう] /forced labor/
+税制 [ぜいせい] /taxation system/
+誕生日 [たんじょうび] /birthday/
+誕生 [たんじょう] /be born, birth/
+延期 [えんき] /postpone/
+延長 [えんちょう] /extend (time)/
+延びる [のびる] /be postponed, be prolonged/
+延ばす [のばす] /postpone, prolong, lengthen/
+引き延す [ひきのばす] /draw or stretch out, put off (an appointment, payment, etc.)/
+延べる [のべる] /lay out (a futon), make (a bed)/
+前期 [ぜんき] /first semester/
+後期 [こうき] /second semester/
+学期 [がっき] /semester, term/
+期間 [きかん] /period of time/
+短期大学 [たんきだいがく] /junior college/
+定期的な [ていきてきな] /regularly/
+短期的な [たんきてきな] /short-term/
+中期的な [ちゅうきてきな] /medium-term/
+長期的な [ちょうきてきな] /long-term/
+画期的な [かっきてきな] /epoch-making/
+定期券 [ていきけん] /pass (for riding a train, bus, etc.), season ticket/
+予期 [よき] /anticipate/
+最期 [さいご] /the last moment of one's life/
+基本 [きほん] /basis, foundation, ABCs/
+基金 [ききん] /foundation/
+基地 [きち] /(military) base/
+基礎 [きそ] /foundation, basis/
+基づく [もとづく] /be based on/
+基 [もと] /foundation/
+基礎 [きそ] /foundation, basis/
+礎 [いしずえ] /cornerstone/
+疑う [うたがう] /doubt, be suspicious of, distrust/
+疑い [うたがい] /doubt, suspicion/
+疑問 [ぎもん] /question, doubt/
+質疑応答 [しつぎおうとう] /questions and answers/
+疑念 [ぎねん] /doubt, suspicion/
+容疑者 [ようぎしゃ] /suspect/
+容疑 [ようぎ] /suspicion/
+疑惑 [ぎわく] /suspicion/
+疑獄 [ぎごく] /scandal/
+紹介 [しょうかい] /introduce, present/
+自己紹介 [じこしょうかい] /introduce oneself/
+紹介 [しょうかい] /introduce, present/
+介入 [かいにゅう] /intervene/
+介在 [かいざい] /stand or come between/
+魚介類 [ごかいるい] /marine products, seafood/
+招待 [しょうたい] /invite/
+招く [まねく] /invite/
+手招き [てまねき] /beckon/
+# end

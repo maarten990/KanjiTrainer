@@ -1,0 +1,69 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+#item {
+    font-size: 2.5em;
+}
+
+#freeform {
+}
+
+.btn {
+    width: 100%;
+    font-size: 1em;
+}
+
+.btn_wrong {
+    background: #fa2f2f;
+    width: 100%;
+    font-size: 1em;
+}
+
+.btn_right {
+    background: #6efa6c;
+    width: 100%;
+    font-size: 1em;
+}
+
+.extrabtn {
+    font-size: 1em;
+}
+
+[disabled] {
+    color: black;
+}
+
+
+#answers {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (min-width: 500px) {
+    #buttons {
+        width: 500px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #buttons {
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+#freeform-input {
+    width: 75%;
+    font-size: 1em;
+}
+
+#freeform-button {
+    width: 25%;
+    float: right;
+}

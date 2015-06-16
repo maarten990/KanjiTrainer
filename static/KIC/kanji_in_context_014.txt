@@ -1,0 +1,76 @@
+﻿# Kanji in Context Lesson 014: 280-289
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+落ちる [おちる] /fall, drop/
+落ち着く [おちつく] /settle down, calm down/
+落とす [おとす] /drop, throw down, lose/
+落とし物 [おとしもの] /lost article, lost property/
+落石 [らくせき] /falling rock(s)/
+転落 [てんらく] /fall, roll or tumble down/
+落雷 [らくらい] /lightning strike/
+墜落 [ついらく] /fall, crash/
+晴れる [はれる] /clear (up), feel refreshed or better/
+晴れ [はれ] /fine weather/
+秋晴れ [あきばれ] /fine autumn day/
+快晴 [かいせい] /fine weather/
+晴天 [せいてん] /fine weather, clear sky/
+投げる [なげる] /throw, pitch, give up/
+投手 [とうしゅ] /pitcher/
+投書 [とうしょ] /contibution, letter from a reader; contribute to a publication/
+投資 [とうし] /invest/
+投票 [とうひょう] /vote, cast a ballot/
+投機 [とうき] /speculation, venture/
+逃げる [にげる] /run away, get away, escape/
+逃げ出す [にげだす] /run away, flee/
+逃走 [とうそう] /run away, escape/
+逃がす [にがす] /release, set free, let escape/
+取り逃がす [とるにがす] /fail to catch/
+逃す [のがす] /fail to use (an opportunity)/
+見逃す [みのがす] /miss, overlook, pass over, let go unchallenged or unpunished/
+逃れる [のがれる] /escape, get away/
+過ぎる [すぎる] /pass, go past, elapse/
+通り過ぎる [とおりすぎる] /go past, pass (a place, etc.)/
+飲み過ぎ [のみすぎ] /drinking too much, excessive drinking/
+食べ過ぎ [たべすぎ] /eating too much, excessive eating/
+通過 [つうか] /pass (through)/
+過半数 [かはんすう] /majority, more than half/
+過労死 [かろうし] /early death caused by overwork/
+過程 [かてい] /process/
+過失 [かしつ] /error, fault/
+過ごす [すごす] /spend (a day, vacation, etc.)/
+過ち [あやまち] /error, fault/
+捨てる [すてる] /throw away, dispose of/
+見捨てる [みすてる] /walk out on, forsake/
+捨て犬 [すていぬ] /abandoned dog/
+四捨五入 [ししゃごにゅう] /round off (to the nearest whole number)/
+取捨選択 [しゅしゃせんたく] /sort out, choose, select/
+出発 [しゅっぱつ] /depart, leave/
+発車 [はっしゃ] /depart (as in trains or buses)/
+～発 [～はつ] /departing from ~, departing at (time)/
+発明 [はつめい] /invent/
+発見 [はっけん] /discover/
+発行 [はっこう] /issue, publish/
+発足 [ほっそく] /be inaugurated, start/
+発起人 [ほっきにん] /proposer, promoter/
+到着 [とうちゃく] /arrive/
+到底 [とうてい] /cannot possibly, (not) at all/
+到来 [とうらい] /come, arrive/
+計画 [けいかく] /create a plan or project/
+時計 [とけい] /watch, clock/
+会計 [かいけい] /accounting/
+家計 [かけい] /household budget/
+合計 [ごうけい] /add up, total; sum, total/
+計る [はかる] /measure, plot, design/
+決定 [けってい] /decide, determine/
+意思決定 [いしけってい] /decision-making/
+安定 [あんてい] /be stable or steady/
+安定した [あんていした] /stable/
+不安定な [ふあんていな] /unstable/
+定食 [ていしょく] /set meal/
+定年 [ていねん] /retirement age/
+定休日 [ていきゅうび] /regular day off/
+定める [さだめる] /decide (on), determine, appoint, lay down (a rule)/
+定かではない [さだかではない] /unknown/
+定石 [じょうせき] /standard move (in the games of go and shogi), standard method/
+# end

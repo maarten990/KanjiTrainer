@@ -1,0 +1,46 @@
+﻿# Kanji in Context Lesson 099 : 1241-1250
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+僕 [ぼく] /I (in masculine speech)/
+下僕 [げぼく] /manservant/
+従僕 [じゅうぼく] /servant/
+偉大な [いだいな] /great, grand/
+偉人 [いじん] /great person/
+偉い [えらい] /great/
+俗語 [ぞくご] /slang/
+風俗 [ふうぞく] /public morals, manners, customs/
+民俗学 [みんぞくがく] /folklore/
+侵略 [しんりゃく] /invade, commit act of aggression/
+侵入 [しんにゅう] /invade/
+侵害 [しんがい] /infringe/
+侵攻 [しんこう] /invade/
+侵す [おかす] /invade, violate, infringe on/
+伺う [うかがう] /visit, ask, inquire (humble)/
+伺候 [しこう] /attend (one's lord), make a courtesy call/
+伸びる [のびる] /be stretched, be prolonged, be extended/
+伸ばす [のばす] /stretch, prolong, extend/
+追伸 [ついしん] /P.S./
+屈伸 [くっしん] /bending and stretching/
+模倣 [もほう] /imitate/
+例に倣って [れいにならって] /following the example/
+開催 [かいさい] /hold (an event)/
+主催 [しゅさい] /sponsor, promote/
+主催者 [しゅさいしゃ] /sponsor, promoter/
+催す [もよおす] /hold (an event), feel (sleepy, cold, etc.)/
+催し物 [もよおしもの] /entertainment, special event/
+催眠術 [さいみんじゅつ] /hypnotism/
+催涙ガス [さいるいガス] /tear gas/
+国債 [こくさい] /government bond/
+社債 [しゃさい] /bond, debenture/
+債券 [さいけん] /bond/
+債権 [さいけん] /credit/
+債権者 [さいけんしゃ] /credit(or)/
+債務 [さいむ] /debt/
+債務者 [さいむしゃ] /debt(or)/
+負債 [ふさい] /debt liabilities/
+合併 [がっぺい] /form a merger/
+併用 [へいよう] /use together, use two things at the same time/
+併発 [へいはつ] /have complications (from surgery, a disease, etc.)/
+併せる [あわせる] /put together, combine/
+# end

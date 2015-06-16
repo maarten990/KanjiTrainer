@@ -1,0 +1,42 @@
+﻿# Kanji in Context Lesson 102 : 1272-1280
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+大丈夫 [だいじょうぶ] /all right, okay, safe/
+丈夫な [じょうぶな] /strong, durable, robust/
+背丈 [せたけ] /one's height/
+牧場 [ぼくじょう] /stock farm, ranch, pasture/
+牧草 [ぼくそう] /grass, pasture, meadow/
+放牧 [ほうぼく] /pasture, graze/
+遊牧 [ゆうぼく] /nomadism/
+牧師 [ぼくし] /clergyman, minister/
+牧場 [まきば] /pasture/
+家畜 [かちく] /livestock, domestic animal/
+牧畜業 [ぼくちくぎょう] /stock farming/
+充電 [じゅうでん] /charge or recharge (electricity)/
+充実した [じゅうじつした] /full, complete, satisfying/
+充満 [じゅうまん] /be full of (poisonous gas, etc.)/
+充足 [じゅうそく] /suffice/
+充血 [じゅうけつ] /be bloodshot, be congested/
+拡充 [かくじゅう] /expand, enlarge, amplify/
+充てる [あてる] /assign, use, allot/
+玄関 [げんかん] /front door or entrance porch/
+玄米 [げんまい] /brown rice/
+玄人 [くろうと] /expert, professional, specialist/
+豪雨 [ごうう] /heavy rainfall, torrential downpour/
+豪遊 [ごうゆう] /go on an extravagant spree/
+豪華な [ごうかな] /luxurious, magnificent/
+豪勢な [ごうせい] /luxurious, grand/
+豪州 [ごうしゅう] /Australia/
+盲人 [もうじん] /blind person, the blind/
+色盲 [しきもう] /colorblind/
+文盲 [もんもう] /illiterate/
+盲目の [もうもくの] /blind/
+盲点 [もうてん] /blind spot/
+帽子 [ぼうし] /hat, cap/
+上昇 [じょうしょう] /rise, ascend/
+昇進 [しょうしん] /be promoted/
+昇格 [しょうかく] /be promoted (to an upper rank)/
+昇給 [しょうきゅう] /get a pay raise/
+昇る [のぼる] /rise/
+# end

@@ -1,0 +1,45 @@
+﻿# Kanji in Context Lesson 098 : 1231-1240
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+原稿 [げんこう] /manuscript/
+草稿 [そうこう] /rough draft/
+投稿 [とうこう] /contribute (to a magazine, newspaper, etc.)/
+稼ぐ [かせぐ] /earn money/
+稼ぎ [かせぎ] /earnings, income/
+稼働 [かどう] /work, operate/
+稲 [いね] /rice plant/
+稲作 [いなさく] /rice growing/
+水稲 [すいとう] /paddy rice/
+早稲田大学 [わせだだいがく] /Waseda University/
+穏やかな [おだやかな] /gentle, calm, peaceful/
+平穏な [へいおんな] /peaceful/
+穏和な [おんわな] /gentle/
+安穏な [あんのんな] /easy and peaceful/
+隠す [かくす] /hide, conceal/
+隠れる [かくれる] /hide/
+隠居 [いんきょ] /a person retired from public life; retire from public life/
+間隔 [かんかく] /space, interval/
+隔離 [かくり] /isolate, quarantine/
+隔てる [へだてる] /separate, partition/
+隔たる [へだたる] /be distant from, be isolated and estranged/
+金融 [きんゆう] /finance, financing/
+金融機関 [きんゆうきかん] /financial institution/
+融資 [ゆうし] /finance, loan, furnish funds/
+融通がきく [ゆうずうがきく] /flexible/
+融通 [ゆうずう] /lend (money)/
+融合 [ゆうごう] /fuse, merge/
+核融合 [かくゆうごう] /nuclear fusion/
+首相官邸 [しゅしょうかんてい] /official residence of the prime minister/
+私邸 [してい] /private residence (in contrast to official residence)/
+公邸 [こうてい] /official residence/
+邸宅 [ていたく] /residence/
+隅 [すみ] /corner/
+隅田川 [すみだがわ] /Sumida River/
+一隅 [いちぐう] /corner, nook/
+偶然 [ぐうぜん] /by chance, by coincidence/
+偶発的な [ぐうはつてきな] /accidental/
+偶数 [ぐうすう] /even number/
+配偶者 [はいぐうしゃ] /spouse/
+偶像 [ぐうぞう] /idol, icon/
+# end

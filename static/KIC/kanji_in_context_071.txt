@@ -1,0 +1,48 @@
+﻿# Kanji in Context Lesson 071 : 939-948
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+対象 [たいしょう] /subject (of investigation), object (of study), target (of criticism)/
+現象 [げんしょう] /phenomenon/
+気象庁 [きしょうちょう] /the Meterological Agency/
+気象学 [きしょうがく] /meterology/
+象 [ぞう] /elephant/
+想像 [そうぞう] /imagine/
+現像 [げんぞう] /(film) development; develop (a film)/
+映像 [えいぞう] /picture, image/
+仏像 [ぶつぞう] /statue or image of Buddha/
+自画像 [じがぞう] /self-portrait/
+免許 [めんきょ] /permission, license/
+免税 [めんぜい] /tax exemption; make (a product, etc.) exempt from tax/
+免税店 [めんぜいてん] /duty-free shop/
+免れる [まぬかれる] /exempt/
+城 [しろ] /castle/
+江戸城 [えどじょう] /Edo Castle/
+城下町 [じょうかまち] /castle town/
+城主 [じょうしゅ] /castle lord/
+誠実な [せいじつな] /sincere/
+誠意 [せいい] /sincerity/
+誠に [まことに] /truly/
+詳しい [くわしい] /detailed/
+詳細な [しょうさいな] /detailed/
+詳報 [しょうほう] /detailed report/
+詩 [し] /poetry, poem/
+詩人 [しじん] /poet/
+詩集 [しゅしゅう] /collection of poems/
+漢詩 [かんし] /Chinese poem or poetry/
+詩歌 [しいか] /poetry/
+討論 [とうろん] /debate, discussion; debate, discuss/
+検討 [けんとう] /examine, consider/
+討議 [とうぎ] /discussion, deliberation; discuss, deliberate, hold a discussion/
+討つ [うつ] /attack, defeat/
+謝る [あやまる] /apologize/
+感謝 [かんしゃ] /thank/
+謝罪 [しゃざい] /apologize/
+謝礼 [しゃれい] /remuneration, honorarium/
+新陳代謝 [しんちんたいしゃ] /metabolism; metabolize/
+評判 [ひょうばん] /reputation/
+評価 [ひょうか] /evaluate. appraise/
+批評 [ひひょう] /criticism; criticize/
+論評 [ろんぴょう] /comment, criticism; comment, criticize/
+書評 [しょひょう] /book review/
+# end

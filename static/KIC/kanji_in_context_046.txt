@@ -1,0 +1,72 @@
+﻿# Kanji in Context Lesson 046 : 663-673
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+文句 [もんく] /grumbling, complaint, words/
+語句 [ごく] /words and phrases/
+上旬 [じょうじゅん] /the first ten days of a month/
+中旬 [ちゅうじゅん] /the middle ten days of a month/
+下旬 [げじゅん] /the last ten days of a month/
+初旬 [しょじゅん] /(during) the first ten days of a month/
+保証人 [ほしょうにん] /guarantor/
+保証 [ほしょう] /guarantee/
+保存 [ほぞん] /preserve, conserve/
+保険 [ほけん] /insurance/
+保健 [ほけん] /health care/
+保障 [ほしょう] /secure/
+保育園 [ほいくえん] /nursery school/
+保つ [たもつ] /maintain, keep (warmth, relationship, etc.)/
+証明 [しょうめい] /prove/
+証人 [しょうにん] /witness/
+証言 [しょうげん] /testify, give evidence/
+証拠 [しょうこ] /evidence/
+許可 [きょか] /allow, permit/
+特許 [とっきょ] /patent/
+許容 [きょよう] /allow, permit/
+免許 [めんきょ] /license/
+許す [ゆるす] /allow, permit, forgive/
+認める [みとめる] /prove, allow, admit/
+認識 [にんしき] /recognize, understand, perceive/
+公認の [こうにんの] /officially recognized, authorized, certified/
+確認 [かくにん] /confirm/
+課長 [かちょう] /section chief, manager/
+課 [か] /section, department/
+人事課 [じんじか] /personnel department/
+経理課 [けいりか] /accounting department/
+第~課 [だい~か] /section ~, lesson ~/
+課題 [かだい] /assignment, task/
+日課 [にっか] /daily work/
+課する [かする] /impose (a tax, duty, etc.)/
+税金 [ぜいきん] /tax/
+関税 [かんぜい] /customs/
+税関 [ぜいかん] /customs, customs house/
+所得税 [しょとくぜい] /income tax/
+無税 [むぜい] /tax-free/
+課税 [かぜい] /impose a tax/
+免税 [めんぜい] /tax exemption; make (a product, etc.) exempt from tax/
+程度 [ていど] /degree, extent/
+課程 [かてい] /course, program (of a school)/
+過程 [かてい] /process/
+日程 [にってい] /schedule/
+程々に [ほどほどに] /moderately/
+事実 [じじつ] /fact/
+真実 [しんじつ] /truth/
+口実 [こうじつ] /excuse/
+実習 [じっしゅう] /practice/
+実感 [じっかん] /realize, experience personally/
+実行 [じっこう] /put into practice, carry out/
+実力 [じつりょく] /actual ability, potential/
+実物 [じつぶつ] /the real thing/
+実際に [じっさいに] /as a mater of fact, actually/
+実用的な [じつようてきな] /practical/
+実は [じつは] /actually, to tell the truth/
+実例 [じつれい] /example/
+実に [じつに] /surely, really/
+果実酒 [かじつしゅ] /fruit wine/
+実 [み] /fruit/
+実 [みのる] /bear fruit/
+美人 [びじん] /beautiful woman/
+美術館 [びじゅつかん] /art museum/
+美学 [びがく] /aesthetics/
+美しい [うつくしい] /pretty, beautiful/
+# end

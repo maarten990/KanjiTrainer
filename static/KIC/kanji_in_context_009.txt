@@ -1,0 +1,81 @@
+﻿# Kanji in Context Lesson 009: 198-207
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+洗う [あらう] /wash/
+お手洗い [おてあらい] /lavatory, toilet/
+洗濯 [せんたく] /do laundry/
+洗濯機 [せんたくき] /washing machine/
+水洗トイレ [すいせんトイレ] /flush toilet/
+洗脳 [せんのう] /brainwash/
+使う [つかう] /use/
+使い方 [つかいかた] /how to use, method of use/
+使用方 [しようほう] /how to use, method of use/
+大使 [たいし] /ambassador/
+使者 [ししゃ] /messenger/
+歌 [うた] /song/
+歌う [うたう] /sing/
+歌手 [かしゅ] /singer/
+国歌 [こっか] /national anthem/
+校歌 [こうか] /school song/
+短歌 [たんか] /tanka (Japanese poem of 31 syllables)/
+和歌 [わか] /waka (Japanese poem of 31 syllables)/
+習う [ならう] /learn/
+学習 [がくしゅう] /learn/
+自習 [じしゅう] /study by oneself/
+予習 [よしゅう] /prepare one's lessons/
+復習 [ふくしゅう] /review/
+習得 [しゅうとく] /master/
+習字 [しゅうじ] /calligraphy, penmanship/
+思う [おもう] /think, guess, believe, feel, consider/
+思い出す [おもいだす] /remember/
+思い出 [おもいで] /memories/
+思いつく [おもいつく] /think of, hit on (an idea)/
+思いがけない [おもいがけない] /unexpected/
+思いっきり [おもいっきり] /to one's heart's content, as hard as one can/
+思わず [おもわず] /unconsciously, in spite of oneself/
+思考力 [しこうりょく] /ability to think/
+意思決定 [いしけってい] /decision making/
+言う [いう] /say, talk about, tell/
+言い訳 [いいわけ] /excuse/
+伝言 [でんごん] /message, give or send a message/
+言語 [げんご] /language/
+方言 [ほうげん] /dialect/
+言葉 [ことば] /language/
+一言 [ひとこと] /a word, single word/
+通る [とおる] /go along, pass through or along/
+通り [とおり] /street/
+大通り [おおどおり] /big street/
+～通り [～どおり] /~ street, avenue/
+人通り [ひとどおり] /pedestrian traffic/
+～した通り [～したどおり] /as (promised, one is told, etc.)/
+一通り [ひととおり] /once/
+～通り [～とおり] /~ ways (of doing something)/
+通う [かよう] /go to (school or work), go to and from/
+通学 [つうがく] /attend or go to school/
+通勤 [つうきん] /commute, go to one's office/
+通行 [つうこう] /traffic, pass, go past or through/
+通知 [つうち] /notify, announce/
+文通 [ぶんつう] /correspond (by letters)/
+交通 [こうつう] /traffic, transportation/
+通じる [つうじる] /be understood, be connected, run, be open to traffic/
+通 [つう] /connoisseur, expert/
+通夜 [つや] /wake, vigil/
+渡る [わたる] /go across, go over/
+渡す [わたす] /lay or build across, hand (over)/
+渡米 [とべい] /go to America/
+渡航費 [とこうひ] /overseas travel expenses/
+渡来人 [とらいじん] /foreigners who came to ancient Japan bringing certain expertise/
+送る [おくる] /send/
+見送る [みおくる] /see someone off/
+見送り [みおくり] /seeing someone off/
+送り返す [おくりかえす] /send back, return/
+送り仮名 [おくりがな] /okurigana (conjugational or declensional ending added in kana after a kanji)/
+送金 [そうきん] /remit or send money/
+運送会社 [うんそうがいしゃ] /shipping or freight company/
+送別会 [そうべつかい] /farewell party/
+放送局 [ほうそうきょく] /broadcasting station, radio or TV station/
+泊まる [とまる] /stay, stop/
+二泊三日 [にはくみっか] /(trip of) three days and two nights/
+宿泊費 [しゅくはくひ] /charges for accomodations/
+#end

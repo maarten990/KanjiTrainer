@@ -1,0 +1,65 @@
+﻿# Kanji in Context Lesson 043 : 630-640
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+古典 [こてん] /classics/
+百科事典 [ひゃっかじてん] /encyclopedia/
+興味 [きょうみ] /interest/
+即興 [そっきょう] /improvisation/
+興奮 [こうふん] /get excited/
+興る [おこる] /arise/
+自己中心的な [じこちゅうしんてきな] /egocentric/
+自己 [じこ] /ego, self/
+利己的な [りこてきな] /selfish/
+知己 [ちき] /acquaintance/
+己 [おのれ] /oneself/
+日記 [にっき] /diary/
+記事 [きじ] /article/
+記者 [きしゃ] /journalist/
+記号 [きごう] /sign, mark, symbol/
+暗記 [あんき] /memorize/
+記憶 [きおく] /memorize; memory/
+記す [しるす] /write down/
+２０世紀 [にじっせいき] /twentieth century/
+紀元前 [きげんぜん] /B.C./
+紀行文 [きこうぶん] /account of a journey/
+組み立てる [くみたてる] /assemble/
+組合せ [くみあわせ] /combination/
+労働組合 [ろうどうくみあい] /labor union/
+組長 [くみちょう] /head of a gang/
+組織 [そしき] /organization; organize, set up/
+水素 [すいそ] /hydrogen/
+元素 [げんそ] /chemical element/
+質素な [しっそな] /simple, plain/
+素質 [そしつ] /quality, nature, makeup/
+素直な [すなおな] /gentle, docile, obedient/
+素晴らしい [すばらしい] /splendid, wonderful/
+素人 [しろうと] /amateur, layman/
+素肌 [すじゃだ] /bare skin (without make-up, clothes)/
+小麦 [こむぎ] /wheat/
+大麦 [おおむぎ] /barley/
+麦 [むぎ] /wheat, barley, rye, oats/
+麦茶 [むぎちゃ] /barley tea/
+麦畑 [むぎばたけ] /wheat field/
+麦芽 [ばくが] /malt/
+責任 [せきにん] /responsibility/
+責務 [せきむ] /duty, job/
+責める [せめる] /blame/
+責任 [せきにん] /responsibility/
+主任 [しゅにん] /person in charge, assistant manager, head of a team/
+就任 [しゅうにん] /assume a post/
+後任の [こうにんの] /succeeding (president, etc.)/
+任務 [にんむ] /duty, office, mission/
+一任 [いちにん] /leave (a matter) entirely (to a person)/
+任意に [にんいにん] /voluntarily, by one's own choice/
+任期 [にんき] /term of office/
+任命 [にんめい] /appoint/
+増せる [まかせる] /entrust/
+信じる [しんじる] /believe/
+信者 [しんじゃ] /believer (of a religion)/
+自信 [じしん] /(self-) coinfidence/
+通信 [つうしん] /communication; communicate/
+信用 [しんよう] /trust/
+不信 [ふしん] /distrust/
+信号 [しんごう] /traffic signal/
+# end

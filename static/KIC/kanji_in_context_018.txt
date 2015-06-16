@@ -1,0 +1,92 @@
+﻿# Kanji in Context Lesson 018: 339-350
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+暖かい [あたたかい] /warm/
+暖める [あたためる] /warm, heat/
+暖まる [あたたまる] /get warm, be warmed/
+暖冬 [だんとう] /mild winter/
+暖房 [だんぼう] /heating; heat (a room)/
+温暖な [おんだんな] /warm, mild, temperate/
+涼しい [すずしい] /cool/
+夕涼み [ゆうすずみ] /enjoying the cool of evening, cooling off in the evening/
+涼む [すずむ] /cool oneself, cool off/
+涼風 [りょうふう] /cool or refreshing breeze/
+清涼飲料 [せいりょういんりょう] /refreshing beverage, soft drink/
+悲しい [かなしい] /sad, sorrowful/
+悲しむ [かなしむ] /feel sad, lament, deplore/
+悲劇 [ひげき] /tragedy, tragic event/
+非運 [ひうん] /misfortune, bad luck/
+苦しい [くるしい] /painful, difficult, hard/
+重苦しい [おもくるしい] /oppressive, gloomy/
+苦しむ [くるしむ] /suffer, be in pain/
+苦しめる [くるしめる] /cause pain, cause distress, torement, annoy/
+苦心 [くしん] /take pains, work hard/
+苦労 [くろう] /suffer, trouble, labor/
+苦い [にがい] /bitter/
+苦り切る [にがりきる] /be disgusted or displeased/
+楽しい [たのしい] /fun, enjoyable/
+楽しみ [たのしみ] /pleasure, joy, fun/
+楽しむ [たのしむ] /enjoy, have fun/
+音楽 [おんがく] /music/
+楽器 [がっき] /musical instrumnet/
+楽な [らくな] /easy, comfortable/
+気楽に [きらくに] /without worry or hesitation/
+安楽死 [あんらくし] /euthenasia, mercy killing/
+楽園 [らくえん] /paradise/
+快楽主義 [かいらくしゅぎ] /hedonism, epicureanism/
+娯楽 [ごらく] /amusement, recreation/
+神楽 [かぐら] /kagura (Shinto sacred music and dance)/
+辛い [からい] /(spicy) hot, salty/
+辛口の [からくちの] /dry (wine, beer, etc.)/
+塩辛い [しおからい] /salty/
+辛うじて [かろうじて] /barely, narrowly, with difficulty/
+香辛料 [こうしんりょう] /spices/
+甘い [あまい] /sweet/
+甘える [あまえる] /behave like a spoiled child, demand attention/
+甘やかす [あまやかす] /indulge, pamper, spoil/
+甘口の [あまくちの] /sweet (wine, sake, etc.)/
+甘味料 [かんみりょう] /sweetener/
+甘美な [かんびな] /sweet/
+痛い [いたい] /hurt, be painful/
+痛み [いたみ] /pain, ache/
+痛む [いたむ] /hurt, ache, have pain/
+痛ましい [いたましい] /pitiful, sad, miserable/
+痛手 [いたで] /damage/
+頭痛 [ずつう] /headache/
+苦痛 [くつう] /pain, agony/
+痛快な [つうかいな] /delightful, exciting, thrilling/
+有名な [ゆうめいな] /famous/
+国有地 [こくゆうち] /national land/
+私有地 [しゆうち] /privately-owned land/
+所有 [しょゆう] /own/
+有る [ある] /exist/
+有り金 [ありがね] /money on hand, all the money one has/
+有無 [うむ] /existance, presence, yes or no/
+希有な [けうな] /rare, uncommon/
+退屈な [たいくつな] /tedious, boring, monotonous/
+早退 [そうたい] /leave school or the office early/
+退院 [たいいん] /leave the hospital, be discharged from the hospital/
+退学 [たいがく] /withdraw from school/
+退席 [たいせき] /to leave one's seat or the room/
+引退 [いんたい] /retire (from active life)/
+退却 [たいきゃく] /retreat, withdraw/
+退く [しりぞく] /retreat, step back, withdraw, retire/
+立ち退く [たちのく] /move out, evacuate, vacate, withdraw/
+退屈な [たいくつな] /tedious, monotonous, boring/
+理屈 [りくつ] /argument, theory, reason, logic/
+不屈の [ふくつの] /indomitable, unyielding/
+屈する [くっする] /yield to, give in to/
+屈伸 [くっしん] /bending and stretching (exercises)/
+屈辱 [くつじょく] /humiliation, disgrace, insult/
+同じ [おなじ] /same, identical/
+同一の [どういつの] /same, identical/
+同一人物 [どういつじんぶつ] /the same person/
+同時な [どうじな] /at the same time/
+同意 [どうい] /agree, consent/
+同情 [どうじょう] /sympathize/
+同居 [どうきょ] /live together/
+共同声明 [きょうどうせいめい] /joint communique/
+協同組合 [きょうどうくみあい] /cooperative/
+混同 [こんどう] /confuse (something for something else)/
+# end

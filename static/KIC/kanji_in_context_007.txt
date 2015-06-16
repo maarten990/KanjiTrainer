@@ -1,0 +1,129 @@
+﻿# Kanji in Context Lesson 007: 156-173
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+世界 [せかい] /world/
+世話 [せわ] /care (as in "take care of")/
+世代 [せだい] /generation/
+二世 [にせい] /second generation (immigrant, etc.)/
+中世 [ちゅうせい] /the Middle Ages, the medieval period/
+この世 [このよ] /the world, the present life/
+あの世 [あのよ] /the next world, the afterlife/
+世の中 [よのなか] /the world, life/
+世界 [せかい] /world/
+文学界 [ぶんがくかい] /literary world/
+政界 [せいかい] /political world/
+財界 [ざいかい] /financial world/
+限界 [げんかい] /limit, bounds/
+倍 [ばい] /double, twice, two times/
+～倍 [～ばい] /~fold, ~magnification/
+十二時半 [じゅうにじはん] /twelve-thirty/
+半年 [はんとし] /a half year/
+半分 [はんぶん] /half/
+前半 [ぜんはん] /the first half/
+後半 [こうはん] /the second half/
+大半 [だいはん] /the greater part of, the larger portion of, the majority of, for the most part/
+三十代半ば [さんじゅうだいなかば] /one's middle thirties/
+全部 [ぜんぶ] /all/
+日本全国 [にほんぜんこく] /all over Japan, all parts of Japan/
+全体主義 [ぜんたいしゅぎ] /totalitarianism/
+全く [まったく] /quite, entirely, thoroughly, completely/
+全うする [まっとうする] /accomplish, fulfill/
+時間 [じかん] /time/
+年間 [ねんかん] /yearly, a year/
+夜間 [やかん] /at night, night (school)/
+間 [あいだ] /interval, gap, space, distance/
+日本間 [にほんま] /Japanese-style room/
+洋間 [ようま] /Western-style room/
+茶の間 [ちゃのま] /living room/
+人間 [にんげん] /human being, mankind/
+世間 [せけん] /the world, people/
+～回 [～かい] /~ time(s)/
+前回 [ぜんかい] /last time/
+今回 [こんかい] /this time/
+次回 [じかい] /next time/
+回答 [かいとう] /reply, answer/
+回る [まわる] /turn (round), go (round)/
+回り道 [まわりみち] /detour, roundabout way/
+回向 [えこう] /hold a memorial service/
+先週 [せんしゅう] /last week/
+今週 [こんしゅう] /this week/
+来週 [らいしゅう] /next week/
+～週間 [～しゅうかん] /~ week (s)/
+週末 [しゅうまつ] /weekend/
+週休二日性 [しゅうきゅうふつかせい] /the five-day workweek system/
+毎日 [まいにち] /every day/
+毎週 [まいしゅう] /every week/
+毎月 [まいげつ] /every month/
+毎年 [まいねん] /every year/
+体 [からだ] /body/
+体力 [たいりょく] /physical strength/
+体格 [たいかく] /physique, build/
+大体 [だいたい] /on the whole, by and large, roughly, for the most part; main (points)/
+一体 [いったい] /What on earth (did you do, etc.)/
+一体になる [いったいになる] /become one with, be united/
+世間体 [せけんてい] /appearance/
+体裁 [ていさい] /appearance, form, style/
+頭 [あたま] /head/
+頭痛 [ずつう] /headache/
+先頭 [せんとう] /the forefront, the head, the lead, the top/
+～頭 [～とう] /(counter for big animals)/
+東京音頭 [とうきょうおんど] /Tokyo Ondo, Tokyo Dance Song/
+頭文字 [かしらもじ] /the first letter (of a word), initials/
+口 [くち] /mouth/
+入口 [いりぐち] /entrance/
+出口 [でぐち] /exit/
+早口で [はやくちで] /(speak) fast/
+火口 [かこう] /(volcanic) crater/
+口述試験 [こうじゅつしけん] /oral examination/
+異口同音に [いくどうおんに] /with one voice, with one accord/
+目 [め] /eye/
+お目にかかる [おめにかかる] /see (honorific)/
+目安 [めやす] /standard, yardstick, criterion/
+目上の人 [めうえのひと] /one's superior, one's senior/
+目下の人 [めしたのひと] /one's inferior, one's junior/
+目前 [もくぜん] /before one's eye, immediate, impending/
+目的 [もくてき] /purpose/
+目標 [もくひょう] /goal, objective/
+面目 [めんぼく] /face, honor, reputation/
+目の当たりに [まのあたりに] /before one's eyes/
+耳 [みみ] /ear/
+早耳 [はやみみ] /sharp-eared/
+耳鼻科 [じびか] /otolaryngology/
+手 [て] /hand/
+切手 [きって] /(postage) stamp/
+手前 [てまえ] /this side/
+手間 [てま] /time, labor, effort/
+手伝う [てつだう] /help, assist/
+上手な [じょうずな] /skilled, good (tennis player, drawing, etc.)/
+下手な [へたな] /unskillful, poor (tennis player, drawing, etc.)/
+選手 [せんしゅ] /athlete, player/
+手綱 [たづな] /reins/
+足 [あし] /foot, leg, paw/
+～足 [～そく] /~ pair(s) of (shoes, socks, etc.)/
+不足 [ふそく] /shortage, insufficiency; lack, be short of/
+水不足 [みずふそく] /water shortage/
+足りる [たりる] /be enough, be sufficient/
+足す [たす] /add, supply/
+足袋 [たび] /Japanese-style socks/
+心 [こころ] /mind, heart, spirit/
+本心 [ほんしん] /one's real intention, mind/
+中心 [ちゅうしん] /center, middle/
+関心 [かんしん] /concern, interest/
+感心 [かんしん] /admire, be very impresed/
+感心な [かんしんな] /admirable/
+心中 [しんじゅう] /double suicide; commit suicide together/
+居心地がいい [いごこちがいい] /comfortable, cozy (room), feel at home/
+力 [ちから] /power, force (physical) strength/
+力仕事 [ちからしごと] /physical labor, job that requires muscle power/
+力強い [ちからつよい] /powerful, mighty, strong/
+学力 [がくりょく] /academic ability/
+体力 [たいりょく] /(physical) strength/
+全力で [ぜんりょくで] /with all one's might, to the best of one's ability/
+能力 [のうりょく] /ability, capacity/
+努力 [どりょく] /effort; make efforts/
+権力 [けんりょく] /power, authority/
+原子力発電所 [げんしりょくはつでんしょ] /nuclear power plant/
+馬力 [ばりき] /horsepower, energy (to do work)/
+力量 [りきりょう] /ability/
+#end

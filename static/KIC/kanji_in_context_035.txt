@@ -1,0 +1,63 @@
+﻿# Kanji in Context Lesson 035 : 536-546
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+民主主義 [みんしゅしゅぎ] /democracy/
+国民 [こくみん] /people, nation/
+住民 [じゅうみん] /inhabitants, residents/
+人民 [じんみん] /the people, citizens/
+難民 [なんみん] /refugee/
+民間 [みんかん] /private (enterprise, company, etc.)/
+民族 [みんぞく] /people, ethnic group/
+民 [たみ] /people/
+留守 [るす] /absence from home/
+留守番電話 [るすばんでんわ] /answering machine/
+守る [まもる] /protect, keep (a promise, etc.)/
+見守る [みまもる] /keep an eye on/
+子守歌 [こもりうた] /lullaby/
+保守的な [ほしゅってきな] /conservative/
+住宅 [じゅうたく] /house/
+住宅地 [じゅうたくち] /residential area/
+宅地 [たくち] /land for housing/
+自宅 [じたく] /one's own home/
+帰宅 [きたく] /go home/
+宅配便 [たくはいびん] /home delivery service/
+水道管 [すいどうかん] /water pipe/
+気管 [きかん] /trachea/
+管理 [かんり] /manage/
+管理職 [かんりしょく] /manager, management/
+管 [くだ] /pipe, tube/
+外交官 [がいこうかん] /diplomat/
+半官半民 [はんかんはんみん] /semi-governmental/
+国務長官 [こくむちょうかん] /the Secretary of State (of the U.S.)/
+官房長官 [かんぼうちょうかん] /the Chief Cabinet Secretary (of Japan)/
+次官 [じかん] /secretary of a ministry/
+県庁 [けんちょう] /prefectural office/
+官庁街 [かんちょうがい] /civic center district where lots of government offices are located/
+文化庁 [ぶんかちょう] /the Cultural Affairs Agency/
+警察庁 [けいさつちょう] /the National Police Agency/
+警視庁 [けいしちょう] /the Tokyo Metropolitan Police/
+気象庁 [きしょうちょう] /the Meteorological Agency/
+庭 [にわ] /garden, yard, backyard, courtyard/
+家庭 [かてい] /one's home/
+校庭 [こうてい] /schoolyard, school ground/
+日本庭園 [にほんていえん] /Japanese garden/
+庭球 [ていきゅう] /tennis/
+床 [ゆか] /floor/
+床の間 [とこのま] /alcove in a Japanese style room/
+床屋 [とこや] /barbershop/
+病床 [びょうしょう] /sickbed/
+金庫 [きんこ] /safe/
+書庫 [しょこ] /library, stack (room)/
+車庫 [しゃこ] /garage/
+文庫本 [ぶんこぼん] /pocket edition, paperback/
+冷蔵庫 [れいぞうこ] /refrigerator/
+倉庫 [そうこ] /warehouse, storehouse/
+在庫 [ざいこ] /goods in stock, inventory/
+庫裏 [くり] /priests' living quarters at a Buddhist temple/
+廊下 [ろうか] /hall, corridor/
+画廊 [がろう] /picture or art gallery/
+回廊 [かいろう] /corridor/
+太郎 [たおう] /Taroo (male given name)/
+新郎 [しんろう] /bridegroom/
+# end

@@ -1,0 +1,54 @@
+﻿# Kanji in Context Lesson 070 : 929-938
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+明治神宮 [めいじじんぐう] /Meiji Shrine/
+宮殿 [きゅうでん] /palace/
+子宮 [しきゅう] /uterus, womb/
+お宮参り [おみやまいり] /visit to a shrine/
+宮内庁 [くないちょう] /the Imperial Household Agency/
+経営 [けいえい] /management; manage, run/
+経営者 [けいえいしゃ] /manager/
+運営 [うんえい] /manage, operate/
+営業 [えいぎょう] /business; conduct business/
+非営利団体 [ひえいりだんたい] /nonprofit organization/
+公営ギャンブル [こうえいギャンブル] /publically operated gambling/
+営む [いとなむ] /operate/
+辞書 [じしょ] /dictionary/
+辞職 [じしょく] /resign (from a job)/
+辞表 [じひょう] /letter of resignation/
+お世辞 [おせじ] /flattery/
+辞める [やめる] /resign/
+混乱 [こんらん] /be confused, be thrown into confusion/
+反乱 [はんらん] /rebellion/
+内乱 [ないらん] /civil war/
+乱 [らん] /rebellion/
+乱筆 [らんぴつ] /hasty handwriting/
+乱れる [みだれる] /go out of order, be confused/
+要求 [ようきゅう] /demand, request/
+請求 [せいきゅう] /claim, bill/
+求人 [きゅうじん] /help wanted (ad), job vacancy/
+求職 [きゅうしょく] /look for a job/
+探求 [たんきゅう] /search for, pursue/
+求める [もとめる] /demand, request, seek/
+救急車 [きゅうきゅうしゃ] /ambulance/
+救助 [きゅうしょ] /rescue/
+救命具 [きゅうめいぐ] /life preserver/
+救う [すくう] /help, rescue/
+野球 [やきゅう] /baseball/
+野球場 [やきゅうじょう] /baseball stadium/
+球場 [きゅうじょう] /baseball stadium/
+地球 [ちきゅう] /the earth/
+電球 [でんきゅう] /electric bulb/
+気球 [ききゅう] /balloon/
+球 [たま] /ball/
+礼儀  [れいぎ] /courtesy, decorum/
+礼儀正しい [れいぎたさひい] /courteous, polite/
+行儀 [ぎょうぎ] /manners/
+儀式 [ぎしき] /ceremony/
+地球儀 [ちきゅうぎ] /(terrestrial) globe/
+犠牲 [ぎせい] /sacrifice, victim/
+犠牲者 [ぎせいしゃ] /victim/
+犠牲 [ぎせい] /sacrifice, victim/
+犠牲者 [ぎせいしゃ] /victim/
+# end

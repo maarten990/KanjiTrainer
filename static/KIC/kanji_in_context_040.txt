@@ -1,0 +1,50 @@
+﻿# Kanji in Context Lesson 040 : 595-606
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+夫 [おっと] /husband/
+～夫人 [～ふじん] /Mrs. ~/
+夫婦 [ふうふ] /husband and wife, married couple/
+工夫 [くふう] /devise, work out (a plan)/
+妻 [つま] /wife/
+妻子 [さいし] /wife and child(ren)/
+～夫妻 [～ふさい] /Mr. and Mrs. ~/
+良妻賢母 [りょうさいげんぼ] /being a good wife and wise mother/
+夫婦 [ふうふ] /husband and wife, married couple/
+主婦 [しゅふ] /housewife/
+婦人服 [ふじんふく] /women's clothes/
+婦長 [ふちょう] /head nurse/
+姓 [せい] /surname, last name/
+同姓 [どうせい] /same surname/
+夫婦別姓 [ふうふべつせい] /use of different surnames by a married couple/
+旧姓 [きゅうせい] /one's maiden name/
+百姓 [ひゃくしょう] /farmer/
+花嫁 [はなよめ] /bride/
+嫁 [よめ] /bride/
+責任転嫁 [せきにんてんか] /shift the responsibility (for something on someone)/
+嫁ぐ [とつぐ] /get married/
+花婿 [はなむこ] /bridegroom/
+婿養子 [むこようし] /son-in-law who has married into the family/
+女婿 [じょせい] /son-in-law/
+娘 [むすめ] /(my) daughter, young woman/
+良い [よい] /good/
+最良の [さいりょうの] /best/
+消化不良 [しょうかふりょう] /indigestion/
+不良 [ふりょう] /delinquent/
+不良品 [ふりょうひん] /defective product/
+良心 [りょうしん] /conscience/
+野良犬 [のらいぬ] /ownerless or stray dog/
+飾る [かざる] /decorate, adorn/
+着飾る [きかざる] /dress up/
+修飾 [しゅうしょく] /modify (in grammar)/
+装飾品 [そうしょくひん] /ornament, decoration/
+ご飯 [ごはん] /cooked rice, meal, food/
+夕飯 [ゆうはん] /dinner/
+赤飯 [せきはん] /rice cooked with adzuki beans/
+飯 [めし] /cooked rice, meal, food/
+坂 [さか] /slope/
+登坂 [とうはん、とはん] /go up a slope/
+皆さん [みなさん] /everybody/
+皆勤 [かいきん] /perfect attendance (at work); have perfect attendance/
+皆無 [かいむ] /nonexistent/
+# end

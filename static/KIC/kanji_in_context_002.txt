@@ -1,0 +1,197 @@
+﻿# Kanji in Context Lesson 002 : 27-51
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.2
+# Paul Denisowski (paul@denisowski.org)
+今 [いま] /now/
+今週 [こんしゅう] /this week/
+今月 [こんげつ] /this month/
+今日 [こんにち] /today, nowadays/
+今日 [きょう] /today/
+今年 [ことし] /this year/
+今朝 [けさ] /this morning/
+今上陛下 [きんじょうへいか] /the reigning emporer/
+午前 [ごぜん] /morning/
+午後 [ごご] /afternoon/
+午後５時 [ごごごじ] /five o'clock p.m./
+前 [まえ] /in front of, before/
+名前 [なまえ] /name/
+人前で [ひとまえで] /in public/
+一人前 [いちにんまえ] /grown up, independent, full-fledged/
+午前 [ごぜん] /morning/
+午後 [ごご] /afternoon/
+その後 [そのご、そのあと] /after that/
+前後 [ぜんご] /front and behind, before and after, about/
+明後日 [みょうごにち、あさって] /the day after tomorrow/
+後ろ [うしろ] /behind, back/
+後で [あとで] /later/
+～（した）後 [～（した）あと] /after ~/
+後ほど [のちほど] /later/
+後れる [おくれる] /be behind (in one's work, schedule, etc.)/
+後続の [こうぞくの] /following (vehicle, etc.)/
+上 [うえ] /top; on, above/
+上着 [うわぎ] /coat, jacket/
+上手な [じょうずな] /skilled, good/
+地上 [ちじょう] /on the ground/
+川上 [かわかみ] /upper reaches of a river, upstream/
+値上げ [ねあげ] /price increase/
+上げる [あげる] /raise/
+上がる [あがる] /rise, go up/
+上り電車 [のぼりでんしゃ] /inbound train/
+上る [のぼる] /rise, go up (stairs)/
+上回る [うわまわる] /be more than, surpass/
+上せる [のぼせる] /to raise, record, bring up/
+上す [のぼす] /put on, put something on (top of)/
+上人 [しょうにん] /saint/
+地下鉄 [ちかてつ] /subway/
+下 [した] /bottom, under, beneath/
+下書き [したがき] /rough copy, draft/
+靴下 [くつした] /sock/
+下見 [したみ] /preliminary visit/
+川下 [かわしも] /lower reaches of river, downstream/
+～の下で [～のもとで] /under the supervision of/
+下水 [げすい] /sewage, drainage/
+下車 [げしゃ] /get off (a train)/
+上下 [じょうげ] /up and down, top and bottom/
+値下げ [ねさげ] /price reduction; lower prices/
+下げる [さげる] /bring down, lower/
+下ろす [おろす] /put down/
+下りる [おりる] /go down/
+下り電車 [くだりでんしゃ] /outbound train/
+下る [くだる] /go down, fall/
+下さる [くださる] /give (honorific)/
+見下す [みくだす] /despise, look down on (in contempt)/
+下手な [へたな] /unskillful, poor/
+中 [なか] /the inside, in the middle/
+中学校 [ちゅうがっこう] /junior high school/
+中国 [ちゅうごく] /China/
+中東 [ちゅうとう] /the Middle East/
+中年の [ちゅうねんの] /middle-aged/
+日中 [にっちゅう] /in the daytime/
+日中関係 [にっちゅうかんけい] /Sino-Japanese relations/
+一日中 [いちにちじゅう] /all day long/
+世界中 [せかいじゅう] /throughout the world/
+心中 [しんじゅう] /double suicide; commit suicide together/
+中小企業 [ちゅうしょうきぎょう] /small and medium-sized enterprises/
+横 [よこ] /side, beside/
+横切る [よこぎる] /cross/
+横顔 [よこがお] /profile/
+横断 [おうだん] /cross, go across/
+右 [みぎ] /right/
+右手 [みぎて] /right hand, arm/
+右足 [みぎあし] /right foot, leg/
+右翼 [うよく] /the right wing, rightist/
+左右する [さゆうする] /control, affect/
+左 [ひだり] /left/
+左手 [ひだりて] /left hand, arm/
+左足 [ひだりあし] /left foot, leg/
+左右する [さゆうする] /control, affect/
+左翼 [さよく] /the left wing, leftist/
+本 [ほん] /book/
+～本 [～ほん] /counter for long objects/
+日本 [にほん、にっぽん] /Japan/
+本心 [ほんしん] /one's real intention, one's right mind/
+本来 [ほんらい] /originally, from the first/
+本当に [ほんとうに] /truly, really/
+本当の [ほんとうの] /true, real/
+本 [もと] /the beginning, the origin/
+机 [つくえ] /desk/
+机上の空論 [きじょうのくうろん] /arm-chair theory/
+東 [ひがし] /east/
+東ヨーロッパ [ひがしヨーロッパ] /Eastern Europe/
+東アジア [ひがしアジア] /East Asia/
+中東 [ちゅうとう] /the Middle East/
+東京 [とうきょう] /Tokyo/
+東洋 [とうよう] /the East/
+関東 [かんとう] /the Kanto region/
+西 [にし] /west/
+西ヨーロッパ [にしヨーロッパ] /Western Europe/
+西アジア [にしアジア] /West Asia/
+東西南北 [とうざいなんぼく] /north, south, east, and west/
+西洋 [せいよう] /the West/
+関西 [かんさい] /the Kansai region/
+南 [みなみ] /south/
+南アメリカ [みなみアメリカ] /South America/
+東南アジア [とうなんアジア] /Southeast Asia/
+南下 [なんか] /go south/
+北 [きた] /north/
+北アメリカ [きたアメリカ] /North America/
+北風 [きたかぜ] /north wind/
+東北 [とうほく] /the Tohoku region, (the) northeast/
+北海道 [ほっかいどう] /Hokkaido/
+南北問題 [なんぼくもんだい] /the North-South problem/
+北方領土 [ほっぽうりょうど] /the Northern territories/
+方 [ほう] /direction, way/
+方向 [ほうこう] /direction/
+方々 [ほうぼう] /here and there, various places/
+食べ方 [たべかた] /way of eating, table manners/
+あの方 [あのかた] /the person over there (honorific)/
+行方 [ゆくえ] /whereabouts/
+白い [しろい] /white/
+白 [しろ] /white/
+真っ白 [まっしろ] /pure white, as white as snow/
+白人 [はくじん] /white person, Caucasian/
+明白な [めいはくな] /clear, obvious/
+白夜 [はくや] /nights under the midnight sun/
+白む [しらむ] /grow light/
+黒い [くろい] /black/
+黒 [くろ] /black/
+白黒テレビ [しろくろテレビ] /black-and-white television/
+黒字 [くろじ] /surplus, black (as in "be in the black")/
+真っ黒な [まっくろな] /pitch black/
+黒人 [こくじん] /black person/
+赤い [あかい] /red/
+赤 [あか] /red/
+赤らめる [あからめる] /blush/
+真っ赤な [まっかな] /bright, deep red/
+赤道 [せきどう] /the equator/
+赤外線 [せきがいせん] /infrared light/
+赤十字 [せきじゅうじ] /the Red Cross/
+赤銅色 [しゃくどういろ] /bronze(-colored) /
+青い [あおい] /blue/
+青 [あお] /blue/
+青白い [あおじろい] /pale/
+真っ青な [まっさおな] /deep blue, pale/
+青春時代 [せいしゅんじだい] /youth, springtime of life/
+青少年 [せいしょうねん] /juveniles, young people/
+緑青 [ろくしょう] /copper, green rust patina/
+先生 [せんせい] /teacher, master/
+先週 [せんしゅう] /last week/
+先々週 [せんせんしゅう] /the week before last/
+先月 [せんげつ] /last month/
+先々月 [せんせんげつ] /the month before last/
+先日 [せんじつ] /the other day/
+先に [さきに] /previously, beforehand/
+先ほど [さきほど] /a little while ago/
+先生 [せんせい] /teacher, master/
+学生 [がくせい] /student/
+生徒 [せいと] /pupil, student/
+生活 [せいかつ] /living, life/
+生長 [せいちょう] /growth (of a plant)/
+一生 [いっしょう] /one's (whole) life/
+誕生日 [たんじょうび] /birthday/
+生まれる [うまれる] /be born/
+生む [うむ] /yield, produce/
+生きる [いきる] /live/
+生き生きした [いきいきした] /lively, fresh/
+生かす [いかす] /make the most of, make the best use of/
+生け花 [いけばな] /the art of flower arrangement/
+生ビール [なまビール] /draft beer/
+生野菜 [なまやさい] /fresh vegetables/
+生える [はえる] /grow, come out/
+芝生 [しばふ] /lawn, plot of grass/
+生地 [きじ] /cloth/
+生糸 [きいと] /raw silk/
+生い立ち [おいたち] /one's background, one's personal history, one's origin/
+学校 [がっこう] /school/
+学生 [がくせい] /student/
+大学 [だいがく] /university, college/
+学長 [がくちょう] /president (of a university), provost/
+～学部 [～がくぶ] /department of ~, school of ~/
+入学 [にゅうがく] /enter a school/
+学ぶ [まなぶ] /learn/
+学校 [がっこう] /school/
+小学校 [しょうがっこう] /elementary school/
+中学校 [ちゅうがっこう] /junior high school/
+高校 [こうこう] /high school/
+校長 [こうちょう] /principal, schoolmaster/
+#end

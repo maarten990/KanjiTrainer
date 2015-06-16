@@ -1,0 +1,48 @@
+﻿# Kanji in Context Lesson 097 : 1221-1230
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+頻繁に [ひんぱんに] /frequently/
+頻発 [ひんぱつ] /occur frequently/
+頻出 [ひんしゅつ] /appear frequently/
+頻度 [ひんど] /frequency/
+事項 [じこう] /matters, items/
+項目 [こうもく] /item, heading/
+条項 [じょうこう] /article, clause, provision/
+要項 [ようこう] /guidelines or handbook (on applying to school, etc.)/
+販売 [はんばい] /sell, market, deal in/
+自動販売機 [じどうはんばいき] /vending machine/
+市販 [しはん] /market/
+販路 [はんろ] /market (for goods), outlet/
+贈り物 [おくりもの] /gift/
+贈る [おくる] /give a present/
+贈与税 [ぞうよぜい] /gift tax/
+贈答品 [ぞうとうひん] /gift/
+寄贈 [きそう] /give a present, donate/
+賄賂 [わいろ] /bribe/
+贈賄 [ぞうわい] /giving a bribe, bribery/
+収賄 [しゅうわい] /accepting a bribe, bribery/
+贈収賄事件 [ぞうしゅうわいじけん] /bribery case/
+賄う [まかなう] /cover the cost of, provide (meals, etc.)/
+賄賂 [わいろ] /bribe/
+賢明な [けんめいな] /wise, intelligent/
+賢人会議 [けんじんかいぎ] /wise people's forum/
+良妻賢母 [りょうさいけんぼ] /good wife and wise mother/
+賢い [かしこい] /wise/
+堅い [かたい] /firm, hard, solid/
+堅固な [けんごな] /strong, solid/
+堅実な [けんじつな] /reliable, sound, solid/
+中堅企業 [ちゅうけんきぎょう] /medium-sized company/
+堅持 [けんじ] /hold fast to, adhere to/
+臨時 [りんじの] /temporary, extraordinary/
+臨時国会 [りんじこっかい] /extraordinary session of the Diet/
+臨床心理学 [りんしょうしんりがく] /clinical psychology/
+臨終 [りんじゅう] /one's last moments, one's death/
+臨む [のぞむ] /face (the ocean, a tough situation, etc.)/
+新幹線 [しんかんせん] /the Shinkansen, Japan's bullet train/
+幹部 [かんぶ] /managing staff, executive members, key officers/
+幹事長 [かんじちょう] /secretary-general, executive secretary (of a party)/
+根幹 [こんかん] /basis, root, nucleus/
+語幹 [ごかん] /stem of word/
+幹 [みき] /tree trunk, important part/
+# end

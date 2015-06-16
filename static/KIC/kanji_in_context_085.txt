@@ -1,0 +1,57 @@
+﻿# Kanji in Context Lesson 085 : 1090-1100
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+欠席届 [けっせきとどけ] /report of absence (from school)/
+欠勤届 [けっきんとどけ] /report of absence (from work)/
+届ける [とどける] /report, notify, send/
+届け先 [とどけさき] /where to report, receiver's address/
+届く [とどく] /be delivered, reach, arrive/
+属する [ぞこする] /belong to (an organization, etc.), be affiliated with/
+所属 [しょぞく] /belong to (an organization, etc.), be affilitated with/
+金属 [きんぞく] /metal/
+属性 [ぞくせい] /attributes, properties/
+発展 [はってん] /develop/
+発展途上国 [はってんとじょうこく] /developing countries/
+展示 [てんじ] /exhibit/
+展望 [てんぼう] /view, prospect/
+展開 [てんかい] /develop, unfold/
+宮殿 [きゅうでん] /palace/
+御殿 [ごてん] /palace/
+殿下 [でんか] /His or Her Highness/
+皇太子殿下 [こうたいしでんか] /His Imperial Highness the Crown Prince/
+殿様 [とのさま] /feudal lord/
+~殿 [~との] /Mr. or Mrs. ~ (used in official documents)/
+凍る [こおる] /freeze, be frozen/
+冷凍食品 [れいとうしょくひん] /frozen food/
+凍結 [とうけつ] /be frozen, freeze (assets, etc.)/
+凍傷 [とうしょう] /frostbite/
+凍死 [とうし] /freeze to death/
+凍える [こごえる] /be frozen or chilled/
+氷 [こおり] /ice/
+氷山 [ひょうざん] /iceberg/
+氷河 [ひょうが] /glacier/
+流氷 [りゅうひょう] /ice floe/
+氷点下 [ひょうてんか] /below the freezing point/
+氷室 [ひむろ] /icehouse/
+永住 [えい] /reside permanently/
+永遠に [えいえんに] /eternally/
+永眠 [えいみん] /sleep eternally, die/
+永続 [えいぞく] /continue forever or perpetually/
+永い [ながい] /long (time)/
+永田町 [ながたちょう] /Nagatacho (the area in Tokyo where the Diet Building is located)/
+久しぶりに [ひさしぶりに] /after a long time/
+永久に [えいきゅうに] /permanently, eternally, perpetually/
+持久力 [じきゅうりょく] /endurance, tenacity/
+久遠 [くおん] /eternity, time immemorial/
+普及 [ふきゅう] /come into wide use, spread/
+言及 [げんきゅう] /refer to, mention/
+及ぶ [およぶ] /reach, extend to, amount to/
+及び [および] /and (formal expression)/
+及ばす [およばす] /exert (influence on)/
+幼稚園 [ようちえん] /kindergarten/
+幼稚な [ようちな] /childish, infantile, unrefined/
+幼い [おさない] /very young, childish, infantile/
+幼稚園 [ようちえん] /kindergarten/
+幼稚な [ようちな] /childish, infantile, unrefined/
+# end

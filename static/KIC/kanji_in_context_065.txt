@@ -1,0 +1,68 @@
+﻿# Kanji in Context Lesson 065 : 871-883
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+灯台 [とうだい] /lighthouse/
+点灯 [てんとう] /turn a light on/
+灯 [ひ] /light/
+畑 [はたけ] /field, vegetable field, orchard/
+みかん畑 [みかんばだけ] /mikan orchard/
+田畑 [たはた] /the fields, rice paddies and vegetable fields/
+災害 [さいがい] /disaster, accident/
+災難 [さいなん] /misfortune, mishap/
+火災 [かさい] /fire/
+天災 [てんさい] /natural disaster/
+人災 [じんさい] /disaster caused by human neglect/
+関東大震災 [かんとうだいしんさい] /the great earthquake that struck the Kanto area in 1923/
+災い [わざわい] /misfortune; cause misfortune/
+灰 [はい] /ash/
+灰皿 [はいざら] /ashtray/
+火山灰 [かざんばい] /volanic ash/
+灰色 [はいいる] /gray/
+石灰 [せっかい] /chemical lime/
+石灰岩 [せっかいがん] /limestone/
+石炭 [せきたん] /coal/
+炭素 [たんそ] /carbon/
+二酸化炭素 [にさんかたんそ] /carbon dioxide/
+炭酸 [たんさん] /carbonic acid/
+炭酸ガス [たんさんガス] /carbonic acid gas/
+炭 [すみ] /charcoal/
+炭鉱 [たんこう] /coal mine/
+鉱山 [こうざん] /mine/
+鉱業 [こうぎょう] /mining/
+鉱物 [こうぶつ] /mineral/
+精神 [せいしん] /spirit, mind/
+精力 [せいりょく] /energy/
+精子 [せいし] /spermatozoon/
+筆不精 [ふでぶしょう] /someone who doesn't write letters often/
+精進 [しょうじん] /devote oneself/
+精進料理 [しょうじんりょうり] /vegetarian food (served at a temple)/
+申請書 [しんせいしょ] /application form (for a grant, permission, etc.)/
+要請 [ようせい] /request/
+下請け [したうけ] /subcontract/
+普請 [ふしん] /construction; build, construct/
+請う [こう] /ask for (help, assistance, etc.)/
+教育 [きょういく] /education; educate/
+体育 [たいいく] /physical education/
+発育 [はついく] /growth (of an animal)/
+生育 [せいいく] /growth (of a plant)/
+育つ [そだつ] /grow/
+育てる [そだてる] /bring up, raise (a child)/
+絹 [きぬ] /silk/
+人絹 [じんけん] /artificial silk/
+綿 [わて、めん] /cotton/
+木綿 [もめん] /cotton/
+綿糸 [めんし] /cotton thread/
+海綿 [かいめん] /sponge/
+綿密な [めんみつな] /detailed (plan, schedule, etc.)/
+組織 [そしき] /organization; organize, set up/
+織物 [おりもの] /textiles/
+織る [おる] /weave/
+織機 [しょっき] /loom/
+編集 [へんしゅう] /edit/
+編集長 [へんしゅちょう] /chief editor/
+短編小説 [たんぺんしょうせつ] /short novel/
+編む [あむ] /knit/
+手編みの [てあみの] /hand-knit/
+編み物 [あみもの] /knitting/
+# end

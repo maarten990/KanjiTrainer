@@ -1,0 +1,78 @@
+﻿# Kanji in Context Lesson 013: 267-279
+# by Koichi Nishiguchi, Tamaki Kono, ISBN 4-7890-0753-7
+# Version 1.0  
+# Paul Denisowski (paul@denisowski.org)
+進む [すすめ] /advance, move forward, make progress/
+進学 [しんがく] /enter the next stage of education, go on to the next grade/
+前進 [ぜんしん] /go ahead, advance/
+進歩 [しんぽ] /advance/
+先進国 [せんしこく] /advanced country/
+盗む [ぬすむ] /steal/
+強盗 [ごうとう] /burglar, robber/
+盗作 [とうさく] /plagiarism/
+受ける [うける] /received, be given/
+引き受ける [ひきうける] /undertake, accept (a job, assignmnet, etc.)/
+受け取る [うけとる] /receive, accept, understand/
+受け身 [うけみ] /passiveness, passivity, passive voice/
+受け付け [うけつけ] /reception or information desk, acceptance, receipt/
+授受 [じゅじゅ] /give and receive/
+受理 [じゅり] /accept, receive/
+受ける [うける] /pass (an exam)/
+取る [とる] /take, get, hold/
+取り出す [とりだす] /take out/
+取り入れる [とりいれる] /accept, adopt, borrow, harvest/
+受け取る [うけとる] /get, receive, accept, interpret, understand/
+取材 [しゅざい] /collect, gather (news material, data, etc.)/
+合う [あう] /fit, suit, match/
+間に合う [まにあう] /be in time, be enough/
+お見合い [おみあい] /meet a prospective marriage partner/
+合わせる [あわせる] /put together, add, tune (to)/
+会合 [かいごう] /meeting, gathering; meet, gather/
+集合 [しゅうごう] /meet, gather, assemble/
+合意 [ごうい] /agreement; agree/
+合格 [ごうかく] /pass (an entrance or certificate exam)/
+合併 [がっぺい] /merger/
+合戦 [かっせん] /battle/
+吸う [すう] /smoke, inhale, suck (blood), absorb/
+吸い取る [すいとる] /absorb, suck up, soak up, squeeze (money out of someone)/
+呼吸 [こきゅう] /respiration, breathing; breathe/
+吸収 [きゅうしゅう] /absorb, assimilate/
+拾う [ひろう] /pick up, gather/
+拾得物 [しゅうとくぶつ] /a find, something found/
+拾万円 [じゅうまんえん] /one hundred thousand yen/
+誘う [さそう] /invite/
+誘発 [ゆうはつ] /induce, cause, trigger/
+誘惑 [ゆうわく] /tempt, allure/
+勧誘 [かにゅう] /invite, persuade, induce/
+誘拐 [ゆうかい] /kidnap/
+疲れる [つかれる] /be tired, grow weary/
+疲れ [つかれ] /tiredness, fatigue, weariness/
+気疲れ [きづかれ] /be mentally tired, worry, be bored/
+疲労 [ひろう] /tiredness, fatigue, weariness; be tired/
+比べる [くらべる] /compare/
+見比べる [みくらべる] /compare (visually)/
+比重 [ひじゅう] /weight/
+比較 [ひかく] /compare/
+比例 [ひれい] /be proportional, be in proportion to/
+決める [きめる] /decide, judge/
+決定 [けってい] /decide, settle, determine/
+決定的な [けっていてきな] /definite, final, decisive/
+決心 [けっしん] /determine, be determined, make up one's mind, resolve/
+決して [けっして] /never/
+伝える [つたえる] /tell, report, communicate/
+手伝う [てつだう] /help, assist/
+言い伝え [いいつたえ] /legend, tradition/
+伝う [うたう] /go along/
+伝言 [でんごん] /message; give or send a message/
+伝統 [でんとう] /tradition/
+伝説 [でんせつ] /legend/
+流れる [ながれる] /flow/
+流す [ながす] /pour, let flow, drain, spread (rumors), broadcast/
+上流 [じょうりゅう] /upper stream, upper class/
+上流階級 [じょうりゅうかいきゅう] /upper class/
+中流 [ちゅうりゅう] /middle stream, middle class/
+下流 [かりゅう] /lower stream/
+一流ホテル [いちりゅうホテル] /top-ranking hotel, one of the best hotels/
+流行 [りゅうこう] /fashion, vogue, craze, fad, popularity; be in fashion, be popular/
+流布 [るふ] /circulate, spread/
+#end
