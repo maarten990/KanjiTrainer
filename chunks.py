@@ -102,7 +102,7 @@ class ChunkGenerator(object):
                 kanji, meaning, stroke_count = self.kanji[grade][index]
                 options = self.__choice_list(kanji, answer_difficulty, grade,
                                          n_answers - 1, reversed_bool)
-                hint = self.__hint(reversed_bool, kanji, grade)
+                hint = self.__hint(reversed_bool, question_type, kanji, grade)
                 if not reversed_bool:
                     question = "What is the meaning of the following kanji?"
                     options += [meaning]
@@ -123,15 +123,13 @@ class ChunkGenerator(object):
                 item, _, item_meaning = choice 
 
                 def check_compatibility(element0):
-                    print(element0)
-                    print(selection)
                     if element0[0] in [x[0] for x in selection] + [item]:
                         return False
                     if element0[2].lower() in [x[2].lower() for x in selection] + [item_meaning]:
                         return False
                     if "(surname)" in element0[2].lower():
                         return False 
-                    if "～" in element0[0] or "~" in element0[0]:
+                    if "～" in element0[0] or "~" in element0[0] or "～" in element0[0]:
                         return False
                     return True
 
@@ -169,7 +167,7 @@ class ChunkGenerator(object):
                 sampled_selection = random.sample(selection,n_answers - 1)
 
                 #remove dublicates: on kanji and meaning
-                hint = self.__hint(reversed_bool, kanji, grade)  
+                hint = self.__hint(reversed_bool, question_type, item, grade)  
                 if not reversed_bool:
                     question = "What is the meaning of the following word?"
                     options = [x[2] for x in sampled_selection] + [item_meaning]
@@ -202,36 +200,54 @@ class ChunkGenerator(object):
 
         return [meaning[0] for meaning in meanings]
 
-    def __hint(self, reversed_bool, item, grade):
-        filePath = "static/KanjiPics/" + item + ".png"
-        query = ('SELECT radicals FROM kanji WHERE grade=' + str(grade) + \
-                     ' AND literal = ' + repr(item))
-        kanji_radicals = fetch_one(query)
-        if not reversed_bool:
-            radical_text = "<ul>" 
-            for radical in kanji_radicals[0].strip('\n').split(', '):
-                if radical ==item:
-                    radical_text += "<li>" + radical + \
-                                    ": ? (This kanji is also a radical itself)""</li>"
-                else:
-                    radical_text += "<li>" + radical + ": " + \
-                                    self.radical_meanings[radical] + "</li>"
-            radical_text += "</ul>"
-            hint = "Hint:<br> The kanji " + item + \
-                   " consist of the following radicals:<br>" + radical_text
-            if os.path.isfile(filePath):
-               hint += '<img src="' + filePath + '" height="25%" width="25%">'
-        else:
-            radical_text = "<ul>" 
-            for radical in kanji_radicals[0].strip('\n').split(', '):
-                if radical != item:
-                    radical_text += "<li>" + self.radical_meanings[radical] + "</li>"
-            radical_text += "</ul>"
-            if radical_text != "<ul></ul>":
-                hint = "Hint:<br> The kanji consist of the following radicals:" + \
-                   "<br>" + radical_text
+    def __hint(self, reversed_bool, question_type, item, grade):
+        if question_type == "kanji":
+            filePath = "static/KanjiPics/" + item + ".png"
+            query = ('SELECT radicals FROM kanji WHERE grade=' + str(grade) + \
+                         ' AND literal = ' + repr(item))
+            kanji_radicals = fetch_one(query)
+            if not reversed_bool:
+                radical_text = "<ul>" 
+                for radical in kanji_radicals[0].strip('\n').split(', '):
+                    if radical ==item:
+                        radical_text += "<li>" + radical + \
+                                        ": ? (This kanji is also a radical itself)""</li>"
+                    else:
+                        radical_text += "<li>" + radical + ": " + \
+                                        self.radical_meanings[radical] + "</li>"
+                radical_text += "</ul>"
+                hint = "Hint:<br> The kanji " + item + \
+                       " consist of the following radicals:<br>" + radical_text
+                if os.path.isfile(filePath):
+                   hint += '<img src="' + filePath + '" height="25%" width="25%">'
             else:
-                hint = "Hint:<br> The kanji does not consist of any radicals"    
+                radical_text = "<ul>" 
+                for radical in kanji_radicals[0].strip('\n').split(', '):
+                    if radical != item:
+                        radical_text += "<li>" + self.radical_meanings[radical] + "</li>"
+                radical_text += "</ul>"
+                if radical_text != "<ul></ul>":
+                    hint = "Hint:<br> The kanji consist of the following radicals:" + \
+                       "<br>" + radical_text
+                else:
+                    hint = "Hint:<br> The kanji does not consist of any radicals"
+        else:
+            if not reversed_bool:
+                kanji_list = []
+                for i in item:
+                    if i in self.vocab_dict:
+                        kanji_list.append(i)
+                query = ('SELECT meanings FROM kanji WHERE literal IN ' + \
+                         str(kanji_list).replace("[","(").replace("]",")"))
+                meanings = fetch_all(query)
+                hint_data = "<ul>"
+                for x in meanings:
+                    hint_data += "<li>" + x[0] + "</li>"
+                hint_data += "</ul>"               
+                hint = "This word consist of the following kanji(s):" + \
+                       "<br>" + hint_data 
+            else:
+                hint = "lol hint"    
         return hint
 
 class Chunk(object):
