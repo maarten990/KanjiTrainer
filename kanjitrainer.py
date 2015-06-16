@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from flask import Flask, jsonify, request, make_response, g
+from flask import Flask, jsonify, request, make_response, g, redirect, url_for
 from argparse import ArgumentParser
 from collections import defaultdict
 from proficiency import get_all, predict
@@ -24,6 +24,7 @@ with open('feedback.html', 'r') as f:
 with open('welcome.html', 'r') as f:
     welcome_page = f.read()
 
+user_level = {} 
 user_chunks = {}
 user_parameters = {}
 kanji = defaultdict(lambda: [])
@@ -41,7 +42,7 @@ chunkgen = ChunkGenerator(kanji, radicalMeanings)
 db.close()
 
 
-@app.route('/questions', methods=['GET'])
+@app.route('/questions', methods=['POST', 'GET'])
 def questions():
     # check if the user already exists
     try:
@@ -54,14 +55,18 @@ def questions():
         # create a unique id
         id = uuid.uuid1().hex
 
+    # set user_level 
+    if request.method == 'POST': 
+        user_level[id] = int(request.form.get('level'))
+        
     # randomly sample the parameters unless the debug option is given
     if request.args.get('debug'):
         params = Parameters(**{p: request.args.get(p) for p in Parameters.params()
                                if request.args.get(p) != None})
     else:
-        params = sample_parameters()
+        params = sample_parameters(user_level[id])
         print(params)
-
+        
     user_parameters[id] = params
 
     resp = make_response(html_page)
@@ -117,7 +122,7 @@ def initial_data():
             chunk = chunkgen.generate(params)
         except Exception as e:
             print("---Error----:", str(e))
-            params = sample_parameters()
+            params = sample_parameters(user_level[id])
             user_parameters[id] = params
 
     user_chunks[id] = chunk
@@ -146,7 +151,7 @@ def feedback():
 
         db_commit(query, [hist, params, score])
 
-        return html_page
+        return redirect(url_for('questions'))
 
 
 def main():
