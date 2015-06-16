@@ -1,4 +1,5 @@
 var page_loaded_time;
+var hint_clicked_time;
 var n_buttons;
 
 $(document).ready(function() {
@@ -30,7 +31,7 @@ $(document).ready(function() {
 
 function validate(value) {
     time_elapsed = new Date() - page_loaded_time;
-    data = {'answer': value, 'time': time_elapsed, 'hint': !$("#hint_button").is(":visible")};
+    data = {'answer': value, 'time': time_elapsed, 'hint': !$("#hint_button").is(":visible"), 'hint_time':hint_clicked_time};
     set_data('/_validate', data);
 }
 
@@ -70,6 +71,7 @@ function set_data(url, post_data) {
                }},
                'json');
 
+    hint_clicked_time = 0;
     page_loaded_time = new Date();
 }
 
@@ -101,6 +103,7 @@ function validate_choice(choice) {
 }
 
 function show_hint() {
+    hint_clicked_time = new Date() - page_loaded_time;
     $.post('/giveHint', {},
            function(data) {
                 $("#hint").html(data.hint);
