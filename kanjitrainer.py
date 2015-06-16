@@ -89,9 +89,10 @@ def validate():
     answer = request.form['answer']
     time_taken = request.form['time']
     hint_requested = request.form['hint']
+    hint_time = request.form['hint_time']
 
     chunk = user_chunks[id]
-    correct = chunk.validate_previous_question(answer, time_taken, hint_requested)
+    correct = chunk.validate_previous_question(answer, time_taken, hint_requested, hint_time)
 
     # if the chunk has ended, do something
     if chunk.done():
