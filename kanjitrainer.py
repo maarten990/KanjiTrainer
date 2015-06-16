@@ -115,7 +115,8 @@ def initial_data():
     while not chunk:
         try:
             chunk = chunkgen.generate(params)
-        except:
+        except Exception as e:
+            print("---Error----:", str(e))
             params = sample_parameters()
             user_parameters[id] = params
 

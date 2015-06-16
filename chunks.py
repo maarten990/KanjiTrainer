@@ -88,6 +88,9 @@ class ChunkGenerator(object):
                 new_kanji_indices.append(index)
         kanji_indices = new_kanji_indices
 
+        if len(kanji_indices) < size:
+            raise "Not enough kanji found for these paramaters"
+
         # translate the answer_similarity measure to an easy/normal/hard scale
         # as used by compareKanji.py
         answer_difficulty = ('easy' if answer_similarity <= 0.33 else 'normal'
@@ -117,44 +120,54 @@ class ChunkGenerator(object):
                     kanji, meaning, stroke_count = self.kanji[grade][index]
                 compound_choice = self.vocab_dict[kanji]
                 choice = random.choice(compound_choice)
-                item, _, item_meaning = choice
-                selection = [x for x in compound_choice if x != choice] 
-                random.shuffle(selection)            
+                item, _, item_meaning = choice 
+
+                def check_compatibility(element0):
+                    print(element0)
+                    print(selection)
+                    if element0[0] in [x[0] for x in selection] + [item]:
+                        return False
+                    if element0[2].lower() in [x[2].lower() for x in selection] + [item_meaning]:
+                        return False
+                    if "(surname)" in element0[2].lower():
+                        return False 
+                    if "～" in element0[0] or "~" in element0[0]:
+                        return False
+                    return True
+
+                selection = []
+                for x in compound_choice:
+                    if x != choice and check_compatibility(x):
+                        selection.append(x)
+                random.shuffle(selection)          
                 
                 #easy: option compounds
                 #normal: option compounds and 0.5 item compounds
-                #hard: option compounds and all item compounds 
+                #hard: option compounds and all item compounds
                 if answer_difficulty == "easy":
                     selection = []
                 elif answer_similarity == "normal":
                     selection = selection[::2]
 
                 options = self.__choice_list(kanji, answer_difficulty, grade,
-                                         n_answers - 1, reversed_bool)
-
-                def check_compatibility(element):
-                    for i in [0,2]:
-                        if element[i] in [x[i] for x in selection]:
-                            return False
-                        if "(surname)" in element[2] or "~" in element[2]:
-                            return False 
-                    return True
+                                             n_answers - 1, reversed_bool)
 
                 for option in options:
                     if option in self.vocab_dict:
-                        if check_compatibility(self.vocab_dict[option]):
-                            selection.extend(self.vocab_dict[option])
+                        for vocab in self.vocab_dict[option]:
+                            if check_compatibility(vocab):
+                                selection.append(vocab)
 
                 #make we have enough anwsers to present
                 while len(selection) < n_answers - 1:
                     kanji, _, _ = self.kanji[grade][random.choice(kanji_indices)]
                     if kanji in self.vocab_dict:
-                        if check_compatibility(self.vocab_dict[kanji]):
-                            selection.extend(self.vocab_dict[kanji])
+                        for vocab in self.vocab_dict[kanji]:
+                            if check_compatibility(vocab):
+                                selection.append(vocab)
 
                 sampled_selection = random.sample(selection,n_answers - 1)
 
-                print(sampled_selection)
                 #remove dublicates: on kanji and meaning
                 hint = self.__hint(reversed_bool, kanji, grade)  
                 if not reversed_bool:
