@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn import cross_validation, preprocessing, decomposition
 
 
-def feature_transform(history):
+def feature_transform_observations(history):
     correctness = [question[0] for question in history]
     durations   = [int(question[1]) for question in history]
     hints       = [False if question[2] == 'false' else True for question in history]
@@ -19,9 +19,11 @@ def feature_transform(history):
             np.std(hint_times))
 
 
+def feature_transform_parameters(params):
+    pass
 
-def main():
-    query = 'SELECT history, score FROM training_data'
+
+def classify(query, transform):
     db = sqlite3.connect('static/kanji.db')
     c = db.cursor()
 
@@ -34,7 +36,7 @@ def main():
         histories.append(eval(hist))
         scores.append(score)
 
-    training_data = preprocessing.scale([feature_transform(hist) for hist in histories])
+    training_data = preprocessing.scale([transform(hist) for hist in histories])
     training_data = decomposition.PCA().fit_transform(training_data)
 
     classifier = RandomForestClassifier()
@@ -46,6 +48,14 @@ def main():
     classifier.fit(training_data, scores)
     print(classifier.score(training_data, scores))
 
+    return classifier
+
+
+def classify_parameters():
+    pass
 
 if __name__ == '__main__':
-    main()
+    obs_query = 'SELECT history, score FROM training_data'
+    param_query = 'SELECT parameters, score FROM training_data'
+    
+    classify(obs_query, feature_transform_observations)
