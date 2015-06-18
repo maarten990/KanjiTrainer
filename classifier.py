@@ -1,8 +1,10 @@
 import sqlite3
 import numpy as np
+import matplotlib.pyplot as plt
 from sklearn.svm import SVC
 from sklearn.ensemble import RandomForestClassifier
 from sklearn import cross_validation, preprocessing, decomposition
+from sklearn.metrics import confusion_matrix
 from chunks import Parameters
 
 # workaround for eval'ing the question types
@@ -53,17 +55,21 @@ def classify(query, transform, clf):
         histories.append(eval(hist))
         scores.append(score)
 
-    training_data = preprocessing.scale([transform(hist) for hist in histories])
-    training_data = decomposition.PCA().fit_transform(training_data)
+    data = preprocessing.scale([transform(hist) for hist in histories])
+    data = decomposition.PCA().fit_transform(data)
+
+    training_data, test_data, training_labels, test_labels = cross_validation.train_test_split(data, scores)
 
     classifier = clf()
 
     # perform 5-fold cross validation
-    predictions = cross_validation.cross_val_score(classifier, training_data, scores, cv=5)
+    predictions = cross_validation.cross_val_score(classifier, data, scores, cv=5)
     print(predictions)
 
-    classifier.fit(training_data, scores)
-    print(classifier.score(training_data, scores))
+    classifier.fit(training_data, training_labels)
+    print(classifier.score(test_data, test_labels))
+
+    print(confusion_matrix(test_labels, classifier.predict(test_data)))
 
     return classifier
 
