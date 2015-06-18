@@ -3,7 +3,11 @@ import numpy as np
 from sklearn.svm import SVC
 from sklearn.ensemble import RandomForestClassifier
 from sklearn import cross_validation, preprocessing, decomposition
+from chunks import Parameters
 
+# workaround for eval'ing the question types
+kanji = 'kanji'
+vocab = 'vocab'
 
 def feature_transform_observations(history):
     correctness = [question[0] for question in history]
@@ -20,10 +24,23 @@ def feature_transform_observations(history):
 
 
 def feature_transform_parameters(params):
-    pass
+    vector = [getattr(params, p) for p in Parameters.params()]
+    for i, elem in enumerate(vector):
+        if type(elem) == bool:
+            vector[i] = 1 if elem == True else 0
+
+        elif type(elem) == str:
+            vector[i] = 0 if elem == 'kanji' else 1
+
+    return vector
 
 
-def classify(query, transform):
+def classify(query, transform, clf):
+    """
+    query: sql query to perform
+    transform: transform database entry to feature vector
+    clf: sklearn classifier class
+    """
     db = sqlite3.connect('static/kanji.db')
     c = db.cursor()
 
@@ -39,7 +56,7 @@ def classify(query, transform):
     training_data = preprocessing.scale([transform(hist) for hist in histories])
     training_data = decomposition.PCA().fit_transform(training_data)
 
-    classifier = RandomForestClassifier()
+    classifier = clf()
 
     # perform 5-fold cross validation
     predictions = cross_validation.cross_val_score(classifier, training_data, scores, cv=5)
@@ -54,8 +71,13 @@ def classify(query, transform):
 def classify_parameters():
     pass
 
+
 if __name__ == '__main__':
     obs_query = 'SELECT history, score FROM training_data'
     param_query = 'SELECT parameters, score FROM training_data'
-    
-    classify(obs_query, feature_transform_observations)
+
+    print('Observations:')
+    classify(obs_query, feature_transform_observations, RandomForestClassifier)
+    print('\n-----------')
+    print('Parameters:')
+    classify(param_query, feature_transform_parameters, SVC)
