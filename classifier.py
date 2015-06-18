@@ -1,37 +1,49 @@
 import sqlite3
+import numpy as np
 from sklearn.svm import SVC
 from sklearn import cross_validation
 
 
 def feature_transform(history):
-	#TODO
-	return (1, 2, 3)
+    correctness = [question[0] for question in history]
+    durations   = [int(question[1]) for question in history]
+    hints       = [False if question[2] == 'false' else True for question in history]
+    hint_times  = [int(question[3]) for question in history]
+    
+    return (correctness.count(True) / len(correctness),
+            np.mean(durations),
+            np.std(durations),
+            hints.count(True) / len(hints),
+            np.mean(durations),
+            np.std(durations))
+
 
 
 def main():
-	query = 'SELECT history, score FROM training_data'
-	db = sqlite3.connect('static/kanji.db')
-	c = db.cursor()
+    query = 'SELECT history, score FROM training_data'
+    db = sqlite3.connect('static/kanji.db')
+    c = db.cursor()
 
-	c.execute(query)
+    c.execute(query)
 
-	histories = []
-	scores    = []
+    histories = []
+    scores    = []
 
-	for hist, score in c.fetchall():
-		histories.append(eval(hist))
-		scores.append(score)
+    for hist, score in c.fetchall():
+        histories.append(eval(hist))
+        scores.append(score)
 
-	training_data = [feature_transform(hist) for hist in histories]
+    training_data = [feature_transform(hist) for hist in histories]
 
-	classifier = SVC()
+    classifier = SVC()
 
-	# perform 5-fold cross validation
-	predictions = cross_validation.cross_val_score(classifier, training_data, scores, cv=5)
-	print(predictions)
+    # perform 5-fold cross validation
+    predictions = cross_validation.cross_val_score(classifier, training_data, scores, cv=5)
+    print(predictions)
 
-	#classifier.fit(training_data, scores)
+    classifier.fit(training_data, scores)
+    print(classifier.score(training_data, scores))
 
 
 if __name__ == '__main__':
-	main()
+    main()
