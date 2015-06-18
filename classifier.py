@@ -1,7 +1,7 @@
 import sqlite3
 import numpy as np
 from sklearn.svm import SVC
-from sklearn import cross_validation
+from sklearn import cross_validation, preprocessing
 
 
 def feature_transform(history):
@@ -33,7 +33,7 @@ def main():
         histories.append(eval(hist))
         scores.append(score)
 
-    training_data = [feature_transform(hist) for hist in histories]
+    training_data = preprocessing.scale([feature_transform(hist) for hist in histories])
 
     classifier = SVC()
 
