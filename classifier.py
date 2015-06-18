@@ -1,7 +1,8 @@
 import sqlite3
 import numpy as np
 from sklearn.svm import SVC
-from sklearn import cross_validation, preprocessing
+from sklearn.ensemble import RandomForestClassifier
+from sklearn import cross_validation, preprocessing, decomposition
 
 
 def feature_transform(history):
@@ -10,10 +11,10 @@ def feature_transform(history):
     hints       = [False if question[2] == 'false' else True for question in history]
     hint_times  = [int(question[3]) for question in history]
     
-    return (correctness.count(True) / len(correctness),
+    return (correctness.count(True),
             np.mean(durations),
             np.std(durations),
-            hints.count(True) / len(hints),
+            hints.count(True),
             np.mean(hint_times),
             np.std(hint_times))
 
@@ -34,8 +35,9 @@ def main():
         scores.append(score)
 
     training_data = preprocessing.scale([feature_transform(hist) for hist in histories])
+    training_data = decomposition.PCA().fit_transform(training_data)
 
-    classifier = SVC()
+    classifier = RandomForestClassifier()
 
     # perform 5-fold cross validation
     predictions = cross_validation.cross_val_score(classifier, training_data, scores, cv=5)
