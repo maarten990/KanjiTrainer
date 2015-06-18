@@ -14,8 +14,8 @@ def feature_transform(history):
             np.mean(durations),
             np.std(durations),
             hints.count(True) / len(hints),
-            np.mean(durations),
-            np.std(durations))
+            np.mean(hint_times),
+            np.std(hint_times))
 
 
 
