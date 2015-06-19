@@ -3,8 +3,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.svm import SVC
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.linear_model import LogisticRegression
 from sklearn import cross_validation, preprocessing, decomposition
 from sklearn.metrics import confusion_matrix
+from sklearn.grid_search import GridSearchCV
 from chunks import Parameters
 
 # workaround for eval'ing the question types
@@ -22,7 +25,8 @@ def feature_transform_observations(history):
             np.std(durations),
             hints.count(True),
             np.mean(hint_times),
-            np.std(hint_times))
+            np.std(hint_times),
+            np.mean(durations) - np.mean(hint_times))
 
 
 def feature_transform_parameters(params):
@@ -37,7 +41,7 @@ def feature_transform_parameters(params):
     return vector
 
 
-def classify(query, transform, clf):
+def classify(query, transform, clf, parameters):
     """
     query: sql query to perform
     transform: transform database entry to feature vector
@@ -58,28 +62,35 @@ def classify(query, transform, clf):
     data = preprocessing.scale([transform(hist) for hist in histories])
     data = decomposition.PCA().fit_transform(data)
 
-    training_data, test_data, training_labels, test_labels = cross_validation.train_test_split(data, scores)
-
     classifier = clf()
+    grid = GridSearchCV(classifier, parameters, verbose=1, n_jobs=-1)
+    grid.fit(data, scores)
+    print('--------')
+    print('Best score: {}'.format(grid.best_score_))
+    print('Best params: {}'.format(grid.best_params_))
 
-    # perform 5-fold cross validation
-    predictions = cross_validation.cross_val_score(classifier, data, scores, cv=5)
-    print(predictions)
-
-    classifier.fit(training_data, training_labels)
-    print(classifier.score(test_data, test_labels))
-
-    print(confusion_matrix(test_labels, classifier.predict(test_data)))
-
-    return classifier
+    return grid
 
 
 if __name__ == '__main__':
     obs_query = 'SELECT history, score FROM training_data'
-    param_query = 'SELECT parameters, score FROM training_data'
 
-    print('Observations:')
-    classify(obs_query, feature_transform_observations, RandomForestClassifier)
-    print('\n-----------')
-    print('Parameters:')
-    classify(param_query, feature_transform_parameters, RandomForestClassifier)
+    parameters = {'n_estimators': [1, 5, 10, 5],
+                  'criterion': ['gini', 'entropy'],
+                  'max_features': ['auto', 'sqrt', 'log2'],
+                  'max_depth': [1, 5, 10, 15, None],
+                  'min_samples_split': [1, 2, 3, 5, 10],
+                  'min_samples_leaf': [1, 2, 3, 5],
+                  'bootstrap': [True, False]}
+
+    classify(obs_query, feature_transform_observations, RandomForestClassifier,
+             parameters)
+
+    parameters = [{'kernel': ['rbf'], 'gamma': [0.0, 0.1, 0.3, 0.5, 1], 'shrinking': [True, False]},
+                  {'kernel': ['linear'], 'shrinking': [True, False]},
+                  {'kernel': ['poly'], 'degree': [2, 3, 4], 'gamma': [0.0, 0.1, 0.3, 0.5, 1], 'shrinking': [True, False]},
+                  {'kernel': ['sigmoid'], 'gamma': [0.0, 0.1, 0.3, 0.5, 1], 'shrinking': [True, False]}
+                  ]
+
+    classify(obs_query, feature_transform_observations, SVC,
+             parameters)
