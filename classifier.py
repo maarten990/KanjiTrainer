@@ -74,10 +74,6 @@ def classify(query, transform, clf):
     return classifier
 
 
-def classify_parameters():
-    pass
-
-
 if __name__ == '__main__':
     obs_query = 'SELECT history, score FROM training_data'
     param_query = 'SELECT parameters, score FROM training_data'
@@ -86,4 +82,4 @@ if __name__ == '__main__':
     classify(obs_query, feature_transform_observations, RandomForestClassifier)
     print('\n-----------')
     print('Parameters:')
-    classify(param_query, feature_transform_parameters, SVC)
+    classify(param_query, feature_transform_parameters, RandomForestClassifier)
