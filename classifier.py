@@ -19,7 +19,7 @@ def feature_transform_observations(history):
     durations   = [int(question[1]) for question in history]
     hints       = [False if question[2] == 'false' else True for question in history]
     hint_times  = [int(question[3]) for question in history]
-    
+
     return (correctness.count(True),
             np.mean(durations),
             np.std(durations),
@@ -41,12 +41,9 @@ def feature_transform_parameters(params):
     return vector
 
 
-def classify(query, transform, clf, parameters):
-    """
-    query: sql query to perform
-    transform: transform database entry to feature vector
-    clf: sklearn classifier class
-    """
+def get_data():
+    query = 'SELECT history, score FROM training_data'
+
     db = sqlite3.connect('static/kanji.db')
     c = db.cursor()
 
@@ -59,7 +56,19 @@ def classify(query, transform, clf, parameters):
         histories.append(eval(hist))
         scores.append(score)
 
-    data = preprocessing.scale([transform(hist) for hist in histories])
+    data = [feature_transform_observations(hist) for hist in histories]
+
+    return data, scores
+
+
+def classify(transform, clf, parameters):
+    """
+    transform: transform database entry to feature vector
+    clf: sklearn classifier class
+    parameters: dict of parameters to be passed to GridSearch
+    """
+    data, scores = get_data()
+    data = preprocessing.scale(data)
     data = decomposition.PCA().fit_transform(data)
 
     classifier = clf()
@@ -72,9 +81,7 @@ def classify(query, transform, clf, parameters):
     return grid
 
 
-if __name__ == '__main__':
-    obs_query = 'SELECT history, score FROM training_data'
-
+def test_parameters():
     parameters = {'n_estimators': [1, 5, 10, 5],
                   'criterion': ['gini', 'entropy'],
                   'max_features': ['auto', 'sqrt', 'log2'],
@@ -83,7 +90,7 @@ if __name__ == '__main__':
                   'min_samples_leaf': [1, 2, 3, 5],
                   'bootstrap': [True, False]}
 
-    classify(obs_query, feature_transform_observations, RandomForestClassifier,
+    classify(feature_transform_observations, RandomForestClassifier,
              parameters)
 
     parameters = [{'kernel': ['rbf'], 'gamma': [0.0, 0.1, 0.3, 0.5, 1], 'shrinking': [True, False]},
@@ -92,5 +99,14 @@ if __name__ == '__main__':
                   {'kernel': ['sigmoid'], 'gamma': [0.0, 0.1, 0.3, 0.5, 1], 'shrinking': [True, False]}
                   ]
 
-    classify(obs_query, feature_transform_observations, SVC,
+    classify(feature_transform_observations, SVC,
              parameters)
+
+    parameters = {'class_weight': [None, 'auto']}
+
+    classify(feature_transform_observations, LogisticRegression,
+             parameters)
+
+
+if __name__ == '__main__':
+    test_parameters()
