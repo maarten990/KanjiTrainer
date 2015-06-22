@@ -114,9 +114,20 @@ def save_svm():
     data, labels = get_data()
     svm.fit(data, labels)
 
-    with open('static/classifier.pickle', 'wb') as f:
+    with open('static/trained_svm.pickle', 'wb') as f:
         pickle.dump(svm, f)
 
 
+def save_random_forest():
+    forest = RandomForestClassifier(max_features='sqrt', n_estimators=5,
+                                    criterion='entropy', bootstrap=False)
+
+    data, labels = get_data()
+    forest.fit(data, labels)
+
+    with open('static/trained_forest.pickle', 'wb') as f:
+        pickle.dump(forest, f)
+
+
 if __name__ == '__main__':
-    save_svm()
+    save_random_forest()
