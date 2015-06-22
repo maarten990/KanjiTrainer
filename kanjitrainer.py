@@ -5,7 +5,7 @@ from collections import defaultdict
 from proficiency import get_all, predict
 from sqlreader import db_path, db_commit
 from chunks import ChunkGenerator, Parameters
-from parameter_sampling import sample_parameters
+from parameter_sampling import sample_parameters, safe_policy
 import os.path
 import csv
 import random
@@ -24,7 +24,7 @@ with open('feedback.html', 'r') as f:
 with open('welcome.html', 'r') as f:
     welcome_page = f.read()
 
-user_level = {} 
+user_level = {}
 user_chunks = {}
 user_parameters = {}
 kanji = defaultdict(lambda: [])
@@ -55,23 +55,23 @@ def questions():
         # create a unique id
         id = uuid.uuid1().hex
 
-    # set user_level 
-    if request.method == 'POST': 
+    # set user_level
+    if request.method == 'POST':
         user_level[id] = int(request.form.get('level'))
-        
+
     # randomly sample the parameters unless the debug option is given
     if request.args.get('debug'):
         params = Parameters(**{p: request.args.get(p) for p in Parameters.params()
                                if request.args.get(p) != None})
     else:
-        params = sample_parameters(user_level[id])
+        params = safe_policy(user_level[id])
         print(params)
-        
+
     user_parameters[id] = params
 
     resp = make_response(html_page)
     resp.set_cookie('id', id)
-    
+
     return resp
 
 
@@ -108,7 +108,7 @@ def javascript_validate():
     chunk = user_chunks[id]
     _, _, answer, options, _ = chunk.questions[chunk.next_question_idx - 1]
     correct_id = options.index(answer)
-    return jsonify(correct_id=correct_id)  
+    return jsonify(correct_id=correct_id)
 
 @app.route('/_initial_data', methods=['POST'])
 def initial_data():

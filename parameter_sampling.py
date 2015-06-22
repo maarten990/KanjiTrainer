@@ -13,11 +13,11 @@ question_type     = ["kanji","vocab"]
 
 
 def sample_parameters(level):
-    if level == 1: 
+    if level == 1:
         grade = [1]
-    if level == 2: 
+    if level == 2:
         grade = range(1,3)
-    if level == 3: 
+    if level == 3:
         grade = range(1,6)
 
     params = Parameters(**{p: choice(globals()[p] if p != 'grade' else grade)
@@ -26,3 +26,20 @@ def sample_parameters(level):
     params.grade = choice(grade)
 
     return params
+
+
+def safe_policy(level):
+    if level == 1:
+        return Parameters(size=5, n_answers=3, min_strokes=1, max_strokes=4,
+                          answer_similarity=0.0, grade=1,
+                          reversed_bool=False, question_type="kanji")
+
+    if level == 2:
+        return Parameters(size=5, n_answers=3, min_strokes=1, max_strokes=6,
+                          answer_similarity=0.5, grade=3,
+                          reversed_bool=False, question_type="kanji")
+
+    if level == 3:
+        return Parameters(size=5, n_answers=4, min_strokes=1, max_strokes=8,
+                          answer_similarity=1.0, grade=6,
+                          reversed_bool=False, question_type="vocab")
