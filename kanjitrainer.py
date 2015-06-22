@@ -5,7 +5,8 @@ from collections import defaultdict
 from proficiency import get_all, predict
 from sqlreader import db_path, db_commit
 from chunks import ChunkGenerator, Parameters
-from parameter_sampling import sample_parameters, safe_policy
+from parameter_sampling import sample_parameters, safe_policy, update_parameters
+from classifier import feature_transform_observations
 import os.path
 import csv
 import random
@@ -23,6 +24,10 @@ with open('feedback.html', 'r') as f:
     feedback_page = f.read()
 with open('welcome.html', 'r') as f:
     welcome_page = f.read()
+
+# load the classifier
+with open('static/trained_forest.pickle', 'rb') as f:
+    classifier = pickle.load(f)
 
 user_level = {}
 user_chunks = {}
@@ -94,13 +99,18 @@ def validate():
     chunk = user_chunks[id]
     correct = chunk.validate_previous_question(answer, time_taken, hint_requested, hint_time, id, user_level[id])
 
-    # if the chunk has ended, do something
+    # if the chunk has ended, create a new one
     if chunk.done():
-        return jsonify(end_of_chunk=True, history=chunk.history)
-    else:
-        question, item, choices = chunk.next_question()
+        score = classifier.predict(feature_transform_observations(chunk.history))
+        params = update_parameters(user_parameters[id], score)
+        chunk = chunkgen.generate(params)
 
-        return jsonify(question=question, item=item, choices=choices)
+        user_parameters[id] = params
+        user_chunks[id] = chunk
+
+    question, item, choices = chunk.next_question()
+
+    return jsonify(question=question, item=item, choices=choices)
 
 @app.route('/javascript_validate', methods=['POST'])
 def javascript_validate():

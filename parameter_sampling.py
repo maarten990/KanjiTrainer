@@ -43,3 +43,13 @@ def safe_policy(level):
         return Parameters(size=5, n_answers=4, min_strokes=1, max_strokes=8,
                           answer_similarity=1.0, grade=6,
                           reversed_bool=False, question_type="vocab")
+
+
+def update_parameters(params, score):
+    """
+    Return new parameters based on the previous ones and the predicted Likert
+    score.
+    """
+    #TODO: implement
+    print('Updating parameters with score {}'.format(score))
+    return params
