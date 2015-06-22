@@ -9,6 +9,7 @@ from sklearn import cross_validation, preprocessing, decomposition
 from sklearn.metrics import confusion_matrix
 from sklearn.grid_search import GridSearchCV
 from chunks import Parameters
+import pickle
 
 # workaround for eval'ing the question types
 kanji = 'kanji'
@@ -108,5 +109,14 @@ def test_parameters():
              parameters)
 
 
+def save_svm():
+    svm = SVC(kernel='rbf', shrinking=True, gamma=1)
+    data, labels = get_data()
+    svm.fit(data, labels)
+
+    with open('static/classifier.pickle', 'wb') as f:
+        pickle.dump(svm, f)
+
+
 if __name__ == '__main__':
-    test_parameters()
+    save_svm()
