@@ -25,13 +25,13 @@ for i0 in grade:
                         ranking.append([5, i2, i4, i4+3, i1, i0, i5, i3])
 
 def getRankingID(param):
-    r = ranking.index([param.size,param.n_answers, param.min_strokes, 
-                       param.max_strokes, param.answer_similarity, 
+    r = ranking.index([param.size,param.n_answers, param.min_strokes,
+                       param.max_strokes, param.answer_similarity,
                        param.grade, param.reversed_bool, param.question_type])
     return r
 
 def getParametes(ID):
-    return Parameters(size=ranking[ID][0], n_answers=ranking[ID][1], 
+    return Parameters(size=ranking[ID][0], n_answers=ranking[ID][1],
                       min_strokes=ranking[ID][2], max_strokes=ranking[ID][3],
                       answer_similarity=ranking[ID][4], grade=ranking[ID][5],
                       reversed_bool=ranking[ID][6], question_type=ranking[ID][7])
@@ -65,7 +65,7 @@ def safe_policy(level):
 
     if level == 3:
         return Parameters(size=5, n_answers=4, min_strokes=5, max_strokes=8,
-                          answer_similarity=1.0, grade=6,
+                          answer_similarity=1.0, grade=5,
                           reversed_bool=False, question_type="vocab")
 
 def update_parameters(params, score):
@@ -84,7 +84,7 @@ def update_parameters(params, score):
     else:
         update = choice([-9,-10,-11])
     currentRanking = getRankingID(params)
-    newRanking = max(0,min(len(ranking),currentRanking + update))   
+    newRanking = max(0,min(len(ranking),currentRanking + update))
     print('Updating parameters with score {}'.format(score))
     print('Now at rank:',newRanking)
     return getParametes(newRanking)
