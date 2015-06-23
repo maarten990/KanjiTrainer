@@ -64,13 +64,8 @@ def questions():
     if request.method == 'POST':
         user_level[id] = int(request.form.get('level'))
 
-    # randomly sample the parameters unless the debug option is given
-    if request.args.get('debug'):
-        params = Parameters(**{p: request.args.get(p) for p in Parameters.params()
-                               if request.args.get(p) != None})
-    else:
-        params = safe_policy(user_level[id])
-        print(params)
+    params = safe_policy(user_level[id])
+    print(params)
 
     user_parameters[id] = params
 
