@@ -1,5 +1,6 @@
 from random import choice
 from chunks import Parameters
+import pickle
 
 grade             = range(1,6)
 size              = [5]
@@ -15,14 +16,7 @@ question_type     = ["kanji","vocab"]
 kanji = "kanji"
 vocab = "vocab"
 
-ranking = []
-for i0 in grade:
-    for i1 in answer_similarity:
-        for i2 in n_answers:
-            for i3 in question_type:
-                for i4 in min_strokes:
-                    for i5 in reversed_bool:
-                        ranking.append([5, i2, i4, i4+3, i1, i0, i5, i3])
+ranking = radicalMeanings = pickle.load(open("static/parameter_ranking.p", "rb"))
 
 def getRankingID(param):
     r = ranking.index([param.size,param.n_answers, param.min_strokes,

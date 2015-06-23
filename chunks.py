@@ -89,7 +89,7 @@ class ChunkGenerator(object):
         kanji_indices = new_kanji_indices
 
         if len(kanji_indices) < size:
-            raise "Not enough kanji found for these paramaters"
+            raise Exception("Not enough kanji found for these parameters")
 
         # translate the answer_similarity measure to an easy/normal/hard scale
         # as used by compareKanji.py
