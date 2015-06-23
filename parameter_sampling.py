@@ -52,27 +52,40 @@ def sample_parameters(level):
     return params
 
 
-def safe_policy(level):
+def safe_policy(level, type):
+    # use a chunksize of 1 for the dumb version, and a size of 5 for the adaptive version
+    size = 1 if type == 'dumb' else 5
+
     if level == 1:
-        return Parameters(size=5, n_answers=3, min_strokes=1, max_strokes=4,
+        return Parameters(size=size, n_answers=3, min_strokes=1, max_strokes=4,
                           answer_similarity=0.0, grade=1,
                           reversed_bool=False, question_type="kanji")
 
     if level == 2:
-        return Parameters(size=5, n_answers=3, min_strokes=3, max_strokes=6,
+        return Parameters(size=size, n_answers=3, min_strokes=3, max_strokes=6,
                           answer_similarity=0.5, grade=3,
                           reversed_bool=False, question_type="kanji")
 
     if level == 3:
-        return Parameters(size=5, n_answers=4, min_strokes=5, max_strokes=8,
+        return Parameters(size=size, n_answers=4, min_strokes=5, max_strokes=8,
                           answer_similarity=1.0, grade=5,
                           reversed_bool=False, question_type="vocab")
 
-def update_parameters(params, score):
+
+def update_parameters(params, score, type):
+    if type == 'adaptive':
+        return update_parameters_adaptive(params, score)
+    else:
+        return update_parameters_dumb(params, score)
+
+
+def update_parameters_adaptive(params, score):
     """
     Return new parameters based on the previous ones and the predicted Likert
     score.
     """
+    print('Updating parameters with score {}'.format(score))
+
     if score == 1:
         update = choice([11,10,9])
     elif score == 2:
@@ -83,8 +96,24 @@ def update_parameters(params, score):
         update = choice([-4,-5,-6])
     else:
         update = choice([-9,-10,-11])
+
+    return update_ranking(params, update)
+
+
+def update_parameters_dumb(params, score):
+    """
+    Score: True if the previous question was correct, otherwise False
+    """
+    print('Updating parameters dumbly')
+
+    params = update_ranking(params, 3 if score == True else -3)
+    params.size = 1
+
+    return params
+
+def update_ranking(params, step):
+    params.size = 5 # workaround because of the static size in the rankings
     currentRanking = getRankingID(params)
-    newRanking = max(0,min(len(ranking),currentRanking + update))
-    print('Updating parameters with score {}'.format(score))
+    newRanking = max(0,min(len(ranking),currentRanking + step))
     print('Now at rank:',newRanking)
     return getParametes(newRanking)

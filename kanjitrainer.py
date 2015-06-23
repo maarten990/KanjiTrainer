@@ -7,6 +7,7 @@ from sqlreader import db_path, db_commit
 from chunks import ChunkGenerator, Parameters
 from parameter_sampling import sample_parameters, safe_policy, update_parameters
 from classifier import feature_transform_observations
+from flask import render_template
 import os.path
 import csv
 import random
@@ -22,8 +23,6 @@ with open('kanjitrainer.html', 'r') as f:
     html_page = f.read()
 with open('feedback.html', 'r') as f:
     feedback_page = f.read()
-with open('welcome.html', 'r') as f:
-    welcome_page = f.read()
 
 # load the classifier
 with open('static/trained_forest.pickle', 'rb') as f:
@@ -32,6 +31,7 @@ with open('static/trained_forest.pickle', 'rb') as f:
 user_level = {}
 user_chunks = {}
 user_parameters = {}
+user_type = {}
 kanji = defaultdict(lambda: [])
 radicalMeanings = pickle.load(open("static/radicalMeanings.p", "rb"))
 
@@ -63,8 +63,9 @@ def questions():
     # set user_level
     if request.method == 'POST':
         user_level[id] = int(request.form.get('level'))
+        user_type[id] = request.form.get('type')
 
-    params = safe_policy(user_level[id])
+    params = safe_policy(user_level[id], user_type[id])
     print(params)
 
     user_parameters[id] = params
@@ -96,8 +97,13 @@ def validate():
 
     # if the chunk has ended, create a new one
     if chunk.done():
-        score = classifier.predict(feature_transform_observations(chunk.history))
-        params = update_parameters(user_parameters[id], score)
+        if user_type[id] == 'adaptive':
+            score = classifier.predict(feature_transform_observations(chunk.history))
+        else:
+            # if using the dumb version, the score is wether the one question was correct
+            score = chunk.history[0][0]
+
+        params = update_parameters(user_parameters[id], score, user_type[id])
         chunk = chunkgen.generate(params)
 
         user_parameters[id] = params
@@ -138,7 +144,8 @@ def initial_data():
 
 @app.route('/', methods=['GET'])
 def root():
-    return welcome_page
+    type = 'dumb' if request.args.get('type') == 'b' else 'adaptive'
+    return render_template('welcome.html', question_type=type)
 
 @app.route('/feedback', methods=['GET', 'POST'])
 def feedback():
