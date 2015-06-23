@@ -1,6 +1,5 @@
 import sqlite3
 import numpy as np
-import matplotlib.pyplot as plt
 from sklearn.svm import SVC
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
