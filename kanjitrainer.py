@@ -6,7 +6,6 @@ from proficiency import get_all, predict
 from sqlreader import db_path, db_commit
 from chunks import ChunkGenerator, Parameters
 from parameter_sampling import sample_parameters, safe_policy, update_parameters
-from classifier import feature_transform_observations
 import os.path
 import csv
 import random
@@ -14,6 +13,7 @@ import uuid
 import pickle
 import sqlite3
 import compareKanji as ck
+import numpy as np
 
 
 app = Flask(__name__)
@@ -141,9 +141,11 @@ def initial_data():
 
     return jsonify(question=question, item=item, choices=choices)
 
+
 @app.route('/', methods=['GET'])
 def root():
     return welcome_page
+
 
 @app.route('/feedback', methods=['GET', 'POST'])
 def feedback():
@@ -163,6 +165,21 @@ def feedback():
         db_commit(query, [hist, params, score])
 
         return redirect(url_for('questions'))
+
+
+def feature_transform_observations(history):
+    correctness = [question[0] for question in history]
+    durations   = [int(question[1]) for question in history]
+    hints       = [False if question[2] == 'false' else True for question in history]
+    hint_times  = [int(question[3]) for question in history]
+
+    return (correctness.count(True),
+            np.mean(durations),
+            np.std(durations),
+            hints.count(True),
+            np.mean(hint_times),
+            np.std(hint_times),
+            np.mean(durations) - np.mean(hint_times))
 
 
 def main():
