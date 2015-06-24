@@ -93,7 +93,7 @@ def update_parameters_dumb(level):
     print('Updating parameters dumbly')
 
     original_params = safe_policy(level)
-    update = round(gauss(0, 5))
+    update = round(gauss(0, 20))
     params = update_ranking(original_params, update)
 
     return params
