@@ -73,15 +73,15 @@ def update_parameters_adaptive(params, score):
     print('Updating parameters with score {}'.format(score))
 
     if score == 1:
-        update = choice([11,10,9])
+        update = choice(range(40,61))
     elif score == 2:
-        update = choice([6,5,4])
+        update = choice(range(5,16))
     elif score == 3:
-        update = choice([1,0,-1])
+        update = choice(range(-1,2))
     elif score == 4:
-        update = choice([-4,-5,-6])
+        update = choice(range(-15,-4))
     else:
-        update = choice([-9,-10,-11])
+        update = choice(range(-60,-39))
 
     return update_ranking(params, update)
 
