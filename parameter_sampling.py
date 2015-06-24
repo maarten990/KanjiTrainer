@@ -1,4 +1,4 @@
-from random import choice
+from random import choice, gauss
 from chunks import Parameters
 import pickle
 
@@ -46,9 +46,8 @@ def sample_parameters(level):
     return params
 
 
-def safe_policy(level, type):
-    # use a chunksize of 1 for the dumb version, and a size of 5 for the adaptive version
-    size = 1 if type == 'dumb' else 5
+def safe_policy(level):
+    size = 5
 
     if level == 1:
         return Parameters(size=size, n_answers=3, min_strokes=1, max_strokes=4,
@@ -64,13 +63,6 @@ def safe_policy(level, type):
         return Parameters(size=size, n_answers=4, min_strokes=5, max_strokes=8,
                           answer_similarity=1.0, grade=5,
                           reversed_bool=False, question_type="vocab")
-
-
-def update_parameters(params, score, type):
-    if type == 'adaptive':
-        return update_parameters_adaptive(params, score)
-    else:
-        return update_parameters_dumb(params, score)
 
 
 def update_parameters_adaptive(params, score):
@@ -94,14 +86,15 @@ def update_parameters_adaptive(params, score):
     return update_ranking(params, update)
 
 
-def update_parameters_dumb(params, score):
+def update_parameters_dumb(level):
     """
-    Score: True if the previous question was correct, otherwise False
+    Score: the level of the user
     """
     print('Updating parameters dumbly')
 
-    params = update_ranking(params, 3 if score == True else -3)
-    params.size = 1
+    original_params = safe_policy(level)
+    update = round(gauss(0, 5))
+    params = update_ranking(original_params, update)
 
     return params
 

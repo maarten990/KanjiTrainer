@@ -5,7 +5,7 @@ from collections import defaultdict
 from proficiency import get_all, predict
 from sqlreader import db_path, db_commit
 from chunks import ChunkGenerator, Parameters
-from parameter_sampling import sample_parameters, safe_policy, update_parameters
+from parameter_sampling import safe_policy, update_parameters_dumb, update_parameters_adaptive
 from classifier import feature_transform_observations
 from flask import render_template
 import os.path
@@ -65,7 +65,7 @@ def questions():
         user_level[id] = int(request.form.get('level'))
         user_type[id] = request.form.get('type')
 
-    params = safe_policy(user_level[id], user_type[id])
+    params = safe_policy(user_level[id])
     print(params)
 
     user_parameters[id] = params
@@ -99,11 +99,10 @@ def validate():
     if chunk.done():
         if user_type[id] == 'adaptive':
             score = classifier.predict(feature_transform_observations(chunk.history))
+            params = update_parameters_adaptive(user_parameters[id], score)
         else:
-            # if using the dumb version, the score is wether the one question was correct
-            score = chunk.history[0][0]
+            params = update_parameters_dumb(user_level[id])
 
-        params = update_parameters(user_parameters[id], score, user_type[id])
         chunk = chunkgen.generate(params)
 
         user_parameters[id] = params
