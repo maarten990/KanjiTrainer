@@ -16,6 +16,7 @@ import pickle
 import sqlite3
 import compareKanji as ck
 
+NUM_CHUNKS = 6
 
 app = Flask(__name__)
 
@@ -32,6 +33,8 @@ user_level = {}
 user_chunks = {}
 user_parameters = {}
 user_type = {}
+user_n_chunk = {}
+user_first_half_completed = {}
 kanji = defaultdict(lambda: [])
 radicalMeanings = pickle.load(open("static/radicalMeanings.p", "rb"))
 
@@ -62,8 +65,10 @@ def questions():
 
     # set user_level
     if request.method == 'POST':
-        user_level[id] = int(request.form.get('level'))
+        if 'level' in request.form:
+            user_level[id] = int(request.form.get('level'))
         user_type[id] = request.form.get('type')
+        user_n_chunk[id] = 0
 
     params = safe_policy(user_level[id])
     print(params)
@@ -97,6 +102,14 @@ def validate():
 
     # if the chunk has ended, create a new one
     if chunk.done():
+        if user_n_chunk[id] == NUM_CHUNKS:
+            user_n_chunk[id] = 0
+            if id not in user_first_half_completed:
+                user_first_half_completed[id] = True
+                return jsonify(halfway='WHAT IS THIS')
+            else:
+                return jsonify(done='WHY IS BROKEN')
+
         if user_type[id] == 'adaptive':
             score = classifier.predict(feature_transform_observations(chunk.history))
             params = update_parameters_adaptive(user_parameters[id], score)
@@ -107,6 +120,7 @@ def validate():
 
         user_parameters[id] = params
         user_chunks[id] = chunk
+        user_n_chunk[id] += 1
 
     question, item, choices = chunk.next_question()
 
@@ -137,14 +151,15 @@ def initial_data():
             user_parameters[id] = params
 
     user_chunks[id] = chunk
+    user_n_chunk[id] += 1
     question, item, choices = chunk.next_question()
 
     return jsonify(question=question, item=item, choices=choices)
 
 @app.route('/', methods=['GET'])
 def root():
-    type = 'dumb' if request.args.get('type') == 'b' else 'adaptive'
-    return render_template('welcome.html', question_type=type)
+    type = 'dumb' if random.random() > 0.5 else 'adaptive'
+    return render_template('welcome.html', first_question=type)
 
 @app.route('/feedback', methods=['GET', 'POST'])
 def feedback():
@@ -164,6 +179,19 @@ def feedback():
         db_commit(query, [hist, params, score])
 
         return redirect(url_for('questions'))
+
+
+@app.route('/the_screen_in_between', methods=['GET'])
+def the_screen_in_between():
+    id = request.cookies.get('id')
+    new_type = 'adaptive' if user_type[id] == 'dumb' else 'dumb'
+    return render_template('betweenscreen.html', question_type=new_type)
+
+
+@app.route('/preference', methods=['GET'])
+def preference():
+    id = request.cookies.get('id')
+    return render_template('preference.html', second_type=user_type[id])
 
 
 def main():

@@ -46,8 +46,10 @@ function set_data(url, post_data) {
     $("#buttons").hide()
     $.post(url, post_data,
            function(data) {
-               if (data.end_of_chunk) {
-                   window.location.href = '/feedback';
+               if (data.halfway) {
+                   window.location.href = '/the_screen_in_between';
+               } else if (data.done) {
+                   window.location.href = '/preference'
                } else {
                    $("#loadimg").show()
                    n_buttons = data.choices.length;
@@ -99,7 +101,7 @@ function validate_choice(choice) {
             text = $("#button" + choice).html();
             validate(text);
         }, 1000);
-    
+
 }
 
 function show_hint() {
