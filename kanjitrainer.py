@@ -188,10 +188,31 @@ def the_screen_in_between():
     return render_template('betweenscreen.html', question_type=new_type)
 
 
-@app.route('/preference', methods=['GET'])
+@app.route('/preference', methods=['GET', 'POST'])
 def preference():
-    id = request.cookies.get('id')
-    return render_template('preference.html', second_type=user_type[id])
+    if request.method == 'GET':
+        id = request.cookies.get('id')
+        return render_template('preference.html', second_type=user_type[id])
+    else:
+        id = request.cookies.get('id')
+        second = request.form.get('type')
+        pref = int(request.form.get('level'))
+
+        if pref == 1:
+            result = 'dumb' if second == 'adaptive' else 'adaptive'
+
+        if pref == 2:
+            result = 'dumb' if second == 'dumb' else 'adaptive'
+
+        if pref == 3:
+            result = 'same'
+
+        # save data
+        query = 'INSERT INTO evaluation VALUES(?)'
+
+        db_commit(query, [result])
+
+        return "THANKS DUDE"
 
 
 def main():
