@@ -212,7 +212,7 @@ def preference():
 
         db_commit(query, [result])
 
-        return "THANKS DUDE"
+        return "THANKS DUDE/DUDETTE"
 
 
 def main():
