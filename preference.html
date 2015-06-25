@@ -1,0 +1,35 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/static/kanjitrainer.css">
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <meta charset="utf-8">
+</head>
+<body>
+  <center>
+  <div id="buttons">
+    <p style="text-align: center;"><div style="text-align: justify; width:70%; position: relative;">
+    Thank you for answering all of the questions!<br>
+    <br>
+    Please indicate which of the sets you preferred.
+    </div></p>
+    <form method="POST" action="/questions">
+    <p style="text-align: center;"><div style="text-align: justify; width:70%; position: relative; left: 20%;">
+        <label>
+          <input type="radio" name="level" value="1">I preferred the first set<br>
+        </label>
+        <label>
+          <input type="radio" name="level" value="2">I preferred the second set<br>
+        </label>
+        <label>
+          <input type="radio" name="level" value="3" checked>I did not see a difference<br>
+        </label>
+        <input type="hidden" name="type" value="{{ question_type }}">
+    </div></p>
+    <p style="text-align: center;"><div style="text-align: right; width:70%; position: relative; right: 25%;">
+        <button type="submit" class="extrabtn" id="freeform-button" style="width: 110px; height: 30px;">Submit</button>
+    </div></p>
+    </form>
+  </div>
+</center>
+</body>
+</html>
